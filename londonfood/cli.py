@@ -13,8 +13,9 @@ import re
 import sys
 import threading
 import urllib.parse
+from collections import Counter
 
-from . import areas, emails, fsa, osm, places
+from . import areas, discover, emails, fsa, osm, places
 from .boroughs import BOROUGHS, short_name
 from .categories import CATEGORIES, categorize
 
@@ -164,6 +165,39 @@ def enrich(venues, cache, workers, google_key):
             v["other_emails"] = [e for e in v["other_emails"] + found if e != v["email"]]
 
 
+def find_websites(venues, cache_dir, limit, workers):
+    """Verified website discovery for venues with none, busiest-missing neighbourhoods first."""
+    cache = discover.Cache(os.path.join(cache_dir, "discover.jsonl"))
+    missing = [v for v in venues if not v["website"] and not v.get("closed")]
+    per_area = Counter((v["borough"], v.get("area", "")) for v in missing)
+    missing.sort(key=lambda v: (-per_area[(v["borough"], v.get("area", ""))], v["borough"], v.get("area", "")))
+    todo = [v for v in missing if discover.usable(v["name"]) and cache.get(v) is None]
+    if limit:
+        todo = todo[:limit]
+    print(f"Website discovery: {len(missing)} venues without a website, {len(todo)} to try this run", file=sys.stderr)
+    dns = discover.DNS()
+
+    def work(v):
+        site, why, tried = discover.discover(v, dns)
+        cache.put(v, site, why, len(tried))
+
+    done = 0
+    with cf.ThreadPoolExecutor(workers) as ex:
+        for f in cf.as_completed([ex.submit(work, v) for v in todo]):
+            f.result()
+            done += 1
+            if done % 250 == 0:
+                hits = sum(1 for r in cache.data.values() if r["website"])
+                print(f"  discovery {done}/{len(todo)} ({hits} websites found so far)", file=sys.stderr)
+    found = 0
+    for v in missing:
+        rec = cache.get(v)
+        if rec and rec["website"]:
+            v["website"], v["website_type"] = rec["website"], f"own site (found by name, {rec['evidence']} verified)"
+            found += 1
+    print(f"Website discovery: {found} venues now have a verified website", file=sys.stderr)
+
+
 EMAIL_FIELDS = ["email", "name", "borough", "area", "categories", "website", "other_emails", "email_source", "source", "locations",
                 "phone", "address", "postcode", "osm_url"]
 WEBSITE_FIELDS = ["website", "website_type", "name", "borough", "area", "categories", "email", "locations", "phone", "address",
@@ -223,6 +257,10 @@ def main(argv=None):
     ap.add_argument("--workers", type=int, default=16, help="parallel website crawlers")
     ap.add_argument("--no-crawl", action="store_true", help="skip crawling venue websites")
     ap.add_argument("--no-fsa", action="store_true", help="don't add venues from the FSA hygiene-rating register")
+    ap.add_argument("--discover", action="store_true",
+                    help="find websites for venues without one (name-based domains, verified by postcode/phone)")
+    ap.add_argument("--discover-limit", type=int, default=0, help="max new venues to try this run (0 = all)")
+    ap.add_argument("--discover-workers", type=int, default=12)
     ap.add_argument("--google-key", default=os.environ.get("GOOGLE_MAPS_API_KEY"),
                     help="Google Places API key to fill missing websites (or set GOOGLE_MAPS_API_KEY)")
     args = ap.parse_args(argv)
@@ -241,6 +279,8 @@ def main(argv=None):
     areas.assign(venues, area_list)
     for v in venues:
         split_osm_email(v)
+    if args.discover:
+        find_websites(venues, args.cache, args.discover_limit, args.discover_workers)
     if not args.no_crawl:
         enrich(venues, CrawlCache(os.path.join(args.cache, "crawl.jsonl")), args.workers, args.google_key)
 

@@ -105,6 +105,34 @@ class TestEmails(unittest.TestCase):
         self.assertEqual(emails.fetch_status(TimeoutError()), "unknown")
 
 
+class TestDiscover(unittest.TestCase):
+    def test_candidates(self):
+        from londonfood import discover
+        c = discover.candidates("Pablo's Pizza", "Barking", ["Pizza"])
+        self.assertEqual(c[:2], ["pablospizza.co.uk", "pablospizza.com"])
+        self.assertIn("pablos-pizza.com", c)
+        self.assertIn("pablospizzabarking.co.uk", c)
+        self.assertEqual(discover.candidates("Cafe", ""), [])
+        self.assertFalse(discover.usable("Mr A Smith"))
+        self.assertFalse(discover.usable("Cafe"))
+        self.assertTrue(discover.usable("Bambinos"))
+
+    def test_evidence_requires_postcode_or_phone(self):
+        from londonfood import discover
+        v = {"postcode": "E1 6AN", "phone": "+44 20 7123 4567"}
+        self.assertEqual(discover.evidence("Find us at 12 Brick Lane, London E1 6AN", v), "postcode")
+        self.assertEqual(discover.evidence("Call 020 7123 4567", v), "phone")
+        self.assertEqual(discover.evidence("Pablo's Pizza, Manchester M1 1AA", v), "")
+
+    def test_verify_rejects_unrelated_site(self):
+        from londonfood import discover
+        v = {"name": "Pablo's Pizza", "postcode": "IG11 8DP", "phone": ""}
+        with mock.patch("londonfood.http.get", return_value=("https://pablospizza.co.uk/", "Pablo's Pizza, Leeds LS1 4AP")):
+            self.assertIsNone(discover.verify("pablospizza.co.uk", v))
+        with mock.patch("londonfood.http.get", return_value=("https://pablospizza.co.uk/", "Pablo's, 3 East St, IG11 8DP")):
+            self.assertEqual(discover.verify("pablospizza.co.uk", v), ("https://pablospizza.co.uk/", "postcode"))
+
+
 class TestClosedOSM(unittest.TestCase):
     def test_is_closed(self):
         self.assertTrue(osm.is_closed({"name": "The Bell (closed)"}))
