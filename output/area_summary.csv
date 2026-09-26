@@ -5,12 +5,12 @@ Barking and Dagenham,Beam Park,0,0
 Barking and Dagenham,Becontree,0,2
 Barking and Dagenham,Becontree Heath,4,11
 Barking and Dagenham,Castle Green,0,0
-Barking and Dagenham,Chadwell Heath,0,3
+Barking and Dagenham,Chadwell Heath,2,6
 Barking and Dagenham,Creekmouth,0,0
 Barking and Dagenham,Dagenham,5,27
 Barking and Dagenham,Marks Gate,0,3
 Barking and Dagenham,Rush Green,0,0
-Barking and Dagenham,Thames View,1,1
+Barking and Dagenham,Thames View,5,5
 Barking and Dagenham,Upney,0,0
 Barnet,Arkley,0,0
 Barnet,"Barnet (also Chipping Barnet, High Barnet)",7,31
@@ -24,9 +24,9 @@ Barnet,Church End,6,20
 Barnet,Cockfosters,0,1
 Barnet,Colindale,0,6
 Barnet,Colney Hatch,2,6
-Barnet,Cricklewood,0,2
+Barnet,Cricklewood,2,6
 Barnet,East Barnet,1,1
-Barnet,East Finchley,4,6
+Barnet,East Finchley,10,14
 Barnet,Edgware,11,24
 Barnet,Finchley,0,3
 Barnet,Friern Barnet,1,4
@@ -36,15 +36,15 @@ Barnet,"Hale, The",1,4
 Barnet,Hampstead Garden Suburb,0,1
 Barnet,Hendon,11,23
 Barnet,"Hyde, The",0,0
-Barnet,Mill Hill,0,4
+Barnet,Mill Hill,7,12
 Barnet,Monken Hadley,0,0
 Barnet,Muswell Hill,0,0
 Barnet,New Barnet,7,19
 Barnet,New Southgate,0,3
-Barnet,North Finchley,17,42
+Barnet,North Finchley,17,41
 Barnet,Oakleigh Park,0,0
 Barnet,Osidge,0,0
-Barnet,Temple Fortune,0,2
+Barnet,Temple Fortune,4,12
 Barnet,Totteridge,0,1
 Barnet,West Hendon,2,2
 Barnet,Whetstone,12,20
@@ -70,7 +70,7 @@ Bexley,Lessness Heath,2,7
 Bexley,Longlands,1,2
 Bexley,North Cray,0,1
 Bexley,North End,0,0
-Bexley,Northumberland Heath,0,1
+Bexley,Northumberland Heath,0,3
 Bexley,Ruxley,0,0
 Bexley,Sidcup,7,24
 Bexley,Slade Green,0,0
@@ -84,7 +84,7 @@ Brent,Brent Park,0,0
 Brent,Brondesbury,0,1
 Brent,Church End,0,0
 Brent,Cricklewood,10,17
-Brent,Dollis Hill,0,1
+Brent,Dollis Hill,2,4
 Brent,Harlesden,7,20
 Brent,Kensal Green,0,0
 Brent,Kenton,1,3
@@ -92,11 +92,11 @@ Brent,Kilburn,5,17
 Brent,Kingsbury,12,20
 Brent,Neasden,0,0
 Brent,Park Royal,3,3
-Brent,Preston,0,5
+Brent,Preston,2,8
 Brent,Queen's Park,12,18
 Brent,Queensbury,1,1
 Brent,Stonebridge,0,0
-Brent,Sudbury,0,3
+Brent,Sudbury,3,8
 Brent,Tokyngton,0,0
 Brent,Wembley,31,78
 Brent,Wembley Park,0,0
@@ -121,18 +121,18 @@ Bromley,Eden Park,0,1
 Bromley,Elmers End,3,5
 Bromley,Elmstead,0,1
 Bromley,Goddington,0,0
-Bromley,Hayes,8,14
+Bromley,Hayes,10,20
 Bromley,Hazelwood,0,0
 Bromley,Horns Green,0,0
 Bromley,Keston,2,4
 Bromley,Kevington,0,0
 Bromley,Leaves Green,0,0
-Bromley,Locksbottom,3,5
+Bromley,Locksbottom,5,11
 Bromley,Luxted,0,0
 Bromley,Mottingham,0,2
 Bromley,Orpington,13,34
 Bromley,Penge,10,32
-Bromley,Petts Wood,3,15
+Bromley,Petts Wood,8,20
 Bromley,Plaistow,0,1
 Bromley,Pratt's Bottom,1,4
 Bromley,Ruxley,0,0
@@ -163,12 +163,12 @@ Camden,Kentish Town,33,58
 Camden,Kilburn,9,18
 Camden,King's Cross,43,86
 Camden,North End,1,2
-Camden,Primrose Hill,16,25
+Camden,Primrose Hill,20,30
 Camden,Somers Town,23,45
 Camden,St Giles,37,67
 Camden,St Pancras,12,36
 Camden,Swiss Cottage,5,20
-Camden,West Hampstead,18,34
+Camden,West Hampstead,17,33
 City of London,Aldgate,61,156
 City of London,Barbican,47,109
 City of London,Blackfriars,50,118
@@ -184,21 +184,21 @@ Croydon,Forestdale,0,0
 Croydon,Hamsey Green,0,0
 Croydon,Kenley,1,1
 Croydon,New Addington,0,1
-Croydon,Norbury,9,16
+Croydon,Norbury,8,15
 Croydon,Old Coulsdon,0,1
 Croydon,Purley,8,24
 Croydon,Riddlesdown,0,0
 Croydon,Sanderstead,4,15
 Croydon,Selhurst,0,0
-Croydon,Selsdon,5,19
-Croydon,Shirley,0,2
+Croydon,Selsdon,9,27
+Croydon,Shirley,5,9
 Croydon,South Croydon,0,0
 Croydon,South Norwood,4,12
 Croydon,Thornton Heath,5,11
 Croydon,Upper Norwood,9,17
 Croydon,Waddon,2,11
 Croydon,Woodside,0,0
-Ealing,Acton,16,53
+Ealing,Acton,15,52
 Ealing,Acton Green,0,0
 Ealing,Bedford Park,0,0
 Ealing,Chiswick,3,4
@@ -217,7 +217,7 @@ Enfield,Botany Bay,0,0
 Enfield,Brimsdown,0,1
 Enfield,Bulls Cross,0,0
 Enfield,Bullsmoor,0,2
-Enfield,Bush Hill Park,1,4
+Enfield,Bush Hill Park,4,9
 Enfield,Cockfosters,7,16
 Enfield,Crews Hill,0,2
 Enfield,Edmonton,10,30
@@ -232,7 +232,7 @@ Enfield,Hadley Wood,0,0
 Enfield,Palmers Green,19,29
 Enfield,Ponders End,5,9
 Enfield,Southgate,22,47
-Enfield,Winchmore Hill,4,12
+Enfield,Winchmore Hill,3,11
 Greenwich,Abbey Wood,0,0
 Greenwich,Blackheath Royal Standard,3,9
 Greenwich,Charlton,3,19
@@ -248,9 +248,9 @@ Greenwich,New Eltham,1,10
 Greenwich,Plumstead,9,13
 Greenwich,Shooter's Hill,1,2
 Greenwich,Thamesmead,0,5
-Greenwich,Well Hall,0,5
+Greenwich,Well Hall,2,11
 Greenwich,Westcombe Park,0,0
-Greenwich,Woolwich,17,40
+Greenwich,Woolwich,16,39
 Hackney,Dalston,23,49
 Hackney,De Beauvoir Town,6,8
 Hackney,Hackney,65,106
@@ -258,7 +258,7 @@ Hackney,Hackney Central,0,0
 Hackney,Hackney Marshes,0,0
 Hackney,Hackney Wick,10,18
 Hackney,Haggerston,27,41
-Hackney,Homerton,7,8
+Hackney,Homerton,8,10
 Hackney,Hoxton,8,20
 Hackney,Lea Bridge,0,0
 Hackney,Lower Clapton,21,36
@@ -287,9 +287,9 @@ Haringey,Crouch End,12,32
 Haringey,Finsbury Park,0,0
 Haringey,Fortis Green,1,5
 Haringey,Harringay,22,43
-Haringey,Highgate,5,10
+Haringey,Highgate,10,18
 Haringey,Hornsey,21,27
-Haringey,Muswell Hill,12,36
+Haringey,Muswell Hill,16,42
 Haringey,Northumberland Park,0,0
 Haringey,Seven Sisters,8,9
 Haringey,South Tottenham,0,2
@@ -302,14 +302,14 @@ Haringey,West Green,2,6
 Haringey,Wood Green,10,30
 Harrow,Belmont,0,4
 Harrow,Harrow,15,41
-Harrow,Harrow Weald,0,2
+Harrow,Harrow Weald,1,3
 Harrow,Harrow on the Hill,1,2
 Harrow,Hatch End,2,3
 Harrow,Kenton,0,3
 Harrow,North Harrow,0,0
 Harrow,Pinner,8,15
-Harrow,Queensbury,6,10
-Harrow,Rayners Lane,0,1
+Harrow,Queensbury,6,9
+Harrow,Rayners Lane,3,7
 Harrow,South Harrow,9,27
 Harrow,Stanmore,1,4
 Harrow,Sudbury,0,0
@@ -318,20 +318,20 @@ Harrow,West Harrow,0,0
 Havering,Ardleigh Green,1,2
 Havering,Beam Park,0,1
 Havering,Chase Cross,0,1
-Havering,Collier Row,0,1
+Havering,Collier Row,2,6
 Havering,Cranham,0,3
 Havering,Elm Park,3,10
 Havering,Emerson Park,0,0
 Havering,Gallows Corner,0,3
 Havering,Gidea Park,6,15
-Havering,Harold Hill,0,1
+Havering,Harold Hill,0,5
 Havering,Harold Park,0,0
 Havering,Harold Wood,0,2
 Havering,Havering-atte-Bower,0,0
 Havering,Hornchurch,17,36
 Havering,Noak Hill,0,1
 Havering,North Ockendon,0,0
-Havering,Rainham,1,5
+Havering,Rainham,2,9
 Havering,Romford,18,46
 Havering,Rush Green,4,12
 Havering,South Hornchurch,0,1
@@ -345,11 +345,11 @@ Hillingdon,Harlington,3,7
 Hillingdon,Harmondsworth,0,1
 Hillingdon,Hayes,6,23
 Hillingdon,Hillingdon,3,15
-Hillingdon,Ickenham,0,2
+Hillingdon,Ickenham,0,5
 Hillingdon,Longford,0,10
 Hillingdon,Northwood,11,27
 Hillingdon,Ruislip,7,24
-Hillingdon,Sipson,1,13
+Hillingdon,Sipson,2,14
 Hillingdon,South Ruislip,0,0
 Hillingdon,Uxbridge,10,37
 Hillingdon,West Drayton,2,4
@@ -369,7 +369,7 @@ Hounslow,Hounslow,25,49
 Hounslow,Isleworth,1,8
 Hounslow,Lampton,1,4
 Hounslow,Old Chiswick,0,0
-Hounslow,Osterley,0,1
+Hounslow,Osterley,4,6
 Hounslow,Woodlands,0,0
 Islington,Angel,28,50
 Islington,Archway,15,27
@@ -381,14 +381,14 @@ Islington,Finsbury,8,32
 Islington,Finsbury Park,14,36
 Islington,Highbury,11,22
 Islington,Highgate,0,0
-Islington,Holloway,29,66
+Islington,Holloway,29,65
 Islington,Islington,35,52
 Islington,Pentonville,14,33
 Islington,St Luke's,8,17
 Islington,Tufnell Park,2,4
 Islington,Upper Holloway,0,0
 Kensington and Chelsea,Brompton,24,59
-Kensington and Chelsea,Chelsea,81,150
+Kensington and Chelsea,Chelsea,80,149
 Kensington and Chelsea,Earls Court,28,69
 Kensington and Chelsea,Holland Park,37,70
 Kensington and Chelsea,Kensington,14,30
@@ -425,18 +425,18 @@ Lambeth,Vauxhall,5,13
 Lambeth,West Dulwich,3,3
 Lambeth,West Norwood,8,22
 Lewisham,Bell Green,1,1
-Lewisham,Bellingham,1,2
+Lewisham,Bellingham,1,4
 Lewisham,Blackheath,7,14
 Lewisham,Brockley,6,15
 Lewisham,Catford,13,28
 Lewisham,Chinbrook,0,0
 Lewisham,Crofton Park,1,3
 Lewisham,Deptford,27,42
-Lewisham,Downham,0,10
+Lewisham,Downham,0,9
 Lewisham,Forest Hill,10,18
 Lewisham,Grove Park,0,0
-Lewisham,Hither Green,4,5
-Lewisham,Honor Oak,2,3
+Lewisham,Hither Green,6,9
+Lewisham,Honor Oak,4,5
 Lewisham,Horn Park,0,0
 Lewisham,Ladywell,8,11
 Lewisham,Lee,0,3
@@ -445,7 +445,7 @@ Lewisham,Mottingham,0,0
 Lewisham,New Cross,22,40
 Lewisham,Southend,0,1
 Lewisham,St Johns,0,0
-Lewisham,"Sydenham (also Lower Sydenham, Upper Sydenham)",14,24
+Lewisham,"Sydenham (also Lower Sydenham, Upper Sydenham)",13,24
 Lewisham,Sydenham Hill,0,0
 Merton,Colliers Wood,5,16
 Merton,Lower Morden,0,4
@@ -456,8 +456,8 @@ Merton,Morden Park,0,0
 Merton,Raynes Park,13,22
 Merton,South Wimbledon,9,16
 Merton,St Helier,0,0
-Merton,Wimbledon,34,91
-Newham,Beckton,2,14
+Merton,Wimbledon,33,90
+Newham,Beckton,2,15
 Newham,Canning Town,10,22
 Newham,Custom House,9,14
 Newham,East Ham,11,25
@@ -471,7 +471,7 @@ Newham,Silvertown,7,12
 Newham,Stratford,12,39
 Newham,Stratford City,20,54
 Newham,Upton Park,5,9
-Newham,West Ham,1,2
+Newham,West Ham,2,5
 Redbridge,Aldborough Hatch,0,0
 Redbridge,Barkingside,9,25
 Redbridge,Chadwell Heath,0,6
@@ -480,13 +480,13 @@ Redbridge,Gants Hill,12,27
 Redbridge,Goodmayes,2,6
 Redbridge,Hainault,0,0
 Redbridge,Ilford,17,41
-Redbridge,Loxford,0,0
+Redbridge,Loxford,4,7
 Redbridge,Newbury Park,0,1
 Redbridge,Redbridge,0,0
 Redbridge,Seven Kings,6,11
 Redbridge,Snaresbrook,2,4
 Redbridge,South Woodford,9,27
-Redbridge,Wanstead,2,6
+Redbridge,Wanstead,3,11
 Redbridge,Woodford,1,2
 Redbridge,Woodford Bridge,0,2
 Redbridge,Woodford Green,0,0
@@ -505,7 +505,7 @@ Richmond upon Thames,Mortlake,1,4
 Richmond upon Thames,North Sheen,0,3
 Richmond upon Thames,Petersham,3,4
 Richmond upon Thames,Richmond,35,78
-Richmond upon Thames,St Margarets,3,9
+Richmond upon Thames,St Margarets,6,12
 Richmond upon Thames,Strawberry Hill,5,9
 Richmond upon Thames,Teddington,16,31
 Richmond upon Thames,Twickenham,20,50
@@ -546,26 +546,26 @@ Tower Hamlets,Canary Wharf,33,80
 Tower Hamlets,Cubitt Town,2,7
 Tower Hamlets,Isle of Dogs,9,14
 Tower Hamlets,Leamouth,0,0
-Tower Hamlets,Limehouse,8,13
+Tower Hamlets,Limehouse,9,20
 Tower Hamlets,Mile End,0,1
 Tower Hamlets,Millwall,1,2
 Tower Hamlets,Old Ford,26,30
 Tower Hamlets,Poplar,6,17
 Tower Hamlets,Ratcliff,0,0
-Tower Hamlets,Shadwell,2,4
+Tower Hamlets,Shadwell,4,8
 Tower Hamlets,Spitalfields,70,109
 Tower Hamlets,Stepney,4,17
 Tower Hamlets,Tower Hill,0,2
 Tower Hamlets,Wapping,11,27
-Tower Hamlets,Whitechapel,33,66
-Waltham Forest,Cann Hall,7,11
+Tower Hamlets,Whitechapel,32,65
+Waltham Forest,Cann Hall,7,10
 Waltham Forest,Chingford,17,24
 Waltham Forest,Highams Park,8,27
 Waltham Forest,Leyton,24,45
 Waltham Forest,Leytonstone,8,25
 Waltham Forest,Snaresbrook,0,0
 Waltham Forest,Upper Walthamstow,7,16
-Waltham Forest,Walthamstow,36,70
+Waltham Forest,Walthamstow,35,69
 Waltham Forest,Walthamstow Village,7,15
 Wandsworth,Balham,15,38
 Wandsworth,Battersea,31,53
@@ -574,8 +574,8 @@ Wandsworth,Clapham Junction,33,70
 Wandsworth,Earlsfield,11,25
 Wandsworth,Nine Elms,17,20
 Wandsworth,Putney,35,67
-Wandsworth,Roehampton,0,3
-Wandsworth,Southfields,3,9
+Wandsworth,Roehampton,1,7
+Wandsworth,Southfields,2,8
 Wandsworth,Tooting,27,67
 Wandsworth,Tooting Bec,0,0
 Wandsworth,Wandsworth,14,45
@@ -584,7 +584,7 @@ Westminster,Bayswater,28,82
 Westminster,Belgravia,31,72
 Westminster,Charing Cross,0,0
 Westminster,Chinatown,0,0
-Westminster,Covent Garden,114,262
+Westminster,Covent Garden,114,261
 Westminster,Fitzrovia,22,42
 Westminster,Kilburn,1,2
 Westminster,Knightsbridge,7,18
@@ -600,16 +600,20 @@ Westminster,Queen's Park,1,1
 Westminster,Soho,162,351
 Westminster,St James's,37,77
 Westminster,St John's Wood,13,32
-Westminster,Temple,3,8
+Westminster,Temple,7,12
 Westminster,Westminster,14,36
+Bromley,Beckenham / Bickley / Bromley Common / Eden Park / Elmers End,1,2
 Bromley,Hayes / Keston / Leaves Green / Southborough,3,4
 Camden,Belsize Park / Frognal / Gospel Oak / Hampstead / North End / Primrose Hill / Swiss Cottage,2,3
 Camden,Camden Town / Chalk Farm / Euston / King's Cross / Primrose Hill / Somers Town,3,5
 Croydon,Addington / Addiscombe / Coombe / Croydon / Forestdale / New Addington / Shirley / Waddon / Woodside,0,2
+Ealing,Greenford / Perivale,1,1
 Hackney,Dalston / Hackney / Hackney Central / Shacklewell,4,5
 Islington,Angel / Barnsbury / Canonbury / Islington / Pentonville,3,5
 Merton,Colliers Wood / Merton Park / South Wimbledon / Wimbledon,1,1
 Redbridge,Goodmayes / Seven Kings,0,1
 Tower Hamlets,Blackwall / Canary Wharf / Cubitt Town / Isle of Dogs / Leamouth / Limehouse / Millwall / Poplar,2,3
+Tower Hamlets,Mile End / Ratcliff / Shadwell / Spitalfields / Stepney / Wapping / Whitechapel,2,3
 Wandsworth,Earlsfield / Southfields / Wandsworth,2,2
+Wandsworth,Tooting / Tooting Bec,3,6
 Westminster,Chinatown / Fitzrovia / Marylebone (also St Marylebone) / Mayfair / Soho,1,4

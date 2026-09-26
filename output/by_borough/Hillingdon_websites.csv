@@ -1,4 +1,5 @@
 website,website_type,name,borough,area,categories,email,locations,phone,address,postcode,source,osm_url
+https://www.achari.co.uk/,"own site (found by name, postcode verified)",Achari,Hillingdon,Sipson,Indian,info@achari.co.uk,1,,361 Sipson Road,UB7 0HU,openstreetmap,https://www.openstreetmap.org/node/12422648054
 https://ademcoffee.co.uk/,"own site (found by name, postcode verified)",Adem coffee,Hillingdon,Eastcote,Food truck,info@ademcoffee.co.uk,1,,Victoria Road,HA4 0QB,food standards agency,https://ratings.food.gov.uk/business/1932028
 https://www.airport-bowl.com/,"own site (found by name, postcode verified)",Airport Bowl - Barcelos - Airport Lounge Bar,Hillingdon,Harlington,Pub,bookings@airport-bowl.com,1,,"Airport Bowl, Bath Road",UB3 5AL,food standards agency,https://ratings.food.gov.uk/business/520346
 http://www.dinerslounge.com/,own site,Alma Lusa,Hillingdon,Yiewsley,Cafe,,1,+44 1895 444290,115 High Street,UB7 7QL,openstreetmap,https://www.openstreetmap.org/node/6601991370
@@ -54,6 +55,7 @@ https://www.gordonramsayrestaurants.com/plane-food/,own site (Wikidata),Gordon R
 https://thelounges.co.uk/granero,own site,Granero Lounge,Hillingdon,Ruislip,Restaurant,granero@thelounges.co.uk,1,,81-83 High Street,HA4 8JB,openstreetmap,https://www.openstreetmap.org/node/13907190773
 https://www.greggs.com/shops/hayes/25-station-road/0984,own site,Greggs,Hillingdon,Hayes,Bakery; Deli,,1,,25 Station Road,UB3 4BD,openstreetmap,https://www.openstreetmap.org/node/11292690353
 https://grilleboys.co.uk/,"own site (found by name, postcode verified)",Grille Boys,Hillingdon,Yiewsley,Restaurant,,1,,5 Tavistock Road,UB7 7QT,food standards agency,https://ratings.food.gov.uk/business/1949560
+https://www.grubandchips.co.uk/,"own site (found by name, postcode verified)",Grub and Chips,Hillingdon,Ickenham,Takeaway,,1,,9 Swakeleys Road,UB10 8DF,food standards agency,https://ratings.food.gov.uk/business/1345400
 https://www.gt-road.com/,"own site (found by name, postcode verified)",GT Road,Hillingdon,Yeading,Restaurant,,1,,262-264 Yeading Lane,UB4 9AX,food standards agency,https://ratings.food.gov.uk/business/1297076
 https://www.gurkhas-pride.co.uk/,"own site (found by name, postcode verified)",Gurkha's Pride,Hillingdon,Ruislip,Indian,,1,+44 1895 622801,148 High Street,HA4 8LJ,openstreetmap,https://www.openstreetmap.org/way/969524345
 https://haloplaycafe.co.uk/,"own site (found by name, postcode verified)",Halo Play Cafe,Hillingdon,Uxbridge,Cafe,info@haloplaycafe.co.uk,1,,High Street,UB8 1GB,openstreetmap,https://www.openstreetmap.org/node/13390917971
@@ -63,6 +65,7 @@ https://hillingdoncanalclub.com/,"own site (found by name, postcode verified)",H
 https://hothousenorthwood.co.uk/,own site,Hot House Pizza,Hillingdon,Northwood,Pizza,sudrise6@gmail.com,1,+44 1923 510520,91 Joel Street,HA6 1LW,openstreetmap,https://www.openstreetmap.org/node/13409475027
 https://www.hotville.co.uk/,"own site (found by name, postcode verified)",Hotville,Hillingdon,Uxbridge,Restaurant,,1,,197 High Street,UB8 1LB,food standards agency,https://ratings.food.gov.uk/business/1945958
 https://www.hungryolive.com/,"own site (found by name, postcode verified)",Hungry Olive,Hillingdon,Ruislip,Restaurant,eventshungryolive@gmail.com,1,,111 High Street,HA4 8JN,food standards agency,https://ratings.food.gov.uk/business/1705584
+https://www.ickenhamfishbar.co.uk/,"own site (found by name, postcode verified)",Ickenham Fish Bar,Hillingdon,Ickenham,Seafood,,1,,97a High Road,UB10 8LB,openstreetmap,https://www.openstreetmap.org/node/4293813315
 https://www.itsu.com/location/airports/heathrow-airport/,own site,itsu,Hillingdon,Longford,Asian,appfeedback@itsu.com,1,,,,openstreetmap,https://www.openstreetmap.org/way/438299691
 https://izgaranorthwood.co.uk/,"own site (found by name, postcode verified)",Izgara Restaurant,Hillingdon,Northwood,Restaurant,info@izgaranorthwood.co.uk,1,,29 Green Lane,HA6 2PX,food standards agency,https://ratings.food.gov.uk/business/1429913
 https://www.jdwetherspoon.com/pubs/all-pubs/england/london/jj-moons-ruislip-manor,own site,J.J. Moon's,Hillingdon,Eastcote,Pub,,1,,12 Victoria Road,HA4 0AA,openstreetmap,https://www.openstreetmap.org/node/3128532357
@@ -83,7 +86,7 @@ https://kravecafe.co.uk/,"own site (found by name, postcode verified)",Krave,Hil
 https://lahorekitchen.co.uk/,"own site (found by name, phone verified)",Lahore Northwood,Hillingdon,Northwood,Halal,,2,+44 20 8868 9800,4 Joel Street,,openstreetmap,https://www.openstreetmap.org/node/13423749054
 https://www.leegardennorthwood.co.uk/,"own site (found by name, postcode verified)",Lee Garden,Hillingdon,Northwood,Takeaway,,1,,68 Green Lane,HA6 2XS,food standards agency,https://ratings.food.gov.uk/business/520530
 https://www.beefeater.co.uk/en-gb/locations/greater-london/london-hayes,own site,London Hayes,Hillingdon,Hayes,Restaurant,,1,,1 Millington Road,UB3 4AZ,openstreetmap,https://www.openstreetmap.org/node/6260770599
-https://www.londonspride.com/,own site,London's Pride,Hillingdon,Sipson,Pub,,1,,,,openstreetmap,https://www.openstreetmap.org/node/4527208488
+https://www.londonspride.com/,own site,London's Pride,Hillingdon,Sipson,Pub,,2,,,,openstreetmap,https://www.openstreetmap.org/node/4527208488
 http://www.maharajanorthwood.co.uk/,"own site (found by name, phone verified)",Maharaja,Hillingdon,Northwood,Indian,nzmkthr@yahoo.co.uk,1,+44 1923 823688,,,openstreetmap,https://www.openstreetmap.org/node/1312736583
 https://manisgrill.uk/,"own site (found by name, postcode verified)",Mani's grill,Hillingdon,Uxbridge,Takeaway,info@manisgrill.uk,1,,34 Cowley Mill Road,UB8 2QD,food standards agency,https://ratings.food.gov.uk/business/1467680
 https://manor-pizza.co.uk/,"own site (found by name, postcode verified)",Manor pizza,Hillingdon,Eastcote,Pizza,info@manor-pizza.co.uk,1,,122 Victoria Road,HA4 0AL,food standards agency,https://ratings.food.gov.uk/business/1802384
@@ -112,6 +115,7 @@ https://www.nandos.co.uk/restaurants/south-ruislip,own site,Nando's,Hillingdon,E
 https://www.newmoonhouse.co.uk/,own site,New Moon House,Hillingdon,Hillingdon,Asian; Chinese,,1,,89 Hillingdon Hill,UB10 0JQ,openstreetmap,https://www.openstreetmap.org/way/841803226
 https://www.nimsindian.co.uk/,"own site (found by name, postcode verified)",Nims Indian,Hillingdon,Eastcote,Indian,,1,,95-99 Field End Road,HA5 1QG,food standards agency,https://ratings.food.gov.uk/business/1857030
 http://nonnarosa.com,own site,Nonna Rosa,Hillingdon,Uxbridge,Restaurant,,1,,,UB8 1JT,openstreetmap,https://www.openstreetmap.org/way/279651993
+https://northindianrasoi.co.uk/,"own site (found by name, postcode verified)",North Indian Rasoi,Hillingdon,Ickenham,Indian,,1,,12 Hercies Road,UB10 9NA,food standards agency,https://ratings.food.gov.uk/business/1774809
 https://www.northwoodpiazza.co.uk/,"own site (found by name, postcode verified)",Northwood Piazza,Hillingdon,Northwood,Italian,,1,+44 1923829670,28 Green Lane,HA6 2QB,openstreetmap,https://www.openstreetmap.org/node/1312736595
 https://nourishprep.co.uk/,"own site (found by name, postcode verified)",Nourish Prep,Hillingdon,Northwood,Takeaway,,1,,17b Ferndown,HA6 1PQ,food standards agency,https://ratings.food.gov.uk/business/1788479
 https://www.olimera.co.uk/,"own site (found by name, postcode verified)",Olimera,Hillingdon,Northwood,Restaurant,northwood@olimera.co.uk,1,,1 Eastbury Road,HA6 3BG,food standards agency,https://ratings.food.gov.uk/business/1669722
