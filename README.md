@@ -75,7 +75,7 @@ investor@) are dropped. Every website comes from the venue's OpenStreetMap listi
 Places if you use a key.
 
 A full run crawls tens of thousands of websites and takes a few hours. Results are cached in
-`.cache/`, so if a run is interrupted, running it again picks up where it stopped.
+`.cache/` (or `~/.londonfood-cache` for `discover_all.sh`, snapshotted to `cache/`), so if a run is interrupted, running it again picks up where it stopped.
 
 ## Tests
 
