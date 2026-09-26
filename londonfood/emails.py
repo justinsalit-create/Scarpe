@@ -53,12 +53,23 @@ def clean(email):
     return email
 
 
+OBF_AT = re.compile(r"\s*(?:\[at\]|\(at\)|\{at\}|\s+at\s+(?=[a-z0-9-]+\s*(?:\[dot\]|\(dot\)|\{dot\}|\s+dot\s+)))\s*", re.I)
+OBF_DOT = re.compile(r"\s*(?:\[dot\]|\(dot\)|\{dot\}|\s+dot\s+)\s*", re.I)
+FALLBACK_PATHS = ("/contact", "/contact-us", "/contactus", "/contact.html", "/about", "/about-us", "/find-us",
+                  "/private-hire", "/events", "/info")
+
+
+def deobfuscate(text):
+    """'info [at] venue [dot] co [dot] uk' / 'info at venue dot com' -> info@venue.co.uk / info@venue.com."""
+    return OBF_DOT.sub(".", OBF_AT.sub("@", text))
+
+
 def extract_emails(page):
     """Return emails found in an HTML page, mailto links first."""
     found = []
     candidates = (MAILTO_RX.findall(page)
                   + [decode_cfemail(h) for h in CFEMAIL_RX.findall(page)]
-                  + EMAIL_RX.findall(html.unescape(page).replace("[at]", "@").replace("(at)", "@")))
+                  + EMAIL_RX.findall(deobfuscate(html.unescape(page))))
     for raw in candidates:
         e = clean(raw)
         if e and e not in found:
@@ -225,6 +236,17 @@ def find_email(website):
             try:
                 if _robots_ok(link, robots):
                     emails += [e for e in extract_emails(http.get(link)[1]) if e not in emails]
+            except Exception:
+                continue
+            if best_email(emails, [website, final_url]):
+                break
+    if not best_email(emails, [website, final_url]):
+        # menus built by JavaScript hide contact links: try the usual contact pages on the venue's own site
+        root = "{0.scheme}://{0.netloc}".format(urllib.parse.urlparse(final_url))
+        for path in FALLBACK_PATHS:
+            try:
+                if _robots_ok(root + path, robots):
+                    emails += [e for e in extract_emails(http.get(root + path, timeout=10)[1]) if e not in emails]
             except Exception:
                 continue
             if best_email(emails, [website, final_url]):

@@ -15,7 +15,7 @@ import threading
 import urllib.parse
 from collections import Counter
 
-from . import areas, discover, emails, fsa, osm, places
+from . import areas, discover, emails, extra, fsa, osm, places
 from .boroughs import BOROUGHS, short_name
 from .categories import CATEGORIES, categorize
 
@@ -32,7 +32,9 @@ class CrawlCache:
                 for line in f:
                     rec = json.loads(line)
                     # older cache formats, and "unknown" results from before DNS / 403 handling: re-crawl
-                    if "emails" in rec and (rec.get("v") == 2 or rec["status"] != "unknown"):
+                    # re-crawl sites where the deeper v3 crawl could still find an email
+                    if "emails" in rec and (rec.get("v", 1) >= 3 or rec["status"] not in ("unknown", "ok")
+                                            or (rec["status"] == "ok" and rec["emails"])):
                         self.data[rec["key"]] = rec
 
     @staticmethod
@@ -44,7 +46,7 @@ class CrawlCache:
         return self.data.get(self.key(url))
 
     def put(self, url, emails_found, status, final_url):
-        rec = {"key": self.key(url), "emails": emails_found, "status": status, "final_url": final_url, "v": 2}
+        rec = {"key": self.key(url), "emails": emails_found, "status": status, "final_url": final_url, "v": 3}
         with self.lock:
             self.data[rec["key"]] = rec
             with open(self.path, "a") as f:
@@ -260,7 +262,7 @@ def main(argv=None):
     ap.add_argument("--discover", action="store_true",
                     help="find websites for venues without one (name-based domains, verified by postcode/phone)")
     ap.add_argument("--discover-limit", type=int, default=0, help="max new venues to try this run (0 = all)")
-    ap.add_argument("--discover-workers", type=int, default=12)
+    ap.add_argument("--discover-workers", type=int, default=96)
     ap.add_argument("--google-key", default=os.environ.get("GOOGLE_MAPS_API_KEY"),
                     help="Google Places API key to fill missing websites (or set GOOGLE_MAPS_API_KEY)")
     args = ap.parse_args(argv)
@@ -279,6 +281,9 @@ def main(argv=None):
     areas.assign(venues, area_list)
     for v in venues:
         split_osm_email(v)
+    wd = extra.add_wikidata(venues, args.cache)
+    chains = extra.add_brand_sites(venues)
+    print(f"Websites added: {wd} from Wikidata, {chains} chain branches", file=sys.stderr)
     if args.discover:
         find_websites(venues, args.cache, args.discover_limit, args.discover_workers)
     if not args.no_crawl:

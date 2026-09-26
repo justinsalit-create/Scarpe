@@ -44,6 +44,22 @@ class TestEmails(unittest.TestCase):
         self.assertIn("info@turmo.co.uk", found)
         self.assertNotIn("info@example.com", found)
 
+    def test_obfuscated(self):
+        self.assertEqual(emails.extract_emails("write to info [at] venue [dot] co [dot] uk"), ["info@venue.co.uk"])
+        self.assertEqual(emails.extract_emails("hello at thepub dot com"), ["hello@thepub.com"])
+        self.assertEqual(emails.extract_emails("open at noon. dot matrix"), [])
+
+    def test_fallback_contact_path(self):
+        pages = {"https://v.com": ("https://v.com/", "<div id=app></div>"),
+                 "https://v.com/robots.txt": ("", ""),
+                 "https://v.com/contact": ("", "Email: hello@v.com")}
+        def get(url, **kw):
+            if url in pages:
+                return pages[url]
+            raise OSError("404")
+        with mock.patch("londonfood.http.get", side_effect=get):
+            self.assertEqual(emails.find_email("v.com")[0], "hello@v.com")
+
     def test_cfemail(self):
         self.assertEqual(emails.decode_cfemail("422b2c242d023637302f2d6c212d6c3729"), "info@turmo.co.uk")
 
@@ -133,6 +149,27 @@ class TestDiscover(unittest.TestCase):
             self.assertEqual(discover.verify("pablospizza.co.uk", v), ("https://pablospizza.co.uk/", "postcode"))
 
 
+class TestExtraSources(unittest.TestCase):
+    def test_brand_sites(self):
+        from londonfood import extra
+        mk = lambda n, w="": {"name": n, "website": w, "website_type": "own site" if w else ""}
+        venues = ([mk("Greggs", "https://www.greggs.co.uk/shop/%d" % i) for i in range(4)] + [mk("Greggs")]
+                  + [mk("The Red Lion", "https://redlion%d.co.uk" % i) for i in range(4)] + [mk("The Red Lion")])
+        self.assertEqual(extra.add_brand_sites(venues), 1)
+        self.assertEqual(venues[4]["website"], "https://greggs.co.uk/")
+        self.assertEqual(venues[-1]["website"], "")  # different pubs, different sites: no match
+
+    def test_wikidata_match(self):
+        from londonfood import extra
+        items = [{"itemLabel": {"value": "The River Café"}, "site": {"value": "https://www.rivercafe.co.uk/"},
+                  "coord": {"value": "Point(-0.2234 51.4846)"}}]
+        venues = [{"name": "The River Cafe", "website": "", "lat": 51.4847, "lon": -0.2235},
+                  {"name": "The River Cafe", "website": "", "lat": 51.60, "lon": -0.10}]
+        with mock.patch.object(extra, "fetch_wikidata", return_value=items):
+            self.assertEqual(extra.add_wikidata(venues, "/x"), 1)
+        self.assertEqual(venues[0]["website"], "https://www.rivercafe.co.uk/")
+
+
 class TestClosedOSM(unittest.TestCase):
     def test_is_closed(self):
         self.assertTrue(osm.is_closed({"name": "The Bell (closed)"}))
@@ -166,6 +203,7 @@ class TestEndToEnd(unittest.TestCase):
         with tempfile.TemporaryDirectory() as d, \
                 mock.patch.object(osm, "fetch_borough", return_value=elements), \
                 mock.patch("londonfood.areas.fetch_places", return_value=[]), \
+                mock.patch("londonfood.extra.fetch_wikidata", return_value=[]), \
                 mock.patch.object(emails, "find_email", side_effect=lambda u: {
                     "pizza.place": ("ciao@pizza.place", ["ciao@pizza.place"], "ok", "https://pizza.place/"),
                     "oldbistro.com": ("", [], "closed", "https://oldbistro.com/")}[cli.CrawlCache.key(u)]):

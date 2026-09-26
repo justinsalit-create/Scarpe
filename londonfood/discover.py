@@ -77,29 +77,41 @@ def candidates(name, place="", categories=()):
 class DNS:
     """DNS-over-HTTPS lookups (the egress proxy hides resolver errors), cached and rate limited."""
 
-    def __init__(self, qps=25):
-        self.cache, self.lock, self.interval, self.next = {}, threading.Lock(), 1.0 / qps, 0.0
+    SERVERS = ("https://dns.google/resolve", "https://cloudflare-dns.com/dns-query")
 
-    def exists(self, host):
+    def __init__(self, qps=80):
+        self.cache, self.lock, self.interval, self.next, self.n = {}, threading.Lock(), 1.0 / qps, 0.0, 0
+
+    def lookup(self, host):
+        """'yes' (has an address), 'empty' (domain registered, no A record), 'no' (doesn't exist), None (unsure)."""
         if host in self.cache:
             return self.cache[host]
         with self.lock:
             wait = self.next - time.monotonic()
             self.next = max(self.next, time.monotonic()) + self.interval
+            self.n += 1
+            order = self.SERVERS if self.n % 2 else self.SERVERS[::-1]
         if wait > 0:
             time.sleep(wait)
-        ok = None
-        for server in ("https://dns.google/resolve", "https://cloudflare-dns.com/dns-query"):
+        res = None
+        for server in order:
             try:
                 _, text = http.get(f"{server}?name={host}&type=A", headers={"Accept": "application/dns-json"},
                                    timeout=10, max_bytes=100_000)
                 data = json.loads(text)
-                ok = data.get("Status") == 0 and any(a.get("type") in (1, 5) for a in data.get("Answer", []))
+                if data.get("Status") == 3:
+                    res = "no"
+                elif data.get("Status") == 0:
+                    res = "yes" if any(a.get("type") in (1, 5) for a in data.get("Answer", [])) else "empty"
                 break
             except Exception:
                 continue
-        self.cache[host] = ok
-        return ok
+        self.cache[host] = res
+        return res
+
+    def exists(self, domain):
+        r = self.lookup(domain)
+        return r == "yes" or (r in ("empty", None) and self.lookup("www." + domain) == "yes")
 
 
 def _digits(s):
@@ -183,7 +195,7 @@ def discover(v, dns):
     tried = []
     for domain in candidates(v["name"], v.get("area", ""), v.get("categories", ())):
         tried.append(domain)
-        if dns.exists(domain) or dns.exists("www." + domain):
+        if dns.exists(domain):
             found = verify(domain, v)
             if found:
                 return found[0], found[1], tried
