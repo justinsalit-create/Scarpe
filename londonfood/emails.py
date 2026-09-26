@@ -22,7 +22,7 @@ CLOSED_RX = re.compile(
 PARKED_RX = re.compile(r"domain (?:is |may be )?for sale|buy this domain|this domain has expired|domain parking"
                        r"|parked free|is parked|hugedomains|sedo\.com|dan\.com/buy", re.I)
 
-JUNK_DOMAINS = ("example.", "sentry", "wixpress", "domain.com", "email.com", "yourdomain",
+JUNK_DOMAINS = ("example.", "example@", "yourname@", "name@", "email@", "user@", "sentry", "wixpress", "domain.com", "email.com", "yourdomain",
                 "godaddy", "squarespace.com", "mysite", "sentry-next", "@2x", "wix.com")
 # Addresses that are useless for contacting the venue
 NO_OUTREACH = re.compile(r"(privacy|gdpr|dpo|data|legal|investor|ir@|careers|jobs|recruit|hr@|noreply|no-reply"
@@ -155,6 +155,19 @@ def visible_text(page):
     return html.unescape(re.sub(r"<[^>]+>", " ", page))
 
 
+SOFT_REDIRECT_RX = re.compile(
+    r"""http-equiv=["']?refresh["']?[^>]*url=['"]?([^"'>\s]+)|(?:window|document)\.location(?:\.href)?\s*=\s*["']([^"']+)""",
+    re.I)
+
+
+def soft_redirect(page):
+    """Target of a meta-refresh / JS redirect on a near-empty page, else None."""
+    if len(page) > 3000:
+        return None
+    m = SOFT_REDIRECT_RX.search(page)
+    return (m.group(1) or m.group(2)) if m else None
+
+
 def site_status(page):
     """'closed' if the homepage says the venue shut down, 'parked' for a parked/for-sale domain, else 'ok'."""
     text = visible_text(page)
@@ -165,7 +178,7 @@ def site_status(page):
     return "ok"
 
 
-def fetch_status(exc):
+def fetch_status(exc, url=None):
     """Classify a fetch failure: 'dead' only when the site clearly no longer exists."""
     if isinstance(exc, urllib.error.HTTPError):
         return "dead" if exc.code in (404, 410) else "unknown"
@@ -173,6 +186,9 @@ def fetch_status(exc):
     if isinstance(reason, socket.gaierror) or "Name or service not known" in str(reason) \
             or "nodename nor servname" in str(reason):
         return "dead"
+    if url and "Tunnel connection failed" in str(reason):  # proxy can't connect: is the domain gone?
+        if http.domain_exists(urllib.parse.urlparse(url).netloc.split(":")[0]) is False:
+            return "dead"
     return "unknown"
 
 
@@ -191,7 +207,15 @@ def find_email(website):
             return "", [], "unknown", website
         final_url, page = http.get(website)
     except Exception as e:
-        return "", [], fetch_status(e), website
+        return "", [], fetch_status(e, website), website
+    target = soft_redirect(page)
+    if target:  # tiny page that only redirects via meta refresh / JavaScript
+        if re.search(r"/lander\b", target):
+            return "", [], "parked", final_url
+        try:
+            final_url, page = http.get(urllib.parse.urljoin(final_url, target))
+        except Exception:
+            pass
     status = site_status(page)
     if status != "ok":
         return "", [], status, final_url

@@ -83,6 +83,19 @@ class TestEmails(unittest.TestCase):
         self.assertEqual(emails.site_status("<p>We are closed on Mondays. Open Tue-Sun.</p>"), "ok")
         self.assertEqual(emails.site_status("<script>var s='permanently closed'</script><p>Welcome</p>"), "ok")
 
+    def test_parked_lander_redirect(self):
+        page = '<html><head><script>window.onload=function(){window.location.href="/lander"}</script></head></html>'
+        with mock.patch("londonfood.http.get", side_effect=lambda url, **kw: (
+                ("", "") if url.endswith("robots.txt") else ("https://theivy.com/", page))):
+            self.assertEqual(emails.find_email("theivy.com")[2], "parked")
+
+    def test_meta_refresh_followed(self):
+        pages = {"https://v.com": ("https://v.com/", '<meta http-equiv="refresh" content="0; url=/home">'),
+                 "https://v.com/robots.txt": ("", ""),
+                 "https://v.com/home": ("https://v.com/home", "mail us: hi@v.com")}
+        with mock.patch("londonfood.http.get", side_effect=lambda url, **kw: pages[url]):
+            self.assertEqual(emails.find_email("v.com")[0], "hi@v.com")
+
     def test_dead_site(self):
         import socket
         import urllib.error

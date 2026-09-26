@@ -30,7 +30,8 @@ class CrawlCache:
             with open(path) as f:
                 for line in f:
                     rec = json.loads(line)
-                    if "emails" in rec:  # older cache formats: re-crawl them
+                    # older cache formats, and "unknown" results from before DNS / 403 handling: re-crawl
+                    if "emails" in rec and (rec.get("v") == 2 or rec["status"] != "unknown"):
                         self.data[rec["key"]] = rec
 
     @staticmethod
@@ -42,7 +43,7 @@ class CrawlCache:
         return self.data.get(self.key(url))
 
     def put(self, url, emails_found, status, final_url):
-        rec = {"key": self.key(url), "emails": emails_found, "status": status, "final_url": final_url}
+        rec = {"key": self.key(url), "emails": emails_found, "status": status, "final_url": final_url, "v": 2}
         with self.lock:
             self.data[rec["key"]] = rec
             with open(self.path, "a") as f:
