@@ -55,6 +55,8 @@ def add_wikidata(venues, cache_dir):
         if v["website"] or not v.get("lat"):
             continue
         for pt, site in by_name.get(slug(v["name"]), []):
+            if emails.not_venue_site(site):
+                continue
             if areas.within(pt, (v["lat"], v["lon"]), 200):
                 v["website"], v["website_type"] = emails.normalize_url(site), "own site (Wikidata)"
                 added += 1

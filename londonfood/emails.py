@@ -32,10 +32,27 @@ LOW_PRIORITY = ("press", "media", "pr@", "marketing", "partnerships", "partner",
 JUNK_SUFFIX = (".png", ".jpg", ".jpeg", ".gif", ".webp", ".svg", ".css", ".js")
 
 # Websites that are not the venue's own site; no point crawling them for an email.
-AGGREGATORS = ("facebook.com", "instagram.com", "twitter.com", "x.com", "tiktok.com", "deliveroo.",
-               "ubereats.", "just-eat.", "justeat.", "opentable.", "tripadvisor.", "yelp.", "google.",
-               "linktr.ee", "timeout.com", "squaremeal.", "designmynight.", "resdiary.", "sevenrooms.",
-               "wetherspoon", "greeneking.", "stonegategroup", "foodhub.", "hungryhouse.")
+# Not the venue's own website: social media, delivery/booking/review platforms, map links.
+NOT_VENUE_LABELS = {"facebook", "fb", "instagram", "tiktok", "twitter", "linktr", "deliveroo", "ubereats",
+                    "just-eat", "justeat", "opentable", "tripadvisor", "yelp", "timeout", "squaremeal",
+                    "designmynight", "resdiary", "sevenrooms", "foodhub", "hungryhouse", "wolt", "youtube",
+                    "threads", "snapchat", "beacons", "linkin", "whatsapp", "wa"}
+NOT_VENUE_HOSTS = {"x.com", "google.com", "google.co.uk", "maps.google.com", "maps.google.co.uk", "goo.gl",
+                   "maps.app.goo.gl", "g.page", "g.co", "bit.ly"}
+# The venue's page on its pub company's site is its real website, but not worth crawling for an email.
+NO_CRAWL_LABELS = {"wetherspoon", "jdwetherspoon", "greeneking", "stonegategroup"}
+
+
+def _host(url):
+    return urllib.parse.urlparse(normalize_url(url)).netloc.lower().split(":")[0].removeprefix("www.")
+
+
+def not_venue_site(url):
+    """True for social media / delivery / booking / review / map links rather than the venue's own site."""
+    host = _host(url)
+    if host in NOT_VENUE_HOSTS or host.endswith(".x.com"):
+        return True
+    return bool(set(host.split(".")) & NOT_VENUE_LABELS)
 
 
 def decode_cfemail(hexstr):
@@ -106,8 +123,8 @@ def normalize_url(url):
 
 
 def is_aggregator(url):
-    host = urllib.parse.urlparse(url).netloc.lower()
-    return any(a in host for a in AGGREGATORS)
+    """Links not worth crawling for an email: other platforms, and pub-company venue pages."""
+    return not_venue_site(url) or bool(set(_host(url).split(".")) & NO_CRAWL_LABELS)
 
 
 FREEMAIL = ("gmail.com", "googlemail.com", "hotmail.com", "hotmail.co.uk", "outlook.com", "live.com",

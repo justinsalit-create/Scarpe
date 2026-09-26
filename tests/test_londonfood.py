@@ -90,6 +90,16 @@ class TestEmails(unittest.TestCase):
         self.assertEqual(emails.contact_links(page, "https://venue.com/"),
                          ["https://venue.com/contact-us", "https://venue.com/about.html"])
 
+    def test_not_venue_site(self):
+        for url in ("https://www.facebook.com/pub", "instagram.com/cafe", "https://x.com/pub", "linktr.ee/bar",
+                    "https://www.just-eat.co.uk/restaurants-x", "https://deliveroo.co.uk/menu/x",
+                    "https://maps.app.goo.gl/abc", "https://www.opentable.co.uk/r/x"):
+            self.assertTrue(emails.not_venue_site(url), url)
+        for url in ("https://www.foodbox.com", "https://sites.google.com/view/mycafe", "https://pablospizza.co.uk",
+                    "https://www.jdwetherspoon.com/pubs/all-pubs/england/london/the-crosse-keys"):
+            self.assertFalse(emails.not_venue_site(url), url)
+        self.assertTrue(emails.is_aggregator("https://www.jdwetherspoon.com/pubs/x"))
+
     def test_aggregators_skipped(self):
         self.assertEqual(emails.find_email("https://www.facebook.com/somepub"), ("", [], "skipped", "https://www.facebook.com/somepub"))
 
@@ -225,7 +235,7 @@ class TestEndToEnd(unittest.TestCase):
             # pizza place: email found on its site, 2 branches share it; also listed in websites file
             self.assertIn("ciao@pizza.place,Pizza Place,Camden,,Pizza,https://pizza.place,,venue website,openstreetmap,2,", em)
             self.assertIn("https://pizza.place,own site,Pizza Place,Camden,,Pizza,ciao@pizza.place,2,", web)
-            self.assertIn("https://www.facebook.com/tacotruckldn,facebook,Taco Truck", web)
+            self.assertNotIn("facebook", web)  # social pages are not venue websites
             for gone in ("No Contact", "Old Bistro", "Gone Cafe", "Kentish Town"):
                 self.assertNotIn(gone, em + web)
             self.assertEqual(em.count("The Crown"), 1)

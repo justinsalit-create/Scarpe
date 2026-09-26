@@ -207,7 +207,7 @@ def find_websites(venues, cache_dir, limit, workers):
 EMAIL_FIELDS = ["email", "name", "borough", "area", "categories", "website", "other_emails", "email_source", "source", "locations",
                 "phone", "address", "postcode", "osm_url"]
 WEBSITE_FIELDS = ["website", "website_type", "name", "borough", "area", "categories", "email", "locations", "phone", "address",
-                  "postcode", "source", "facebook", "instagram", "osm_url"]
+                  "postcode", "source", "osm_url"]
 
 
 def website_key(url):
@@ -243,14 +243,9 @@ def split_osm_email(v):
     v["other_emails"] = found[1:]
     v["email_source"] = "openstreetmap" if found else ""
     v["website"] = emails.normalize_url(v["website"])
+    if v["website"] and emails.not_venue_site(v["website"]):
+        v["website"] = ""  # a Facebook / Instagram / Just Eat link is not the venue's website
     v["website_type"] = "own site" if v["website"] else ""
-    if not v["website"]:  # fall back to the venue's own social page, as tagged on the map
-        for kind, base in (("facebook", "https://www.facebook.com/"), ("instagram", "https://www.instagram.com/")):
-            handle = (v.get(kind) or "").strip()
-            if handle:
-                v["website"] = handle if handle.startswith("http") else base + handle.lstrip("@/")
-                v["website_type"] = kind
-                break
 
 
 def main(argv=None):
@@ -296,7 +291,8 @@ def main(argv=None):
     closed = sum(1 for v in venues if v.get("closed"))
     open_venues = sorted((v for v in venues if not v.get("closed")), key=lambda r: (r["borough"], r["name"].lower()))
     email_rows = dedupe([v for v in open_venues if v["email"]], lambda r: r["email"])
-    site_rows = dedupe([v for v in open_venues if v["website"]], lambda r: website_key(r["website"]))
+    site_rows = dedupe([v for v in open_venues if v["website"] and not emails.not_venue_site(v["website"])],
+                       lambda r: website_key(r["website"]))
 
     write_csv(os.path.join(args.out, "london_food_emails.csv"), email_rows, EMAIL_FIELDS)
     write_csv(os.path.join(args.out, "london_food_websites.csv"), site_rows, WEBSITE_FIELDS)
