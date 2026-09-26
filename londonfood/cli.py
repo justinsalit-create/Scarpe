@@ -20,9 +20,6 @@ from .categories import CATEGORIES, categorize
 
 CLOSED_STATUSES = ("closed", "parked", "dead")
 
-FIELDS = ["borough", "name", "categories", "contact", "email", "email_source", "website", "locations",
-          "phone", "address", "postcode", "facebook", "instagram", "osm_url", "lat", "lon"]
-
 
 class CrawlCache:
     """Per-website crawl results persisted as JSON lines so interrupted runs resume."""
@@ -105,7 +102,6 @@ def enrich(venues, cache, workers, google_key):
     # Crawl every venue website, including ones with an OSM email, to catch closed venues / dead sites.
     todo = {}
     for v in venues:
-        v["email_source"] = "openstreetmap" if v["email"] else ""
         if v["website"] and cache.get(v["website"]) is None:
             todo.setdefault(CrawlCache.key(v["website"]), v["website"])
     print(f"Crawling {len(todo)} websites for email addresses", file=sys.stderr)
@@ -125,43 +121,52 @@ def enrich(venues, cache, workers, google_key):
             rec = cache.get(v["website"]) or {}
             if rec.get("status") in CLOSED_STATUSES:
                 v["closed"] = True
-            elif not v["email"]:
-                email = emails.best_email(rec.get("emails", []), [v["website"], rec.get("final_url", "")])
-                if email:
-                    v["email"], v["email_source"] = email, "venue website"
-        v["contact"] = v["email"] or emails.normalize_url(v["website"])
+                continue
+            found = emails.valid_emails(rec.get("emails", []), [v["website"], rec.get("final_url", "")])
+            if not v["email"] and found:
+                v["email"], v["email_source"] = found[0], "venue website"
+            v["other_emails"] = [e for e in v["other_emails"] + found if e != v["email"]]
 
 
-def contact_key(contact):
-    """Normalise an email / website so the same business is only listed once."""
-    c = contact.lower().strip()
-    if "@" in c and "/" not in c:
-        return c
-    c = re.sub(r"^https?://(www\.)?", "", c).split("#")[0].split("?")[0]
-    return c.rstrip("/")
+EMAIL_FIELDS = ["email", "name", "borough", "categories", "website", "other_emails", "email_source", "locations",
+                "phone", "address", "postcode", "osm_url"]
+WEBSITE_FIELDS = ["website", "name", "borough", "categories", "email", "locations", "phone", "address",
+                  "postcode", "facebook", "instagram", "osm_url"]
 
 
-def dedupe(rows):
-    """One row per unique email / website; `locations` counts how many venues share it (chains)."""
+def website_key(url):
+    return re.sub(r"^https?://(www\.)?", "", url.lower().strip()).split("#")[0].split("?")[0].rstrip("/")
+
+
+def dedupe(rows, key):
+    """One row per unique key (email or website); `locations` counts how many venues share it (chains)."""
     out, index = [], {}
     for r in rows:
-        k = contact_key(r["contact"]) if r["contact"] else None
-        if k is not None and k in index:
+        k = key(r)
+        if k in index:
             index[k]["locations"] += 1
             continue
-        r["locations"] = 1
-        if k is not None:
-            index[k] = r
+        r = {**r, "locations": 1}
+        index[k] = r
         out.append(r)
     return out
 
 
-def write_csv(path, rows):
+def write_csv(path, rows, fields):
     with open(path, "w", newline="", encoding="utf-8") as f:
-        w = csv.DictWriter(f, fieldnames=FIELDS, extrasaction="ignore")
+        w = csv.DictWriter(f, fieldnames=fields, extrasaction="ignore")
         w.writeheader()
         for r in rows:
-            w.writerow({**r, "categories": "; ".join(r["categories"]), "website": emails.normalize_url(r["website"])})
+            w.writerow({**r, "categories": "; ".join(r["categories"]), "other_emails": "; ".join(r["other_emails"])})
+
+
+def split_osm_email(v):
+    """OSM `email` can hold several addresses separated by ';'. Keep valid ones exactly as published."""
+    found = [e for e in (emails.clean(x) for x in re.split(r"[;,\s]+", v["email"])) if e]
+    v["email"] = found[0] if found else ""
+    v["other_emails"] = found[1:]
+    v["email_source"] = "openstreetmap" if found else ""
+    v["website"] = emails.normalize_url(v["website"])
 
 
 def main(argv=None):
@@ -173,7 +178,6 @@ def main(argv=None):
     ap.add_argument("--cache", default=".cache", help="cache directory (OSM + crawl results)")
     ap.add_argument("--workers", type=int, default=16, help="parallel website crawlers")
     ap.add_argument("--no-crawl", action="store_true", help="skip crawling venue websites")
-    ap.add_argument("--keep-all", action="store_true", help="also output venues with no email or website")
     ap.add_argument("--google-key", default=os.environ.get("GOOGLE_MAPS_API_KEY"),
                     help="Google Places API key to fill missing websites (or set GOOGLE_MAPS_API_KEY)")
     args = ap.parse_args(argv)
@@ -181,30 +185,29 @@ def main(argv=None):
     os.makedirs(args.out, exist_ok=True)
     os.makedirs(args.cache, exist_ok=True)
     venues = collect(resolve_boroughs(args.boroughs), args.cache, set(args.categories or []))
-    if args.no_crawl:
-        for v in venues:
-            v["email_source"] = "openstreetmap" if v["email"] else ""
-            v["contact"] = v["email"] or emails.normalize_url(v["website"])
-            v["closed"] = False
-    else:
+    for v in venues:
+        split_osm_email(v)
+    if not args.no_crawl:
         enrich(venues, CrawlCache(os.path.join(args.cache, "crawl.jsonl")), args.workers, args.google_key)
 
     closed = sum(1 for v in venues if v.get("closed"))
-    open_venues = [v for v in venues if not v.get("closed")]
-    rows = open_venues if args.keep_all else [v for v in open_venues if v["contact"]]
-    rows.sort(key=lambda r: (r["borough"], r["name"].lower()))
-    before = len(rows)
-    rows = dedupe(rows)
-    write_csv(os.path.join(args.out, "london_food_contacts.csv"), rows)
+    open_venues = sorted((v for v in venues if not v.get("closed")), key=lambda r: (r["borough"], r["name"].lower()))
+    email_rows = dedupe([v for v in open_venues if v["email"]], lambda r: r["email"])
+    site_rows = dedupe([v for v in open_venues if v["website"]], lambda r: website_key(r["website"]))
+
+    write_csv(os.path.join(args.out, "london_food_emails.csv"), email_rows, EMAIL_FIELDS)
+    write_csv(os.path.join(args.out, "london_food_websites.csv"), site_rows, WEBSITE_FIELDS)
     by_borough = os.path.join(args.out, "by_borough")
     os.makedirs(by_borough, exist_ok=True)
-    for b in sorted({r["borough"] for r in rows}):
-        write_csv(os.path.join(by_borough, b.replace(" ", "_") + ".csv"), [r for r in rows if r["borough"] == b])
+    for b in sorted({v["borough"] for v in open_venues}):
+        name = b.replace(" ", "_")
+        write_csv(os.path.join(by_borough, f"{name}_emails.csv"), [r for r in email_rows if r["borough"] == b], EMAIL_FIELDS)
+        write_csv(os.path.join(by_borough, f"{name}_websites.csv"), [r for r in site_rows if r["borough"] == b], WEBSITE_FIELDS)
 
-    with_email = sum(1 for r in rows if r["email"])
+    either = sum(1 for v in open_venues if v["email"] or v["website"])
     print(f"\n{len(venues)} venues found, {closed} dropped as closed (dead/closed website), "
-          f"{before - len(rows)} duplicate contacts merged, {len(rows)} unique contacts "
-          f"({with_email} emails, {len(rows) - with_email} website only) -> {args.out}/", file=sys.stderr)
+          f"{either} open venues with an email or website -> {len(email_rows)} unique emails, "
+          f"{len(site_rows)} unique websites -> {args.out}/", file=sys.stderr)
 
 
 if __name__ == "__main__":

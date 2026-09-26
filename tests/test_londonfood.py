@@ -126,17 +126,27 @@ class TestEndToEnd(unittest.TestCase):
                     "pizza.place": ("ciao@pizza.place", ["ciao@pizza.place"], "ok", "https://pizza.place/"),
                     "oldbistro.com": ("", [], "closed", "https://oldbistro.com/")}[cli.CrawlCache.key(u)]):
             cli.main(["--boroughs", "Camden", "--out", d, "--cache", d])
-            with open(os.path.join(d, "london_food_contacts.csv")) as f:
-                text = f.read()
-            self.assertIn("hi@crown.pub,openstreetmap", text)
-            self.assertIn("ciao@pizza.place,venue website,https://pizza.place,2,", text)
-            self.assertNotIn("No Contact", text)
-            self.assertNotIn("Old Bistro", text)
-            self.assertNotIn("Gone Cafe", text)
-            self.assertNotIn("Kentish Town", text)
-            self.assertEqual(text.count("The Crown"), 1)
-            self.assertTrue(os.path.exists(os.path.join(d, "by_borough", "Camden.csv")))
+            with open(os.path.join(d, "london_food_emails.csv")) as f:
+                em = f.read()
+            with open(os.path.join(d, "london_food_websites.csv")) as f:
+                web = f.read()
+            self.assertTrue(em.startswith("email,name,"))
+            self.assertTrue(web.startswith("website,name,"))
+            self.assertIn("hi@crown.pub,The Crown", em)
+            # pizza place: email found on its site, 2 branches share it; also listed in websites file
+            self.assertIn("ciao@pizza.place,Pizza Place,Camden,Pizza,https://pizza.place,,venue website,2,", em)
+            self.assertIn("https://pizza.place,Pizza Place,Camden,Pizza,ciao@pizza.place,2,", web)
+            for gone in ("No Contact", "Old Bistro", "Gone Cafe", "Kentish Town"):
+                self.assertNotIn(gone, em + web)
+            self.assertEqual(em.count("The Crown"), 1)
+            self.assertTrue(os.path.exists(os.path.join(d, "by_borough", "Camden_emails.csv")))
+            self.assertTrue(os.path.exists(os.path.join(d, "by_borough", "Camden_websites.csv")))
 
+    def test_osm_email_list_split(self):
+        v = {"email": "info@a.com; Bookings@A.com", "website": "a.com"}
+        cli.split_osm_email(v)
+        self.assertEqual((v["email"], v["other_emails"], v["website"]),
+                         ("info@a.com", ["bookings@a.com"], "https://a.com"))
 
 if __name__ == "__main__":
     unittest.main()

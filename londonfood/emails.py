@@ -108,17 +108,16 @@ def site_root(url):
     return ".".join(parts[-3:]) if len(parts) > 2 and parts[-2] in ("co", "org", "ac", "com") else ".".join(parts[-2:])
 
 
-def best_email(emails, website):
-    """Pick the venue's email: its own domain or a free-mail address only, role addresses (info@, bookings@) first.
+def valid_emails(emails, website):
+    """Emails on the venue's own domain (or free-mail), best first: role addresses (info@, bookings@) lead.
 
-    Addresses on other companies' domains (web agencies, landlords, parent groups) are ignored.
+    Addresses on other companies' domains (web agencies, landlords, parent groups) are dropped.
+    Nothing is ever guessed: every address returned was published on the venue's site.
     """
+    emails = list(dict.fromkeys(c for c in (clean(e) for e in emails) if c))
     roots = {site_root(u) for u in (website if isinstance(website, (list, tuple)) else [website]) if u}
-    emails = [c for c in (clean(e) for e in emails) if c]
     ok = [e for e in emails if any(e.split("@")[1] == r or e.split("@")[1].endswith("." + r) for r in roots)
           or e.split("@")[1] in FREEMAIL]
-    if not ok:
-        return ""
 
     def rank(e):
         local = e.split("@")[0]
@@ -129,7 +128,12 @@ def best_email(emails, website):
             return (3, 0)
         return (1 if "." not in local else 2, 0)  # personal first.last addresses after role ones
 
-    return min(ok, key=rank)
+    return sorted(ok, key=rank)
+
+
+def best_email(emails, website):
+    found = valid_emails(emails, website)
+    return found[0] if found else ""
 
 
 def _robots_ok(url, cache):

@@ -36,8 +36,8 @@ Takeaway, Bar or Restaurant. A venue can have more than one category, for exampl
    or says the venue is "permanently closed", "closed for good" or "ceased trading". Every venue
    with a website is checked this way, including ones whose email came from OSM.
 4. **No duplicates:** a venue mapped twice (for example once as a point and once as a building) is
-   only kept once. Chains that share one email or website appear as a single row, and the
-   `locations` column shows how many branches share that contact.
+   only kept once. Each email or website appears only once in its file. For chains, the
+   `locations` column shows how many branches share it.
 5. **Google Maps (optional):** if you give it a Google Places API key, it looks up a website for
    venues that don't have one, using the official API. It also drops any venue Google lists as
    permanently closed.
@@ -58,14 +58,21 @@ GOOGLE_MAPS_API_KEY=... python -m londonfood            # also fill missing webs
 python -m londonfood --no-crawl                         # fast: OSM data only, no website visits
 ```
 
-Output:
+Output: two separate files, both de-duplicated.
 
-- `output/london_food_contacts.csv`: every venue. The `contact` column holds the email, or the
-  website if there's no email.
-- `output/by_borough/<Borough>.csv`: the same data split into one file per borough.
+- `output/london_food_emails.csv`: one row per unique email address. Columns: `email, name,
+  borough, categories, website, other_emails, email_source, locations, phone, address, postcode,
+  osm_url`.
+- `output/london_food_websites.csv`: one row per unique venue website. Columns: `website, name,
+  borough, categories, email, locations, phone, address, postcode, facebook, instagram, osm_url`.
+- `output/by_borough/<Borough>_emails.csv` and `<Borough>_websites.csv`: the same data split by
+  borough.
 
-Columns: `borough, name, categories, contact, email, email_source, website, locations, phone, address,
-postcode, facebook, instagram, osm_url, lat, lon`.
+A venue with both an email and a website appears in both files. Nothing is guessed. Every email
+was published by the venue, either on OpenStreetMap or on its own website. Addresses on unrelated
+domains (web agencies, landlords, parent companies) and non-contact addresses (privacy@, jobs@,
+investor@) are dropped. Every website comes from the venue's OpenStreetMap listing, or from Google
+Places if you use a key.
 
 A full run crawls tens of thousands of websites and takes a few hours. Results are cached in
 `.cache/`, so if a run is interrupted, running it again picks up where it stopped.
