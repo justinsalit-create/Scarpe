@@ -1,11 +1,10 @@
 website,website_type,name,borough,area,categories,email,locations,phone,address,postcode,source,facebook,instagram,osm_url
-https://www.heriot.co.uk/,own site,Arens & Heriot,Harrow,Wealdstone,Bakery,,1,,20-22 Headstone Drive,,openstreetmap,,,https://www.openstreetmap.org/node/4588019854
+https://www.heriot.co.uk/,own site,Arens & Heriot,Harrow,Wealdstone,Bakery,sales@heriot.co.uk,1,,20-22 Headstone Drive,,openstreetmap,,,https://www.openstreetmap.org/node/4588019854
 https://www.beefeater.co.uk/en-gb/locations/greater-london/travellers-rest,own site,Beefeater,Harrow,Kenton,Restaurant,,1,,Kenton Road,HA3 8AT,openstreetmap,,,https://www.openstreetmap.org/way/243638193
 https://www.beerasylum.com/,own site,Beer Asylum,Harrow,Pinner,Pub,info@beerasylum.com,1,+44 20 8429 2400,1 Bridge Street,HA5 3JD,openstreetmap,,,https://www.openstreetmap.org/node/4324081805
 https://www.belmont-bay.co.uk/,own site,Belmont Bay,Harrow,Belmont,Seafood,,1,,,,openstreetmap,,,https://www.openstreetmap.org/node/1320961239
 https://www.caffenero.com/uk/stores/harrow,own site,Caffè Nero,Harrow,Harrow,Breakfast,,1,,,,openstreetmap,,,https://www.openstreetmap.org/node/2609621291
 https://www.caffenero.com/uk/stores/harrow-on-the-hill,own site,Caffè Nero Express,Harrow,Harrow,Breakfast,,1,,,,openstreetmap,,,https://www.openstreetmap.org/node/1331753906
-https://www.cheatmeals.co.uk/,own site,Cheatmeals,Harrow,Rayners Lane,American; Bagels; Burger,,1,+44 20 8634 5830,332 Rayners Lane,HA5 5ED,openstreetmap,,,https://www.openstreetmap.org/node/7052759485
 https://chickencottage.com/chicken-cottage-rayners-lane/,own site,Chicken Cottage,Harrow,South Harrow,Halal,info@chickencottage.com,1,,461 Alexandra Avenue,HA2 9RY,openstreetmap,,,https://www.openstreetmap.org/node/5191565009
 https://chopstixnoodles.co.uk/stores/harrow/,own site,Chopstix,Harrow,Harrow,Asian,,1,,59 Saint Ann's Road,HA1 1JU,openstreetmap,,,https://www.openstreetmap.org/node/9966728977
 https://www.cococornercafe.co.uk/,own site,Coco Corner,Harrow,Harrow,Halal,contact@cococornercafe.co.uk,1,+44 20 7041 6122,389 Station Road,HA1 2AT,openstreetmap,cococornercafe,coco.corner.cafe,https://www.openstreetmap.org/node/1489585770
@@ -16,8 +15,8 @@ https://www.dominos.co.uk/pizza-near-me/london/417-alexandra-avenue,own site,Dom
 https://www.dominos.co.uk/pizza-near-me/london/5-pinner-green,own site,Domino's,Harrow,Pinner,Pizza,,1,,5 Pinner Green,HA5 2AF,openstreetmap,,,https://www.openstreetmap.org/node/4770679178
 https://donatheresa.com/,own site,Dona Theresa,Harrow,Hatch End,Italian,donatheresahatchend@gmail.com,1,+44 20 8421 5550,451 Uxbridge Road,HA5 4JR,openstreetmap,,,https://www.openstreetmap.org/way/609888849
 https://www.emberinns.co.uk/nationalsearch/london/the-duck-in-the-pond-harrow#/,own site,Duck in the Pond,Harrow,Belmont,Pub,,1,,,,openstreetmap,,,https://www.openstreetmap.org/way/1262916828
-https://hautedolci.co.uk/stores/harrow/,own site,Haute Dolci,Harrow,Harrow,Restaurant,,1,,,,openstreetmap,,,https://www.openstreetmap.org/node/10111612429
-http://www.indulgepinner.co.uk/,own site,Indulge,Harrow,Pinner,Ice cream,,1,+44 20 3305 5437,209-211 Marsh Road,HA5 5NE,openstreetmap,,,https://www.openstreetmap.org/node/4307516946
+https://hautedolci.co.uk/stores/harrow/,own site,Haute Dolci,Harrow,Harrow,Restaurant,info@hautedolci.co.uk,1,,,,openstreetmap,,,https://www.openstreetmap.org/node/10111612429
+http://www.indulgepinner.co.uk/,own site,Indulge,Harrow,Pinner,Ice cream,info@indulgepinner.com,1,+44 20 3305 5437,209-211 Marsh Road,HA5 5NE,openstreetmap,,,https://www.openstreetmap.org/node/4307516946
 https://www.jaidurgamahal.co.uk/,own site,Jai Durga Mahal,Harrow,South Harrow,Asian; Chinese; Indian; Pizza,,1,+44 208 8633593,64 Station Road,HA2 7SJ,openstreetmap,,,https://www.openstreetmap.org/node/13556420058
 https://www.kfc.co.uk/kfc-near-me/south-harrow-northolt-road,own site,KFC,Harrow,South Harrow,Takeaway,,1,,268 Northolt Road,HA2 8DY,openstreetmap,,,https://www.openstreetmap.org/node/677228901
 https://www.kfc.co.uk/kfc-near-me/harrow-weald-high-road,own site,KFC,Harrow,Harrow Weald,Takeaway,,1,,,,openstreetmap,,,https://www.openstreetmap.org/node/5141528243
@@ -25,10 +24,8 @@ https://www.kfc.co.uk/kfc-near-me/rayners-lane-alexandra-avenue,own site,KFC,Har
 https://www.mcdonalds.com/gb/en-gb/location/south-harrow/south-harrow---shaftesbury/9-shaftesbury-circle/8261005.html,own site,McDonald's,Harrow,South Harrow,Burger,,1,+44 20 8864 5794,Shaftesbury Circle,HA2 0AE,openstreetmap,,,https://www.openstreetmap.org/node/312915333
 https://www.mcdonalds.com/gb/en-gb/location/harrow/harrow/361363-station-road/8260047.html,own site,McDonald's,Harrow,Harrow,Burger,,1,+44 20 8861 2896,361-363 Station Road,HA1 2AW,openstreetmap,,,https://www.openstreetmap.org/node/915100779
 https://www.mcdonalds.com/gb/en-gb/location/harrow/harrow-leisure-centre/29-st-georges-shopping--leisure/8260675.html,own site,McDonald's,Harrow,Harrow,Burger,,1,+44 20 8863 4655,,HA1 1HS,openstreetmap,,,https://www.openstreetmap.org/node/11397027355
-http://meetingpalaceuk.com/,own site,Meeting Palace,Harrow,Wealdstone,Indian,,1,,34 High Street,HA3 7AB,openstreetmap,,,https://www.openstreetmap.org/way/242813509
+http://meetingpalaceuk.com/,own site,Meeting Palace,Harrow,Wealdstone,Indian,info@meetingpalaceuk.com,1,,34 High Street,HA3 7AB,openstreetmap,,,https://www.openstreetmap.org/way/242813509
 http://www.melissarestaurant.co.uk/,own site,Melissa,Harrow,Queensbury,Restaurant,,1,,2 Station Parade,HA8 6RW,openstreetmap,,,https://www.openstreetmap.org/way/325254575
-http://mumbailocal.co.uk/restaurants/harrow/,own site,Mumbai Local,Harrow,Harrow,Indian,,1,,207 Station Road,HA1 2TP,openstreetmap,,,https://www.openstreetmap.org/node/5849085974
-http://mumbailocal.co.uk/restaurants/rayners-lane/,own site,Mumbai Local,Harrow,South Harrow,Indian,info@mumbailocal.co.uk,1,+44 20 8357 2902,453 Alexandra Avenue,HA2 9SE,openstreetmap,,,https://www.openstreetmap.org/node/6292171460
 https://www.nandos.co.uk/restaurants/stanmore,own site,Nando's,Harrow,Stanmore,Restaurant,,1,,,,openstreetmap,,,https://www.openstreetmap.org/node/249249967
 https://www.nandos.co.uk/restaurants/harrow-station-road,own site,Nando's,Harrow,Harrow,Restaurant,,1,,300-302 Station Road,HA1 2DX,openstreetmap,,,https://www.openstreetmap.org/node/915100786
 https://www.nandos.co.uk/restaurants/harrow-st-george,own site,Nando's,Harrow,Harrow,Restaurant,,1,,,HA1 1HS,openstreetmap,,,https://www.openstreetmap.org/node/2569539942
@@ -37,18 +34,20 @@ http://www.oddfellowspinner.co.uk/,own site,Oddfellows Arms,Harrow,Pinner,Pub,,1
 https://www.oldetonian.com/,own site,Old Etonian,Harrow,Harrow on the Hill,Restaurant,info@oldetonian.com,1,+44 20 8422 8482,38 High Street,HA1 3LL,openstreetmap,,,https://www.openstreetmap.org/node/322270225
 https://www.papajohns.co.uk/stores/harrow-weald,own site,Papa John's,Harrow,Belmont,Pizza,,1,+44 20 8909 0777,,,openstreetmap,,,https://www.openstreetmap.org/node/10112258512
 https://parathasloungeharrow.co.uk/,own site,Parathas Lounge,Harrow,South Harrow,Indian,,1,+44 208 357 0224,"14A Broadwalk, Pinner Road",HA2 6ED,openstreetmap,,,https://www.openstreetmap.org/node/13506257102
-http://www.pekinggarden.org.uk/pinner-take-away.htm,own site,Peking Garden,Harrow,Pinner,Asian; Chinese,,1,+44 20 8866 8932,199 Marsh Road,HA5 5NE,openstreetmap,,,https://www.openstreetmap.org/node/4257808963
 https://www.pizzahut.co.uk/huts/uk-1/505-rayners-lane/,own site,Pizza Hut Delivery,Harrow,South Harrow,Pizza,,1,+44 20 8868 1244,420 Alexandra Avenue,HA2 9TW,openstreetmap,,,https://www.openstreetmap.org/node/5291648496
 https://www.pizzahut.co.uk/huts/uk-1/1008-harrow-weald-2/,own site,Pizza Hut Delivery,Harrow,Harrow Weald,Pizza,,1,+44 20 8420 0100,250 High Road,HA3 7BB,openstreetmap,,,https://www.openstreetmap.org/node/10819277648
 https://www.pizzaexpress.com/harrow-st-georges-shopping-centre,own site,PizzaExpress,Harrow,Harrow,Pizza,,1,,,,openstreetmap,,,https://www.openstreetmap.org/node/9490562191
 http://www.pradipsweet.co.uk/index.php?option=com_content&view=article&id=44&Itemid=65,own site,Pradips Vegetarian Restaurant,Harrow,Kenton,Indian,,1,,156 Kenton Road,,openstreetmap,,,https://www.openstreetmap.org/way/243638201
 https://www.prezzo.co.uk/restaurants/harrow/,own site,Prezzo,Harrow,Harrow,Italian,,1,+44 20 8427 9588,St Anns Road,HA1 1HS,openstreetmap,,,https://www.openstreetmap.org/node/3403057912
+https://www.queensheadpinner.co.uk,own site (Wikidata),Queen's Head,Harrow,Pinner,Pub,info@queensheadpinner.co.uk,1,,31 High Street,HA5 5PJ,openstreetmap,,,https://www.openstreetmap.org/node/240624074
 https://www.greeneking-pubs.co.uk/pubs/middlesex/royal-oak/,own site,Royal Oak,Harrow,Harrow,Pub,7127@greeneking.co.uk,1,,86 St Anns Road,HA1 1JP,openstreetmap,,,https://www.openstreetmap.org/node/211260547
+https://www.saharastanmore.co.uk/,own site (Wikidata),Sahara Lounge,Harrow,Stanmore,Restaurant,,1,,,,openstreetmap,,,https://www.openstreetmap.org/node/5141528233
 https://sakeebarandrestaurant.co.uk/,own site,Sakee Bar & Restaurant,Harrow,Pinner,Indian,,1,+44 20 8868 9588,173-175 Marsh Road,HA5 5PB,openstreetmap,,,https://www.openstreetmap.org/node/1312678797
 https://www.facebook.com/Salt-Bar-Harrow-1577939959144871,facebook,Salt Bar,Harrow,South Harrow,Indian; Pub,,1,,1 Roxeth Hill,HA2 0JY,openstreetmap,https://www.facebook.com/Salt-Bar-Harrow-1577939959144871,,https://www.openstreetmap.org/node/31247069
 https://shobhasrasoi.com/,own site,Shobha's Rasoi,Harrow,Wealdstone,Indian,reservations@shobhasrasoi.com,1,+44 20 8861 1825,128-130 High Street,HA3 7AL,openstreetmap,https://www.facebook.com/shobhasrasoi/,,https://www.openstreetmap.org/way/243007237
-https://www.starbucks.com/store-locator/store/1015168/harrow-st-georges-centre-unit-17-st-georges-centre-harrow-eng-ha-1-1-hs-gb,own site,Starbucks,Harrow,Harrow,Breakfast,,1,,,HA1 1HS,openstreetmap,,,https://www.openstreetmap.org/node/2569539943
-https://www.starbucks.com/store-locator/store/1015172/pinner-high-street-19-21-high-street-pinner-eng-ha-5-5-pj-gb,own site,Starbucks,Harrow,Pinner,Breakfast,,1,,,,openstreetmap,,,https://www.openstreetmap.org/node/9405520533
+https://www.spiceracklounge.com/,own site (Wikidata),Spice Rack,Harrow,Stanmore,Asian,info@spiceracklounge.com,1,,,,openstreetmap,,,https://www.openstreetmap.org/way/436249452
+https://www.starbucks.com/store-locator/store/1015168/harrow-st-georges-centre-unit-17-st-georges-centre-harrow-eng-ha-1-1-hs-gb,own site,Starbucks,Harrow,Harrow,Breakfast,press@starbucks.com,1,,,HA1 1HS,openstreetmap,,,https://www.openstreetmap.org/node/2569539943
+https://www.starbucks.com/store-locator/store/1015172/pinner-high-street-19-21-high-street-pinner-eng-ha-5-5-pj-gb,own site,Starbucks,Harrow,Pinner,Breakfast,press@starbucks.com,1,,,,openstreetmap,,,https://www.openstreetmap.org/node/9405520533
 https://www.steakoutuk.com/,own site,Steakout,Harrow,Harrow,Steak,cardiff@steakoutuk.com,1,+44 20 8861 2221,358 Station Road,HA1 2DE,openstreetmap,,,https://www.openstreetmap.org/node/1490039247
 https://restaurants.subway.com/united-kingdom/en/london/288-northolt-road,own site,Subway,Harrow,South Harrow,Deli,,1,,288 Northolt Road,HA2 8EB,openstreetmap,,,https://www.openstreetmap.org/node/677228900
 https://restaurants.subway.com/united-kingdom/en/london/4-bridge-street,own site,Subway,Harrow,Pinner,Deli,,1,,4 Bridge Street,HA5 3JE,openstreetmap,,,https://www.openstreetmap.org/node/980579069
@@ -67,5 +66,5 @@ https://www.whitehorseharrow.co.uk/,own site,The White Horse,Harrow,South Harrow
 https://www.greeneking.co.uk/pubs/middlesex/whittington,own site,The Whittington,Harrow,Pinner,Pub,,1,,,HA5 5JS,openstreetmap,,,https://www.openstreetmap.org/way/623115300
 https://www.tunnel-lounge.com/,own site,Tunnel Lounge by Flare,Harrow,Harrow,Burger; Halal; Pizza,hello@tunnel-lounge.com,1,+44 208 427 2707,273 Pinner Road,HA1 4HF,openstreetmap,,,https://www.openstreetmap.org/node/13650089538
 https://www.wenzels.co.uk/our-stores/wealdstone/,own site,Wenzel's,Harrow,Wealdstone,Bakery,,1,,60 High Street,HA3 7AF,openstreetmap,,,https://www.openstreetmap.org/way/242878991
-https://northharrow.woodygrill.co.uk/,own site,Woody Grill,Harrow,South Harrow,Halal,,1,,66-68 Station Road,HA2 7SJ,openstreetmap,,,https://www.openstreetmap.org/node/13460812549
+https://northharrow.woodygrill.co.uk/,own site,Woody Grill,Harrow,South Harrow,Halal,info@woodygrill.co.uk,1,,66-68 Station Road,HA2 7SJ,openstreetmap,,,https://www.openstreetmap.org/node/13460812549
 http://www.zanzibarrestaurant.co.uk/,own site,Zan Zi Bar,Harrow,Queensbury,Indian,zanzibaredgware@aol.com,1,+44 20 8952 2986,113 High Street,HA8 7DB,openstreetmap,,,https://www.openstreetmap.org/way/537479727

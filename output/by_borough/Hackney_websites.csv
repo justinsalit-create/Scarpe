@@ -1,10 +1,10 @@
 website,website_type,name,borough,area,categories,email,locations,phone,address,postcode,source,facebook,instagram,osm_url
 https://mu-ldn.com/,own site,"""mu""",Hackney,Dalston,Asian; Japanese,reservations@mu-ldn.com,1,,432-434 Kingsland Road,E8 4AA,openstreetmap,,,https://www.openstreetmap.org/node/13273587201
 https://arabica.coffee/en/location/arabica-london-broadway-market/,own site,% Arabica,Hackney,Hackney,Breakfast,,1,+44 20 3409 4666,33 Broadway Market,E8 4PH,openstreetmap,,,https://www.openstreetmap.org/way/366302157
-https://081pizzeria.com,own site,081 Pizzeria,Hackney,Shoreditch,Italian; Pizza,,1,+44 20 3745 3305,,,openstreetmap,,,https://www.openstreetmap.org/node/14122961284
+https://081pizzeria.com,own site,081 Pizzeria,Hackney,Shoreditch,Italian; Pizza,,2,+44 20 3745 3305,,,openstreetmap,,,https://www.openstreetmap.org/node/14122961284
 https://www.13thfloorcoffee.com/,own site,13th Floor Coffee,Hackney,Stoke Newington,Breakfast; Food truck,,1,,,,openstreetmap,,13thfloor.coffee,https://www.openstreetmap.org/node/10555299892
 https://www.instagram.com/21_tarot_and_coffee,instagram,21 Sid Tarot & Coffee,Hackney,Hackney,Bakery; Breakfast; Deli; Italian,hello@21sid.co.uk,1,,21 Sidworth Street,E8 3SD,openstreetmap,,21_tarot_and_coffee,https://www.openstreetmap.org/node/8669391506
-https://215hackney.co.uk/,own site,215 Hackney,Hackney,West Hackney,Cafe,,1,,215 Stoke Newington High Street,,openstreetmap,,,https://www.openstreetmap.org/way/1188659927
+https://215hackney.co.uk/,own site,215 Hackney,Hackney,West Hackney,Cafe,hello@215hackney.co.uk,1,,215 Stoke Newington High Street,,openstreetmap,,,https://www.openstreetmap.org/way/1188659927
 https://www.3thirty.co.uk/,own site,3thirty,Hackney,Shoreditch,Restaurant,info@3thirty.co.uk,1,+44 20 7033 1882,330 Old Street,EC1V 9DR,openstreetmap,,,https://www.openstreetmap.org/way/164244203
 https://46b-espressohut.tumblr.com/,own site,46b Espresso Hut,Hackney,Homerton,Breakfast,,1,,46b Brooksby's Walk,E9 6DA,openstreetmap,,46bespressohut,https://www.openstreetmap.org/way/853545240
 https://www.facebook.com/79Clapton?fref=ts,own site,79 Clapton,Hackney,Upper Clapton,Breakfast,,1,+44 20 8880 0611,79 Upper Clapton Road,E5 9BU,openstreetmap,,,https://www.openstreetmap.org/way/1215098027
@@ -30,10 +30,9 @@ https://www.batchbaby.co.uk/,own site,Batch Baby,Hackney,De Beauvoir Town,Breakf
 https://www.beatone.co.uk/shoreditch,own site,Be At One,Hackney,Shoreditch,Pub,,1,,,,openstreetmap,,,https://www.openstreetmap.org/way/163997057
 https://www.instagram.com/beanandfriendsltd,instagram,Bean's Cafe,Hackney,Shacklewell,Cafe,,1,,1 Maple Path,,openstreetmap,,beanandfriendsltd,https://www.openstreetmap.org/node/12120700082
 https://www.instagram.com/beansandbiteshackney,instagram,Beans & Bites,Hackney,Hackney,Halal,,1,,244 Morning Lane,E9 6RQ,openstreetmap,,beansandbiteshackney,https://www.openstreetmap.org/way/848656848
-https://www.boxpark.co.uk/shoreditch/food-and-drink/bar/,own site,Beatbox,Hackney,Shoreditch,Takeaway,,1,,2-10 Bethnal Green Road,E1 6GY,openstreetmap,,,https://www.openstreetmap.org/way/637312524
 https://thebeboppub.com/,own site,BeBopaLula,Hackney,Stoke Newington,Pub,book@thebeboppub.com,1,+44 20 7249 6764,,,openstreetmap,,,https://www.openstreetmap.org/way/1007692612
 https://beechwoodsportspub.com/,own site,Beechwood,Hackney,Shoreditch,American; Pub,info@beechwoodsportspub.com,1,+44 20 8161 0444,1A Principle Place Worship Street,EC2A 2BA,openstreetmap,,https://www.instagram.com/sport_ldn,https://www.openstreetmap.org/way/667230136
-http://belleepoque.co.uk/boutiques/newingtongreen/,own site,Belle Epoque Patisserie,Hackney,Stoke Newington,Bakery; French,,1,+44 20 7249 2222,37 Newington Green,N16 9PR,openstreetmap,,,https://www.openstreetmap.org/way/373053305
+http://belleepoque.co.uk/boutiques/newingtongreen/,own site,Belle Epoque Patisserie,Hackney,Stoke Newington,Bakery; French,info@belleepoque.co.uk,1,+44 20 7249 2222,37 Newington Green,N16 9PR,openstreetmap,,,https://www.openstreetmap.org/way/373053305
 https://www.berberandq.com/,own site,Berber & Q,Hackney,Dalston,Restaurant,events@berberandq.com,2,,338 Acton Mews,E8 4EA,openstreetmap,,,https://www.openstreetmap.org/way/469649789
 https://www.betterhealthbakery.org.uk/,own site,Better Health Bakery,Hackney,Dalston,Bakery,,1,+44 20 3479 7006,13 Stean Street,E8 4ED,openstreetmap,,BHBakeryE8,https://www.openstreetmap.org/node/5691215001
 https://www.facebook.com/biddlebros,facebook,Biddle Bros.,Hackney,Lower Clapton,Pub,,1,,88 Lower Clapton Road,E5 0QR,openstreetmap,biddlebros,biddlebros,https://www.openstreetmap.org/way/593535886
@@ -41,23 +40,22 @@ https://bigoli.com/,own site,Bigoli Fresh Pasta,Hackney,Shoreditch,Italian,info@
 https://www.bistrofreddie.com/,own site,Bistro Freddie,Hackney,Shoreditch,French; Mexican,info@bistrofreddie.com,1,,74 Luke Street,EC2A 4PY,openstreetmap,,,https://www.openstreetmap.org/way/163923520
 https://www.blackcardamom.co.uk/,own site,Black Cardamom,Hackney,Hackney,Indian,,1,+44 20 3632 2502,269 Well Street,E9 6RG,openstreetmap,,,https://www.openstreetmap.org/way/848656874
 http://www.blackcatcafe.co.uk/,own site,Black Cat Cafe,Hackney,Lower Clapton,Breakfast; Burger; Deli; Indian,orders@blackcatcafe.co.uk,1,+44 20 8985 7091,76a Clarence Road,E5 8HB,openstreetmap,,,https://www.openstreetmap.org/node/291969070
-http://blackcathackney.com,own site,Black Cat Café,Hackney,Lower Clapton,Cafe,,1,,76A,,openstreetmap,,,https://www.openstreetmap.org/node/13806350901
+http://blackcathackney.com,own site,Black Cat Café,Hackney,Lower Clapton,Cafe,blackcathackney@gmail.com,1,,76A,,openstreetmap,,,https://www.openstreetmap.org/node/13806350901
 https://blacksheepcoffee.co.uk/blogs/locations/principal-place,own site,Black Sheep Coffee,Hackney,Shoreditch,Breakfast,l.blakey@blacksheepcoffee.co.uk,1,,10 Hearn Street,EC2A 3BR,openstreetmap,,,https://www.openstreetmap.org/node/6247140622
 https://theblacklock.com/restaurants/shoreditch/,own site,Blacklock,Hackney,Shoreditch,Steak,shoreditch@theblacklock.com,1,+44 20 7739 2148,28-30 Rivington Street,EC2A 3DZ,openstreetmap,,,https://www.openstreetmap.org/way/166202529
 https://blendcafe.london/,own site,Blend Cafe Ltd,Hackney,Homerton,Breakfast,info@blendcafe.london,1,,Barnabas Road,E9 5SD,openstreetmap,,,https://www.openstreetmap.org/node/6632263272
 https://www.boboandwild.co.uk/,own site,Bobo & Wild,Hackney,Hoxton,Cafe,info@boboandwild.co.uk,2,+44 20 7033 4055,,,openstreetmap,,,https://www.openstreetmap.org/node/4535875056
-https://www.bottegaprelibato.com/,own site,Bottega Prelibato,Hackney,Shoreditch,Italian,,1,+44 20 7739 4995,43-45 Rivington Street,EC2A 3QB,openstreetmap,,,https://www.openstreetmap.org/node/795606805
+https://www.bottegaprelibato.com/,own site,Bottega Prelibato,Hackney,Shoreditch,Italian,booking@bottegaprelibato.com,1,+44 20 7739 4995,43-45 Rivington Street,EC2A 3QB,openstreetmap,,,https://www.openstreetmap.org/node/795606805
 https://www.bragsandbrams.com/,own site,Brags & Brams,Hackney,Haggerston,Cafe,info@bragsandbrams.com,2,,263-265 Hackney Road,,openstreetmap,,,https://www.openstreetmap.org/way/824820073
 https://bratrestaurant.com/,own site,Brat,Hackney,Haggerston,Restaurant,,1,,4 Redchurch Street,E2 7DD,openstreetmap,,,https://www.openstreetmap.org/node/11959061648
 https://breadandoregano.co.uk/,own site,Bread & Oregano,Hackney,Homerton,Breakfast,info@breadandoregano.co.uk,1,,143-145 Homerton High Street,,openstreetmap,,,https://www.openstreetmap.org/node/11274342161
-https://breadandtruffle.com/,own site,Bread & Truffle,Hackney,Hackney,Deli,ciao@breadandtruffle.com,1,,,,openstreetmap,,,https://www.openstreetmap.org/node/9898041815
 https://brilliantcornerslondon.co.uk/,own site,Brilliant Corners,Hackney,Dalston,Asian; Japanese,,1,,470-472 Kingsland Road,E8 4AE,openstreetmap,,,https://www.openstreetmap.org/node/5581331121
 https://bronsonsburgers.co.uk/,own site,Bronson's Burgers,Hackney,Hackney,Burger; Halal,info@bronsonsburgers.co.uk,1,,169 Mare Street,E8 3RH,openstreetmap,,,https://www.openstreetmap.org/way/587954392
 https://www.craftunionpubs.com/brook-gate-finsbury-park,own site,Brook Gate,Hackney,Manor House,Pub,,1,,175 Blackstock Road,N4 2JS,openstreetmap,,,https://www.openstreetmap.org/way/935053788
 https://www.brunswickeast.london/,own site,Brunswick East,Hackney,Shacklewell,Cafe,hello@brunswickeast.london,1,,Gillett Street,N16 8JH,openstreetmap,,,https://www.openstreetmap.org/node/5633817823
 https://www.buenayre.net/,own site,Buen Ayre,Hackney,Hackney,Restaurant,,1,+44 20 7275 9900,50 Broadway Market,E8 4QJ,openstreetmap,,,https://www.openstreetmap.org/node/2075405385
 https://www.bunandsum.com/,own site,Bun & Sum,Hackney,Hackney,Burger,,1,,224 Graham Road,E8 1BP,openstreetmap,bunandsum,bunandsum,https://www.openstreetmap.org/node/12656029301
-https://www.bunsfromhome.com/,own site,Buns From Home,Hackney,Hackney,Bakery,,1,,25 Broadway Market,E8 4PH,openstreetmap,,,https://www.openstreetmap.org/way/373401924
+https://www.bunsfromhome.com/,own site,Buns From Home,Hackney,Hackney,Bakery,hey@bunsfromhome.com,1,,25 Broadway Market,E8 4PH,openstreetmap,,,https://www.openstreetmap.org/way/373401924
 https://www.bunster.co/,own site,Bunster,Hackney,Lower Clapton,American; Burger; Halal,,1,+44 20 8533 0404,108 Lower Clapton Road,E5 0QR,openstreetmap,,,https://www.openstreetmap.org/way/593917839
 https://www.burgrill.co.uk/,own site,Burgrill,Hackney,Lower Clapton,Takeaway,info@burgrill.co.uk,1,,33 Lower Clapton Road,E5 0NS,openstreetmap,,,https://www.openstreetmap.org/way/937316670
 https://www.instagram.com/burkeswarehouse,instagram,Burkes Warehouse,Hackney,Dalston,Pub,,1,,37 Kingsland High Street,E8 2JS,openstreetmap,,burkeswarehouse,https://www.openstreetmap.org/way/378840186
@@ -98,7 +96,7 @@ https://www.creamscafe.com/our-stores/old-street/,own site,Creams,Hackney,Shored
 https://www.cuppapug.com/locations/london,own site,CuppaPug,Hackney,Hackney,Cafe,london@cuppapug.com,1,,Nursery Road,E9 6PB,openstreetmap,,,https://www.openstreetmap.org/node/12750588101
 https://www.instagram.com/dalla.restaurant,instagram,Dalla,Hackney,Hackney,Italian,,1,,120 Morning Lane,E9 6LH,openstreetmap,,dalla.restaurant,https://www.openstreetmap.org/way/604406098
 https://www.dallasburger.com/,own site,Dallas,Hackney,Shoreditch,Burger,hello@dallasburger.com,1,,138-139 Shoreditch High Street,E1 6JE,openstreetmap,,,https://www.openstreetmap.org/node/3639233622
-https://dalstongarden.org/,own site,Dalston Eastern Curve Garden,Hackney,Dalston,Breakfast; Pizza,,1,,,,openstreetmap,,,https://www.openstreetmap.org/way/131886869
+https://dalstongarden.org/,own site,Dalston Eastern Curve Garden,Hackney,Dalston,Breakfast; Pizza,info@dalstongarden.org,1,,,,openstreetmap,,,https://www.openstreetmap.org/way/131886869
 https://www.dalstonyard.com/,own site,Dalston Yard,Hackney,Dalston,Food court,,1,,,,openstreetmap,,,https://www.openstreetmap.org/way/1342549220
 https://denadas.co.uk/,own site,De Nadas,Hackney,Shoreditch,Takeaway,,2,,Rivington Street,,openstreetmap,,,https://www.openstreetmap.org/node/11159803106
 https://www.deadgoodcoffee.co.uk/,own site,Dead Good,Hackney,Dalston,Breakfast,,1,,508 Kingsland Road,E8 4AE,openstreetmap,,dead_good_coffee,https://www.openstreetmap.org/way/397868799
@@ -136,7 +134,7 @@ https://www.finks.co.uk/,own site,Fink's,Hackney,Stoke Newington,Bakery; Breakfa
 https://flatironsteak.co.uk/restaurant/shoreditch/,own site,Flat Iron Shoreditch,Hackney,Shoreditch,Steak,sustainability@flatironsteak.co.uk,1,,77 Curtain Road,EC2A 3BS,openstreetmap,https://www.facebook.com/FlatIronSteak/,https://www.instagram.com/flatironsteak,https://www.openstreetmap.org/node/13677463042
 https://frizzanterestaurant.com/,own site,Frizzante,Hackney,Haggerston,Restaurant,info@frizzanterestaurant.com,1,,1 Goldsmiths' Row,E2 8QA,openstreetmap,,,https://www.openstreetmap.org/node/686485717
 https://www.fujirestaurant.co.uk/,own site,Fuji,Hackney,West Hackney,Asian; Japanese,info@fujirestaurant.co.uk,1,+44 20 7254 6093,15 Stoke Newington Church Street,N16 0NX,openstreetmap,,,https://www.openstreetmap.org/node/374318245
-https://www.fwdcoffee.co.uk/,own site,FWD:Coffee,Hackney,Shoreditch,Breakfast,sales@fwdcoffee.co.uk,3,,126 Curtain Road,EC2A 3PJ,openstreetmap,,,https://www.openstreetmap.org/way/166688584
+https://www.fwdcoffee.co.uk/,own site,FWD:Coffee,Hackney,Shoreditch,Breakfast,sales@fwdcoffee.co.uk,4,,126 Curtain Road,EC2A 3PJ,openstreetmap,,,https://www.openstreetmap.org/way/166688584
 https://gaiabistro.co.uk/,own site,Gaia Bistro,Hackney,Haggerston,French,marketing@gaiabistro.co.uk,1,+44 20 4547 2760,Hackney Road,E2 8GY,openstreetmap,,,https://www.openstreetmap.org/node/10775457927
 https://www.gaiapulses.com/,own site,Gaia Pulses,Hackney,Hackney,Greek,info@gaiapulses.com,2,,,,openstreetmap,,,https://www.openstreetmap.org/node/9595060036
 https://gails.com/pages/victoria-park,own site,GAIL's,Hackney,Hackney,Bakery,,1,,87 Lauriston Road,E9 7HJ,openstreetmap,,,https://www.openstreetmap.org/way/595656384
@@ -166,7 +164,7 @@ https://www.hearthbakery.co.uk/,own site,Hearth,Hackney,Hackney Wick,Bakery,hell
 https://www.helmalondon.com/,own site,Helma,Hackney,De Beauvoir Town,Cafe,hello@helmalondon.com,1,,13 Downham Road,N1 5AA,openstreetmap,,,https://www.openstreetmap.org/node/6996847269
 https://www.instagram.com/hiyafried,instagram,Hiya,Hackney,Hackney,Takeaway,,1,,,,openstreetmap,,hiyafried,https://www.openstreetmap.org/way/1014600351
 https://www.hourglass.coffee/,own site,Hourglass Coffee,Hackney,Manor House,Cafe,info@hourglasscoffee.co.uk,1,,263 Green Lanes,N4 2UX,openstreetmap,,,https://www.openstreetmap.org/node/7578441704
-https://houseofmomo.co.uk/,own site,House of MoMo,Hackney,Shacklewell,Asian,bookings@houseofmomo.co.uk,1,+44 20 3632 4208,52 Boleyn Road,N16 8JP,openstreetmap,,house_of_momo,https://www.openstreetmap.org/way/329962516
+https://houseofmomo.co.uk/,own site,House of MoMo,Hackney,Shacklewell,Asian,bookings@houseofmomo.co.uk,2,+44 20 3632 4208,52 Boleyn Road,N16 8JP,openstreetmap,,house_of_momo,https://www.openstreetmap.org/way/329962516
 https://www.hoxtonpub.com/,own site,Howl at the Moon,Hackney,Hoxton,Pub,howlhoxton@gmail.com,1,+44 20 7688 1970,178 Hoxton Street,N1 5LH,openstreetmap,,,https://www.openstreetmap.org/way/726988825
 https://hoxtonbeach.com/,own site,Hoxton Beach,Hackney,Hackney,Cafe,hoxtonhome@gmail.com,1,,London Fields West Side,E8 3EU,openstreetmap,,,https://www.openstreetmap.org/node/8042840212
 https://www.instagram.com/huong.cafe190,instagram,Huong,Hackney,Hackney,Asian,,1,,190 Well Street,E9 6QT,openstreetmap,,huong.cafe190,https://www.openstreetmap.org/way/848227439
@@ -178,7 +176,7 @@ https://www.itsu.com/location/city-of-london/city-road/,own site,itsu,Hackney,Ho
 https://www.itsu.com/location/city-of-london/great-eastern-street/,own site,itsu,Hackney,Shoreditch,Asian,appfeedback@itsu.com,1,,49-51 Great Eastern Street,EC2A 3HP,openstreetmap,,,https://www.openstreetmap.org/way/157236281
 https://www.jfbjerkgrill.co.uk/,own site,JFB Jerk Grill,Hackney,Lower Clapton,Restaurant,,1,,1 Atkins Square,,openstreetmap,,,https://www.openstreetmap.org/node/9500988154
 https://www.instagram.com/jupiter___burger,instagram,Jupiter Burger,Hackney,Hackney,Burger,,1,,13-23 Westgate Street,E8 3RL,openstreetmap,,jupiter___burger,https://www.openstreetmap.org/way/1018331656
-https://www.katsute100.com/,own site,Katsute100 Broadway Market,Hackney,Hackney,Cafe,contact@katsute100.com,4,,4 Broadway Market Mews,E8 4TS,openstreetmap,,,https://www.openstreetmap.org/node/3751773924
+https://www.katsute100.com/,own site,Katsute100 Broadway Market,Hackney,Hackney,Cafe,contact@katsute100.com,6,,4 Broadway Market Mews,E8 4TS,openstreetmap,,,https://www.openstreetmap.org/node/3751773924
 https://www.kfc.co.uk/kfc-near-me/stoke-newington-high-street,own site,KFC,Hackney,West Hackney,Takeaway,,1,,192 Stoke Newington High Street,N16 7JD,openstreetmap,,,https://www.openstreetmap.org/node/369879096
 https://www.kfc.co.uk/kfc-near-me/finsbury-park-seven-sisters-road,own site,KFC,Hackney,Manor House,Takeaway,,1,,288 Seven Sisters Road,N4 2AA,openstreetmap,,,https://www.openstreetmap.org/node/9813421926
 https://www.kfc.co.uk/kfc-near-me/hackney-mare-street,own site,KFC,Hackney,Hackney,Takeaway,,1,,311 Mare Street,E8 1EJ,openstreetmap,,,https://www.openstreetmap.org/way/589699806
@@ -200,12 +198,11 @@ https://www.instagram.com/logmaldn,instagram,Logma,Hackney,Haggerston,Cafe,,1,,8
 https://www.londonboroughofjam.com/,own site,London Borough of Jam,Hackney,Lower Clapton,Deli,lillie@londonboroughofjam.com,1,,51D Chatsworth Road,E5 0FF,openstreetmap,,,https://www.openstreetmap.org/way/849462117
 https://luckyandjoy.co.uk/,own site,Lucky & Joy,Hackney,Lower Clapton,Asian,info@luckyandjoy.co.uk,1,+44 20 8617 8100,95 Lower Clapton Road,E5 0NP,openstreetmap,,,https://www.openstreetmap.org/node/8046931748
 https://luminarybakery.com,own site,Luminary Bakery,Hackney,Stoke Newington,Bakery,hello@luminarybakery.com,1,,71-73 Allen Road,N16 8RY,openstreetmap,,luminarybakery,https://www.openstreetmap.org/node/8415271885
-https://www.mapetitejamaica.com/,own site,Ma Petite Jamaica,Hackney,Shoreditch,Restaurant,,1,+442080379555,132 Curtain Road,EC2A 3AR,openstreetmap,,,https://www.openstreetmap.org/way/163827699
 https://www.malavendacafe.com/,own site,Malavenda Cafè,Hackney,Hackney,Breakfast; Italian,,1,,1e Mentmore Terrace,,openstreetmap,,,https://www.openstreetmap.org/node/8979499250
 http://www.mama-vics.co.uk/,own site,Mama Vic's,Hackney,Shacklewell,Takeaway,,1,,7 Bradbury Street,N16 8JN,openstreetmap,MamaVicsUK,,https://www.openstreetmap.org/way/289376375
 https://www.mambow.co.uk/,own site,Mambow,Hackney,Lower Clapton,Asian,info@mambow.co.uk,1,,78 Lower Clapton Road,E5 0RN,openstreetmap,,,https://www.openstreetmap.org/way/593535892
 https://www.mangal2.com/,own site,Mangal II,Hackney,Shacklewell,Restaurant,bookings@mangal2.com,1,,27 Stoke Newington Road,N16 8BJ,openstreetmap,,,https://www.openstreetmap.org/node/11359957569
-http://www.mangal1.com/,own site,Mangal Ocakbaşı,Hackney,Shacklewell,Restaurant,,1,+44 20 7275 8981,10 Arcola Street,E8 2DJ,openstreetmap,,,https://www.openstreetmap.org/way/367522714
+http://www.mangal1.com/,own site,Mangal Ocakbaşı,Hackney,Shacklewell,Restaurant,lienhe.xoilacphongkham@gmail.com,1,+44 20 7275 8981,10 Arcola Street,E8 2DJ,openstreetmap,,,https://www.openstreetmap.org/way/367522714
 https://marestreetmarket.com/,own site,Mare Street Market,Hackney,Hackney,Food court,hackney@marestreetmarket.com,1,+44 20 3745 2470,117 Mare Street,E8 4RU,openstreetmap,,,https://www.openstreetmap.org/node/5624234390
 https://www.instagram.com/msmdeli,instagram,Mare Street Market Deli,Hackney,Hackney,Deli,,1,,,,openstreetmap,,msmdeli,https://www.openstreetmap.org/node/10135746291
 https://www.instagram.com/marrionslondon,instagram,Marrion's Bar,Hackney,Hackney,Bar,,1,,177 Morning Lane,,openstreetmap,,marrionslondon,https://www.openstreetmap.org/way/603966828
@@ -222,7 +219,6 @@ https://moorandmead.com/,own site,Moor & Mead,Hackney,Hoxton,Restaurant,,1,+44 2
 https://www.moritohackneyroad.co.uk/,own site,Morito,Hackney,Haggerston,Restaurant,info@moritohackneyroad.co.uk,1,+44 20 7613 0754,195 Hackney Road,E2 8JL,openstreetmap,,,https://www.openstreetmap.org/node/4812013271
 https://www.instagram.com/moyletts,instagram,Moyletts,Hackney,Lower Clapton,Pub,,1,,181 Clarence Road,E5 8EE,openstreetmap,,moyletts,https://www.openstreetmap.org/way/594763297
 https://myneighboursthedumplings.com/,own site,My Neighbour the Dumplings,Hackney,Lower Clapton,Asian,clapton@myneighboursthedumplings.com,2,,165 Lower Clapton Road,E5 8EQ,openstreetmap,,,https://www.openstreetmap.org/node/5026858721
-https://nancyspains.co.uk/,own site,Nancy Spains,Hackney,Shoreditch,Pub,,1,,128-130 Curtain Road,EC2A 3AQ,openstreetmap,,nancyspains,https://www.openstreetmap.org/way/164245940
 https://www.nandos.co.uk/restaurants/old-street,own site,Nando's,Hackney,Hoxton,Restaurant,,1,,197 City Road,EC1V 1JN,openstreetmap,,,https://www.openstreetmap.org/node/3980220829
 https://www.nandos.co.uk/restaurants/stoke-newington,own site,Nando's,Hackney,Stoke Newington,Restaurant,,1,,139-141 Stoke Newington Church Street,N16 0UH,openstreetmap,,,https://www.openstreetmap.org/way/372611452
 https://www.nandos.co.uk/restaurants/dalston,own site,Nando's,Hackney,Shacklewell,Halal,,1,+44 20 7923 3555,148 Kingsland High Street,E8 2NS,openstreetmap,,,https://www.openstreetmap.org/way/393884151
@@ -233,14 +229,13 @@ https://www.nestfood.co.uk/,own site,Nest,Hackney,Shoreditch,Restaurant,hello@ne
 https://nemnoms.co.uk/,own site,Nom Nom,Hackney,Haggerston,Asian,,1,+44 20 7729 8344,134G Kingsland Road,E2 8DY,openstreetmap,,,https://www.openstreetmap.org/way/107807435
 https://www.nostralondon.com/,own site,Nostra,Hackney,Homerton,Restaurant,info@nostralondon.com,1,,8 Mackintosh Lane,E9 6AB,openstreetmap,,,https://www.openstreetmap.org/node/4829139602
 https://number90bar.co.uk/,own site,Number 90 Bar & Kitchen,Hackney,Hackney Wick,Burger,,1,,90 Wallis Road,E9 5LN,openstreetmap,,,https://www.openstreetmap.org/node/3041028978
-http://www.oddonos.com/,own site,Oddono's Gelati,Hackney,West Hackney,Ice cream,,2,,42 Stoke Newington Church Street,N16 0LU,openstreetmap,,,https://www.openstreetmap.org/node/3761737525
 https://www.offbroadway.org.uk/,own site,Off Broadway,Hackney,Hackney,Bar,,1,,63-65 Broadway Market,E8 4PH,openstreetmap,,,https://www.openstreetmap.org/way/366327549
 https://ohbaleaf.co.uk/,own site,Ohba Leaf,Hackney,Homerton,Asian; Japanese,hackney@ohbaleaf.co.uk,1,+44 20 3515 0456,,,openstreetmap,,,https://www.openstreetmap.org/node/8702493917
 https://www.okko-uk.com/,own site,OKKO,Hackney,Hackney,Asian; Japanese,restaurant@okko-uk.com,1,+44 20 7249 1372,49 Broadway Market,E8 4PH,openstreetmap,https://www.facebook.com/okkolondon,https://www.instagram.com/okkobroadwaymarket/,https://www.openstreetmap.org/node/3703086367
 https://www.oldshiphackney.com/,own site,Old Ship,Hackney,Hackney,Burger; Pub,,1,+44 20 8986 2732,2 Sylvester Path,E8 1EN,openstreetmap,,,https://www.openstreetmap.org/way/589699814
 https://www.oliveira.kitchen/,own site,Oliveira,Hackney,Shoreditch,Restaurant,shoreditch@oliveira.kitchen,1,+44 20 7729 0481,80 Paul Street,,openstreetmap,,,https://www.openstreetmap.org/node/12105654525
 http://onthebab.co.uk/,own site,On The Bab,Hackney,Shoreditch,Asian; Korean,,1,+44 20 7683 0361,305 Old Street,EC1V 9LA,openstreetmap,,,https://www.openstreetmap.org/way/165491342
-https://onlythebravelondon.co.uk/,own site,Only The Brave,Hackney,Hackney,Cafe,,1,,,,openstreetmap,,onlythebravelondon,https://www.openstreetmap.org/way/1078885483
+https://onlythebravelondon.co.uk/,own site,Only The Brave,Hackney,Hackney,Cafe,hello@onlythebravelondon.co.uk,1,,,,openstreetmap,,onlythebravelondon,https://www.openstreetmap.org/way/1078885483
 https://www.orendeli.com/,own site,Oren Delicatessen,Hackney,Hackney,Deli,,1,,6c Ada Street,E8 4QU,openstreetmap,,,https://www.openstreetmap.org/node/2697932861
 https://www.oriental-takeaway.co.uk/,own site,Oriental,Hackney,Dalston,Asian; Chinese,,1,+44 20 7254 2145,444 Kingsland Road,,openstreetmap,,,https://www.openstreetmap.org/way/1011000323
 https://www.ornella.restaurant/,own site,Ornella,Hackney,Hackney,Italian,ciao@ornella.restaurant,1,,51 Wilton Way,,openstreetmap,,ornella.restaurant,https://www.openstreetmap.org/way/1021910752
@@ -263,7 +258,6 @@ https://www.pizzaeast.com/shoreditch,own site,Pizza East,Hackney,Shoreditch,Pizz
 https://www.pizzagogo.co.uk/stores/hackney,own site,Pizza GoGo,Hackney,Hackney,Halal; Pizza,,1,+44 20 8533 1377,18 Morning Lane,E9 6NA,openstreetmap,,,https://www.openstreetmap.org/node/7145814545
 https://www.pizzagogo.co.uk/stores/stoke-newington,own site,Pizza GoGo,Hackney,Stoke Newington,Pizza,,1,+44 20 7503 5353,122 Green Lanes,N16 9EH,openstreetmap,,,https://www.openstreetmap.org/way/397058662
 https://www.pizzahut.co.uk/huts/uk-1/7577-stoke-newington/,own site,Pizza Hut Delivery,Hackney,West Hackney,Pizza,,1,+44 20 7923 1133,230-240 Stoke Newington High Street,N16 7HU,openstreetmap,,,https://www.openstreetmap.org/node/369859328
-https://www.pizzapilgrims.co.uk/,own site,Pizza Pilgrims,Hackney,Shoreditch,Pizza,shoreditch@pizzapilgrims.co.uk,4,+44 20 3019 7620,136 Shoreditch High Street,E1 6JE,openstreetmap,,,https://www.openstreetmap.org/node/4802031238
 https://www.pizzaexpress.com/hackney-mare-street,own site,PizzaExpress,Hackney,Hackney,Pizza,,1,+44 20 8104 0470,298 Mare Street,E8 1HE,openstreetmap,,,https://www.openstreetmap.org/node/10259642860
 https://planque.co.uk/,own site,Planque,Hackney,Haggerston,Restaurant,hello@planque.co.uk,1,,,,openstreetmap,,,https://www.openstreetmap.org/way/1162758775
 https://playldn.co.uk/,own site,Play Ldn,Hackney,Hackney,Restaurant,,1,,97 Wick Road,E9 5AB,openstreetmap,,,https://www.openstreetmap.org/way/480686697
@@ -280,7 +274,6 @@ https://theprincegeorgepub.co.uk/,own site,Prince George,Hackney,Dalston,Pub,,1,
 https://www.princessofwalesclapton.co.uk,own site,Princess of Wales,Hackney,Lower Clapton,Pub,princessofwales@youngs.co.uk,1,+44 20 8533 5463,146 Lea Bridge Road,E5 9RB,openstreetmap,,,https://www.openstreetmap.org/way/115190097
 https://pubonthepark.com/,own site,Pub on the Park,Hackney,Hackney,Pub,info@pubonthepark.com,1,+44 20 7923 3398,19 Martello Street,E8 3PE,openstreetmap,,,https://www.openstreetmap.org/way/333082445
 https://www.qqlounge.com/,own site,QQ Grill Restaurant and Lounge,Hackney,Hackney Wick,Restaurant,,1,,331 Wick Road,E9 5DH,openstreetmap,,,https://www.openstreetmap.org/way/507356560
-http://rasarestaurants.com/rasa-n16/,own site,Rasa,Hackney,West Hackney,Indian,,1,+44 20 7249 0344,55 Stoke Newington Church Street,N16 0AR,openstreetmap,,,https://www.openstreetmap.org/way/399129120
 https://www.instagram.com/rasputinsbar,instagram,Rasputin's,Hackney,Hackney,American,,1,,171 Mare Street,E8 3RH,openstreetmap,,rasputinsbar,https://www.openstreetmap.org/way/587954391
 https://www.rawlala.co.uk/,own site,Rawlala,Hackney,Shoreditch,Takeaway,info@rawlala.co.uk,1,,11 Hackney Road,,openstreetmap,,,https://www.openstreetmap.org/node/10235907403
 https://www.reddogsaloon.co.uk/,own site,Red Dog Saloon,Hackney,Shoreditch,American; Steak,info@reddogsaloon.co.uk,2,+44 20 3551 8014,37 Hoxton Square,N1 6NN,openstreetmap,,,https://www.openstreetmap.org/way/289312899
@@ -289,10 +282,9 @@ https://www.riteawaycaribbeandelights.co.uk/,own site,Rite Away,Hackney,Lower Cl
 https://rodeo.co.uk/pages/stores/rodeo-doughnuts-shoreditch-store,own site,Rodeo,Hackney,Shoreditch,Donuts,,1,,223b Old Street,EC1V 9HE,openstreetmap,,,https://www.openstreetmap.org/way/157258593
 https://www.rosasthaicafe.com/,own site,Rosa's Thai Cafe,Hackney,Hackney,Asian,bakerstreet@rosasthai.com,4,,381 Mentmore Terrace,E8 3PH,openstreetmap,,,https://www.openstreetmap.org/node/9034322103
 https://roseandcrownn16.co.uk/,own site,Rose & Crown,Hackney,Stoke Newington,Pub,manager@roseandcrownn16.co.uk,1,,199 Stoke Newington Church Street,N16 9ES,openstreetmap,,,https://www.openstreetmap.org/way/238385297
-https://www.rudyspizza.co.uk/,own site,Rudy's Pizza Napoletana,Hackney,Shoreditch,Pizza,,1,+44 20 8165 9929,183 Shoreditch High Street,E1 6HU,openstreetmap,,,https://www.openstreetmap.org/way/1293019902
+https://www.rudyspizza.co.uk/,own site,Rudy's Pizza Napoletana,Hackney,Shoreditch,Pizza,shop@rudyspizza.co.uk,1,+44 20 8165 9929,183 Shoreditch High Street,E1 6HU,openstreetmap,,,https://www.openstreetmap.org/way/1293019902
 https://www.instagram.com/runninglatecoffee,instagram,Running Late,Hackney,Hackney,Breakfast,,1,,249,E8 3NS,openstreetmap,,runninglatecoffee,https://www.openstreetmap.org/node/12107013562
-https://www.saintespresso.com/,own site,Saint Espresso,Hackney,Hackney Wick,Breakfast,orders@saintespresso.com,3,,13 East Bay Lane,E20 3BS,openstreetmap,,,https://www.openstreetmap.org/way/693487135
-https://www.saintmondaybrewery.uk/,own site,Saint Monday,Hackney,Hackney,BBQ; Pub,,1,+44 20 3011 1323,Warburton Street,E8 3RR,openstreetmap,,saintmondaybrewery,https://www.openstreetmap.org/way/293285859
+https://www.saintmondaybrewery.uk/,own site,Saint Monday,Hackney,Hackney,BBQ; Pub,idle@saintmondaybrewery.uk,1,+44 20 3011 1323,Warburton Street,E8 3RR,openstreetmap,,saintmondaybrewery,https://www.openstreetmap.org/way/293285859
 https://salttheradish.com/,own site,Salt the Radish,Hackney,Manor House,Cafe,info@salttheradish.com,1,,,,openstreetmap,,,https://www.openstreetmap.org/node/10110257535
 https://www.samarkandlondon.co.uk,own site,Samarkand,Hackney,Shacklewell,Asian,samarkandlondon24@gmail.com,1,+44 20 7916 0460,30 Stoke Newington Road,N16 7XJ,openstreetmap,,samarkand.restaurant.london,https://www.openstreetmap.org/node/13255556401
 https://sanjugo.co.uk/shoreditch/,own site,Sanjugo,Hackney,Shoreditch,Asian; Japanese,,1,+442045978055,13-15 Great Eastern Street,EC2A 3EJ,openstreetmap,,,https://www.openstreetmap.org/node/13390948862
@@ -305,7 +297,6 @@ https://www.senzafondo.com/,own site,Senza Fondo,Hackney,Shoreditch,Italian,ciao
 https://www.instagram.com/shankeys.hackney,instagram,Shankey's,Hackney,Hackney,Indian,,1,,221 Well Street,E9 6RG,openstreetmap,,shankeys.hackney,https://www.openstreetmap.org/node/8345300717
 https://shedlondon.shop,own site,SHED,Hackney,Dalston,Breakfast; Deli,,1,+44 20 3940 2495,292 Kingsland Road,E8 4DG,openstreetmap,,https://www.instagram.com/shedlondon_shops/,https://www.openstreetmap.org/node/14014223818
 https://www.signaturebrew.co.uk/pages/the-signature-brew-taproom-venue-in-haggerston-east-london,own site,Signature Brew Taproom and Venue,Hackney,Dalston,Deli; Pub,info@signaturebrew.co.uk,1,,340 Acton Mews,E8 4EA,openstreetmap,https://www.facebook.com/signaturebrewe8,https://www.instagram.com/signaturebrewe8/,https://www.openstreetmap.org/way/469649790
-http://www.silvios.co.uk/paul_st.html,own site,Silvio's Sandwich bar,Hackney,Shoreditch,Deli,,1,,58-60 Paul Street,EC2A 4LN,openstreetmap,,,https://www.openstreetmap.org/way/212850185
 https://singburi.london/,own site,Singburi,Hackney,Shoreditch,Asian,bookings@singburi.london,1,,185-186 Shoreditch High Street,E1 6HU,openstreetmap,,,https://www.openstreetmap.org/node/13124756012
 https://www.smokinggoatbar.com/,own site,Smoking Goat,Hackney,Shoreditch,Asian,,1,,64 Shoreditch High Street,E1 6JJ,openstreetmap,,,https://www.openstreetmap.org/node/12448591501
 https://www.sodopizza.co.uk/,own site,Sodo Pizza,Hackney,Shoreditch,Pizza,press@sodopizza.co.uk,3,,63 Pitfield Street,N1 6BU,openstreetmap,,,https://www.openstreetmap.org/node/9947254921
@@ -313,7 +304,7 @@ https://www.soltroom.com,own site,Solt Room,Hackney,Hackney,Cafe,,1,+44 20 3010 
 https://www.instagram.com/sons.hackney,instagram,Sons,Hackney,Hackney,Breakfast,,1,,Lower Clapton Road,E5 0PD,openstreetmap,,sons.hackney,https://www.openstreetmap.org/way/885567037
 https://springfieldparkcafe.co.uk,own site,Springfield Park Cafe,Hackney,Upper Clapton,Cafe,info@springfieldparkcafe.co.uk,1,,Springfield,E5 9EF,openstreetmap,https://www.facebook.com/springfieldparkcafe,,https://www.openstreetmap.org/node/26269218
 https://www.spurstowearms.com/,own site,Spurstowe Arms,Hackney,Dalston,Pizza; Pub,,1,,68 Greenwood Road,E8 1AB,openstreetmap,,,https://www.openstreetmap.org/way/373347592
-https://www.starbucks.com/store-locator/store/1045479/kingsland-high-st-starbucks-coffee-uk-ltd-12-kingsland-high-street-l,own site,Starbucks,Hackney,Dalston,Breakfast,,1,,,,openstreetmap,,,https://www.openstreetmap.org/node/11359780770
+https://www.starbucks.com/store-locator/store/1045479/kingsland-high-st-starbucks-coffee-uk-ltd-12-kingsland-high-street-l,own site,Starbucks,Hackney,Dalston,Breakfast,press@starbucks.com,1,,,,openstreetmap,,,https://www.openstreetmap.org/node/11359780770
 https://stokeysdelicatessen.com,own site,Stokey’s Delicatessen,Hackney,Stoke Newington,Deli,,1,,182 Stoke Newington Church Street,,openstreetmap,,,https://www.openstreetmap.org/node/11812396451
 https://www.instagram.com/stonebroscafe,instagram,Stone Bros Cafe,Hackney,Lower Clapton,Cafe,,1,,73 Chatsworth Road,E5 0LH,openstreetmap,,stonebroscafe,https://www.openstreetmap.org/node/2611269665
 http://www.stonecave.net/,own site,Stone Cave,Hackney,Shacklewell,Restaurant,info@stonecave.net,1,+44 20 7241 4911,111 Kingsland High Street,E8 2PB,openstreetmap,,,https://www.openstreetmap.org/way/395184517
@@ -334,22 +325,22 @@ http://theauldshillelagh.co.uk/,own site,The Auld Shillelagh,Hackney,Stoke Newin
 https://www.theaxepub.com/,own site,The Axe,Hackney,West Hackney,Pub,flint@theaxepub.com,1,+44 20 7254 9559,18 Northwold Road,N16 7HR,openstreetmap,,,https://www.openstreetmap.org/way/640280851
 https://www.wearethebach.com/broadway,own site,The Bach,Hackney,Hackney,Cafe,hello@wearethebach.com,1,+44 20 7683 0551,12 Broadway Market,E8 4QJ,openstreetmap,,,https://www.openstreetmap.org/way/366333189
 https://beermerchantstap.com/,own site,The Beer Merchants Tap,Hackney,Hackney Wick,Pub,,1,,99 Wallis Road,E9 5LN,openstreetmap,https://www.facebook.com/beermerchantstap/,beer_merchants_tap,https://www.openstreetmap.org/way/663004043
-http://www.thecraftbeerco.com/old-street,own site,The Best Kebab,Hackney,Shoreditch,Takeaway,,1,,233 Old Street,EC1V 9HE,openstreetmap,,,https://www.openstreetmap.org/way/157258547
 https://bikeshedmoto.co.uk,own site,The Bike Shed,Hackney,Shoreditch,Cafe,,1,,384 Old Street,EC1V 9LT,openstreetmap,,,https://www.openstreetmap.org/way/164687436
 https://www.crafted-social.co.uk/birdcage-stoke-newington,own site,The Bird Cage,Hackney,Stamford Hill,Pub,,1,,58 Stamford Hill,N16 6XS,openstreetmap,,,https://www.openstreetmap.org/node/292234943
 https://www.theblackeel.uk/,own site,The Black Eel,Hackney,Dalston,Pub,bookings@theblackeel.uk,1,,41 Kingsland High Street,E8 2JS,openstreetmap,,,https://www.openstreetmap.org/way/378840185
 https://bluelegume.co.uk/stoke-newington/,own site,The Blue Legume,Hackney,Stoke Newington,Cafe,,1,,101 Stoke Newington Church Street,N16 0UD,openstreetmap,,the_bluelegume,https://www.openstreetmap.org/way/436595971
 https://thebreakfastclubcafes.com/hoxton/,own site,The Breakfast Club,Hackney,Shoreditch,American; Breakfast,,1,+44 20 7729 5252,1-2 Rufus Street,N1 6PE,openstreetmap,,,https://www.openstreetmap.org/node/727660296
-https://thebreakfastclubcafes.com/,own site,The Breakfast Club,Hackney,Hackney Wick,American; Breakfast,,3,+44 20 3866 4111,29 East Bay Lane,E15 2GW,openstreetmap,,,https://www.openstreetmap.org/way/668568681
-http://thebrownswood.co.uk/,own site,The Brownswood,Hackney,Manor House,Pub,,1,+44 20 8802 0494,271 Green Lanes,N4 2EX,openstreetmap,,,https://www.openstreetmap.org/way/395988684
+http://thebrownswood.co.uk/,own site,The Brownswood,Hackney,Manor House,Pub,manager@thebrownswood.co.uk,1,+44 20 8802 0494,271 Green Lanes,N4 2EX,openstreetmap,,,https://www.openstreetmap.org/way/395988684
 https://www.thebrushhoxton.co.uk/,own site,The Brush,Hackney,Shoreditch,Cafe,info@thebrushhoxton.co.uk,1,+44 20 7123 8686,84-86 Great Eastern Street,EC2A 3JL,openstreetmap,https://www.facebook.com/people/Brush-Hoxton/61556576764685/,https://www.instagram.com/brushhoxton/?hl=en,https://www.openstreetmap.org/node/14106027984
-https://thecloveclub.com/,own site,The Clove Club,Hackney,Shoreditch,Restaurant,,1,,380 Old Street,EC1V 9LT,openstreetmap,,,https://www.openstreetmap.org/node/5079952022
+http://www.theclarence.london/,own site (Wikidata),The Clarence Tavern,Hackney,Stoke Newington,Restaurant,,1,,"102 STOKE NEWINGTON CHURCH STREET, Hackney",N16 0LA,food standards agency,,,https://ratings.food.gov.uk/business/1356016
+https://thecloveclub.com/,own site,The Clove Club,Hackney,Shoreditch,Restaurant,reservations@thecloveclub.com,1,,380 Old Street,EC1V 9LT,openstreetmap,,,https://www.openstreetmap.org/node/5079952022
 https://e5crookedbillet.co.uk,own site,The Crooked Billet,Hackney,Upper Clapton,Pizza; Pub,,1,+44 20 3058 1166,84 Upper Clapton Road,E5 9JP,openstreetmap,,,https://www.openstreetmap.org/way/142313535
 https://www.thecrownhackney.co.uk/,own site,The Crown,Hackney,Hackney,Pub,info@thecrownhackney.co.uk,1,,418 Mare Street,E8 1HP,openstreetmap,,,https://www.openstreetmap.org/way/372808122
 https://thecrownandcastle.co.uk/,own site,The Crown and Castle,Hackney,Dalston,Burger; Pub,,1,,600 Kingsland Road,E8 4AH,openstreetmap,,,https://www.openstreetmap.org/way/237487429
 https://www.crownandshuttle.com/,own site,The Crown and Shuttle,Hackney,Shoreditch,Pub,info@crownandshuttle.com,1,+442073752905,226 Shoreditch High Street,E1 6PJ,openstreetmap,,,https://www.openstreetmap.org/way/157322996
 https://thedebeauvoirdeli.co.uk/,own site,The De Beauvoir Deli,Hackney,De Beauvoir Town,Deli,info@thedebeauvoirdeli.co.uk,1,,98 Southgate Road,N1 3JD,openstreetmap,,,https://www.openstreetmap.org/way/536140331
 https://www.thedelidownstairs.co.uk/,own site,The Deli Downstairs,Hackney,Hackney,Deli,orders@thedelidownstairs.co.uk,1,,211 Victoria Park Road,E9 7JN,openstreetmap,,,https://www.openstreetmap.org/way/602278681
+http://www.thedolphinhackney.co.uk/,own site (Wikidata),The Dolphin,Hackney,Hackney,Pub,,1,,165 Mare Street,E8 3RH,openstreetmap,,,https://www.openstreetmap.org/way/587954387
 https://dovepubs.com/,own site,The Dove,Hackney,Hackney,Pizza; Pub,dove@dovepubs.com,1,+44 20 7275 7617,24-28 Broadway Market,E8 4QJ,openstreetmap,,,https://www.openstreetmap.org/way/366327440
 https://www.thedukeofrichmond.com,own site,The Duke of Richmond,Hackney,Dalston,Pub,book@thedukeofrichmond.com,1,+44 20 7923 3990,316 Queensbridge Road,,openstreetmap,,,https://www.openstreetmap.org/way/953306259
 http://thedukeofwellington.london,own site,The Duke Of Wellington,Hackney,De Beauvoir Town,Pub,info@thedukeofwellington.london,1,+44 20 7275 7640,119 Balls Pond Road,N1 4BL,openstreetmap,,,https://www.openstreetmap.org/way/107521318
@@ -395,12 +386,12 @@ https://www.theprincearthure8.com/,own site,The Prince Arthur,Hackney,Dalston,Pu
 https://www.theprincessofshoreditch.com/,own site,The Princess of Shoreditch,Hackney,Shoreditch,Pub,reservations@theprincessofshoreditch.com,1,,76-78 Paul Street,EC2A 4NE,openstreetmap,,,https://www.openstreetmap.org/node/301516360
 https://therelianceshoreditch.co.uk/,own site,The Reliance,Hackney,Shoreditch,Pub,reliance@remarkablepubs.co.uk,1,+44 20 7729 6888,336 Old Street,EC1V 9DR,openstreetmap,,,https://www.openstreetmap.org/way/164244210
 https://www.instagram.com/thewestreservoircafe/,own site,The Reservoir Cafe,Hackney,Manor House,Cafe,,1,,,N4 2HA,openstreetmap,,,https://www.openstreetmap.org/way/1531630210
-https://www.theroastingshed.com/,own site,The Roasting Shed,Hackney,Hackney Wick,Breakfast,hello@theroastingshed.com,2,,East Bay Lane,E15 2SJ,openstreetmap,,,https://www.openstreetmap.org/way/893749361
+https://www.theroastingshed.com/,own site,The Roasting Shed,Hackney,Hackney Wick,Breakfast,hello@theroastingshed.com,3,,East Bay Lane,E15 2SJ,openstreetmap,,,https://www.openstreetmap.org/way/893749361
 https://www.jdwetherspoon.com/pubs/all-pubs/england/london/the-rochester-castle-stoke-newington,own site,The Rochester Castle,Hackney,West Hackney,Pub,,1,+44 20 7249 6016,"143, 145 Stoke Newington High Street",N16 0NY,openstreetmap,,,https://www.openstreetmap.org/node/256404255
-http://www.royalinnonthepark.com/,own site,The Royal Inn on the Park,Hackney,Hackney,Pub,,1,,111 Lauriston Road,E9 7HJ,openstreetmap,,,https://www.openstreetmap.org/way/95243769
-http://www.thescolthead.co.uk/,own site,The Scolt Head,Hackney,De Beauvoir Town,Pub,,1,+44 20 7254 3965,107A Culford Road,N1 4HT,openstreetmap,,,https://www.openstreetmap.org/way/237999207
+http://www.royalinnonthepark.com/,own site,The Royal Inn on the Park,Hackney,Hackney,Pub,kalimera@royalinnonthepark.com,1,,111 Lauriston Road,E9 7HJ,openstreetmap,,,https://www.openstreetmap.org/way/95243769
+http://www.thescolthead.co.uk/,own site,The Scolt Head,Hackney,De Beauvoir Town,Pub,bookings@thescolthead.co.uk,1,+44 20 7254 3965,107A Culford Road,N1 4HT,openstreetmap,,,https://www.openstreetmap.org/way/237999207
 https://www.theseathesea.net/,own site,"The Sea, The Sea",Hackney,Haggerston,Seafood,info@theseathesea.net,1,,337 Acton Mews,,openstreetmap,,,https://www.openstreetmap.org/way/469649788
-http://www.shacklewellarms.com/,own site,The Shacklewell Arms,Hackney,Shacklewell,Pub,,1,+44 20 7249 0810,71 Shacklewell Lane,E8 2EB,openstreetmap,,,https://www.openstreetmap.org/way/466647109
+http://www.shacklewellarms.com/,own site,The Shacklewell Arms,Hackney,Shacklewell,Pub,info@shacklewellarms.com,1,+44 20 7249 0810,71 Shacklewell Lane,E8 2EB,openstreetmap,,,https://www.openstreetmap.org/way/466647109
 https://theshakespeare.co.uk/,own site,The Shakespeare,Hackney,Stoke Newington,Pub,,1,+44 20 7254 4190,57 Allen Road,N16 8RY,openstreetmap,,,https://www.openstreetmap.org/way/262600569
 https://thesnaperyeast.com/,own site,The Snapery East,Hackney,Hackney,Bakery,,1,,Helmsley Place,E8 3SB,openstreetmap,,,https://www.openstreetmap.org/node/8589414919
 https://www.instagram.com/speakeasydalston,instagram,The Speakeasy,Hackney,Dalston,Bar,,1,,,,openstreetmap,,speakeasydalston,https://www.openstreetmap.org/way/531572671
@@ -420,10 +411,8 @@ https://thirdculturedeli.com/,own site,Third Culture Deli,Hackney,Hackney,Breakf
 https://www.toconoco.com/,own site,Toconoco,Hackney,De Beauvoir Town,Asian; Japanese,,1,+44 20 7249 8394,28 Hertford Road,,openstreetmap,,,https://www.openstreetmap.org/node/8082069829
 https://www.instagram.com/today_bread,instagram,Today Bread,Hackney,Lower Clapton,Breakfast; Deli,,1,,119 Lower Clapton Road,E5 0NP,openstreetmap,,today_bread,https://www.openstreetmap.org/way/399274691
 https://www.tomspasta.co.uk/,own site,Tom's Pasta,Hackney,Shacklewell,Italian,reservations@tomspasta.co.uk,1,,,,openstreetmap,,,https://www.openstreetmap.org/node/9674114217
-https://tonkotsu.co.uk/,own site,Tonkotsu,Hackney,Shoreditch,Asian; Japanese,,7,+44 20 7749 0559,1 Anning Street,,openstreetmap,,,https://www.openstreetmap.org/node/8751004517
 https://www.tortilla.co.uk/restaurants/dalston,own site,Tortilla,Hackney,Dalston,Mexican,dalston@tortilla.co.uk,1,+44 20 3141 6328,16 Kingsland High Street,E8 2JP,openstreetmap,,,https://www.openstreetmap.org/node/5678299607
 https://www.tram-store.co.uk/,own site,Tram Store,Hackney,Lower Clapton,Breakfast,food@tram-store.co.uk,1,,38 Upper Clapton Road,E5 8BQ,openstreetmap,,,https://www.openstreetmap.org/way/949052731
-https://www.turtlebay.co.uk/,own site,Turtle Bay,Hackney,Dalston,Restaurant,dalston@turtlebay.co.uk,1,+44 20 7249 7766,Dalston Square,E8 3GP,openstreetmap,,,https://www.openstreetmap.org/node/4130496748
 https://uchihackney.com/,own site,Uchi,Hackney,Lower Clapton,Asian; Japanese,reservations@uchihackney.com,1,+44 20 3302 4670,144 Clarence Road,E5 8DY,openstreetmap,,,https://www.openstreetmap.org/node/7960181407
 https://www.instagram.com/uchibake,instagram,Uchi Bake,Hackney,Lower Clapton,Cafe,,1,,,,openstreetmap,,uchibake,https://www.openstreetmap.org/node/12002963357
 https://venerdi.co.uk/,own site,Venerdi,Hackney,Lower Clapton,Italian,management@venerdi.co.uk,1,+44 20 8533 1902,9 Chatsworth Road,E5 0LH,openstreetmap,,,https://www.openstreetmap.org/way/127096767
@@ -436,9 +425,7 @@ http://www.westlandcoffee.co.uk,own site,Westland Coffee & Wine,Hackney,Hoxton,B
 https://www.instagram.com/wngzuk,instagram,Wngz,Hackney,Lower Clapton,Takeaway,,1,,187 Lower Clapton Road,E5 8EG,openstreetmap,,wngzuk,https://www.openstreetmap.org/way/594374275
 https://www.instagram.com/wontoncharlies,instagram,Wonton Charlie's,Hackney,Hackney,Asian,,1,,,,openstreetmap,,wontoncharlies,https://www.openstreetmap.org/node/13730387360
 https://www.instagram.com/worldfamousgordos,instagram,World Famous Gordos,Hackney,Hackney,Pizza,,1,,,,openstreetmap,,worldfamousgordos,https://www.openstreetmap.org/way/1014598732
-https://yardsalepizza.com/,own site,Yard Sale Pizza,Hackney,Lower Clapton,Pizza,hello@yardsalepizza.com,3,+44 20 3602 9090,105 Lower Clapton Road,E5 0NP,openstreetmap,,,https://www.openstreetmap.org/node/4294452589
 https://www.yeastbakery.com,own site,Yeast Bakery,Hackney,Haggerston,Bakery,info@yeastbakery.com,1,+44 79 7387 8801,,,openstreetmap,,,https://www.openstreetmap.org/node/9024624917
 https://www.instagram.com/youcalltheshotse9,instagram,You Call The Shots,Hackney,Hackney,Bar,,1,,13 Morning Lane,E9 6ND,openstreetmap,,youcalltheshotse9,https://www.openstreetmap.org/way/272507751
-https://youmesushi.com/branches/hackney/,own site,You Me Sushi,Hackney,Hackney,Asian; Sushi,,1,,368 Mare Street,,openstreetmap,,,https://www.openstreetmap.org/way/592200033
 https://www.instagram.com/yukibar.london,instagram,Yuki Bar,Hackney,Hackney,Bar,,1,,,,openstreetmap,,yukibar.london,https://www.openstreetmap.org/node/12115547778
 https://www.instagram.com/zoha.cafe,instagram,Zoha,Hackney,Hackney,Halal,,1,,22 Well Street,E9 7PX,openstreetmap,,zoha.cafe,https://www.openstreetmap.org/way/588227059

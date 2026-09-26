@@ -2,8 +2,7 @@ website,website_type,name,borough,area,categories,email,locations,phone,address,
 https://601queensrd.co.uk/,own site,601 Queens Road,Merton,Wimbledon,Pub,reservations@601queensrd.co.uk,1,,The Broadway,SW19 8ND,openstreetmap,,,https://www.openstreetmap.org/node/4117016441
 http://www.alfornowimbledon.com,own site,Al Forno,Merton,Wimbledon,Italian,,1,,2a Kings Road,SW19 8QN,openstreetmap,,,https://www.openstreetmap.org/way/479124174
 https://ambiencerestaurant.co.uk/,own site,Ambience,Merton,Wimbledon,Restaurant,info@ambiencerestaurant.co.uk,1,,12 Leopold Road,SW19 7BD,openstreetmap,,,https://www.openstreetmap.org/way/363996374
-http://www.assistedbynature.com/,own site,Assisted by Nature,Merton,South Wimbledon,Restaurant,,1,+44 7878 199775,14 Watermill Way,SW19 2RD,openstreetmap,,,https://www.openstreetmap.org/node/7124043149
-http://ayacuisine.com/the-broadway-wimbledon-takeaway/,own site,Aya,Merton,Wimbledon,Cafe,,1,+44 20 8543 3363,72 The Broadway,SW19 1RQ,openstreetmap,,,https://www.openstreetmap.org/node/6327240833
+http://www.assistedbynature.com/,own site,Assisted by Nature,Merton,South Wimbledon,Restaurant,toydaniels@gmail.com,1,+44 7878 199775,14 Watermill Way,SW19 2RD,openstreetmap,,,https://www.openstreetmap.org/node/7124043149
 https://babylon76-78.co.uk/,own site,Babylon,Merton,Raynes Park,Restaurant,bookings@babylon76-78.co.uk,1,,76-78 Coombe Lane,SW20 0AX,openstreetmap,,,https://www.openstreetmap.org/node/6859085200
 https://www.bar191.co.uk/,own site,Bar 191,Merton,Raynes Park,Spanish,,1,+44 20 8944 5533,,,openstreetmap,,,https://www.openstreetmap.org/node/6797555095
 https://www.bawi.co.uk/,own site,Bawi's,Merton,Wimbledon,Burger,info@bawi.co.uk,1,+442080598445,283 Kingston Road,SW20 8LB,openstreetmap,,,https://www.openstreetmap.org/node/13416429541
@@ -21,11 +20,13 @@ https://www.caffenero.com/uk/stores/wimbledon-village,own site,Caffè Nero,Merto
 https://www.caffenero.com/uk/stores/wimbledon-elys,own site,Caffè Nero,Merton,Wimbledon,Breakfast,,1,,,SW19 4DP,openstreetmap,,,https://www.openstreetmap.org/node/4638555141
 https://www.caffenero.com/uk/stores/wimbledon-broadway,own site,Caffè Nero,Merton,Wimbledon,Breakfast,,1,,6 The Broadway,SW19 1RF,openstreetmap,,,https://www.openstreetmap.org/way/460796341
 https://www.cakebox.com/storelocator/morden,own site,Cake Box,Merton,Morden,Bakery,,1,+442086871866,33 London Road,SM4 5HT,openstreetmap,,,https://www.openstreetmap.org/node/14201159478
-https://www.casaargentina.co.uk/,own site,Casa Argentina,Merton,Wimbledon,Deli,,1,,156 Arthur Road,SW19 8AQ,openstreetmap,,,https://www.openstreetmap.org/way/363976700
+https://www.casaargentina.co.uk/,own site,Casa Argentina,Merton,Wimbledon,Deli,info@casaargentina.com,1,,156 Arthur Road,SW19 8AQ,openstreetmap,,,https://www.openstreetmap.org/way/363976700
+https://thecavanbakery.co.uk/,chain site (same name as 3 mapped branches),Cavan Bakery,Merton,Wimbledon,Bakery,info@thecavanbakery.co.uk,7,,143 Arthur Road,SW19 8AB,openstreetmap,,,https://www.openstreetmap.org/way/363976705
 https://centanni.co.uk/,own site,Cent Anni,Merton,Wimbledon,Italian,,1,,33 High Street,SW19 5BY,openstreetmap,,,https://www.openstreetmap.org/node/423749755
 https://www.chickandbeers.uk/,own site,Chick n Beer,Merton,Raynes Park,Asian; Korean,,1,,282 Burlington Road,KT3 4NL,openstreetmap,,,https://www.openstreetmap.org/node/3217376061
 https://www.cocobeanz.co.uk/,own site,Cocobeanz Colliers Wood,Merton,Colliers Wood,Cafe,promotions@cocobeanz.co.uk,1,+44 7828 746236,2 Christchurch Road,,openstreetmap,,,https://www.openstreetmap.org/node/13311633901
 https://www.creamscafe.com/our-stores/morden/,own site,Creams,Merton,Morden,Ice cream,morden@creamscafe.com,1,,23 London Road,SM4 5HT,openstreetmap,,,https://www.openstreetmap.org/node/14201159480
+https://www.crownofmitcham.co.uk/,own site (Wikidata),Crown of Mitcham,Merton,Mitcham,Asian; Chinese; Indian; Pub,crownofmitcham@gmail.com,1,,Carshalton Road,CR4 4HJ,openstreetmap,,,https://www.openstreetmap.org/way/147669044
 https://www.crystaltakeaway.co.uk/,own site,Crystal Chinese,Merton,Raynes Park,Asian; Chinese,mailbox@crystaltakeaway.co.uk,1,+44 20 8543 5365,413 Kingston Road,SW20 8JS,openstreetmap,,,https://www.openstreetmap.org/node/6933231067
 https://www.cote.co.uk/restaurant/wimbledon,own site,Côte Brasserie,Merton,Wimbledon,French,wimbledon@cote.co.uk,1,+44 20 8947 7100,8 High Street,SW19 5DX,openstreetmap,,,https://www.openstreetmap.org/way/373892433
 https://www.dalchini.co.uk/,own site,Dalchini,Merton,Wimbledon,Asian; Chinese,info@dalchini.co.uk,1,+44 20 8947 5966,147 Arthur Road,SW19 8AB,openstreetmap,,,https://www.openstreetmap.org/way/363976699
@@ -33,7 +34,7 @@ https://www.dallaschicken.co.uk/,own site,Dallas Chicken and Ribs,Merton,South W
 https://ramendanbo.com/,own site,Danbo,Merton,Wimbledon,Asian; Japanese,,1,,62 The Broadway,SW19 1RQ,openstreetmap,,,https://www.openstreetmap.org/node/13305498501
 https://dandan-restaurant.co.uk/wimbledon,own site,DanDan,Merton,Wimbledon,Asian,wimbledon@dandan-restaurant.co.uk,1,,80 The Broadway,SW19 1RH,openstreetmap,,,https://www.openstreetmap.org/way/461483930
 https://www.dominos.co.uk/pizza-near-me/morden/16-morden-court-parade,own site,Domino's,Merton,Morden,Pizza,,1,,16 London Road,SM4 5HJ,openstreetmap,,,https://www.openstreetmap.org/node/5105666263
-https://www.elyswimbledon.co.uk/restaurant/,own site,Ely's Restaurant,Merton,Wimbledon,Restaurant,,1,,,SW19 4DP,openstreetmap,,,https://www.openstreetmap.org/node/4638555140
+https://www.elyswimbledon.co.uk/restaurant/,own site,Ely's Restaurant,Merton,Wimbledon,Restaurant,customerexperience@elyswimbledon.co.uk,1,,,SW19 4DP,openstreetmap,,,https://www.openstreetmap.org/node/4638555140
 https://esquirescoffee.co.uk,own site,Esquires Coffee,Merton,Colliers Wood,Breakfast,,1,+44 20 3340 2756,11 Christchurch Road,SW19 2FA,openstreetmap,,,https://www.openstreetmap.org/node/5535817121
 https://instagram.com/felt.bakery2025,own site,Felt Bakery,Merton,Wimbledon,Asian; Bakery; Japanese,,1,,156 Arthur Road,SW19 8AQ,openstreetmap,,felt.bakery2025,https://www.openstreetmap.org/node/14072179901
 https://restaurants.fiveguys.co.uk/greater-london/48/50-the-broadway,own site,Five Guys,Merton,Wimbledon,Burger,,1,+44 20 8540 1239,48-50 The Broadway,SW19 1RQ,openstreetmap,,,https://www.openstreetmap.org/way/460796359
@@ -48,7 +49,7 @@ https://www.thehandinhandwimbledon.co.uk/,own site,Hand in Hand,Merton,Wimbledon
 https://www.craftunionpubs.com/horse-and-groom-wimbledon,own site,Horse & Groom,Merton,South Wimbledon,Pub,,1,,131 Merton High Street,SW19 1DE,openstreetmap,,,https://www.openstreetmap.org/node/39663028
 https://www.facebook.com/InstaGrabPretzel/,own site,InstaGrab Pretzel,Merton,Morden,Bakery,,1,+44 20 3952 0705,11-13 London Road,SM4 5HT,openstreetmap,,,https://www.openstreetmap.org/node/14201159485
 https://www.itsu.com/location/west-london/wimbledon/,own site,itsu,Merton,Wimbledon,Asian,appfeedback@itsu.com,1,,1 Hartfield Road,SW19 3RU,openstreetmap,,,https://www.openstreetmap.org/node/5286499913
-https://jingogae.wordpress.com/,own site,Jin Go Gae,Merton,Raynes Park,Asian; Korean,,1,+44 20 8949 2506,272 Burlington Road,,openstreetmap,,,https://www.openstreetmap.org/node/3217376065
+https://jingogae.wordpress.com/,own site,Jin Go Gae,Merton,Raynes Park,Asian; Korean,caesarfung@gmail.com,1,+44 20 8949 2506,272 Burlington Road,,openstreetmap,,,https://www.openstreetmap.org/node/3217376065
 https://kebaby.co.uk/,own site,Kebaby,Merton,Morden,Burger; Halal,,1,+44 20 8544 5444,19 London Road,SM4 5HT,openstreetmap,,,https://www.openstreetmap.org/node/14201159482
 https://www.kfc.co.uk/kfc-near-me/mitcham-london-road,own site,KFC,Merton,Mitcham,Takeaway,,1,,229 London Road,CR4 3NH,openstreetmap,,,https://www.openstreetmap.org/node/1109388568
 https://www.kfc.co.uk/kfc-near-me/morden-london-road,own site,KFC,Merton,Morden,Takeaway,,1,,59 London Road,SM4 5HT,openstreetmap,,,https://www.openstreetmap.org/node/4617068610
@@ -57,7 +58,7 @@ https://www.kfc.co.uk/kfc-near-me/wimbledon-broadway,own site,KFC,Merton,Wimbled
 https://shops.krispykreme.co.uk/shannon-corner,own site,Krispy Kreme,Merton,Raynes Park,Donuts,customercare@krispykreme.co.uk,1,,197 Burlington Road,KT3 4NA,openstreetmap,,,https://www.openstreetmap.org/way/217540669
 https://www.greeneking.co.uk/pubs/greater-london/leather-bottle,own site,Leather Bottle,Merton,Merton Park,Pub,,1,,277 Kingston Road,SW19 3NW,openstreetmap,,,https://www.openstreetmap.org/node/258750121
 https://lighthousewimbledon.com/,own site,Light House,Merton,Wimbledon,Restaurant,,1,,75-77 Ridgway,SW19 4ST,openstreetmap,,,https://www.openstreetmap.org/way/481262551
-https://lightwimbledon.co.uk/,own site,Light on the Common,Merton,Wimbledon,Restaurant,,1,,48 High Street,SW19 5AX,openstreetmap,,,https://www.openstreetmap.org/way/469771534
+https://lightwimbledon.co.uk/,own site,Light on the Common,Merton,Wimbledon,Restaurant,info@lightwimbledon.co.uk,1,,48 High Street,SW19 5AX,openstreetmap,,,https://www.openstreetmap.org/way/469771534
 https://www.lockdownbakehouse.com/,own site,Lockdown Bakehouse,Merton,Raynes Park,Bakery,orders@lockdownbakehouse.com,2,,82 Durham Road,SW20 0TL,openstreetmap,,,https://www.openstreetmap.org/node/6582894685
 https://www.lupobros.co.uk/,own site,Lupo Bros,Merton,Wimbledon,Cafe,coffee@lupobros.co.uk,1,,377 Durnsford Road,SW19 8EF,openstreetmap,,,https://www.openstreetmap.org/way/1106704830
 https://maisonstcassien.co.uk/,own site,Maison St. Cassien,Merton,Wimbledon,Cafe,info@maisonstcassien.co.uk,1,,71 High Street,SW19 5EE,openstreetmap,,,https://www.openstreetmap.org/way/380634595
@@ -65,12 +66,12 @@ https://www.maizbaan.co.uk/,own site,Maizbaan,Merton,Morden,Indian,,1,+442033766
 https://www.mcdonalds.com/gb/en-gb/location/wimbledon/wimbledon---the-broadway/1---3-the-broadway/8261590.html,own site,McDonald's,Merton,Wimbledon,Burger,,1,+44 20 8946 7411,1-3 The Broadway,SW19 1PS,openstreetmap,,,https://www.openstreetmap.org/node/4536287100
 https://www.mcdonalds.com/gb/en-gb/location/colliers-wood/colliers-wood/unit-11-the-tandem-centre/8261708.html,own site,McDonald's,Merton,Colliers Wood,Burger,,1,+44 20 8640 3747,Tandem Way,SW19 2TY,openstreetmap,,,https://www.openstreetmap.org/node/8880553719
 https://meetwg-nanyang-cuisine.com/,own site,Meet W.G,Merton,Morden,Asian,,1,+44 20 8687 6655,21 Abbotsbury Road,SM4 5LJ,openstreetmap,,,https://www.openstreetmap.org/node/14181105069
-https://megans.co.uk/locations/megans-in-the-village/,own site,Megans,Merton,Wimbledon,Cafe,,1,,86 High Street,SW19 5EG,openstreetmap,,,https://www.openstreetmap.org/way/379967719
+https://megans.co.uk/locations/megans-in-the-village/,own site,Megans,Merton,Wimbledon,Cafe,parties@megans.co.uk,1,,86 High Street,SW19 5EG,openstreetmap,,,https://www.openstreetmap.org/way/379967719
 https://www.metronome.life/,own site,Metronome,Merton,Morden,Breakfast,,1,,8 Crown Lane,SM4 5BL,openstreetmap,,,https://www.openstreetmap.org/node/6831780878
 https://milknomilk.co.uk/,own site,Milk No Milk,Merton,Wimbledon,Breakfast,info@milknomilk.co.uk,1,+44 20 3490 1819,281 Kingston Road,SW20 8LB,openstreetmap,,,https://www.openstreetmap.org/node/9792434248
 https://www.millerandcarter.co.uk/restaurants/london/millerandcartermitcham,own site,Miller & Carter,Merton,Mitcham,Steak,,1,,1 Windmill Road,CR4 1HT,openstreetmap,,,https://www.openstreetmap.org/way/663139501
 https://www.morameza.com/,own site,Mora Meza Bar & Restaurant,Merton,Raynes Park,Restaurant,info@morameza.co.uk,1,+44 20 3583 7148,17 Approach Road,SW20 8BA,openstreetmap,,,https://www.openstreetmap.org/node/4263046632
-https://www.multeachoice.com,own site,Multea Choice,Merton,Wimbledon,Cafe,,2,,94 The Broadway,SW19 1RH,openstreetmap,,,https://www.openstreetmap.org/node/11356675493
+https://www.multeachoice.com,own site,Multea Choice,Merton,Wimbledon,Cafe,info@multeachoice.com,2,,94 The Broadway,SW19 1RH,openstreetmap,,,https://www.openstreetmap.org/node/11356675493
 https://www.nandos.co.uk/restaurants/colliers-wood,own site,Nando's,Merton,Colliers Wood,Restaurant,,1,,Tandem Way,SW19 2TY,openstreetmap,,,https://www.openstreetmap.org/node/130216826
 https://www.nandos.co.uk/restaurants/wimbledon,own site,Nando's,Merton,Wimbledon,Restaurant,,1,,1 Russell Road,SW19 1QN,openstreetmap,,,https://www.openstreetmap.org/way/480477217
 https://www.oneills.co.uk/national-search/london/wimbledon,own site,O'Neills,Merton,Wimbledon,Pub,,1,,66 The Broadway,SW19 1RQ,openstreetmap,,,https://www.openstreetmap.org/node/394943631
@@ -92,11 +93,11 @@ https://www.roxiesteak.co.uk/,own site,Roxie,Merton,Wimbledon,Restaurant,,1,,29 
 https://www.sairestaurant.co.uk/,own site,Sai,Merton,Raynes Park,Indian,info@sairestaurant.co.uk,1,+44 20 8947 2212,193 Worple Road,SW20 8RE,openstreetmap,,,https://www.openstreetmap.org/node/6797555096
 https://ssamssam.co.uk/,own site,Ssam Ssam,Merton,South Wimbledon,Asian; Korean,,1,+44 20 3771 8829,149 Merton Road,SW19 1ED,openstreetmap,,,https://www.openstreetmap.org/node/12658123059
 https://www.stagedoorsteakhouse.com/,own site,Stage Door,Merton,Wimbledon,Greek; Steak,stagedoorsteakhouse@outlook.com,1,,92 The Broadway,SW19 1RH,openstreetmap,,,https://www.openstreetmap.org/way/461483925
-https://www.starbucks.com/store-locator/store/2950/colliers-wood-tandam-centre-colliers-wood-london-eng-sw-19-2-pt-gb,own site,Starbucks,Merton,Colliers Wood,Breakfast,,1,,Tandem Way,SW19 2TY,openstreetmap,,,https://www.openstreetmap.org/node/1015129189
-https://www.starbucks.com/store-locator/store/2694/wimbledon-hill-road-10-wimbledon-hill-rd-unit-5-london-eng-sw-19-7-ns-,own site,Starbucks,Merton,Wimbledon,Breakfast,,1,,10 Wimbledon Hill Road,SW19 7NS,openstreetmap,,,https://www.openstreetmap.org/node/1945670006
-https://www.starbucks.com/store-locator/store/2983/raynes-park-raynes-park-london-eng-sw-20-0-jy-gb,own site,Starbucks,Merton,Raynes Park,Breakfast,,1,,,,openstreetmap,,,https://www.openstreetmap.org/node/6382141896
-https://www.starbucks.com/store-locator/store/1050716/wimbledon-plough-lane-plough-lane-south-wimbledon-wimbledon-eng-sw-17-0-,own site,Starbucks,Merton,Colliers Wood,Breakfast,,1,,Plough Lane,SW17 0BW,openstreetmap,,,https://www.openstreetmap.org/node/10658196957
-https://www.starbucks.com/store-locator/store/1011077/wimbledon-station-plat-7-lond-wimbledon-rail-station-london-eng-sw-19-7-nl-gb,own site,Starbucks,Merton,Wimbledon,Breakfast,,1,,Wimbledon Bridge,SW19 7NL,openstreetmap,,,https://www.openstreetmap.org/way/773881445
+https://www.starbucks.com/store-locator/store/2950/colliers-wood-tandam-centre-colliers-wood-london-eng-sw-19-2-pt-gb,own site,Starbucks,Merton,Colliers Wood,Breakfast,press@starbucks.com,1,,Tandem Way,SW19 2TY,openstreetmap,,,https://www.openstreetmap.org/node/1015129189
+https://www.starbucks.com/store-locator/store/2694/wimbledon-hill-road-10-wimbledon-hill-rd-unit-5-london-eng-sw-19-7-ns-,own site,Starbucks,Merton,Wimbledon,Breakfast,press@starbucks.com,1,,10 Wimbledon Hill Road,SW19 7NS,openstreetmap,,,https://www.openstreetmap.org/node/1945670006
+https://www.starbucks.com/store-locator/store/2983/raynes-park-raynes-park-london-eng-sw-20-0-jy-gb,own site,Starbucks,Merton,Raynes Park,Breakfast,press@starbucks.com,1,,,,openstreetmap,,,https://www.openstreetmap.org/node/6382141896
+https://www.starbucks.com/store-locator/store/1050716/wimbledon-plough-lane-plough-lane-south-wimbledon-wimbledon-eng-sw-17-0-,own site,Starbucks,Merton,Colliers Wood,Breakfast,press@starbucks.com,1,,Plough Lane,SW17 0BW,openstreetmap,,,https://www.openstreetmap.org/node/10658196957
+https://www.starbucks.com/store-locator/store/1011077/wimbledon-station-plat-7-lond-wimbledon-rail-station-london-eng-sw-19-7-nl-gb,own site,Starbucks,Merton,Wimbledon,Breakfast,press@starbucks.com,1,,Wimbledon Bridge,SW19 7NL,openstreetmap,,,https://www.openstreetmap.org/way/773881445
 https://restaurants.subway.com/united-kingdom/en/london/6-hartfield-road,own site,Subway,Merton,Wimbledon,Deli,,1,,6 Hartfield Road,SW19 3TA,openstreetmap,,,https://www.openstreetmap.org/node/4117016422
 https://restaurants.subway.com/united-kingdom/en/london/64-london-road,own site,Subway,Merton,Morden,Deli,,1,,64 London Road,SM4 5BE,openstreetmap,,,https://www.openstreetmap.org/node/9199509603
 https://superfishuk.co.uk/branches/morden/,own site,Superfish,Merton,Morden,Seafood,info@superfishuk.co.uk,1,+44 20 8648 6908,20 London Road,SM4 5BQ,openstreetmap,,,https://www.openstreetmap.org/node/14196988851
@@ -105,6 +106,7 @@ https://www.tastemerton.co.uk/restaurant,own site,Taste,Merton,Lower Morden,Rest
 https://www.theoliveraynespark.co.uk/,own site,Thai cafe,Merton,Raynes Park,Italian,,1,+44 20 8296 0205,48 Coombe Lane,SW20 0LA,openstreetmap,,,https://www.openstreetmap.org/node/6441431019
 https://www.alexandrawimbledon.com/,own site,The Alexandra,Merton,Wimbledon,Pub,,1,,31-33 Wimbledon Hill Road,SW19 7NE,openstreetmap,,,https://www.openstreetmap.org/way/481262557
 https://www.theblacklamb-restaurant.com,own site,The Black Lamb,Merton,Wimbledon,Restaurant,info@theblacklamb-restaurant.com,1,+44 20 8947 8278,67 High Street,SW19 5EE,openstreetmap,,,https://www.openstreetmap.org/node/4640559190
+http://charlesholden.pub,own site (Wikidata),The Charles Holden,Merton,Colliers Wood,Pub,hello@charlesholden.pub,1,,"The Charles Holden 198 High Street Collier's Wood, Colliers Wood",SW19 2BH,food standards agency,,,https://ratings.food.gov.uk/business/200013
 https://ctonline.co.uk,own site,The Cinnamon Tree,Merton,Raynes Park,Indian,,1,+44 20 8543 8883,592 Kingston Road,SW20 8DN,openstreetmap,,,https://www.openstreetmap.org/node/4271314780
 https://www.thecrookedbilletwimbledon.co.uk/,own site,The Crooked Billet,Merton,Wimbledon,Pub,,1,,14-15 Crooked Billet,SW19 4RQ,openstreetmap,,,https://www.openstreetmap.org/way/450830265
 http://www.dogandfoxwimbledon.co.uk/,own site,The Dog and Fox,Merton,Wimbledon,Pub,,1,,24 High Street,SW19 5EA,openstreetmap,,,https://www.openstreetmap.org/way/379967724
@@ -125,7 +127,7 @@ https://theravensbury.co.uk/,own site,The Ravensbury,Merton,Mitcham,Pub,,1,,,,op
 https://www.roseandcrownwimbledon.co.uk/,own site,The Rose and Crown,Merton,Wimbledon,Pub,,1,,55 High Street,SW19 5BA,openstreetmap,,,https://www.openstreetmap.org/way/531239102
 https://www.therushmeresw19.com/,own site,The Rushmere,Merton,Wimbledon,Pub,,1,,89 Ridgway,SW19 4SU,openstreetmap,,,https://www.openstreetmap.org/way/448014277
 http://www.thetrafsw19.co.uk/,own site,The Trafalgar,Merton,South Wimbledon,Pub,,1,,23 High Path,SW19 2JY,openstreetmap,,,https://www.openstreetmap.org/way/1287078169
-https://www.jdwetherspoon.com/pubs/all-pubs/england/london/the-wibbas-down-inn-wimbledon,own site,The Wibbas Down Inn,Merton,Wimbledon,Pub,,1,,6-12 Gladstone Road,SW19 1QT,openstreetmap,,,https://www.openstreetmap.org/node/394942390
+https://www.jdwetherspoon.com/pubs/all-pubs/england/london/the-wibbas-down-inn-wimbledon,own site,The Wibbas Down Inn,Merton,Wimbledon,Pub,,2,,6-12 Gladstone Road,SW19 1QT,openstreetmap,,,https://www.openstreetmap.org/node/394942390
 https://www.windmilltearooms.com/,own site,The Windmill Tearoom,Merton,Wimbledon,Cafe,info@windmilltearooms.com,1,+44 20 8788 2910,Windmill Road,SW19 5NQ,openstreetmap,,,https://www.openstreetmap.org/way/411460230
 https://www.thewoodman.co/,own site,The Woodman,Merton,Wimbledon,Pub,manager@thewoodman.co,1,,222 Durnsford Road,SW19 8DR,openstreetmap,,,https://www.openstreetmap.org/node/1316301006
 https://www.tortilla.co.uk/restaurants/wimbledon,own site,Tortilla,Merton,Wimbledon,Mexican,wimbledon@tortilla.co.uk,1,+44 20 8947 3589,22 The Broadway,SW19 1RE,openstreetmap,,,https://www.openstreetmap.org/way/460796331

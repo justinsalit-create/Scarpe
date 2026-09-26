@@ -1,5 +1,6 @@
 website,website_type,name,borough,area,categories,email,locations,phone,address,postcode,source,facebook,instagram,osm_url
 https://appleyardgroup.co.uk/,own site,Appleyard,Bexley,Lamorbey,Restaurant,info@appleyardgroup.co.uk,1,,161 Station Road,DA15 7AA,openstreetmap,,,https://www.openstreetmap.org/way/767578798
+https://bellaitalia.co.uk/,chain site (same name as 10 mapped branches),Bella Italia,Bexley,Bexleyheath (also Bexley New Town),Italian,ashton@bellaitalia.co.uk,3,,,,openstreetmap,,,https://www.openstreetmap.org/node/10180330303
 https://www.blendbargrill.com/,own site,Blend,Bexley,Bexleyheath (also Bexley New Town),Restaurant,,1,+44 20 8298 0284,274 Broadway,DA6 8BE,openstreetmap,,,https://www.openstreetmap.org/way/963775002
 https://locations.burgerking.co.uk/bexleyheath/31-32-the-broadway-centre,own site,Burger King,Bexley,Bexleyheath (also Bexley New Town),Burger,,1,,,,openstreetmap,,,https://www.openstreetmap.org/way/966050376
 https://www.facebook.com/cacioepepesidecup/,facebook,Cacio e Pepe,Bexley,Lamorbey,Italian,,1,,160 Halfway Street,DA15 8DG,openstreetmap,https://www.facebook.com/cacioepepesidecup/,,https://www.openstreetmap.org/way/769761119
@@ -18,15 +19,18 @@ https://www.emberinns.co.uk/nationalsearch/london/the-earl-haig-bexleyheath,own 
 https://www.ferrarisbexley.co.uk/,own site,Ferrari's,Bexley,"Bexley (also Old Bexley, Bexley Village)",Italian,info@ferrarisbexley.co.uk,1,+44 1322 554433,2 Bexley High Street,DA5 1AD,openstreetmap,,,https://www.openstreetmap.org/way/232187244
 https://www.greatukpubs.co.uk/golden-lion-bexleyheath,own site,Golden Lion,Bexley,Bexleyheath (also Bexley New Town),Pub,,1,,,,openstreetmap,,,https://www.openstreetmap.org/way/963774984
 https://www.livermores.co.uk/,own site,Greys,Bexley,"Bexley (also Old Bexley, Bexley Village)",Breakfast,dartford@livermores.co.uk,1,,,,openstreetmap,,,https://www.openstreetmap.org/way/241987368
+https://www.guyearlofwarwick.co.uk/index,own site (Wikidata),"Guy, Earl of Warwick",Bexley,Welling,Pub,contact@guyearlofwarwick.co.uk,1,,,,openstreetmap,,,https://www.openstreetmap.org/node/5223910042
 https://www.crafted-social.co.uk/hill-top-tap-sidcup,own site,Hill Top Tap,Bexley,Sidcup,Pub,stonegatepress@stonegategroup.co.uk,1,,,,openstreetmap,,,https://www.openstreetmap.org/way/532568623
 https://www.harvester.co.uk/restaurants/southeast/thehorseandgroomsidcup,own site,Horse and Groom,Bexley,Sidcup,American,,1,,136 Main Road,DA14 6NZ,openstreetmap,,,https://www.openstreetmap.org/way/638519661
 https://www.love-gyoza.co.uk/,own site,I Love GYOZA,Bexley,Sidcup,Asian; Chinese,lovegyoza123@gmail.com,1,,59 High Street,DA14 6ED,openstreetmap,,,https://www.openstreetmap.org/way/520713812
 https://www.irosushi.com/sidcup/,own site,IRO Sushi,Bexley,Sidcup,Asian; Sushi,,1,,17 High Street,DA14 6EN,openstreetmap,,,https://www.openstreetmap.org/way/520719330
+https://irosushi.com/,chain site (same name as 3 mapped branches),Iro Sushi,Bexley,Welling,Sushi,,22,,"41 Bellegrove Road, Welling, Kent",DA16 3PB,food standards agency,,,https://ratings.food.gov.uk/business/1468766
 https://jalsha.co.uk/,own site,Jalsha Tandoori Restaurant,Bexley,Lamorbey,Indian,jalsha_tandoori@hotmail.com,1,,169-171 Station Road,DA15 7AA,openstreetmap,,,https://www.openstreetmap.org/way/767578802
 https://www.kfc.co.uk/kfc-near-me/welling-bellegrove-road,own site,KFC,Bexley,Welling,Takeaway,,1,,31 Bellegrove Road,DA16 3PB,openstreetmap,,,https://www.openstreetmap.org/node/8905758844
 https://www.kfc.co.uk/kfc-near-me/erith-manor-road,own site,KFC,Bexley,Erith,Takeaway,,1,,1 Manor Road,DA8 2AB,openstreetmap,,,https://www.openstreetmap.org/way/189748578
 https://www.kfc.co.uk/kfc-near-me/sidcup-market-place,own site,KFC,Bexley,Sidcup,Takeaway,,1,,High Street,DA14 6EP,openstreetmap,,,https://www.openstreetmap.org/way/520936168
 https://www.kfc.co.uk/kfc-near-me/bexley-heath-broadway,own site,KFC,Bexley,Bexleyheath (also Bexley New Town),Takeaway,,1,,184 Broadway,DA6 7BT,openstreetmap,,,https://www.openstreetmap.org/way/965172591
+https://www.thekingsarmsbexleyheath.co.uk/,own site (Wikidata),King's Arms,Bexley,Bexleyheath (also Bexley New Town),Pub,,1,,,DA6 7DW,openstreetmap,,,https://www.openstreetmap.org/way/965221593
 https://www.limoncellorestaurant.co.uk/,own site,Limoncello,Bexley,Longlands,Italian,info@limoncellorestaurant.co.uk,1,,8-9 Marechal Niel Parade,DA14 6QF,openstreetmap,,,https://www.openstreetmap.org/way/957252447
 https://mama-wok.co.uk/delivery,own site,Mama Wok,Bexley,Barnehurst,Asian; Chinese,,1,+44 1322 559666,65 Mayplace Road East,DA7 6EA,openstreetmap,,,https://www.openstreetmap.org/way/461927798
 https://www.masalainn.co.uk/,own site,Masala Inn,Bexley,Bexleyheath (also Bexley New Town),Indian,,1,+44 20 8304 5314,,,openstreetmap,,,https://www.openstreetmap.org/way/964426517
@@ -36,6 +40,7 @@ https://www.mcdonalds.com/gb/en-gb/location/sidcup/sidcup/8688-sidcup-high-stree
 https://www.mcdonalds.com/gb/en-gb/location/welling/welling/38-bellegrove-road/8260380.html,own site,McDonald's,Bexley,Welling,Burger,,1,+44 20 8301 6285,38 Bellegrove Road,DA16 3PY,openstreetmap,,,https://www.openstreetmap.org/way/962762994
 https://www.mcdonalds.com/gb/en-gb/location/bexleyheath/bexleyheath/65-broadway/8260081.html,own site,McDonald's,Bexley,Bexleyheath (also Bexley New Town),Burger,,1,+44 20 8303 5872,65 Broadway,DA6 7JN,openstreetmap,,,https://www.openstreetmap.org/way/965765988
 https://www.mehmaan.uk/,own site,Mehmaan,Bexley,Bexleyheath (also Bexley New Town),Indian,admin@mehmaan.uk,1,+44 20 8054 3947,270 Broadway,DA6 8BE,openstreetmap,,,https://www.openstreetmap.org/way/963775001
+https://millerandcarter.co.uk/,chain site (same name as 4 mapped branches),Miller And Carter,Bexley,"Bexley (also Old Bexley, Bexley Village)",Pub,,5,,"Hall Place, Bourne Road, Bexley",DA5 1PQ,food standards agency,,,https://ratings.food.gov.uk/business/329225
 https://www.millerandcarter.co.uk/restaurants/london/millerandcarterbexley,own site,Miller and Carter Bexley,Bexley,"Bexley (also Old Bexley, Bexley Village)",Restaurant,,1,,Bourne Road,,openstreetmap,,,https://www.openstreetmap.org/way/771336742
 https://my.morrisons.com/storefinder/113/erith,own site,Morrisons Cafe,Bexley,Erith,Breakfast,,1,,,,openstreetmap,,,https://www.openstreetmap.org/node/4412447225
 https://my.morrisons.com/storefinder/316/sidcup,own site,Morrisons Cafe,Bexley,Sidcup,Breakfast,,1,,,,openstreetmap,,,https://www.openstreetmap.org/node/4412459694
@@ -47,19 +52,20 @@ https://www.pizzagogo.co.uk/stores/welling,own site,Pizza GoGo,Bexley,Welling,Pi
 https://www.pizzahut.co.uk/huts/uk-1/7588-northumberland-heath/,own site,Pizza Hut Delivery,Bexley,Northumberland Heath,Pizza,,1,+44 1322 351930,Bexley Road,DA8 3EX,openstreetmap,,,https://www.openstreetmap.org/way/694705652
 https://www.pizzaexpress.com/sidcup-elm-parade-shopping-centre,own site,PizzaExpress,Bexley,Sidcup,Pizza,,1,,6 Main Road,DA14 6NF,openstreetmap,,,https://www.openstreetmap.org/way/532568622
 https://www.pizzaexpress.com/bexleyheath-broadway,own site,PizzaExpress,Bexley,Bexleyheath (also Bexley New Town),Pizza,,1,,Broadway,DA6 7ES,openstreetmap,,,https://www.openstreetmap.org/way/965172602
+https://pure.co.uk/,chain site (same name as 5 mapped branches),Pure,Bexley,Bexleyheath (also Bexley New Town),Pub,hello@pure.co.uk,15,,"Albion Road, Bexleyheath, Kent",DA6 7LS,food standards agency,,,https://ratings.food.gov.uk/business/682885
 https://rannah.co.uk/,own site,Rannah,Bexley,Longlands,Indian,,1,,Marechal Niel Parade,DA14 6QF,openstreetmap,,,https://www.openstreetmap.org/way/957252451
 https://mindinbexley.org.uk/revival,own site,Revival,Bexley,Bexleyheath (also Bexley New Town),Cafe,info@mindinbexley.org.uk,1,,230 Broadway,,openstreetmap,,,https://www.openstreetmap.org/way/964426527
 https://www.royalradhunysidcup.co.uk/,own site,Royal Radhuny,Bexley,North Cray,Indian,,1,+44 20 8300 9777,76 St James Way,DA14 5HF,openstreetmap,,,https://www.openstreetmap.org/node/5813061965
 https://thelounges.co.uk/sarto,own site,Sarto Lounge,Bexley,Sidcup,Restaurant,sarto@thelounges.co.uk,1,,96-98 High Street,DA14 6DS,openstreetmap,,,https://www.openstreetmap.org/way/204912259
 https://www.sophieschoicerestaurant.co.uk/,own site,Sophie's Choice,Bexley,Lamorbey,Restaurant,,1,,149 Station Road,DA15 7AA,openstreetmap,,,https://www.openstreetmap.org/way/767578813
 https://soulstreetlondon.com/,own site,Soul Street,Bexley,Sidcup,Restaurant,info@soulstreetlondon.com,1,+44 20 3340 0627,87 Main Road,DA14 6ND,openstreetmap,,,https://www.openstreetmap.org/way/334491193
-https://www.starbucks.com/store-locator/store/1042767/sidcup-high-street-77-a-high-street-sidcup-eng-da-14-6-dw-gb,own site,Starbucks,Bexley,Sidcup,Breakfast,,1,,High Street,,openstreetmap,,,https://www.openstreetmap.org/way/532205796
-https://www.starbucks.com/store-locator/store/1022770/belvedere-norman-park-dt-norman-park-belvedere-london-eng-da-17-6-fd-gb,own site,Starbucks,Bexley,Lessness Heath,Breakfast,,1,,Clydesdale Way,DA17 6FD,openstreetmap,,,https://www.openstreetmap.org/way/686293843
-https://www.starbucks.com/store-locator/store/2440/bexleyheath-broadway-shoppin-broadway-shopping-centre-bexleyheath-eng-da-6-7-jn,own site,Starbucks,Bexley,Bexleyheath (also Bexley New Town),Breakfast,,1,,85 Broadway,DA6 7JN,openstreetmap,,,https://www.openstreetmap.org/way/965766019
+https://www.starbucks.com/store-locator/store/1042767/sidcup-high-street-77-a-high-street-sidcup-eng-da-14-6-dw-gb,own site,Starbucks,Bexley,Sidcup,Breakfast,press@starbucks.com,1,,High Street,,openstreetmap,,,https://www.openstreetmap.org/way/532205796
+https://www.starbucks.com/store-locator/store/1022770/belvedere-norman-park-dt-norman-park-belvedere-london-eng-da-17-6-fd-gb,own site,Starbucks,Bexley,Lessness Heath,Breakfast,press@starbucks.com,1,,Clydesdale Way,DA17 6FD,openstreetmap,,,https://www.openstreetmap.org/way/686293843
+https://www.starbucks.com/store-locator/store/2440/bexleyheath-broadway-shoppin-broadway-shopping-centre-bexleyheath-eng-da-6-7-jn,own site,Starbucks,Bexley,Bexleyheath (also Bexley New Town),Breakfast,press@starbucks.com,1,,85 Broadway,DA6 7JN,openstreetmap,,,https://www.openstreetmap.org/way/965766019
 https://restaurants.subway.com/united-kingdom/en/london/27-high-street,own site,Subway,Bexley,Sidcup,Deli,,1,,27 High Street,DA14 6ED,openstreetmap,,,https://www.openstreetmap.org/way/532231395
 https://restaurants.subway.com/united-kingdom/en/london/110a-broadway,own site,Subway,Bexley,Bexleyheath (also Bexley New Town),Deli,,1,,,,openstreetmap,,,https://www.openstreetmap.org/way/965350769
 https://teddybearbubbletea.co.uk/,own site,Teddy Bear Bubble Tea,Bexley,Welling,Cafe,,1,,26 Bellegrove Road,DA16 3PP,openstreetmap,,,https://www.openstreetmap.org/way/992768910
-http://www.theanchorbexley.co.uk/,own site,The Anchor,Bexley,Blendon,Pub,,1,,,DA5 1JE,openstreetmap,,,https://www.openstreetmap.org/way/258491866
+https://www.thealmapub.co.uk/,own site (Wikidata),The Alma,Bexley,Sidcup,Pub,info@thealmapub.co.uk,1,,Alma Road,DA14 4EA,openstreetmap,,,https://www.openstreetmap.org/way/332135248
 https://www.greeneking.co.uk/pubs/kent/bear-and-ragged-staff,own site,The Bear and Ragged Staff,Bexley,Crayford,Pub,,1,,2 London Road,DA1 4BH,openstreetmap,,,https://www.openstreetmap.org/node/415673841
 https://www.dansonboathouse.com/,own site,The Boathouse,Bexley,Upton,Restaurant,,1,,,,openstreetmap,,,https://www.openstreetmap.org/node/5679099592
 https://www.thedoorhinge.co.uk/,own site,The Door Hinge,Bexley,Welling,Pub,info@thedoorhinge.co.uk,1,,11 Welling High Street,DA16 1TR,openstreetmap,,,https://www.openstreetmap.org/node/3731791377
@@ -70,11 +76,15 @@ https://www.greatukpubs.co.uk/george-staples-sidcup,own site,The George Staples,
 https://thehalfwayhousepub.com/,own site,The Halfway House,Bexley,Lamorbey,Pub,,1,,188C Halfway Street,DA15 8DJ,openstreetmap,,,https://www.openstreetmap.org/way/945386374
 https://theironhorseuk.com/,own site,The Iron Horse,Bexley,Lamorbey,Pub,,1,+44 20 8302 8217,122 Station Road,DA15 7AB,openstreetmap,,,https://www.openstreetmap.org/way/998798353
 https://www.greeneking.co.uk/pubs/kent/jolly-fenman,own site,The Jolly Fenman,Bexley,Blackfen,Pub,,1,,64-68 Blackfen Road,DA15 8SW,openstreetmap,,,https://www.openstreetmap.org/way/258498192
+https://www.thejollymillers.co.uk/,own site (Wikidata),The Jolly Millers,Bexley,Bexleyheath (also Bexley New Town),Pub,,1,,111 Mayplace Road West,DA7 4JR,openstreetmap,,,https://www.openstreetmap.org/way/651590350
 https://thekitchensidcup.co.uk/,own site,The Kitchen,Bexley,Sidcup,Restaurant,,1,,57 High Street,DA14 6ED,openstreetmap,,,https://www.openstreetmap.org/way/520713811
+https://themkitchen.co.uk/,own site (Wikidata),The M Kitchen,Bexley,Bexleyheath (also Bexley New Town),Restaurant,reservations@themkitchen.co.uk,1,,"269 Broadway, Bexleyheath, Kent",DA6 8DB,food standards agency,,,https://ratings.food.gov.uk/business/1128360
 http://www.themeze.co.uk,own site,The Meze,Bexley,Bexleyheath (also Bexley New Town),Restaurant,,1,+44 20 8303 9918,,,openstreetmap,,,https://www.openstreetmap.org/way/963291711
 https://www.greeneking.co.uk/pubs/kent/nags-head,own site,The Nags Head,Bexley,Welling,Pub,,1,,37 Welling High Street,DA16 1TR,openstreetmap,,,https://www.openstreetmap.org/way/357447830
 https://www.jdwetherspoon.com/pubs/all-pubs/england/london/the-new-cross-turnpike-welling,own site,The New Cross Turnpike,Bexley,Welling,Pub,,1,,55 Bellegrove Road,DA16 3PB,openstreetmap,,,https://www.openstreetmap.org/node/951344064
+https://www.princealbertbexleyheath.co.uk/,own site (Wikidata),The Prince Albert,Bexley,Bexleyheath (also Bexley New Town),Pub,info@princealbertbexleyheath.co.uk,1,,"Prince Albert Public House, 2 Broadway, Bexleyheath",DA6 7LE,food standards agency,,,https://ratings.food.gov.uk/business/1242696
 https://www.greatukpubs.co.uk/red-barn-bexleyheath,own site,The Red Barn,Bexley,Barnehurst,Pub,,1,,Barnehurst Road,DA7 6HG,openstreetmap,,,https://www.openstreetmap.org/way/450892934
+http://www.sevenstarssidcup.co.uk/,own site (Wikidata),The Seven Stars Public House,Bexley,Foots Cray,Pub,sevenstarspubfootscray@gmail.com,1,,"Foots Cray High Street, Sidcup, Kent",DA14 5HJ,food standards agency,,,https://ratings.food.gov.uk/business/329530
 https://www.jdwetherspoon.com/pubs/all-pubs/england/london/the-tailors-chalk-sidcup,own site,The Tailor's Chalk,Bexley,Sidcup,Pub,,1,,High Street,,openstreetmap,,,https://www.openstreetmap.org/way/520713807
 https://www.jdwetherspoon.com/pubs/all-pubs/england/london/the-wrong-un-bexleyheath,own site,The Wrong 'Un,Bexley,Bexleyheath (also Bexley New Town),Pub,,1,,Broadway,DA6 8AS,openstreetmap,,,https://www.openstreetmap.org/way/729378689
 https://www.greeneking.co.uk/pubs/kent/yacht,own site,The Yacht,Bexley,Bexleyheath (also Bexley New Town),Pub,,1,,Long Lane,DA7 5AE,openstreetmap,,,https://www.openstreetmap.org/way/1119244237

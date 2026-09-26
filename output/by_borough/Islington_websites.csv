@@ -1,44 +1,52 @@
 website,website_type,name,borough,area,categories,email,locations,phone,address,postcode,source,facebook,instagram,osm_url
 https://500restaurant.co.uk/,own site,500 italian restaurant,Islington,Archway,Italian,,1,,,,openstreetmap,,,https://www.openstreetmap.org/way/153084999
+https://aroma.london/,"own site (found by name, postcode verified)",A.Roma,Islington,Holloway,Restaurant,a.roma.pinsa@gmail.com,1,,"A.Roma, Unit 3 Roman Way Industrial Estate, 149 Roman Way",N7 8XH,food standards agency,,,https://ratings.food.gov.uk/business/1965660
 https://www.facebook.com/128254510367002,facebook,Adan Pasta and Wine,Islington,Angel,Italian,,1,,25 Baron Street,N1 9ET,openstreetmap,128254510367002,,https://www.openstreetmap.org/way/163286181
-http://www.addisrestaurant.co.uk,own site,Addis,Islington,Pentonville,Restaurant,,1,+44 20 7278 0679,40-42 Caledonian Road,N1 9DT,openstreetmap,,,https://www.openstreetmap.org/node/1293749895
+http://www.addisrestaurant.co.uk,own site,Addis,Islington,Pentonville,Restaurant,booking@addisrestaurant.co.uk,1,+44 20 7278 0679,40-42 Caledonian Road,N1 9DT,openstreetmap,,,https://www.openstreetmap.org/node/1293749895
 https://www.instagram.com/albys.pizza,instagram,Alby's Pizza,Islington,Finsbury Park,Pizza,,1,,2 City North Place,N4 3FU,openstreetmap,,albys.pizza,https://www.openstreetmap.org/node/12638796301
+https://www.amorgastronomia.com/,"own site (found by name, postcode verified)",Amor Gastronomia,Islington,Holloway,Restaurant,info@amorgastronomia.com,1,,"Amor Gastronomia, 139 Holloway Road, London",N7 8LX,food standards agency,,,https://ratings.food.gov.uk/business/1410847
 https://www.amorino.com/en/stores/london-islington,own site,Amorino,Islington,Islington,Ice cream,info.am.jvhn@gmail.com,1,,,,openstreetmap,,,https://www.openstreetmap.org/node/348357932
 https://www.thearchwaytavern.co.uk/,own site,Archway Tavern,Islington,Archway,Mexican; Pub,,1,,1,N19 3TD,openstreetmap,,,https://www.openstreetmap.org/way/31915414
+https://www.askforjanice.co.uk/,"own site (found by name, postcode verified)",Ask for Janice,Islington,Holloway,Restaurant,hello@askforjanice.co.uk,1,,"Ask for Janice, Ground Floor, Unit 6a Tileyard Studios",N7 9AH,food standards agency,,,https://ratings.food.gov.uk/business/1846154
 https://aviarylondon.com/,own site,"Aviary, Bar and Rooftop Restaurant",Islington,Finsbury,Restaurant,info@aviarylondon.com,1,+44 20 3873 4060,Finsbury Square,EC2A 1DX,openstreetmap,,,https://www.openstreetmap.org/node/4934970023
 https://bananatree.co.uk/restaurants/islington/,own site,Banana Tree,Islington,Angel,Asian,islington@bananatree.co.uk,1,,412-416 St. John Street,EC1V 4NJ,openstreetmap,,,https://www.openstreetmap.org/way/163379401
 http://www.bankoffriendship.com/,own site,Bank of Friendship,Islington,Finsbury Park,Pub,,1,+44 20 7226 8711,224-226 Blackstock Road,,openstreetmap,,bof_n5,https://www.openstreetmap.org/way/242607346
 http://www.bavarian-beerhouse.com,own site,Bavarian Beerhouse,Islington,St Luke's,Restaurant,,1,,190 City Road,EC1V 2QH,openstreetmap,,,https://www.openstreetmap.org/node/553018115
 http://www.thebedfordtavern.com/,own site,Bedford Tavern,Islington,Holloway,Pub,,1,,160 Seven Sisters Road,N7 7PT,openstreetmap,,,https://www.openstreetmap.org/node/344791683
-http://benchlondon.com,own site,Bench,Islington,Farringdon,Cafe,,1,,42 Britton Street,EC1M 5AD,openstreetmap,,,https://www.openstreetmap.org/node/3813311360
+http://benchlondon.com,own site,Bench,Islington,Farringdon,Cafe,boxoffice@goldsmiths-centre.org,1,,42 Britton Street,EC1M 5AD,openstreetmap,,,https://www.openstreetmap.org/node/3813311360
 https://www.thebetsey.com,own site,Betsey Trotwood,Islington,Clerkenwell,Pub,bookings@thebetsey.com,1,+44 20 7253 4285,56 Farringdon Road,EC1R 3BL,openstreetmap,TheBetseyTrotwood,thebetseytrotwood,https://www.openstreetmap.org/way/42527973
+https://bigredholloway.co.uk/,"own site (found by name, postcode verified)",Big Red,Islington,Holloway,Pub,anapbm@gmail.com,1,,385 Holloway Road,N7 0RY,openstreetmap,,,https://www.openstreetmap.org/node/403454627
 https://biryaniguys.co.uk/,own site,Biryani guys,Islington,St Luke's,Indian,biryaniguys@outlook.com,2,+44 7355 091702,42 Old Street,EC1V 9AE,openstreetmap,,,https://www.openstreetmap.org/node/12784834301
 https://blacksheepcoffee.co.uk/blogs/locations/highbury-islington,own site,Black Sheep Coffee,Islington,Highbury,Breakfast,l.blakey@blacksheepcoffee.co.uk,1,,,,openstreetmap,,,https://www.openstreetmap.org/node/3639334564
 https://blacksheepcoffee.co.uk/blogs/locations/cowcross,own site,Black Sheep Coffee,Islington,Farringdon,Breakfast,l.blakey@blacksheepcoffee.co.uk,1,,64-65 Cowcross street,,openstreetmap,,,https://www.openstreetmap.org/way/502991823
 https://bluebellbistro.com/,own site,Bluebell Bistro,Islington,Holloway,French,,1,,464 Holloway Road,N7 6HT,openstreetmap,,,https://www.openstreetmap.org/way/419555524
 https://www.thehouselondon.co.uk/,own site,Bold Food & Bar,Islington,Archway,Pizza,foodandbar@boldcafe.co.uk,1,+447585 957 145,126 Dartmouth Park Hill,N19 5HS,openstreetmap,,,https://www.openstreetmap.org/node/25744422
-http://www.bonedaddies.com,own site,Bone Daddies,Islington,St Luke's,Asian; Japanese,,1,+44 20 3019 6300,211 Old Street,EC1V 9NR,openstreetmap,,,https://www.openstreetmap.org/node/4345141320
 https://www.yourcoffeehub.com/,own site,Bonga Coffee,Islington,Archway,Breakfast,,1,,,,openstreetmap,,,https://www.openstreetmap.org/node/11149519778
+https://www.boulangeriepierrealix.co.uk/,"own site (found by name, postcode verified)",Boulangerie Pierre Alix,Islington,Holloway,Bakery,,1,,"Boulangerie Pierre Alix, 151 Holloway Road, London",N7 8LX,food standards agency,,,https://ratings.food.gov.uk/business/1764793
 https://www.bandhbuildings.com/,own site,Bourne & Hollingsworth Buildings,Islington,Clerkenwell,Restaurant,,1,,42 Northampton Road,EC1R 0HU,openstreetmap,,,https://www.openstreetmap.org/way/99813923
+https://bramblebistrolondon.co.uk/,"own site (found by name, postcode verified)",Bramble Bistro,Islington,Holloway,French,info@bramblebistrolondon.co.uk,1,,379 Holloway Road,N7 0RN,openstreetmap,,,https://www.openstreetmap.org/way/257197862
 https://www.breadandbeancoffeeshop.co.uk/,own site,Bread and Bean,Islington,Archway,Cafe,contact@breadandbeancoffeeshop.co.uk,1,+44 20 7272 1712,37;37A Junction Road,N19 5QU,openstreetmap,,,https://www.openstreetmap.org/way/70609398
+https://drink.brewdog.com/,chain site (same name as 6 mapped branches),Brewdog,Islington,Clerkenwell,Restaurant,hello@brewdog.com,4,,"Brewdog, Units 1 And 2, 45-47 Clerkenwell Road",EC1M 5RS,food standards agency,,,https://ratings.food.gov.uk/business/851572
 https://briki.london/,own site,Briki,Islington,Clerkenwell,Greek,,1,,,,openstreetmap,,,https://www.openstreetmap.org/node/3579412480
 https://www.instagram.com/broccolicafe,instagram,Broccoli,Islington,Holloway,Breakfast,,1,,69 Hornsey Road,N7 6DG,openstreetmap,,broccolicafe,https://www.openstreetmap.org/node/3547373372
 https://www.cadetlondon.com/,own site,Cadet,Islington,Highbury,Bar,hello@cadetlondon.com,1,,,,openstreetmap,,,https://www.openstreetmap.org/way/474840743
 https://www.caffenero.com/uk/stores/islington,own site,Caffè Nero,Islington,Islington,Breakfast,,1,,75 Upper Street,N1 0NU,openstreetmap,,,https://www.openstreetmap.org/node/299444032
 https://www.caffenero.com/uk/stores/exmouth-market,own site,Caffè Nero,Islington,Clerkenwell,Breakfast,,1,,12 Exmouth Market,EC1R 4QE,openstreetmap,,,https://www.openstreetmap.org/way/147734602
 https://www.cakebox.com/storelocator/holloway/,own site,Cake Box,Islington,Holloway,Bakery,,1,,334 Holloway Road,N7 6NJ,openstreetmap,,,https://www.openstreetmap.org/node/2878403227
+https://callykebab.com/,"own site (found by name, postcode verified)",Caledonian Kebab,Islington,Holloway,Takeaway,,1,,"Caledonian Kebab, 355 Caledonian Road, London",N7 9DQ,food standards agency,,,https://ratings.food.gov.uk/business/1078954
 https://www.greeneking.co.uk/pubs/greater-london/camden-head,own site,Camden Head,Islington,Angel,Pub,,1,+44 20 7359 0851,2 Camden Walk,N1 8DY,openstreetmap,,,https://www.openstreetmap.org/way/456681384
 https://candidarts.wordpress.com/cafe/,own site,Candid Cafe,Islington,Angel,Breakfast,,1,+44 20 7278 9368,3 Torrens Street,EC1V 1NQ,openstreetmap,,,https://www.openstreetmap.org/node/638925838
+http://www.thecanonbury.com/,own site (Wikidata),Canonbury Tavern,Islington,Canonbury,Pub,,1,,"Canonbury Tavern, 21 Canonbury Place, London",N1 2NS,food standards agency,,,https://ratings.food.gov.uk/business/578365
 https://carmelaspizzeria.co.uk,own site,Carmela's Pizzeria,Islington,Islington,Pizza,,1,,149A Upper Street,N1 1RA,openstreetmap,,,https://www.openstreetmap.org/node/345832889
 https://www.centralstation.co.uk,own site,Central Station,Islington,Pentonville,Pub,,1,,37 Wharfdale Road,N1 9SD,openstreetmap,,,https://www.openstreetmap.org/node/1387549550
 https://cerurestaurants.com/farringdon/#menus,own site,CERU Farringdon,Islington,Farringdon,Halal,,1,+44 20 3195 3003,9-13 Cowcross Street,EC1M 6DR,openstreetmap,,,https://www.openstreetmap.org/node/12595513654
 https://www.chippyonthecorner.co.uk/,own site,Chippy on the Corner,Islington,Holloway,Seafood,,1,+44 20 3859 5755,480 Caledonian Road,N7 9RP,openstreetmap,,,https://www.openstreetmap.org/node/10068538734
 https://chopandwok.co.uk/,own site,Chop and Wok,Islington,Holloway,Chinese,,1,,520,,openstreetmap,,,https://www.openstreetmap.org/way/275731619
 https://clissoldparktavern.com,own site,Clissold Park Tavern,Islington,Finsbury Park,Pizza; Pub,,1,,177 Green Lanes,N16 9DB,openstreetmap,,,https://www.openstreetmap.org/way/230259989
-https://www.cocodimama.co.uk/,own site,CoCo Fresh Tea & Juice,Islington,Farringdon,Cafe,,3,,64-65 Cowcross Street,EC1M 6EG,openstreetmap,,,https://www.openstreetmap.org/way/502991822
 https://commongroundlondon.co.uk/,own site,Common Ground,Islington,Finsbury Park,Cafe,,1,,49 Stroud Green Road,N4 3EF,openstreetmap,,,https://www.openstreetmap.org/way/264086001
 http://www.comptoirgascon.com,own site,Comptoir Gascon,Islington,Farringdon,French,,1,,63 Charterhouse Street,EC1M 6HJ,openstreetmap,,,https://www.openstreetmap.org/way/42931536
 https://www.compton.restaurant/,own site,Compton,Islington,Clerkenwell,Restaurant,,1,,47 St John's Square,EC1V 4JJ,openstreetmap,,,https://www.openstreetmap.org/way/97508190
+https://www.corimint.com/,"own site (found by name, postcode verified)",Corimint,Islington,Holloway,Takeaway,,1,,"Corimint, Unit 5 Roman Way Industrial Estate, 149 Roman Way",N7 8XH,food standards agency,,,https://ratings.food.gov.uk/business/1909947
 https://www.costa.co.uk/stores/archway,own site,Costa,Islington,Archway,Breakfast,,1,,35 Junction Road,N19 5QT,openstreetmap,,,https://www.openstreetmap.org/way/76586532
 https://crudough.com,own site,Crudough,Islington,Archway,Italian; Pizza,info@crudough.com,1,+44 20 7272 1672,10 Navigator Square,N19 3TD,openstreetmap,,,https://www.openstreetmap.org/node/4959104821
 https://www.daffodilmulligan.com/,own site,Daffodil Mulligan,Islington,Finsbury,Restaurant,booking@daffodilmulligan.com,1,+44 20 7404 3000,70-74 City Road,EC1Y 2AS,openstreetmap,,,https://www.openstreetmap.org/node/9678562673
@@ -50,11 +58,14 @@ https://www.dominos.co.uk/pizza-near-me/london/92-hornsey-road,own site,Domino's
 https://www.dominos.co.uk/pizza-near-me/london/144-essex-road,own site,Domino's,Islington,Islington,Pizza,,1,,144 Essex road,N1 8LX,openstreetmap,,,https://www.openstreetmap.org/node/618596120
 https://www.dominos.co.uk/pizza-near-me/london/598-602-holloway-road,own site,Domino's,Islington,Tufnell Park,Pizza,,1,,,,openstreetmap,,,https://www.openstreetmap.org/way/274050590
 https://www.dominos.co.uk/pizza-near-me/london/32-highgate-hill,own site,Domino's,Islington,Archway,Pizza,,1,+44 20 7272 4884,,,openstreetmap,,,https://www.openstreetmap.org/way/474922311
+https://donerklubhaus.com/,"own site (found by name, postcode verified)",Doner Klubhaus,Islington,Holloway,Restaurant,projectdoner345@outlook.com,1,,"Doner Klubhaus, 345A Holloway Road, London",N7 0RN,food standards agency,,,https://ratings.food.gov.uk/business/1857709
 https://www.dotori.co.uk/,own site,Dotori,Islington,Finsbury Park,Asian; Japanese; Korean,,1,,,,openstreetmap,,,https://www.openstreetmap.org/node/393523275
+https://www.doylestavern.co.uk/,"own site (found by name, postcode verified)",Doyles Tavern,Islington,Holloway,Pub,info@doylestavern.co.uk,1,,379 Caledonian Road,N7 9DQ,openstreetmap,,,https://www.openstreetmap.org/node/276369831
 https://dukeorganic.co.uk/,own site,Duke of Cambridge,Islington,Islington,Pub,duke@dukeorganic.co.uk,1,+44 20 7359 3066,30 St. Peter's Street,N1 8JT,openstreetmap,,,https://www.openstreetmap.org/node/375848733
 https://www.duncanterrace.co.uk/,own site,Duncan Terrace Cafe,Islington,Angel,Cafe,info@duncanterrace.co.uk,1,,391 City Road,EC1V 1NE,openstreetmap,,,https://www.openstreetmap.org/node/621771171
 https://www.earlofessex.net/,own site,Earl of Essex,Islington,Angel,Pub,earl@earlofessex.net,1,+44 20 7424 5828,25 Danbury Street,N1 8LE,openstreetmap,,,https://www.openstreetmap.org/way/1275812271
-https://www.ekachai.co.uk/,own site,Ekachai,Islington,Pentonville,Asian,,1,+44 7719 193780,66 York Way,N1 9AG,openstreetmap,,,https://www.openstreetmap.org/node/5435838662
+https://www.ekachai.co.uk/,own site,Ekachai,Islington,Pentonville,Asian,info@ekachai.co.uk,1,+44 7719 193780,66 York Way,N1 9AG,openstreetmap,,,https://www.openstreetmap.org/node/5435838662
+https://www.el-rincon.co.uk/,"own site (found by name, postcode verified)",El Rincon,Islington,Holloway,Restaurant,,1,,"El Rincon, Ground Floor, 235 Holloway Road",N7 8HG,food standards agency,,,https://ratings.food.gov.uk/business/417019
 https://www.instagram.com/elians.corner?igsh=MW1jZXpzZGI0NXluYw==,instagram,elian's corner,Islington,Holloway,Cafe,,1,,,,openstreetmap,,https://www.instagram.com/elians.corner?igsh=MW1jZXpzZGI0NXluYw==,https://www.openstreetmap.org/node/1834746844
 https://www.exmoutharms.com/,own site,Exmouth Arms,Islington,Clerkenwell,Pub,info@exmoutharms.com,1,+44 20 3551 4772,23 Exmouth Market,EC1R 4QL,openstreetmap,,,https://www.openstreetmap.org/way/99379732
 https://www.facebook.com/ezandmoss/,facebook,EZ & Moss,Islington,Highbury,Bakery; Breakfast; Deli,,1,,183 Holloway Road,,openstreetmap,https://www.facebook.com/ezandmoss/,,https://www.openstreetmap.org/way/32257671
@@ -71,6 +82,7 @@ https://restaurants.fiveguys.co.uk/greater-london/71-upper-st,own site,Five Guys
 https://flatironsteak.co.uk/restaurant/kings-cross/,own site,Flat Iron Kings Cross,Islington,Pentonville,Steak,sustainability@flatironsteak.co.uk,1,,47-51 Caledonian Road,N1 9BU,openstreetmap,,,https://www.openstreetmap.org/node/6635118485
 https://flightclubdarts.com/location-islington,own site,Flight Club,Islington,Angel,Bar,events@flightclubdarts.com,1,,56 Upper Street,N1 0NY,openstreetmap,,,https://www.openstreetmap.org/node/3206271866
 https://flightclubdarts.com/,own site,Flight Club,Islington,Finsbury,Bar,events@flightclubdarts.com,1,+44 20 3019 3093,2a Worship Street,EC2A 2AH,openstreetmap,,,https://www.openstreetmap.org/node/4969009471
+http://www.foxandanchor.com,own site (Wikidata),Fox and Anchor,Islington,Farringdon,Pub,,1,,115 Charterhouse Street,EC1M 6AA,openstreetmap,,,https://www.openstreetmap.org/way/97175520
 https://www.crafted-social.co.uk/fox-on-the-green-islington,own site,Fox on the Green,Islington,Islington,Pub,,1,,1 Islington Green,N1 2XH,openstreetmap,,,https://www.openstreetmap.org/node/26310696
 https://framefinsbury.co.uk/,own site,Frame Cafe & Bar,Islington,Finsbury Park,Cafe,info@framefinsbury.co.uk,1,,7 Clifton Terrace,N4 3JP,openstreetmap,,,https://www.openstreetmap.org/node/4005692200
 https://www.francomanca.co.uk/restaurants/islington/,own site,Franco Manca,Islington,Angel,Pizza,,1,,72 Upper Street,N1 0NY,openstreetmap,,,https://www.openstreetmap.org/node/299612702
@@ -81,12 +93,11 @@ https://gails.com/pages/exmouth-market,own site,GAIL's,Islington,Clerkenwell,Bak
 https://www.gazettebrasserie.co.uk/clerkenwell,own site,Gazette Brasserie,Islington,Clerkenwell,French,,1,+44 20 7324 4455,86-88 Clerkenwell Road,EC1M 5RJ,openstreetmap,,,https://www.openstreetmap.org/node/581959113
 https://gemrestaurant.org.uk/,own site,Gem,Islington,Canonbury,Restaurant,,1,,265 Upper Street,N1 2UQ,openstreetmap,,,https://www.openstreetmap.org/node/331880899
 https://www.george4th.net/,own site,George IV,Islington,Angel,Pub,,1,+44 20 7278 8433,57 Liverpool Road,N1 0RJ,openstreetmap,1081122831753552,,https://www.openstreetmap.org/node/25597628
-http://donerkebab.net/,own site,German Doner Kebab,Islington,Angel,Takeaway,,1,,11;11A Islington High Street,N1 9LQ,openstreetmap,,,https://www.openstreetmap.org/way/31310858
 https://gerryshotsubs.com/,own site,Gerry's Hot Subs,Islington,Clerkenwell,American,,1,,,,openstreetmap,,,https://www.openstreetmap.org/node/12296447201
 https://www.giddyupcoffee.co.uk/,own site,Giddy Up Coffee,Islington,Finsbury,Breakfast,,1,,,,openstreetmap,,,https://www.openstreetmap.org/way/939413032
 https://www.instagram.com/goodmanners.ldn,instagram,Good Manners,Islington,Highbury,Cafe,,1,,,,openstreetmap,,goodmanners.ldn,https://www.openstreetmap.org/way/1240614217
-http://goodbyehorses.london,own site,Goodbye Horses,Islington,Islington,Restaurant,,1,,21 Halliford Street,N1 3HB,openstreetmap,,,https://www.openstreetmap.org/node/13108592501
-http://fuckoffee.com/#,own site,Goswell Road Coffee,Islington,St Luke's,Cafe,,3,,160-164 Goswell Road,EC1V 7DU,openstreetmap,,,https://www.openstreetmap.org/way/149403893
+http://goodbyehorses.london,own site,Goodbye Horses,Islington,Islington,Restaurant,hello@goodbyehorses.london,1,,21 Halliford Street,N1 3HB,openstreetmap,,,https://www.openstreetmap.org/node/13108592501
+http://fuckoffee.com/#,own site,Goswell Road Coffee,Islington,St Luke's,Cafe,enquiries@fuckoffee.com,3,,160-164 Goswell Road,EC1V 7DU,openstreetmap,,,https://www.openstreetmap.org/way/149403893
 https://www.thegreatchase.co.uk/,own site,Great Chase,Islington,Angel,Restaurant,enquiries@thegreatchase.co.uk,1,,316 St. John Street,,openstreetmap,,,https://www.openstreetmap.org/way/119442516
 https://www.greatgrillhouse.co.uk/,own site,GReat Grill House,Islington,Clerkenwell,BBQ; Greek; Steak,,1,+44 7402 656633,167-169 Farringdon Road,EC1R 3AL,openstreetmap,Great.souvlatzidiko,greatgrillhouse,https://www.openstreetmap.org/node/11881067469
 http://www.greenandfortunecafe.co.uk/,own site,Green & Fortune Cafe,Islington,Pentonville,Cafe,,1,,90 York Way,N1 9AG,openstreetmap,,GandFCafe,https://www.openstreetmap.org/node/10592532918
@@ -97,7 +108,7 @@ https://hanasushi.net/,own site,Hana Sushi,Islington,Finsbury Park,Asian; Sushi,
 https://www.hemingfordarms.com/,own site,Hemingford Arms,Islington,Barnsbury,Pub,enquiries@hemingfordarms.com,1,+44 20 7607 3303,158 Hemingford Road,N1 1DF,openstreetmap,,,https://www.openstreetmap.org/node/291981188
 https://www.instagram.com/highgroundn1,instagram,High Ground,Islington,Islington,Breakfast,,1,,286 Upper Street,N1 2TZ,openstreetmap,,highgroundn1,https://www.openstreetmap.org/node/348310319
 https://www.instagram.com/hollowaymodelbakery,instagram,Holloway Model Bakery,Islington,Holloway,Bakery,team@hollowaymodelbakery.co.uk,1,+447751 057215,66 Georges Road,N7 8HX,openstreetmap,,hollowaymodelbakery,https://www.openstreetmap.org/node/12214193201
-http://holycowonline.com,own site,Holy Cow,Islington,Archway,Indian,info@holycowonline.com,3,+44 20 7263 7007,87 Junction Road,N19 5QU,openstreetmap,,,https://www.openstreetmap.org/way/70609441
+https://www.holychinesetakeaway.co.uk/,"own site (found by name, postcode verified)",Holy Chinese Take Away,Islington,Holloway,Chinese,holychinese540@gmail.com,2,,"Holy Chinese Take Away, 540 Holloway Road, London",N7 6JP,food standards agency,,,https://ratings.food.gov.uk/business/1792444
 https://www.hkcuisine.co.uk/,own site,Hong Kong Restaurant,Islington,Islington,Asian; Chinese,,1,+44 20 4537 3557,301 Upper Street,N1 2TU,openstreetmap,,,https://www.openstreetmap.org/node/299616421
 https://www.hopvietnamese.com/shop/kings-cross,own site,HOP,Islington,Pentonville,Asian,,1,,296-298 Pentonville Road,N1 9NR,openstreetmap,,,https://www.openstreetmap.org/node/427539146
 https://www.greeneking.co.uk/pubs/greater-london/hope-and-anchor,own site,Hope & Anchor,Islington,Canonbury,Pub,,1,+44 20 7354 1312,207 Upper Street,N1 1RL,openstreetmap,,,https://www.openstreetmap.org/way/31293000
@@ -107,14 +118,16 @@ https://hoxleyandporter.com/,own site,Hoxley & Porter,Islington,Islington,Bar,ho
 https://www.humblegrape.co.uk/wine-bar/islington/,own site,Humble Grape,Islington,Islington,Italian,info@humblegrape.co.uk,1,+44 20 7226 9400,13 Therburton street,,openstreetmap,,,https://www.openstreetmap.org/node/667461790
 https://www.ikoi.co.uk,own site,Ikoi Japanese Cafe,Islington,Pentonville,Asian; Japanese,,1,,102 Caledonian Road,N1 9DN,openstreetmap,,,https://www.openstreetmap.org/node/3247084429
 https://www.instagram.com/indianveg,instagram,Indian Veg,Islington,Angel,Indian,,1,+44 20 7837 4607,92-93 Chapel Market,N1 9EX,openstreetmap,,indianveg,https://www.openstreetmap.org/way/119439312
+https://islingtonsportsbarandgrill.co.uk/,"own site (found by name, postcode verified)",Islington Sports Bar & Grill,Islington,Holloway,Pub,,1,+44 7921 724601,274 Holloway Road,N7 6NE,openstreetmap,,,https://www.openstreetmap.org/way/491695960
 https://www.itsu.com/location/north-london/islington-angel-central/,own site,itsu,Islington,Angel,Asian,appfeedback@itsu.com,1,,23 Parkfield Street,N1 0PS,openstreetmap,,,https://www.openstreetmap.org/node/4492350605
 https://www.itsu.com/location/central-london/finsbury-square/,own site,itsu,Islington,Finsbury,Asian,appfeedback@itsu.com,1,,1 Finsbury Square,EC2A 1AE,openstreetmap,,,https://www.openstreetmap.org/way/629300467
 https://www.itto.co.uk/,own site,itto,Islington,Finsbury Park,Asian,,1,,61,,openstreetmap,,,https://www.openstreetmap.org/way/264085991
 https://jamdelish.co.uk/,own site,Jam Delish,Islington,Angel,Restaurant,jamdelish@outlook.com,1,,1 Tolpuddle Street,N1 0XT,openstreetmap,,,https://www.openstreetmap.org/way/32135829
-http://www.jazandjuls.co.uk/,own site,Jaz and Jul's Chocolate House,Islington,Pentonville,Cafe,,1,,1 Chapel Market,N1 9EZ,openstreetmap,,,https://www.openstreetmap.org/way/390073113
 http://www.jimmyandthebee.com/,own site,Jimmy & the Bee Coffee House,Islington,St Luke's,Cafe,,1,,135 Goswell Road,EC1V 7JY,openstreetmap,,,https://www.openstreetmap.org/way/155366812
 https://jolenen16.com/,own site,Jolene,Islington,Canonbury,Restaurant,office@jolenebakery.com,1,,,,openstreetmap,,,https://www.openstreetmap.org/node/8265131010
 http://www.bigjobakery.com,own site,Jolene Colebrooke Row,Islington,Islington,Bakery,office@jolenebakery.com,2,,Colebrooke Row,N1 8AA,openstreetmap,,,https://www.openstreetmap.org/node/12464879801
+https://www.juss-jerk.co.uk/,"own site (found by name, postcode verified)",Juss Jerk,Islington,Holloway,Restaurant,,1,,"Juss Jerk, Rentacar Site, 45 Hornsey Road",N7 7DD,food standards agency,,,https://ratings.food.gov.uk/business/1294646
+https://kaseyschicken.co.uk/,"own site (found by name, postcode verified)",Kaseys Chicken,Islington,Holloway,Takeaway,admin@kaseyschicken.co.uk,1,,223 Holloway Road,N7 8HG,openstreetmap,,,https://www.openstreetmap.org/way/152995700
 https://www.katsumajapanese.co.uk/,own site,Katsuma,Islington,Farringdon,Asian; Japanese,contact@katsumajapanese.co.uk,1,,30C Great Sutton Street,,openstreetmap,,,https://www.openstreetmap.org/way/149070190
 http://chifafa.com,own site,Kebabs Made Good,Islington,Clerkenwell,Restaurant,,1,,,,openstreetmap,,,https://www.openstreetmap.org/node/742539842
 https://www.kfc.co.uk/kfc-near-me/archway-holloway-road,own site,KFC,Islington,Archway,Takeaway,,1,,667 Holloway Road,N19 5SE,openstreetmap,,,https://www.openstreetmap.org/node/984924852
@@ -128,13 +141,14 @@ https://www.facebook.com/knockboxofficial/,own site,Knockbox Coffee,Islington,Fa
 https://kod-uk.com/,own site,KOD,Islington,Islington,Restaurant,,1,+44 20 8037 7393,330 Upper Street,,openstreetmap,,,https://www.openstreetmap.org/way/31324416
 https://www.kbbqhouse.co.uk,own site,Korean BBQ House,Islington,Finsbury,Asian; BBQ; Halal; Korean,info@kbbqhouse.co.uk,1,+44 20 7256 5179,107 Whitecross Street,EC1Y 8JD,openstreetmap,,,https://www.openstreetmap.org/way/60266220
 https://lafarolacafe.co.uk/,own site,La Farola,Islington,Islington,Spanish,info@lafarolacafe.co.uk,1,+44 20 7359 7707,101 Upper Street,N1 1QN,openstreetmap,,,https://www.openstreetmap.org/node/348357924
+https://lamiacucinalondon.co.uk/,"own site (found by name, postcode verified)",La Mia Cucina,Islington,Holloway,Restaurant,lamiacucinalondon01@gmail.com,1,,"La Mia Cucina, 500 Holloway Road, London",N7 6JA,food standards agency,,,https://ratings.food.gov.uk/business/1650721
 https://www.lasaporita.uk/,own site,La Saporita,Islington,Finsbury Park,Italian,lasaporita.ltd@hotmail.com,1,+44 20 7272 5040,174 Tollington Park,,openstreetmap,,,https://www.openstreetmap.org/way/264032015
 https://www.ladymildmay.com/,own site,Lady Mildmay,Islington,Canonbury,Pub,,1,+44 20 7241 6238,92 Mildmay Park,N1 4PR,openstreetmap,,,https://www.openstreetmap.org/way/469688061
 https://landoffirerestaurant.com/,own site,Land of Fire,Islington,Pentonville,Takeaway,info@landoffirerestaurant.com,1,+44 7388 777597,95 Caledonian Road,N1 9BT,openstreetmap,LandofFireRestaurant,landoffireltd,https://www.openstreetmap.org/way/351965825
 https://www.langano.co.uk/,own site,Langano,Islington,Finsbury Park,Restaurant,,1,,,,openstreetmap,,,https://www.openstreetmap.org/node/9519425907
 https://lantanacafe.co.uk/,own site,Lantana,Islington,Finsbury,Breakfast,,2,+44 20 7253 5273,1 Oliver's Yard,EC1Y 1HQ,openstreetmap,,,https://www.openstreetmap.org/node/10994662649
 https://www.lanternchinese.co.uk/,own site,Latern,Islington,Farringdon,Asian; Chinese,,1,+44 20 7490 4407,21 Clerkenwell Road,EC1M 5RD,openstreetmap,,,https://www.openstreetmap.org/node/742539859
-http://lepechemignon.co.uk/,own site,Le Péché Mignon,Islington,Highbury,Breakfast; French,,1,,6 Ronalds Road,N5 1XH,openstreetmap,,,https://www.openstreetmap.org/node/362359480
+http://lepechemignon.co.uk/,own site,Le Péché Mignon,Islington,Highbury,Breakfast; French,feedback@lepechemignon.co.uk,1,,6 Ronalds Road,N5 1XH,openstreetmap,,,https://www.openstreetmap.org/node/362359480
 https://lesacrecoeurbistro.co.uk/,own site,Le Sacré Coeur,Islington,Islington,French,,1,,18 Theberton Street,N1 0QX,openstreetmap,,,https://www.openstreetmap.org/node/331298008
 https://leon.co/restaurants/farringdon/,own site,LEON,Islington,Farringdon,Burger; Deli,strand@leon.co,1,,19-25 Cowcross Street,EC1M 6DH,openstreetmap,,,https://www.openstreetmap.org/way/163034472
 https://www.liman.co.uk/,own site,Liman,Islington,Pentonville,Restaurant,,1,,60 Penton Street,N1 9PZ,openstreetmap,,,https://www.openstreetmap.org/way/119707615
@@ -153,12 +167,12 @@ https://www.mcdonalds.com/gb/en-gb/location/archway/archway/23-highgate-hill/826
 https://www.mcdonalds.com/gb/en-gb/location/islington/islington/67-chapel-market/8260329.html,own site,McDonald's,Islington,Angel,Burger,,1,+44 20 7833 3674,65-67 Chapel Market,N1 9ER,openstreetmap,,,https://www.openstreetmap.org/way/119439314
 https://www.mcdonalds.com/gb/en-gb/location/holloway/seven-sisters/1315-seven-sisters-road/8260002.html,own site,McDonald's,Islington,Holloway,Burger,,1,+44 20 7272 0506,13-15 Seven Sisters Road,N7 6AJ,openstreetmap,,,https://www.openstreetmap.org/way/231280955
 https://www.mcdonalds.com/gb/en-gb/location/holloway/holloway-road/280-holloway-road/8260732.html,own site,McDonald's,Islington,Holloway,Burger,,1,+44 20 7607 9923,280 Holloway Road,N7 6NJ,openstreetmap,,,https://www.openstreetmap.org/way/491695956
-https://megans.co.uk/,own site,Megan's,Islington,Islington,Cafe,,2,,,,openstreetmap,,,https://www.openstreetmap.org/node/10142424065
 https://www.memlaz.co.uk/,own site,Mem & Laz,Islington,Islington,Restaurant,,1,+44 20 7704 9089,8 Theberton Street,N1 0QX,openstreetmap,,,https://www.openstreetmap.org/node/331534433
 https://www.mesiskitchen.com,own site,Mesi's Kitchen,Islington,Holloway,Restaurant,info@mesiskitchen.com,1,+44 20 7018 2640,128 Holloway Road,N7 8JE,openstreetmap,,,https://www.openstreetmap.org/way/32257855
-http://mikisparadise.blogspot.co.uk,own site,Miki's Paradise,Islington,Holloway,Cafe,,1,,221 Holloway Road,N7 8HG,openstreetmap,,,https://www.openstreetmap.org/way/152995703
 https://mikkeller.com/locations/mikkeller-brewpub-london,own site,Mikkeller Brewpub London,Islington,Clerkenwell,Pub,exmouth@mikkeller.com,1,,37-39 Exmouth Market,EC1R 4QL,openstreetmap,https://www.facebook.com/mikkellerbrewpublondon/,https://www.instagram.com/mikkellerbrewpublondon,https://www.openstreetmap.org/way/99379796
 https://www.mildreds.com/kings-cross/,own site,Mildreds,Islington,Pentonville,Restaurant,hello@mildreds.com,1,,200 Pentonville Road,,openstreetmap,,,https://www.openstreetmap.org/node/3582040396
+https://mildreds.com/,chain site (same name as 6 mapped branches),Mildreds,Islington,Pentonville,Restaurant,hello@mildreds.com,1,,"Mildreds, Unit 3, 200 Pentonville Road",N1 9JY,food standards agency,,,https://ratings.food.gov.uk/business/865565
+https://mono-wraps.co.uk/,"own site (found by name, postcode verified)",Mono Wraps,Islington,Holloway,Takeaway,,1,,"Mono Wraps, Shop, 234 Holloway Road",N7 8DA,food standards agency,,,https://ratings.food.gov.uk/business/1680829
 http://monohonramen.com,own site,Monohon Ramen,Islington,St Luke's,Asian; Japanese,info@monohonramen.com,1,,102 Old Street,,openstreetmap,,,https://www.openstreetmap.org/node/8048876077
 https://www.morchelladining.co.uk/bookings,own site,Morchella,Islington,Clerkenwell,Restaurant,info@morchelladining.co.uk,1,+44 20 7916 0492,Rosebery Avenue,EC1R 4QY,openstreetmap,,,https://www.openstreetmap.org/node/452445966
 https://www.morito.co.uk,own site,Morito,Islington,Clerkenwell,Restaurant,info@morito.co.uk,1,+44 20 7833 8336,32 Exmouth Market,,openstreetmap,,,https://www.openstreetmap.org/way/99813671
@@ -176,10 +190,13 @@ http://necco.co.uk/,own site,Nécco,Islington,Clerkenwell,Asian; Japanese,info@n
 https://www.facebook.com/oakandpastor,facebook,Oak & Pastor,Islington,Archway,Pub,office@oakandpastor.com,1,+44 20 8616 0943,86 Junction Road,N19 5QZ,openstreetmap,oakandpastor,oakandpastor,https://www.openstreetmap.org/way/76046344
 https://www.officina00.co.uk/,own site,Officina 00,Islington,Finsbury,Italian,,1,+44 20 8037 7161,156 Old Street,EC1V 9BW,openstreetmap,,,https://www.openstreetmap.org/node/9459701688
 https://oivita.london,own site,Oi Vita Pizzeria,Islington,Canonbury,Italian; Pizza,oivitapizzeria@gmail.com,1,+44 20 3302 8700,67 Newington Green Road,N1 4QU,openstreetmap,,,https://www.openstreetmap.org/node/3761472259
+https://www.noordinarypub.com/,own site (Wikidata),Old China Hand,Islington,Clerkenwell,Pub,noordinarypub@hotmail.com,1,,8 Tysoe Street,EC1R 4RQ,openstreetmap,,,https://www.openstreetmap.org/way/99379749
 https://oldfountain.co.uk/,own site,Old Fountain,Islington,St Luke's,Pub,info@oldfountain.co.uk,1,+44 20 7253 2970,3 Baldwin Street,EC1V 9NU,openstreetmap,https://www.facebook.com/OldFountain/,,https://www.openstreetmap.org/way/154856396
+http://www.oldredliontheatre.co.uk/,own site (Wikidata),Old Red Lion,Islington,Angel,Pub,bookings@weareoldred.co.uk,1,,418 St. John Street,EC1V 4NJ,openstreetmap,,,https://www.openstreetmap.org/way/100442829
 https://olisfishchips.co.uk/,own site,Oli's Fish and Chips,Islington,Holloway,Seafood,info@olisfishchips.co.uk,1,+44 20 7607 3887,Caledonian Road,N7 9DQ,openstreetmap,,,https://www.openstreetmap.org/node/12663528001
 https://olliescafelondon.com/,own site,Ollie's Cafe,Islington,Holloway,Breakfast,info@olliescafelondon.com,1,,94 Seven Sisters Road,N7 6AE,openstreetmap,,,https://www.openstreetmap.org/node/1538908193
 https://omnom.com/,own site,OMNOM,Islington,Islington,Restaurant,eat@omnom.com,1,,,,openstreetmap,,,https://www.openstreetmap.org/node/10142424092
+https://oneeightyone.uk/,"own site (found by name, postcode verified)",One Eighty One,Islington,Holloway,Pub,bookings@oneeightyone.uk,1,,"One Eighty One, 181 Holloway Road, London",N7 8LX,food standards agency,,,https://ratings.food.gov.uk/business/1888964
 https://www.onelove-kitchen.co.uk,own site,One Love Kitchen,Islington,Finsbury Park,Restaurant,,1,,9 Crouch Hill,N4 4AP,openstreetmap,,onelovekitchenuk,https://www.openstreetmap.org/node/3648083065
 https://palmyraskitchen.com/,own site,Palmyra's Kitchen,Islington,Finsbury Park,Restaurant,palmyra.res@gmail.com,1,,,,openstreetmap,,,https://www.openstreetmap.org/node/9211290806
 https://www.pandas.kitchen/angel,own site,Pandas Kitchen,Islington,Angel,Asian; Chinese,,1,+44 20 7278 8666,11 Islington High Street,N1 9LQ,openstreetmap,,,https://www.openstreetmap.org/way/31310857
@@ -188,16 +205,16 @@ https://www.papajohns.co.uk/stores/london-archway,own site,Papa John's,Islington
 https://www.papajohns.co.uk/stores/london-stoke-newington,own site,Papa John's,Islington,Highbury,Pizza,,1,,35 Green Lanes,N16 9BS,openstreetmap,,,https://www.openstreetmap.org/way/364792193
 https://peoplepleasersalad.co.uk/,own site,People Pleaser Salad,Islington,Finsbury,Takeaway,,1,,163-165 Whitecross Street,EC1Y 8JT,openstreetmap,,,https://www.openstreetmap.org/node/7027531117
 http://www.perilladining.co.uk/,own site,Perilla,Islington,Highbury,Restaurant,info@perilladining.co.uk,1,+44 20 7359 0779,1-3 Green Lanes,N16 9BT,openstreetmap,,,https://www.openstreetmap.org/way/457717795
-https://www.phocafe.co.uk/,own site,Pho,Islington,Farringdon,Asian,bakerstreet@phocafe.co.uk,3,,86 St. John Street,EC1M 4EH,openstreetmap,,,https://www.openstreetmap.org/way/147098337
-https://www.pistachioandpickle.com/,own site,Pistachio & Pickle,Islington,Islington,Cafe,,1,+44 20 7607 6319,142 Liverpool Road,N1 1LA,openstreetmap,,,https://www.openstreetmap.org/way/31927260
+https://www.pistachioandpickle.com/,own site,Pistachio & Pickle,Islington,Islington,Cafe,wweeiihhuuaanngg@gmail.com,1,+44 20 7607 6319,142 Liverpool Road,N1 1LA,openstreetmap,,,https://www.openstreetmap.org/way/31927260
 https://www.mypixxa.com/,own site,Pixxa,Islington,Farringdon,Pizza,info@mypixxa.com,2,+44 7554 990171,8 St. John Street,EC1M 4AY,openstreetmap,,,https://www.openstreetmap.org/way/116508957
 https://www.pizzahut.co.uk/huts/uk-1/1011-islington/,own site,Pizza Hut Delivery,Islington,Canonbury,Pizza,,1,+44 20 7354 5055,169 Upper Street,N1 1RG,openstreetmap,,,https://www.openstreetmap.org/node/331880857
 https://www.pizzapilgrims.co.uk/pizzerias/kings-cross/,own site,Pizza Pilgrims,Islington,Pentonville,Pizza,events@pizzapilgrims.co.uk,1,,278-280 Pentonville Road,N1 9NR,openstreetmap,,,https://www.openstreetmap.org/node/13461376457
-https://www.pizzaunion.com/,own site,Pizza Union,Islington,Pentonville,Pizza,al@pizzaunion.com,2,,250 Pentonville Road,N1 9JY,openstreetmap,,,https://www.openstreetmap.org/node/5131751761
+https://www.pizzaunion.com/,own site,Pizza Union,Islington,Pentonville,Pizza,al@pizzaunion.com,3,,250 Pentonville Road,N1 9JY,openstreetmap,,,https://www.openstreetmap.org/node/5131751761
 https://www.pizzaexpress.com/london-islington,own site,PizzaExpress,Islington,Angel,Pizza,,1,,335 Upper Street,,openstreetmap,,,https://www.openstreetmap.org/node/299615868
 https://www.pizzaexpress.com/london-clerkenwell-road,own site,PizzaExpress,Islington,Farringdon,Pizza,,1,,,,openstreetmap,,,https://www.openstreetmap.org/way/473098213
 https://planb.london/,own site,PLANB,Islington,Finsbury Park,Restaurant,hello@planb.london,1,+44 20 7916 7007,38 Crouch Hill,N4 4AU,openstreetmap,,,https://www.openstreetmap.org/way/264213607
 https://plaqlock.com/,own site,Plaquemine Lock,Islington,Angel,Pub,manager@plaqlock.com,1,,139 Graham Street,N1 8LB,openstreetmap,,,https://www.openstreetmap.org/way/67383553
+https://www.poposushibar.co.uk/,"own site (found by name, postcode verified)",Po Po Sushi Bar,Islington,Holloway,Sushi,,1,,"Po Po Sushi Bar, Commercial Unit, 142 Holloway Road",N7 8DD,food standards agency,,,https://ratings.food.gov.uk/business/1521330
 https://www.instagram.com/portis_pizza,own site,Portis Pizza,Islington,Islington,Italian; Pizza,,1,,1A Rheidol Terrace,N1 8NT,openstreetmap,,,https://www.openstreetmap.org/node/12949187183
 http://theposhburger.com,own site,Posh Burger Co.,Islington,St Luke's,Burger,,1,,96 Old Street,EC1V 9AY,openstreetmap,,,https://www.openstreetmap.org/node/8048931896
 https://locations.pret.co.uk/london/unit-1-oliver's-yard,own site,Pret A Manger,Islington,Finsbury,Deli,,1,,1 Oliver's Yard,EC1Y 1HQ,openstreetmap,,,https://www.openstreetmap.org/node/308839861
@@ -210,16 +227,18 @@ https://www.facebook.com/100083581068945,facebook,Proper Tacos,Islington,Hollowa
 https://provisionslondon.co.uk/,own site,Provisions,Islington,Holloway,Deli,info@provisionslondon.co.uk,2,,167 Holloway Road,N7 8LX,openstreetmap,,,https://www.openstreetmap.org/node/362315125
 https://thequalitychophouse.com/,own site,Quality Chop House,Islington,Clerkenwell,Restaurant,info@thequalitychophouse.com,1,+44 20 7278 1452,88-94 Farringdon Road,EC1R 3EA,openstreetmap,,,https://www.openstreetmap.org/node/581005278
 https://qualitywinesfarringdon.com/,own site,Quality Wines,Islington,Clerkenwell,Restaurant,info@qualitywinesfarringdon.com,1,,,,openstreetmap,,,https://www.openstreetmap.org/node/13452861401
+https://www.rabbitholecafe.co.uk/,"own site (found by name, postcode verified)",Rabbit Hole,Islington,Holloway,Cafe,,1,,411A Holloway Road,N7 6HJ,openstreetmap,,,https://www.openstreetmap.org/node/4286050642
 https://rackandbone.co.uk/,own site,Rack and Bone Smokehouse and Grill,Islington,Holloway,BBQ; Steak,,1,+44 20 7607 4381,466 Caledonian Road,N7 8TD,openstreetmap,,,https://www.openstreetmap.org/node/10068538733
 https://www.facebook.com/RailwayTavernN16/,facebook,Railway Tavern,Islington,Canonbury,Pizza; Pub,,1,+44 20 3092 3344,2 St Jude Street,N16 8JT,openstreetmap,https://www.facebook.com/RailwayTavernN16/,,https://www.openstreetmap.org/way/251492809
 https://rajofislington.com/,own site,Raj of Islington,Islington,Holloway,Indian,,1,+44 20 7607 0801,359,,openstreetmap,,,https://www.openstreetmap.org/way/257197865
-http://ravellorestaurant.co.uk,own site,Ravello,Islington,St Luke's,Restaurant,,1,+44 20 7251 3620,46-48 Old Street,EC1V 9AQ,openstreetmap,,,https://www.openstreetmap.org/way/167261937
 https://re1996.com/,own site,Re:1996,Islington,Islington,Restaurant,hello@re1996.com,1,,102 Upper Street,N1 1QP,openstreetmap,,,https://www.openstreetmap.org/node/331534434
 https://rosasthai.com/locations/rosas-thai-restaurant-delivery-takeaway-kingscross,own site,Rosa's Thai Cafe,Islington,Pentonville,Asian,kingscross@rosasthai.com,1,+44 20 8024 0120,15-17 Caledonian Road,N1 9DX,openstreetmap,,,https://www.openstreetmap.org/way/352696767
 https://rotundabarandrestaurant.co.uk/,own site,Rotunda,Islington,Pentonville,Restaurant,enquiries@rotundabarandrestaurant.co.uk,1,,90 York way,N1 9AG,openstreetmap,,,https://www.openstreetmap.org/node/680150064
 https://salut-london.co.uk/,own site,Salut!,Islington,Canonbury,Restaurant,hello@salut-london.co.uk,1,+44 20 3441 8808,412 Essex Road,,openstreetmap,,,https://www.openstreetmap.org/node/4600196489
 https://www.sambalshiok.co.uk/,own site,Sambal Shiok Laksa Bar,Islington,Highbury,Asian,info@sambalshiok.co.uk,1,+44 20 7619 9888,171 Holloway Road,,openstreetmap,,,https://www.openstreetmap.org/node/362315131
+https://santocielo.co.uk/,"own site (found by name, postcode verified)",Santo Cielo,Islington,Holloway,Takeaway,info@santocielo.co.uk,1,,"Santo Cielo, Unit 5 Roman Way Industrial Estate, 149 Roman Way",N7 8XH,food standards agency,,,https://ratings.food.gov.uk/business/1909935
 https://santorerestaurant.com,own site,Santorè,Islington,Clerkenwell,Italian; Pizza,,1,+44 20 7812 1488,59-61 Exmouth Market,EC1R 4QL,openstreetmap,,,https://www.openstreetmap.org/way/99379776
+https://www.sarniesocial.com/,"own site (found by name, postcode verified)",Sarnie Social,Islington,Holloway,Takeaway,,1,,"Sarnie Social, Unit 4 Roman Way Industrial Estate, 149 Roman Way",N7 8XH,food standards agency,,,https://ratings.food.gov.uk/business/1957604
 https://www.sawyerandgray.co.uk/,own site,Sawyer & Gray,Islington,Canonbury,Cafe,info@sawyerandgray.co.uk,1,,290 St Paul's Road,N1 2LH,openstreetmap,,,https://www.openstreetmap.org/node/339863099
 http://www.sensationsuk.com,own site,sensations,Islington,Holloway,Ice cream,,1,,298-300 Holloway Road,N7 6NJ,openstreetmap,,,https://www.openstreetmap.org/node/4837714991
 https://www.singertavern.com/,own site,Singer Tavern,Islington,Finsbury,Bar,info@singertavern.com,1,+44 20 3752 2680,1 City Road,EC1Y 1AG,openstreetmap,https://www.facebook.com/SingerTavernLondon/,https://www.instagram.com/singer_tavern,https://www.openstreetmap.org/node/1164110889
@@ -229,18 +248,19 @@ https://www.snoozzze.uk/,own site,Snoozzze Coffee,Islington,Farringdon,Breakfast
 https://somedaysomeday.co.uk/,own site,Someday Bar & Kitchen,Islington,Finsbury Park,Bar,info@somedaysomeday.co.uk,1,,,,openstreetmap,,,https://www.openstreetmap.org/node/12552033724
 https://www.sotocoffee.co.uk/,own site,Soto Coffee,Islington,Barnsbury,Breakfast,,1,,323 Caledonian Road,N1 1DR,openstreetmap,,sotocoffeen1,https://www.openstreetmap.org/node/11926704043
 https://sourdoughsophia.co.uk/,own site,Sourdough Sophia,Islington,Islington,Bakery,hello@sourdoughsophia.co.uk,1,,119 Essex road,N1 2SN,openstreetmap,,,https://www.openstreetmap.org/node/300066382
+https://southpawcoffee.co.uk/,"own site (found by name, postcode verified)",Southpaw Coffee Ltd,Islington,Holloway,Restaurant,,1,,"Southpaw Coffee Ltd, Ground Floor, 2 Roman Way",N7 8XG,food standards agency,,,https://ratings.food.gov.uk/business/1135885
+https://sportsbarandgrill.co.uk/,chain site (same name as 4 mapped branches),Sports Bar & Grill,Islington,Finsbury,Pub,,2,,174-180 Old Street,EC1V 9BP,openstreetmap,,,https://www.openstreetmap.org/node/248444184
 https://ssamkoreandining.co.uk/,own site,SSÄM,Islington,Holloway,Asian; Korean,info@ssamkoreandining.co.uk,1,+44 20 7700 5098,241 Holloway Road,N7 8HG,openstreetmap,,,https://www.openstreetmap.org/way/152992930
 http://www.stjohnstavern.com/,own site,St John's Tavern,Islington,Archway,Pub; Spanish,,1,+44 20 7272 1587,91 Junction Road,N19 5QU,openstreetmap,,,https://www.openstreetmap.org/way/70609598
 https://stjohnrestaurant.com/,own site,St. John,Islington,Farringdon,Restaurant,reservations@stjohnrestaurant.com,1,+44 20 3301 8069,26 St. John Street,EC1M 4AY,openstreetmap,,,https://www.openstreetmap.org/way/97175538
 https://stapletontavern.com/,own site,Stapleton Tavern,Islington,Finsbury Park,Pub,stapleton@anticlondon.com,1,+44 20 7272 5395,2 Crouch Hill,N4 4AU,openstreetmap,,,https://www.openstreetmap.org/way/182783888
-https://www.starbucks.com/store-locator/store/2417/old-street-city-road-104-122-city-road-london-eng-ec-1-v-2-nr-gb,own site,Starbucks,Islington,Finsbury,Breakfast,,1,,,,openstreetmap,,,https://www.openstreetmap.org/node/379033843
-https://www.starbucks.com/store-locator/store/2389/highbury-corner-250-upper-street-london-eng-n-1-1-ru-gb,own site,Starbucks,Islington,Canonbury,Breakfast,,1,,250 Upper Street,N1 1RU,openstreetmap,,,https://www.openstreetmap.org/node/2529518839
-https://www.starbucks.com/store-locator/store/1009102/finsbury-wells-terrace-wells-terrace-finsbury-park-london-eng-n-4-3-ju-gb,own site,Starbucks,Islington,Finsbury Park,Breakfast,,1,,Wells Terrace,N4 3JU,openstreetmap,,,https://www.openstreetmap.org/node/4005692201
-https://www.starbucks.com/store-locator/store/1019204/caledonian-road-london-474-london-eng-n-7-8-tb-gb,own site,Starbucks,Islington,Holloway,Breakfast,,1,,,,openstreetmap,,,https://www.openstreetmap.org/node/5210918478
-https://www.starbucks.com/store-locator/store/1013580/archway-junction-rd-the-lion-1-junction-road-london-london-eng-n-19-5-,own site,Starbucks,Islington,Archway,Breakfast,,1,,1 Junction Road,N19 5QT,openstreetmap,,,https://www.openstreetmap.org/way/76586528
-https://www.starbucks.com/store-locator/store/2787/cowcross-place-zinc-house-unit-1-london-eng-ec-1-m-6-dq-gb,own site,Starbucks,Islington,Farringdon,Breakfast,,1,,19-25 Cowcross Street,EC1M 6DQ,openstreetmap,,,https://www.openstreetmap.org/way/163034470
+https://www.starbucks.com/store-locator/store/2417/old-street-city-road-104-122-city-road-london-eng-ec-1-v-2-nr-gb,own site,Starbucks,Islington,Finsbury,Breakfast,press@starbucks.com,1,,,,openstreetmap,,,https://www.openstreetmap.org/node/379033843
+https://www.starbucks.com/store-locator/store/2389/highbury-corner-250-upper-street-london-eng-n-1-1-ru-gb,own site,Starbucks,Islington,Canonbury,Breakfast,press@starbucks.com,1,,250 Upper Street,N1 1RU,openstreetmap,,,https://www.openstreetmap.org/node/2529518839
+https://www.starbucks.com/store-locator/store/1009102/finsbury-wells-terrace-wells-terrace-finsbury-park-london-eng-n-4-3-ju-gb,own site,Starbucks,Islington,Finsbury Park,Breakfast,press@starbucks.com,1,,Wells Terrace,N4 3JU,openstreetmap,,,https://www.openstreetmap.org/node/4005692201
+https://www.starbucks.com/store-locator/store/1019204/caledonian-road-london-474-london-eng-n-7-8-tb-gb,own site,Starbucks,Islington,Holloway,Breakfast,press@starbucks.com,1,,,,openstreetmap,,,https://www.openstreetmap.org/node/5210918478
+https://www.starbucks.com/store-locator/store/1013580/archway-junction-rd-the-lion-1-junction-road-london-london-eng-n-19-5-,own site,Starbucks,Islington,Archway,Breakfast,press@starbucks.com,1,,1 Junction Road,N19 5QT,openstreetmap,,,https://www.openstreetmap.org/way/76586528
+https://www.starbucks.com/store-locator/store/2787/cowcross-place-zinc-house-unit-1-london-eng-ec-1-m-6-dq-gb,own site,Starbucks,Islington,Farringdon,Breakfast,press@starbucks.com,1,,19-25 Cowcross Street,EC1M 6DQ,openstreetmap,,,https://www.openstreetmap.org/way/163034470
 https://www.greatukpubs.co.uk/steam-passage-angel,own site,Steam Passage Tavern,Islington,Angel,Pub,,1,,45-46 Upper Street,,openstreetmap,,,https://www.openstreetmap.org/way/31324086
-https://www.gordonramsayrestaurants.com,own site,Street Burger,Islington,Angel,Burger,,1,+44 20 7592 1355,341 Upper Street,N1 0PB,openstreetmap,,,https://www.openstreetmap.org/node/299615649
 https://www.gordonramsayrestaurants.com/en/uk/street-burger/locations/farringdon,own site,Street Burger,Islington,Farringdon,Burger,,1,,26 Cowcross Street,EC1M 6DQ,openstreetmap,,,https://www.openstreetmap.org/way/163034468
 https://restaurants.subway.com/united-kingdom/en/london/248-upper-street,own site,Subway,Islington,Canonbury,Deli,,1,,248 Upper Street,N1 1RU,openstreetmap,,,https://www.openstreetmap.org/node/2529525811
 https://restaurants.subway.com/united-kingdom/en/london/222-holloway-road,own site,Subway,Islington,Holloway,Deli,,1,+44 20 7581 9336,222 Holloway Road,N7 8DA,openstreetmap,,,https://www.openstreetmap.org/node/3961636421
@@ -249,14 +269,16 @@ https://restaurants.subway.com/united-kingdom/en/london/4-cowcross-street,own si
 https://restaurants.subway.com/united-kingdom/en/london/38-seven-sisters-road,own site,Subway,Islington,Holloway,Deli,,1,,38 Seven Sisters Road,N7 6AA,openstreetmap,,,https://www.openstreetmap.org/way/233809110
 https://restaurants.subway.com/united-kingdom/en/london/6-city-road,own site,Subway,Islington,Finsbury,Deli,,1,,6 City Road,EC1Y 2AA,openstreetmap,,,https://www.openstreetmap.org/way/629300416
 https://www.summerdumpling.com/,own site,Summer Dumpling,Islington,Angel,Asian; Chinese,summerdumplingltd@gmail.com,1,,248 St. John Street,,openstreetmap,,,https://www.openstreetmap.org/node/13328314301
+https://sushisamurai.co.uk/,"own site (found by name, postcode verified)",Sushi Samurai,Islington,Holloway,Sushi,,1,,"Sushi Samurai, 298-300 Holloway Road, London",N7 6NJ,food standards agency,,,https://ratings.food.gov.uk/business/1965657
 https://sushiwa.co.uk/,own site,Sushi Wa,Islington,Archway,Asian; Japanese; Sushi,happysushiwa@gmail.com,1,,28-30 Highgate Hill,N19 5NL,openstreetmap,,,https://www.openstreetmap.org/way/474922309
 https://www.sweetthursday.co.uk/,own site,Sweet Thursday,Islington,Islington,Pizza,info@sweetthursday.co.uk,1,,95 Southgate Road,,openstreetmap,,,https://www.openstreetmap.org/way/536140334
 https://locations.tacobell.co.uk/london/254-256-seven-sisters.html,own site,Taco Bell,Islington,Finsbury Park,Mexican; Tacos,,1,,254-256 Seven Sisters Road,N4 2HY,openstreetmap,,,https://www.openstreetmap.org/node/9805127548
-https://tanakatsu.co.uk,own site,Tanakatsu,Islington,Angel,Asian; Japanese,,1,+44 121 389 4111,10 Wakley Street,EC1V 7LT,openstreetmap,,,https://www.openstreetmap.org/node/10136097117
+https://tanakatsu.co.uk,own site,Tanakatsu,Islington,Angel,Asian; Japanese,info@tanakatsu.co.uk,1,+44 121 389 4111,10 Wakley Street,EC1V 7LT,openstreetmap,,,https://www.openstreetmap.org/node/10136097117
 http://tbilisi-restaurant.co.uk/,own site,Tbilisi,Islington,Holloway,Restaurant,,1,+44 20 7607 2536,91 Holloway Road,N7 8LT,openstreetmap,,,https://www.openstreetmap.org/node/348116230
-https://www.tenmaru.co.uk/,own site,Tenmaru,Islington,Finsbury Park,Asian; Japanese,,1,,,,openstreetmap,,tenmaru_ramen,https://www.openstreetmap.org/node/8264049280
-http://www.tenshilondon.com/,own site,Tenshi,Islington,Angel,Asian; Japanese,,1,+44 20 7226 4665,61 Upper Street,N1 0NY,openstreetmap,,,https://www.openstreetmap.org/node/3206271867
+https://www.tenmaru.co.uk/,own site,Tenmaru,Islington,Finsbury Park,Asian; Japanese,,2,,,,openstreetmap,,tenmaru_ramen,https://www.openstreetmap.org/node/8264049280
+http://www.tenshilondon.com/,own site,Tenshi,Islington,Angel,Asian; Japanese,info@tenshilondon.com,1,+44 20 7226 4665,61 Upper Street,N1 0NY,openstreetmap,,,https://www.openstreetmap.org/node/3206271867
 https://thaisq.com/restaurants/islington/,own site,Thai Square,Islington,Angel,Asian,islington@thaisq.com,1,+44 20 7704 2000,347-349 Upper Street,N1 0PD,openstreetmap,,,https://www.openstreetmap.org/node/299615666
+https://www.thatwingplace.co.uk/,"own site (found by name, postcode verified)",That Wing Place,Islington,Holloway,Restaurant,that.wing.place1@gmail.com,1,,211 Holloway Road,N7 8DL,openstreetmap,,,https://www.openstreetmap.org/way/153027827
 https://www.the-albion.co.uk/,own site,The Albion,Islington,Barnsbury,Pub,info@the-albion.co.uk,1,+44 20 7607 7450,10 Thornhill Road,N1 1HW,openstreetmap,,,https://www.openstreetmap.org/way/31900825
 https://thealmaislington.com,own site,The Alma,Islington,Canonbury,American; Pizza; Pub,book@thealmaislington.com,1,+44 20 7226 3531,59 Newington Green Road,N1 4QU,openstreetmap,,,https://www.openstreetmap.org/way/227827311
 https://www.thealpaca.co.uk/,own site,The Alpaca,Islington,Islington,Pub,hello@thealpaca.co.uk,1,+44 20 3417 7224,84-86 Essex Road,N1 8LU,openstreetmap,,,https://www.openstreetmap.org/way/68424243
@@ -272,22 +294,25 @@ https://www.bostonarms.co.uk/,own site,The Boston Arms,Islington,Tufnell Park,Pu
 https://www.sportsbarandgrill.co.uk/farringdon,own site,The Boundary,Islington,Farringdon,Pub,,1,,Cowcross Street,EC1M 5UG,openstreetmap,,,https://www.openstreetmap.org/node/593553106
 https://www.thebravelondon.co.uk/,own site,The Brave,Islington,Canonbury,Pub,info@thebravelondon.co.uk,1,,340-342 Essex Road,N1 3PB,openstreetmap,,,https://www.openstreetmap.org/way/197695792
 http://britanniatavern.com/,own site,The Britannia Public House,Islington,St Luke's,Pub,brendan@britanniatavern.com,1,+44 7932 752156,94 Ironmonger Row,EC1V 3QR,openstreetmap,,,https://www.openstreetmap.org/way/164010931
+https://www.thebrougham.co.uk/,own site (Wikidata),The Brougham,Islington,Islington,Restaurant,reservations@thebrougham.co.uk,1,,"The Brougham, Basement and Ground, 2 Essex Road",N1 8LN,food standards agency,,,https://ratings.food.gov.uk/business/1536069
 https://www.thecanonbury.co.uk/,own site,The Canonbury Tavern,Islington,Canonbury,Pub,canonbury@youngs.co.uk,1,+44 20 7704 2887,21 Canonbury Place,,openstreetmap,,,https://www.openstreetmap.org/way/230252979
 https://www.thecastlefarringdon.co.uk/,own site,The Castle,Islington,Farringdon,Pub,,1,,34-35 Cowcross Street,EC1M 6DB,openstreetmap,,,https://www.openstreetmap.org/node/475933772
 https://www.crafted-social.co.uk/cellar-taps-newington-green,own site,The Cellar Taps,Islington,Canonbury,Burger; Pizza; Pub,stonegatepress@stonegategroup.co.uk,1,+44 20 7096 2250,125 Newington Green Road,N1 4RA,openstreetmap,,,https://www.openstreetmap.org/way/377056423
-https://thechapelbar.co.uk/,own site,The Chapel Bar,Islington,Pentonville,Bar,,1,,29 Penton Street,N1 9PX,openstreetmap,,,https://www.openstreetmap.org/way/119476490
+https://thechapelbar.co.uk/,own site,The Chapel Bar,Islington,Pentonville,Bar,info@thechapelbar.co.uk,1,,29 Penton Street,N1 9PX,openstreetmap,,,https://www.openstreetmap.org/way/119476490
 https://www.cityprideclerkenwell.co.uk,own site,The City Pride,Islington,Clerkenwell,Pizza; Pub,luigi.stabcanelli@gmail.com,1,+44 20 7251 8883,28 Farringdon Lane,EC1R 3AU,openstreetmap,,,https://www.openstreetmap.org/way/203180588
 https://theclerkenwelltavern.co.uk/,own site,The Clerkenwell Tavern,Islington,Clerkenwell,Pub,hello@theclerkenwelltavern.co.uk,1,+44 20 8161 0439,2 Exmouth Market,EC1R 4PX,openstreetmap,,,https://www.openstreetmap.org/way/147734606
-https://thecoachclerkenwell.co.uk/,own site,The Coach,Islington,Clerkenwell,Pub,,1,+44 20 3954 1595,26-28 Ray Street,EC1R 3DJ,openstreetmap,,,https://www.openstreetmap.org/way/98526005
+https://thecoachclerkenwell.co.uk/,own site,The Coach,Islington,Clerkenwell,Pub,reservations@thehorsesec1.com,1,+44 20 3954 1595,26-28 Ray Street,EC1R 3DJ,openstreetmap,,,https://www.openstreetmap.org/way/98526005
 https://www.thecoffeerun.net/,own site,The Coffee Run,Islington,Canonbury,Cafe,,1,,Canonbury Station,N1 2PG,openstreetmap,,,https://www.openstreetmap.org/way/1300668532
 https://www.comptonarms.co.uk/,own site,The Compton Arms,Islington,Canonbury,Pub,,1,,,,openstreetmap,,,https://www.openstreetmap.org/node/339394917
 https://thecoronet.uk/,own site,The Coronet,Islington,Holloway,Pub,,1,,338-346 Holloway Road,N7 6NJ,openstreetmap,,,https://www.openstreetmap.org/way/227929500
 https://www.crownislington.co.uk/,own site,The Crown,Islington,Barnsbury,Pub,,1,+44 20 7837 7107,116 Cloudesley Road,N1 0EB,openstreetmap,,,https://www.openstreetmap.org/node/331298014
 http://www.thecrowntavernec1.co.uk,own site,The Crown Tavern,Islington,Clerkenwell,Pub,,1,+44 20 7253 4973,43 Clerkenwell Green,EC1R 0EG,openstreetmap,thecrowntavernec1,thecrowntavernec1,https://www.openstreetmap.org/way/155363890
 https://www.debeauvoirarms.com/,own site,The De Beauvoir Arms,Islington,Canonbury,Pub,info@debeauvoirarms.com,1,+44 20 7359 7392,113 Southgate Road,N1 3JS,openstreetmap,,,https://www.openstreetmap.org/way/536043069
+https://thedepotn7.co.uk/,"own site (found by name, postcode verified)",The Depot N7,Islington,Holloway,Pub,hello@thedepotn7.co.uk,1,,"The Depot N7, Bar And Premises, Westcliff House",N7 9EF,food standards agency,,,https://ratings.food.gov.uk/business/701798
 https://www.dovetailec1.co.uk,own site,The Dovetail,Islington,Clerkenwell,Pub,dovetailec1@gmail.com,1,+44 20 7490 7321,9-10 Jerusalem Passage,EC1V 4JP,openstreetmap,,thedovetailbar,https://www.openstreetmap.org/way/155354349
-http://www.thedrapersarms.com/,own site,The Drapers Arms,Islington,Barnsbury,Pub,,1,+44 20 7619 0348,44 Barnsbury Street,N1 1ER,openstreetmap,,,https://www.openstreetmap.org/way/31052744
+http://www.thedrapersarms.com/,own site,The Drapers Arms,Islington,Barnsbury,Pub,info@thedrapersarms.com,1,+44 20 7619 0348,44 Barnsbury Street,N1 1ER,openstreetmap,,,https://www.openstreetmap.org/way/31052744
 https://www.thedrunkenbutler.com/,own site,The Drunken Butler,Islington,Clerkenwell,Restaurant,,1,,,,openstreetmap,,,https://www.openstreetmap.org/node/9893839397
+https://www.theduchessofkent.co.uk/,"own site (found by name, postcode verified)",The Duchess of Kent,Islington,Holloway,Pub,,1,,Liverpool Road,N7 8PR,openstreetmap,,,https://www.openstreetmap.org/node/305415325
 https://www.thedynamicspud.com/,own site,The Dynamic Spud,Islington,Tufnell Park,Cafe,,1,,167 Junction Road,N19 5PZ,openstreetmap,,,https://www.openstreetmap.org/way/70609475
 https://theeaglefarringdon.co.uk/,own site,The Eagle,Islington,Clerkenwell,Pub,info@theeaglefarringdon.co.uk,1,+44 20 7837 1353,159 Farringdon Road,,openstreetmap,,,https://www.openstreetmap.org/way/155341971
 https://www.craftunionpubs.com/eaglet-pub-finsbury,own site,The Eaglet,Islington,Holloway,Pub,,1,,124 Seven Sisters Road,N7 6AE,openstreetmap,,,https://www.openstreetmap.org/way/142306062
@@ -304,13 +329,16 @@ https://www.thehanbury.co.uk/,own site,The Hanbury,Islington,Islington,Pub,info@
 https://www.thehoratia.co.uk/,own site,The Horatia,Islington,Holloway,Pub,info@thehoratia.co.uk,1,,98-100 Holloway Road,N7 8JE,openstreetmap,,,https://www.openstreetmap.org/node/362359474
 https://www.theislandqueenislington.co.uk/,own site,The Island Queen,Islington,Angel,Pub,,1,+44 20 7354 8741,87 Noel Road,N1 8HD,openstreetmap,,,https://www.openstreetmap.org/way/67449821
 https://www.thejunctionmarket.co.uk/,own site,The Junction Market,Islington,Holloway,Food court,info@thejunctionmarket.co.uk,1,,95 Seven Sisters Road,,openstreetmap,,,https://www.openstreetmap.org/way/227589555
+https://www.thelambn7.co.uk/,own site (Wikidata),The Lamb,Islington,Holloway,Pub,,1,,54 Holloway Road,N7 8JL,openstreetmap,,,https://www.openstreetmap.org/node/305415323
 https://www.theleconfieldpub.co.uk/,own site,The Leconfield,Islington,Highbury,Pub,,1,+44 20 7354 2791,79 Green Lanes,N16 9BU,openstreetmap,,,https://www.openstreetmap.org/way/265265245
 https://thelexington.co.uk/,own site,The Lexington,Islington,Pentonville,Mexican; Pub,,1,+44 20 7837 5371,96-98 Pentonville Road,N1 9JB,openstreetmap,,,https://www.openstreetmap.org/way/119476480
 https://www.crafted-social.co.uk/library-islington,own site,The Library,Islington,Canonbury,Pub,,1,,235 Upper Street,N1 1RU,openstreetmap,,,https://www.openstreetmap.org/way/31293177
-http://thelocalist.london/,own site,The Localist,Islington,Farringdon,Restaurant,,1,,40 St. John Street,,openstreetmap,,,https://www.openstreetmap.org/way/147004011
+http://thelocalist.london/,own site,The Localist,Islington,Farringdon,Restaurant,contact.georboateng@gmail.com,1,,40 St. John Street,,openstreetmap,,,https://www.openstreetmap.org/way/147004011
+https://themariananderson.com/,own site (Wikidata),The Marian Anderson,Islington,Clerkenwell,Pub,info@themariananderson.com,1,,28-32 Bowling Green Lane,,openstreetmap,,,https://www.openstreetmap.org/way/99813922
 https://www.jdwetherspoon.com/pubs/all-pubs/england/london/the-masque-haunt-old-street,own site,The Masque Haunt,Islington,Finsbury,Pub,,1,,168-172 Old Street,EC1V 9BP,openstreetmap,,,https://www.openstreetmap.org/node/294950903
 https://www.greeneking.co.uk/pubs/greater-london/old-dairy,own site,The Old Dairy,Islington,Finsbury Park,Pub,,1,,,,openstreetmap,,,https://www.openstreetmap.org/way/182781312
 https://www.theoldqueenshead.com/,own site,The Old Queen's Head,Islington,Islington,Pub,bookings@theoldqueenshead.com,1,+44 20 7354 9993,44 Essex Road,N1 8LN,openstreetmap,,,https://www.openstreetmap.org/way/982457191
+https://theottomandoner.co.uk/,"own site (found by name, postcode verified)",The Ottoman Doner,Islington,Holloway,Restaurant,info@theottomandoner.co.uk,1,,"The Ottoman Doner, Ground Floor, 53 Seven Sisters Road",N7 6BH,food standards agency,,,https://ratings.food.gov.uk/business/1519464
 https://www.owlandhitchhiker.pub,own site,The Owl & Hitchhiker,Islington,Holloway,Pub,info@owlandhitchhiker.pub,1,,471 Holloway Road,N7 6LE,openstreetmap,,,https://www.openstreetmap.org/way/288035711
 https://thepigandbutcher.co.uk,own site,The Pig & Butcher,Islington,Angel,Pub,reservations@thepigandbutcher.co.uk,1,+44 20 7226 8304,80 Liverpool Road,N1 0QD,openstreetmap,,,https://www.openstreetmap.org/way/31025059
 https://therasoi.uk/,own site,The Rasoi,Islington,Farringdon,Indian,therasoi130@gmail.com,1,+44 7407387615,130 St. John Street,EC1V 4JS,openstreetmap,,,https://www.openstreetmap.org/way/97508203
@@ -321,15 +349,16 @@ https://thesekforde.com,own site,The Sekforde,Islington,Clerkenwell,Pub,info@the
 https://theshaftesburytavern.co.uk/,own site,The Shaftesbury Tavern,Islington,Archway,Asian; Pub,shaftesburyt@remarkablepubs.co.uk,1,+44 20 7272 7950,534 Hornsey Road,N19 3QN,openstreetmap,,,https://www.openstreetmap.org/way/190104590
 https://www.auldhag.co.uk,own site,The Shoap,Islington,Angel,Bakery,,1,,,,openstreetmap,,,https://www.openstreetmap.org/node/12894603701
 https://www.tam.tv/locations/smithfield,own site,The Smithfield Market Arms,Islington,Farringdon,Pub,vivian@tam.tv,1,,55 Charterhouse Street,EC1M 6HA,openstreetmap,,,https://www.openstreetmap.org/way/568747636
-http://www.snootyfoxlondon.co.uk/,own site,The Snooty Fox,Islington,Highbury,Pub,,1,+44 20 7354 9532,75 Grosvenor Avenue,N5 2NN,openstreetmap,,,https://www.openstreetmap.org/way/227830213
+http://www.snootyfoxlondon.co.uk/,own site,The Snooty Fox,Islington,Highbury,Pub,snootyfoxreservations@gmail.com,1,+44 20 7354 9532,75 Grosvenor Avenue,N5 2NN,openstreetmap,,,https://www.openstreetmap.org/way/227830213
 http://www.thespokelondon.com/,own site,The Spoke,Islington,Archway,Cafe,contact@thespokelondon.com,1,,710 Holloway Road,N19 3NH,openstreetmap,,thespoke710,https://www.openstreetmap.org/way/180070323
-http://starofkings.co.uk/,own site,The Star of Kings,Islington,Barnsbury,Asian; Pub,,1,+44 20 7458 4218,126 York Way,N1 0AX,openstreetmap,,,https://www.openstreetmap.org/way/222031886
+http://starofkings.co.uk/,own site,The Star of Kings,Islington,Barnsbury,Asian; Pub,info@starofkings.co.uk,1,+44 20 7458 4218,126 York Way,N1 0AX,openstreetmap,,,https://www.openstreetmap.org/way/222031886
 https://www.sutton-arms.co.uk/,own site,The Sutton Arms,Islington,Farringdon,Pub,,1,,6 Carthusian Street,EC1M 6EB,openstreetmap,,,https://www.openstreetmap.org/way/203530059
 https://theswimmer.co.uk/,own site,The Swimmer At The Grafton Arms,Islington,Holloway,Pub,swimmern7@gmail.com,1,+442072814632,13 Eburne Road,N7 6AR,openstreetmap,,,https://www.openstreetmap.org/node/687158190
 https://www.thetamilcrown.com/,own site,The Tamil Crown,Islington,Angel,Indian; Pub,info@thetamilcrown.com,1,+44 20 7916 2920,16 Elia Street,N1 8DE,openstreetmap,,,https://www.openstreetmap.org/way/67234436
 https://www.thetamilprince.com,own site,The Tamil Prince,Islington,Barnsbury,Indian,info@thetamilprince.com,1,+44 20 7062 7846,115 Hemingford Road,N1 1BZ,openstreetmap,,,https://www.openstreetmap.org/node/11240921537
 http://thetaprooms.co.uk/,own site,The Taproom,Islington,Islington,Pub,,1,,163 Upper Street,N1 1US,openstreetmap,,,https://www.openstreetmap.org/way/288355243
 https://www.thethreekings.london,own site,The Three Kings,Islington,Clerkenwell,Pub,threekings@redcarpubs.com,1,+44 20 3781 1359,7 Clerkenwell Close,EC1R 0DY,openstreetmap,,,https://www.openstreetmap.org/way/155363891
+https://tolpuddlecafe.co.uk/,"own site (found by name, postcode verified)",The Tolpuddle Cafe,Islington,Holloway,Restaurant,hello@tolpuddlecafe.co.uk,1,,"The Tolpuddle Cafe, Cafe, Caledonian Park",N7 9HF,food standards agency,,,https://ratings.food.gov.uk/business/1499434
 https://www.uniontavernlondon.uk/,own site,The Union Tavern,Islington,Pentonville,Pub,,1,+44 20 7278 0111,52 Lloyd Baker Street,WC1X 9AA,openstreetmap,,,https://www.openstreetmap.org/way/155724665
 https://www.crafted-social.co.uk/vineyard-islington,own site,The Vineyard,Islington,Canonbury,Pub,,1,,179 Upper Street,N1 1RG,openstreetmap,,,https://www.openstreetmap.org/way/299662731
 https://www.jdwetherspoon.com/pubs/all-pubs/england/london/the-white-swan-islington,own site,The White Swan,Islington,Canonbury,Pub,,1,,255-256 Upper Street,N1 1RY,openstreetmap,,,https://www.openstreetmap.org/node/2531024418
@@ -344,16 +373,17 @@ https://www.tufnellparktavern.com/,own site,Tufnell Park Tavern,Islington,Tufnel
 https://tyuk.com/,own site,TYUK,Islington,St Luke's,Cafe,,1,,61-67 Old Street,EC1V 9HW,openstreetmap,,,https://www.openstreetmap.org/way/374856297
 https://www.udderlicious.co.uk/,own site,Udderlicious,Islington,Canonbury,Ice cream,raj@udderlicious.co.uk,1,+44 20 7359 7777,187 Upper Street,N1 1RQ,openstreetmap,,,https://www.openstreetmap.org/node/7022220811
 https://urbansocialcoffee.co.uk/,own site,Urban Social Coffee,Islington,Canonbury,Cafe,,1,,236 Upper Street,N1 1RU,openstreetmap,,,https://www.openstreetmap.org/node/331880909
-http://www.vagabond.london/,own site,Vagabond N7,Islington,Holloway,Breakfast,,1,,105 Holloway Road,N7 8LT,openstreetmap,,,https://www.openstreetmap.org/node/348116257
+http://www.vagabond.london/,own site,Vagabond N7,Islington,Holloway,Breakfast,info@vagabondcoffeeroasters.com,1,,105 Holloway Road,N7 8LT,openstreetmap,,,https://www.openstreetmap.org/node/348116257
 https://vesper.restaurant/,own site,Vesper,Islington,Clerkenwell,Restaurant,enquiry@vesper.restaurant,1,+44 20 3897 9609,8-10 Exmouth Market,EC1R 4QA,openstreetmap,,,https://www.openstreetmap.org/way/147734612
 https://www.wagamama.com/restaurants/london/islington,own site,Wagamama,Islington,Angel,Asian,press@wagamama.com,1,,40 Parkfield Street,N1 0PS,openstreetmap,,,https://www.openstreetmap.org/node/306042529
 https://www.wagamama.com/restaurants/london/old-street,own site,Wagamama,Islington,Finsbury,Asian,press@wagamama.com,1,,,,openstreetmap,,,https://www.openstreetmap.org/node/10067644047
 https://www.westernslaundry.com/,own site,Westerns Laundry,Islington,Highbury,Spanish,,1,+44 20 7700 3700,34 Drayton Park,N5 1PB,openstreetmap,,,https://www.openstreetmap.org/node/8959616434
 https://www.whiskersandcream.com/,own site,Whiskers & Cream Cat Cafe,Islington,Archway,Cafe,managers@whiskersandcream.com,1,+44 20 7263 2888,593 Holloway Road,N19 4DJ,openstreetmap,,,https://www.openstreetmap.org/way/494787153
 https://www.greatukpubs.co.uk/thewhittingtonstonehighgate,own site,Whittington Stone,Islington,Archway,Pub,,1,+44 20 7281 0905,53 Highgate Hill,N19 5NE,openstreetmap,,,https://www.openstreetmap.org/way/447950556
-https://wolkiterestaurant.com/,own site,Wolkite Kitfo,Islington,Holloway,Restaurant,info@wolkiterestaurant.com,1,+44 20 7700 3055,82 Hornsey Road,N7 6DG,openstreetmap,,,https://www.openstreetmap.org/node/4153922607
-http://www.workersislington.co.uk/,own site,Workers Cafe,Islington,Canonbury,Takeaway,,1,+44 20 7226 3973,172 Upper Street,N1 1RG,openstreetmap,,,https://www.openstreetmap.org/node/331880869
+https://www.wolkiterestaurant.com/,"own site (found by name, postcode verified)",Wolkite,Islington,Holloway,Restaurant,info@wolkiterestaurant.com,2,,"Wolkite, 82 Hornsey Road, London",N7 7NN,food standards agency,,,https://ratings.food.gov.uk/business/417812
+http://www.workersislington.co.uk/,own site,Workers Cafe,Islington,Canonbury,Takeaway,admin@gmail.com,1,+44 20 7226 3973,172 Upper Street,N1 1RG,openstreetmap,,,https://www.openstreetmap.org/node/331880869
 http://www.workshopcoffee.com/,own site,Workshop Coffee Co.,Islington,Farringdon,Cafe,academy@workshopcoffee.com,2,+44 20 7253 5754,27 Clerkenwell Road,EC1M 5RN,openstreetmap,,,https://www.openstreetmap.org/way/113694288
+https://www.wrapsandwings.co.uk/,"own site (found by name, postcode verified)",Wraps and Wings,Islington,Holloway,Takeaway,,2,,"Wraps and Wings, Ground And First Floor 60, 40-60 Brewery Road",N7 9NH,food standards agency,,,https://ratings.food.gov.uk/business/1226771
 http://www.xianimpression.co.uk/,own site,Xi'an Impression,Islington,Holloway,Asian; Chinese,,1,,117 Benwell Road,N7 7BW,openstreetmap,,,https://www.openstreetmap.org/way/362832214
 https://www.xinkai.co.uk/,own site,Xin Kai,Islington,Pentonville,Asian; Chinese,xinkai.london@gmail.com,1,+44 20 7837 0838,50 Caledonian Road,N1 9DP,openstreetmap,,,https://www.openstreetmap.org/node/11215168599
 https://finsburypark.yakandyeti.co.uk/,own site,Yak & Yeti,Islington,Finsbury Park,Indian,,1,,143 Stroud Green Road,N4 3PZ,openstreetmap,,,https://www.openstreetmap.org/node/2503401928
@@ -361,4 +391,3 @@ https://yidasushi.co.uk/,own site,Yida Sushi,Islington,Canonbury,Sushi,,1,,246 S
 http://yieldn16.com/,own site,Yield N16,Islington,Canonbury,Deli,hello@yieldn16.com,1,+44 20 7354 5912,45 Newington Green,N1 4RA,openstreetmap,,,https://www.openstreetmap.org/way/377056424
 https://zeitfuerbrot.co.uk/,own site,Zeit für Brot,Islington,Angel,Cafe,commercial@zeitfuerbrot.co.uk,1,,,,openstreetmap,,,https://www.openstreetmap.org/node/13564292201
 https://www.zenmondo.co.uk/,own site,Zen Mondo,Islington,Islington,Asian; Japanese,,1,,326 Upper Street,N1 2XQ,openstreetmap,,,https://www.openstreetmap.org/node/352896510
-https://zialucia.com/,own site,Zia Lucia,Islington,Holloway,Pizza,,2,,157 Holloway Road,N7 8LX,openstreetmap,,,https://www.openstreetmap.org/way/32257655

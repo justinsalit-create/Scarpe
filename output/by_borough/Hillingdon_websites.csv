@@ -33,6 +33,7 @@ https://favorite.co.uk/store-finder/favorite-chicken-ribs-west-drayton.html,own 
 https://restaurants.fiveguys.co.uk/greater-london/162-163-high-st,own site,Five Guys,Hillingdon,Uxbridge,Burger,,1,,162-163 High Street,UB8 1JZ,openstreetmap,,,https://www.openstreetmap.org/node/26979404
 https://gails.com/pages/ruislip,own site,GAIL's,Hillingdon,Ruislip,Bakery,,1,,63 High Street,HA4 8JB,openstreetmap,,,https://www.openstreetmap.org/node/12375726901
 https://www.greeneking.co.uk/pubs/middlesex/george-and-dragon,own site,George & Dragon,Hillingdon,Yiewsley,Pub,,1,,175 High Street,UB7 7BE,openstreetmap,,,https://www.openstreetmap.org/way/900831933
+https://www.gordonramsayrestaurants.com/plane-food/,own site (Wikidata),Gordon Ramsay Plane Food,Hillingdon,Longford,Restaurant,,2,,,,openstreetmap,,,https://www.openstreetmap.org/way/438299684
 https://thelounges.co.uk/granero,own site,Granero Lounge,Hillingdon,Ruislip,Restaurant,granero@thelounges.co.uk,1,,81-83 High Street,HA4 8JB,openstreetmap,,,https://www.openstreetmap.org/node/13907190773
 https://www.greggs.com/shops/hayes/25-station-road/0984,own site,Greggs,Hillingdon,Hayes,Bakery; Deli,,1,,25 Station Road,UB3 4BD,openstreetmap,,,https://www.openstreetmap.org/node/11292690353
 https://hothousenorthwood.co.uk/,own site,Hot House Pizza,Hillingdon,Northwood,Pizza,sudrise6@gmail.com,1,+44 1923 510520,91 Joel Street,HA6 1LW,openstreetmap,,,https://www.openstreetmap.org/node/13409475027
@@ -49,7 +50,6 @@ https://www.kfc.co.uk/kfc-near-me/hillingdon-whiteleys-parade,own site,KFC,Hilli
 https://www.kfc.co.uk/kfc-near-me/hayes-town-station-road,own site,KFC,Hillingdon,Hayes,Takeaway,,1,,60 Station Road,UB3 4DF,openstreetmap,,,https://www.openstreetmap.org/node/11380985003
 https://www.kfc.co.uk/kfc-near-me/ruislip-high-street,own site,KFC,Hillingdon,Ruislip,Takeaway,,1,,58 High Street,HA4 7AA,openstreetmap,,,https://www.openstreetmap.org/way/969222741
 https://www.beefeater.co.uk/en-gb/locations/greater-london/london-hayes,own site,London Hayes,Hillingdon,Hayes,Restaurant,,1,,1 Millington Road,UB3 4AZ,openstreetmap,,,https://www.openstreetmap.org/node/6260770599
-http://www.londonhongkong.co.uk/,own site,London Hong Kong,Hillingdon,Harmondsworth,Asian; Chinese,,1,+44 20 8754 7666,388 Bath Road,UB7 0DH,openstreetmap,,,https://www.openstreetmap.org/way/426311819
 https://www.londonspride.com/,own site,London's Pride,Hillingdon,Sipson,Pub,,1,,,,openstreetmap,,,https://www.openstreetmap.org/node/4527208488
 https://www.facebook.com/p/Maison-du-Soleil-100067590724083/,facebook,Maison Du Soleil,Hillingdon,Ickenham,Cafe,,1,,23-25 Swakeleys Road,UB10 8DF,openstreetmap,https://www.facebook.com/p/Maison-du-Soleil-100067590724083/,,https://www.openstreetmap.org/node/14014502955
 https://www.mcdonalds.com/gb/en-gb/location/uxbridge/chimes/unit-103-104-intu-shopping-centre/8261166.html,own site,McDonald's,Hillingdon,Uxbridge,Burger,,1,+44 1895 259328,High Street,UB8 1GA,openstreetmap,,,https://www.openstreetmap.org/node/528100159
@@ -82,11 +82,11 @@ https://raavispice.com/,own site,Ravvi Spice,Hillingdon,Yiewsley,Halal; Indian,h
 https://rollsnrice.co.uk,own site,Rolls n Rice,Hillingdon,Northwood,Asian; Halal,,1,,60 The Broadway,HA6 1PA,openstreetmap,,,https://www.openstreetmap.org/node/11646817072
 https://sipsontandoori.com/,own site,Sipson Tandoori,Hillingdon,West Drayton,Indian,info@sipsontandoori.com,1,+44 1895 435515,"5,9 Harmondsworth Road",UB7 9JJ,openstreetmap,,,https://www.openstreetmap.org/node/3257229308
 https://smokinpatty.com/,own site,Smokin Patty,Hillingdon,Yiewsley,Burger,,1,+44 1895 742235,67 Station Road,UB7 7LR,openstreetmap,,,https://www.openstreetmap.org/node/3259057394
-https://www.starbucks.com/store-locator/store/89744/heathrow-bath-road-dt-9-bath-road-heathrow-eng-tw-6-2-aa-gb,own site,Starbucks,Hillingdon,Harlington,Breakfast,,1,+44 20 8897 7938,9 Bath Road,TW6 2AA,openstreetmap,,,https://www.openstreetmap.org/node/249856001
-https://www.starbucks.com/store-locator/store/1048919/london-heathrow-t-2-airside-inner-ring-e-hounslow-eng-tw-6-1-ew-gb,own site,Starbucks,Hillingdon,Sipson,Breakfast,,1,,,,openstreetmap,,,https://www.openstreetmap.org/node/11634754092
-https://www.starbucks.com/store-locator/store/1011849/heathrow-sspemea-lhr-t-5-airs-terminal-5-airside-hounslow-eng-tw-6-2-ga-gb,own site,Starbucks,Hillingdon,Longford,Breakfast,,1,,Wellington Road,,openstreetmap,,,https://www.openstreetmap.org/way/438299705
-https://www.starbucks.com/store-locator/store/89719/heathrow-airport-t-5-c-airside-terminal-5-airside-hounslow-eng-tw-6-2-ga-gb,own site,Starbucks,Hillingdon,Longford,Breakfast,,1,,,,openstreetmap,,,https://www.openstreetmap.org/way/438299706
-https://www.starbucks.com/store-locator/store/1009896/yeading-willow-tree-retail-p-glencoe-road-london-eng-ub-4-9-sn-gb,own site,Starbucks,Hillingdon,Yeading,Breakfast,,1,+44 20 8845 2739,Glencoe Road,UB4 9SN,openstreetmap,,,https://www.openstreetmap.org/way/1027088881
+https://www.starbucks.com/store-locator/store/89744/heathrow-bath-road-dt-9-bath-road-heathrow-eng-tw-6-2-aa-gb,own site,Starbucks,Hillingdon,Harlington,Breakfast,press@starbucks.com,1,+44 20 8897 7938,9 Bath Road,TW6 2AA,openstreetmap,,,https://www.openstreetmap.org/node/249856001
+https://www.starbucks.com/store-locator/store/1048919/london-heathrow-t-2-airside-inner-ring-e-hounslow-eng-tw-6-1-ew-gb,own site,Starbucks,Hillingdon,Sipson,Breakfast,press@starbucks.com,1,,,,openstreetmap,,,https://www.openstreetmap.org/node/11634754092
+https://www.starbucks.com/store-locator/store/1011849/heathrow-sspemea-lhr-t-5-airs-terminal-5-airside-hounslow-eng-tw-6-2-ga-gb,own site,Starbucks,Hillingdon,Longford,Breakfast,press@starbucks.com,1,,Wellington Road,,openstreetmap,,,https://www.openstreetmap.org/way/438299705
+https://www.starbucks.com/store-locator/store/89719/heathrow-airport-t-5-c-airside-terminal-5-airside-hounslow-eng-tw-6-2-ga-gb,own site,Starbucks,Hillingdon,Longford,Breakfast,press@starbucks.com,1,,,,openstreetmap,,,https://www.openstreetmap.org/way/438299706
+https://www.starbucks.com/store-locator/store/1009896/yeading-willow-tree-retail-p-glencoe-road-london-eng-ub-4-9-sn-gb,own site,Starbucks,Hillingdon,Yeading,Breakfast,press@starbucks.com,1,+44 20 8845 2739,Glencoe Road,UB4 9SN,openstreetmap,,,https://www.openstreetmap.org/way/1027088881
 https://restaurants.subway.com/united-kingdom/en/london/224-high-street,own site,Subway,Hillingdon,Uxbridge,Deli,,1,,224 High Street,UB8 1LD,openstreetmap,,,https://www.openstreetmap.org/node/528100156
 https://restaurants.subway.com/united-kingdom/en/london/181-field-end-road,own site,Subway,Hillingdon,Eastcote,Deli,,1,,181 Field End Road,HA5 1QR,openstreetmap,,,https://www.openstreetmap.org/node/1319508628
 https://restaurants.subway.com/united-kingdom/en/london/the-arena,own site,Subway,Hillingdon,West Drayton,Deli,,1,,,,openstreetmap,,,https://www.openstreetmap.org/node/8412253850
@@ -108,8 +108,11 @@ https://www.greatukpubs.co.uk/metropolitan-tavern-uxbridge,own site,The Metropol
 https://www.greeneking.co.uk/pubs/middlesex/middlesex-arms,own site,The Middlesex Arms,Hillingdon,Eastcote,Pub,,1,,,,openstreetmap,,,https://www.openstreetmap.org/way/586106993
 https://www.crafted-social.co.uk/millers-tap-uxbridge,own site,The Miller Tap,Hillingdon,Uxbridge,Pub,stonegatepress@stonegategroup.co.uk,1,,,,openstreetmap,,,https://www.openstreetmap.org/way/925751632
 https://www.craftunionpubs.com/old-crown-hayes,own site,The Old Crown,Hillingdon,Hayes,Pub,,1,,81 Station Road,UB3 4BG,openstreetmap,,,https://www.openstreetmap.org/node/324942956
+https://www.brunningandprice.co.uk/oldorchard/,own site (Wikidata),The Old Orchard,Hillingdon,Harefield,Pub,old.orchard@brunningandprice.co.uk,1,,,UB9 6HJ,openstreetmap,,,https://www.openstreetmap.org/way/279506287
 https://www.princeofwalesuxbridge.co.uk/,own site,The Prince of Wales,Hillingdon,Hillingdon,Restaurant,,1,+44 1895 472 232,,,openstreetmap,,,https://www.openstreetmap.org/node/752051425
+https://www.jdwetherspoon.com/pubs/all-pubs/england/middlesex/the-flying-chariot-before-security-terminal-2,own site (Wikidata),The Queen's Arms,Hillingdon,Sipson,Pub,,1,,,TW6 1EW,openstreetmap,,,https://www.openstreetmap.org/node/4525422451
 https://www.redlionhotelhillingdon.co.uk,own site,The Red Lion,Hillingdon,Hillingdon,Pub,,1,,,,openstreetmap,,,https://www.openstreetmap.org/way/841803230
+https://www.therivergardenpub.com/,own site (Wikidata),The River Garden,Hillingdon,Harefield,Pub,,1,,Moorhall Road,UB9 6PE,openstreetmap,,,https://www.openstreetmap.org/way/1054398980
 https://stockleypark.co.uk/the-set-the-squareabout/,own site,The Set @ The Squareabout,Hillingdon,Hayes,Breakfast,enquiries@stockleypark.co.uk,1,,,UB11 1HU,openstreetmap,,,https://www.openstreetmap.org/way/1173718614
 https://www.facebook.com/theswallowhillingdon,facebook,The Swallow,Hillingdon,Ickenham,Pub,,1,,,,openstreetmap,https://www.facebook.com/theswallowhillingdon,,https://www.openstreetmap.org/way/166167347
 https://www.greeneking.co.uk/pubs/middlesex/three-magpies,own site,The Three Magpies,Hillingdon,Sipson,Pub,,1,+442087591071,80 Bath Road,TW6 2AU,openstreetmap,,,https://www.openstreetmap.org/way/1226903937
@@ -121,6 +124,7 @@ https://www.whitehartharlington.co.uk/,own site,"The White Hart, Harlington",Hil
 http://oldenglishpub.co.uk/,own site,The White Horse,Hillingdon,Longford,Pub,,1,+44 1753 682520,530 Bath Road,UB7 0EE,openstreetmap,,,https://www.openstreetmap.org/relation/15847513
 https://arensbar.co.uk/,own site,The Woodman,Hillingdon,Eastcote,Steak,hello@arens.uk,1,+44 20 8868 3092,Joel Street,HA5 2PR,openstreetmap,,,https://www.openstreetmap.org/node/5375552656
 https://topspizza.co.uk/hillingdon,own site,Tops Pizza,Hillingdon,Hillingdon,Pizza,,1,,9 Uxbridge Road,UB10 0LH,openstreetmap,,,https://www.openstreetmap.org/node/7833718404
+https://www.venue5.com/,own site (Wikidata),Venue 5,Hillingdon,Eastcote,Pub,info@venue5.com,1,,,HA4 9PB,openstreetmap,,,https://www.openstreetmap.org/way/586117496
 https://virundhurestaurant.com/,own site,Virundhu,Hillingdon,Eastcote,Restaurant,info@virundhurestaurant.com,1,+44 20 8866 7500,113 Field End Road,HA5 1QG,openstreetmap,,,https://www.openstreetmap.org/node/1319497249
 https://www.wagamama.com/restaurants/heathrow/heathrow-t5,own site,Wagamama,Hillingdon,Longford,Asian,press@wagamama.com,1,,,,openstreetmap,,,https://www.openstreetmap.org/way/438299732
 https://www.stonehouserestaurants.co.uk/nationalsearch/london/thewatersedgeruislip,own site,Waters Edge,Hillingdon,Ruislip,Pizza; Pub,,1,+44 1895 625241,Reservoir Road,HA4 7TY,openstreetmap,stonehousepizzacarvery,stonehousepizza,https://www.openstreetmap.org/node/315569400
@@ -128,6 +132,6 @@ https://the-watersedge.co.uk/,own site,Waters Edge,Hillingdon,Cowley,Pub,info@th
 https://www.wenzels.co.uk/our-stores/northwood-hills/,own site,Wenzel's,Hillingdon,Northwood,Bakery,,1,,75 Joel Street,,openstreetmap,,,https://www.openstreetmap.org/node/5375552658
 https://www.wimpy.uk.com/,own site,Wimpy,Hillingdon,Eastcote,Burger,,1,,167,HA5 1QL,openstreetmap,,,https://www.openstreetmap.org/node/1319513723
 https://location.wimpy.uk.com/restaurants-England-WimpyRuislip,own site,Wimpy,Hillingdon,Ruislip,Burger,info@wimpy.uk.com,1,+44 1895 634388,176 High Street,HA4 8LJ,openstreetmap,,,https://www.openstreetmap.org/way/969524330
-https://wokandspice.co.uk,own site,Wok & Spice,Hillingdon,Northwood,Asian; Chinese,,1,+44 1923 518737,8 Joel Street,,openstreetmap,,,https://www.openstreetmap.org/node/13147977472
+https://wokandspice.co.uk,own site,Wok & Spice,Hillingdon,Northwood,Asian; Chinese,contactus@wokandspice.co.uk,1,+44 1923 518737,8 Joel Street,,openstreetmap,,,https://www.openstreetmap.org/node/13147977472
 https://yosushi.com/restaurants/heathrow-t3,own site,YO! Sushi,Hillingdon,Sipson,Asian; Sushi,bookings@yosushi.com,1,,,,openstreetmap,,,https://www.openstreetmap.org/way/394223392
 https://zeenatafghancuisine.co.uk,own site,Zeenat,Hillingdon,Northwood,Restaurant,,1,+44 1923 517877,83 Joel Street,HA6 1LW,openstreetmap,,,https://www.openstreetmap.org/node/5375552649
