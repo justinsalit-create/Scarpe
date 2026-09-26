@@ -8,7 +8,7 @@ LIVE=${LONDONFOOD_CACHE:-$HOME/.londonfood-cache}
 BRANCH=$(git rev-parse --abbrev-ref HEAD)
 push() { for d in 2 4 8 16; do git push -q -u origin "$BRANCH" && return; sleep $d; done; }
 while true; do
-  python3 -m londonfood --out output --cache "$LIVE" --workers 24 --discover --discover-limit 5000 2>&1 \
+  python3 -m londonfood --out output --cache "$LIVE" --workers 24 --discover --discover-limit 2000 2>&1 \
     | tee /tmp/claude-0/discover_batch.log
   rm -rf cache && cp -a "$LIVE" cache
   git add -A output cache

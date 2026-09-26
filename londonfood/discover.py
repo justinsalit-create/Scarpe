@@ -171,7 +171,10 @@ class Cache:
         if os.path.exists(path):
             with open(path) as f:
                 for line in f:
-                    rec = json.loads(line)
+                    try:
+                        rec = json.loads(line)
+                    except ValueError:  # last line cut short by a crash / container restart
+                        continue
                     self.data[rec["key"]] = rec
 
     @staticmethod
