@@ -2,6 +2,8 @@
 
 import html
 import re
+import socket
+import urllib.error
 import urllib.parse
 import urllib.robotparser
 
@@ -12,6 +14,13 @@ MAILTO_RX = re.compile(r"mailto:([^\"'?>\s]+)", re.I)
 CFEMAIL_RX = re.compile(r'data-cfemail="([0-9a-fA-F]+)"')
 HREF_RX = re.compile(r'<a\b[^>]*href=["\']([^"\'#]+)["\'][^>]*>(.*?)</a>', re.I | re.S)
 CONTACT_HINT = re.compile(r"contact|about|find.?us|enquir|get.?in.?touch|reserv|book|private|event|visit|location", re.I)
+
+CLOSED_RX = re.compile(
+    r"permanently closed|closed permanently|closed for good|now closed for good|has now closed|have now closed"
+    r"|closed (?:its|our) doors (?:for the (?:last|final) time|for good|permanently)|ceased trading"
+    r"|no longer trading|closed down|we are now closed\b(?! (?:on|for|until|today|tomorrow|this))", re.I)
+PARKED_RX = re.compile(r"domain (?:is |may be )?for sale|buy this domain|this domain has expired|domain parking"
+                       r"|parked free|is parked|hugedomains|sedo\.com|dan\.com/buy", re.I)
 
 JUNK_DOMAINS = ("example.", "sentry", "wixpress", "domain.com", "email.com", "yourdomain",
                 "godaddy", "squarespace.com", "mysite", "sentry-next", "@2x", "wix.com")
@@ -107,19 +116,51 @@ def _robots_ok(url, cache):
     return cache[base].can_fetch(http.USER_AGENT, url)
 
 
+def visible_text(page):
+    page = re.sub(r"(?is)<(script|style|noscript)\b.*?</\1>", " ", page)
+    return html.unescape(re.sub(r"<[^>]+>", " ", page))
+
+
+def site_status(page):
+    """'closed' if the homepage says the venue shut down, 'parked' for a parked/for-sale domain, else 'ok'."""
+    text = visible_text(page)
+    if PARKED_RX.search(text) and len(text.split()) < 400:
+        return "parked"
+    if CLOSED_RX.search(text):
+        return "closed"
+    return "ok"
+
+
+def fetch_status(exc):
+    """Classify a fetch failure: 'dead' only when the site clearly no longer exists."""
+    if isinstance(exc, urllib.error.HTTPError):
+        return "dead" if exc.code in (404, 410) else "unknown"
+    reason = getattr(exc, "reason", exc)
+    if isinstance(reason, socket.gaierror) or "Name or service not known" in str(reason) \
+            or "nodename nor servname" in str(reason):
+        return "dead"
+    return "unknown"
+
+
 def find_email(website):
-    """Crawl a venue homepage plus a few contact-like pages. Returns (email, all_emails)."""
+    """Crawl a venue homepage plus a few contact-like pages.
+
+    Returns (email, all_emails, status) where status is ok / closed / parked / dead / unknown / skipped.
+    """
     website = normalize_url(website)
     if not website or is_aggregator(website):
-        return "", []
+        return "", [], "skipped"
     robots = {}
     emails = []
     try:
         if not _robots_ok(website, robots):
-            return "", []
+            return "", [], "unknown"
         final_url, page = http.get(website)
-    except Exception:
-        return "", []
+    except Exception as e:
+        return "", [], fetch_status(e)
+    status = site_status(page)
+    if status != "ok":
+        return "", [], status
     emails += extract_emails(page)
     if not emails:
         for link in contact_links(page, final_url):
@@ -130,4 +171,4 @@ def find_email(website):
                 continue
             if emails:
                 break
-    return best_email(emails, final_url), emails
+    return best_email(emails, final_url), emails, "ok"

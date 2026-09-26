@@ -9,6 +9,7 @@ import concurrent.futures as cf
 import csv
 import json
 import os
+import re
 import sys
 import threading
 import urllib.parse
@@ -17,7 +18,9 @@ from . import emails, osm, places
 from .boroughs import BOROUGHS, short_name
 from .categories import CATEGORIES, categorize
 
-FIELDS = ["borough", "name", "categories", "contact", "email", "email_source", "website",
+CLOSED_STATUSES = ("closed", "parked", "dead")
+
+FIELDS = ["borough", "name", "categories", "contact", "email", "email_source", "website", "locations",
           "phone", "address", "postcode", "facebook", "instagram", "osm_url", "lat", "lon"]
 
 
@@ -30,7 +33,8 @@ class CrawlCache:
             with open(path) as f:
                 for line in f:
                     rec = json.loads(line)
-                    self.data[rec["key"]] = rec["email"]
+                    if "status" in rec:  # older cache lines have no status: re-crawl them
+                        self.data[rec["key"]] = rec
 
     @staticmethod
     def key(url):
@@ -40,11 +44,12 @@ class CrawlCache:
     def get(self, url):
         return self.data.get(self.key(url))
 
-    def put(self, url, email):
+    def put(self, url, email, status):
+        rec = {"key": self.key(url), "email": email, "status": status}
         with self.lock:
-            self.data[self.key(url)] = email
+            self.data[rec["key"]] = rec
             with open(self.path, "a") as f:
-                f.write(json.dumps({"key": self.key(url), "email": email}) + "\n")
+                f.write(json.dumps(rec) + "\n")
 
 
 def resolve_boroughs(names):
@@ -63,21 +68,27 @@ def collect(boroughs, cache_dir, wanted):
     venues, seen = [], set()
     for i, b in enumerate(boroughs, 1):
         elements = osm.fetch_borough(b, cache_dir)
-        kept = 0
+        kept = closed = 0
         for el in elements:
             v = osm.to_venue(el, short_name(b))
             if not v["name"]:
                 continue
+            if osm.is_closed(v["tags"]):
+                closed += 1
+                continue
             v["categories"] = categorize(v["tags"])
             if wanted and not wanted & set(v["categories"]):
                 continue
-            dedupe = (v["name"].lower(), v["postcode"].lower() or v["address"].lower(), v["website"].lower())
-            if dedupe in seen:
+            # the same venue is often mapped twice (a node and a building outline)
+            keys = {(v["name"].lower(), v["postcode"].lower() or v["address"].lower(), v["website"].lower())}
+            if v["lat"] and v["lon"]:
+                keys.add((v["name"].lower(), round(v["lat"], 3), round(v["lon"], 3)))
+            if keys & seen:
                 continue
-            seen.add(dedupe)
+            seen |= keys
             venues.append(v)
             kept += 1
-        print(f"[{i}/{len(boroughs)}] {short_name(b)}: {kept} venues", file=sys.stderr)
+        print(f"[{i}/{len(boroughs)}] {short_name(b)}: {kept} venues ({closed} closed skipped)", file=sys.stderr)
     return venues
 
 
@@ -86,22 +97,22 @@ def enrich(venues, cache, workers, google_key):
         missing = [v for v in venues if not v["website"] and not v["email"]]
         print(f"Google Places lookup for {len(missing)} venues without a website", file=sys.stderr)
         with cf.ThreadPoolExecutor(8) as ex:
-            for v, site in zip(missing, ex.map(lambda v: places.lookup_website(
+            for v, (site, status) in zip(missing, ex.map(lambda v: places.lookup_website(
                     v["name"], f"{v['address']} {v['postcode']}", google_key, v["lat"], v["lon"]), missing)):
                 v["website"] = site
-                v["website_source"] = "google_places" if site else ""
+                v["closed"] = status == "CLOSED_PERMANENTLY"
 
+    # Crawl every venue website, including ones with an OSM email, to catch closed venues / dead sites.
     todo = {}
     for v in venues:
         v["email_source"] = "openstreetmap" if v["email"] else ""
-        if not v["email"] and v["website"] and cache.get(v["website"]) is None:
+        if v["website"] and cache.get(v["website"]) is None:
             todo.setdefault(CrawlCache.key(v["website"]), v["website"])
     print(f"Crawling {len(todo)} websites for email addresses", file=sys.stderr)
 
     def work(url):
-        email, _ = emails.find_email(url)
-        cache.put(url, email)
-        return email
+        email, _, status = emails.find_email(url)
+        cache.put(url, email, status)
 
     with cf.ThreadPoolExecutor(workers) as ex:
         futures = [ex.submit(work, u) for u in todo.values()]
@@ -110,11 +121,37 @@ def enrich(venues, cache, workers, google_key):
                 print(f"  crawled {n}/{len(futures)}", file=sys.stderr)
 
     for v in venues:
-        if not v["email"] and v["website"]:
-            found = cache.get(v["website"])
-            if found:
-                v["email"], v["email_source"] = found, "venue website"
+        if v["website"]:
+            rec = cache.get(v["website"]) or {}
+            if rec.get("status") in CLOSED_STATUSES:
+                v["closed"] = True
+            elif not v["email"] and rec.get("email"):
+                v["email"], v["email_source"] = rec["email"], "venue website"
         v["contact"] = v["email"] or emails.normalize_url(v["website"])
+
+
+def contact_key(contact):
+    """Normalise an email / website so the same business is only listed once."""
+    c = contact.lower().strip()
+    if "@" in c and "/" not in c:
+        return c
+    c = re.sub(r"^https?://(www\.)?", "", c).split("#")[0].split("?")[0]
+    return c.rstrip("/")
+
+
+def dedupe(rows):
+    """One row per unique email / website; `locations` counts how many venues share it (chains)."""
+    out, index = [], {}
+    for r in rows:
+        k = contact_key(r["contact"]) if r["contact"] else None
+        if k is not None and k in index:
+            index[k]["locations"] += 1
+            continue
+        r["locations"] = 1
+        if k is not None:
+            index[k] = r
+        out.append(r)
+    return out
 
 
 def write_csv(path, rows):
@@ -146,11 +183,16 @@ def main(argv=None):
         for v in venues:
             v["email_source"] = "openstreetmap" if v["email"] else ""
             v["contact"] = v["email"] or emails.normalize_url(v["website"])
+            v["closed"] = False
     else:
         enrich(venues, CrawlCache(os.path.join(args.cache, "crawl.jsonl")), args.workers, args.google_key)
 
-    rows = venues if args.keep_all else [v for v in venues if v["contact"]]
+    closed = sum(1 for v in venues if v.get("closed"))
+    open_venues = [v for v in venues if not v.get("closed")]
+    rows = open_venues if args.keep_all else [v for v in open_venues if v["contact"]]
     rows.sort(key=lambda r: (r["borough"], r["name"].lower()))
+    before = len(rows)
+    rows = dedupe(rows)
     write_csv(os.path.join(args.out, "london_food_contacts.csv"), rows)
     by_borough = os.path.join(args.out, "by_borough")
     os.makedirs(by_borough, exist_ok=True)
@@ -158,7 +200,8 @@ def main(argv=None):
         write_csv(os.path.join(by_borough, b.replace(" ", "_") + ".csv"), [r for r in rows if r["borough"] == b])
 
     with_email = sum(1 for r in rows if r["email"])
-    print(f"\n{len(venues)} venues found, {len(rows)} with a contact "
+    print(f"\n{len(venues)} venues found, {closed} dropped as closed (dead/closed website), "
+          f"{before - len(rows)} duplicate contacts merged, {len(rows)} unique contacts "
           f"({with_email} emails, {len(rows) - with_email} website only) -> {args.out}/", file=sys.stderr)
 
 

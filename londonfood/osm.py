@@ -2,6 +2,8 @@
 
 import json
 import os
+import re
+from datetime import date
 import time
 import urllib.parse
 
@@ -50,6 +52,22 @@ def fetch_borough(borough, cache_dir):
     with open(path, "w") as f:
         json.dump(elements, f)
     return elements
+
+
+CLOSED_NAME = re.compile(r"\bclosed\b", re.I)
+CLOSED_NOTE = re.compile(r"permanently closed|closed down|closed permanently|ceased trading", re.I)
+
+
+def is_closed(tags):
+    """True when OSM marks the venue as closed / disused / demolished."""
+    if any(tags.get(k) in ("yes", "permanently") for k in ("disused", "abandoned", "closed", "demolished")):
+        return True
+    if tags.get("opening_hours", "").strip().lower() in ("closed", "off"):
+        return True
+    end = tags.get("end_date", "")[:10]
+    if end and end <= date.today().isoformat():
+        return True
+    return bool(CLOSED_NAME.search(tags.get("name", "")) or CLOSED_NOTE.search(tags.get("note", "")))
 
 
 def to_venue(el, borough):

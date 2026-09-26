@@ -30,8 +30,17 @@ Takeaway, Bar or Restaurant. A venue can have more than one category, for exampl
    an address on the venue's own domain, preferring `info@`, `hello@`, `bookings@` and similar.
    Links to Facebook, Instagram, Deliveroo, OpenTable and other aggregators are kept as the website
    but not crawled.
-3. **Google Maps (optional):** if you give it a Google Places API key, it looks up a website for
-   venues that don't have one, using the official API.
+3. **No closed venues:** it drops a venue when OSM marks it disused, abandoned or closed, gives it an
+   end date in the past, or has "closed" in its name. It also drops a venue when its website no
+   longer exists (the domain is gone, or the site returns 404/410), is a parked or for-sale domain,
+   or says the venue is "permanently closed", "closed for good" or "ceased trading". Every venue
+   with a website is checked this way, including ones whose email came from OSM.
+4. **No duplicates:** a venue mapped twice (for example once as a point and once as a building) is
+   only kept once. Chains that share one email or website appear as a single row, and the
+   `locations` column shows how many branches share that contact.
+5. **Google Maps (optional):** if you give it a Google Places API key, it looks up a website for
+   venues that don't have one, using the official API. It also drops any venue Google lists as
+   permanently closed.
 
 Yelp, OpenTable, blogs and chambers of commerce are not scraped directly. Their terms forbid it,
 they block bots, and Yelp's official API doesn't return emails or websites anyway. OSM plus each
@@ -55,7 +64,7 @@ Output:
   website if there's no email.
 - `output/by_borough/<Borough>.csv`: the same data split into one file per borough.
 
-Columns: `borough, name, categories, contact, email, email_source, website, phone, address,
+Columns: `borough, name, categories, contact, email, email_source, website, locations, phone, address,
 postcode, facebook, instagram, osm_url, lat, lon`.
 
 A full run crawls tens of thousands of websites and takes a few hours. Results are cached in
