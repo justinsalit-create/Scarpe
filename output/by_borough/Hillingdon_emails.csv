@@ -1,5 +1,6 @@
 email,name,borough,area,categories,website,other_emails,email_source,source,locations,phone,address,postcode,osm_url
 info@ademcoffee.co.uk,Adem coffee,Hillingdon,Eastcote,Food truck,https://ademcoffee.co.uk/,shubhnsh@gmail.com,venue website,food standards agency,1,,Victoria Road,HA4 0QB,https://ratings.food.gov.uk/business/1932028
+bookings@airport-bowl.com,Airport Bowl - Barcelos - Airport Lounge Bar,Hillingdon,Harlington,Pub,https://www.airport-bowl.com/,,venue website,food standards agency,1,,"Airport Bowl, Bath Road",UB3 5AL,https://ratings.food.gov.uk/business/520346
 enquiries@avleendineandcatering.co.uk,Avleen Dine & Catering,Hillingdon,Yeading,Restaurant,https://www.avleendineandcatering.co.uk/,,venue website,food standards agency,2,,128 Uxbridge Road,UB4 0JH,https://ratings.food.gov.uk/business/1801867
 contact@briskit.co.uk,BRISK IT,Hillingdon,Uxbridge,Restaurant,https://briskit.co.uk/,,venue website,food standards agency,1,,23 Windsor Street,UB8 1AB,https://ratings.food.gov.uk/business/1836221
 bubbleslondon.northwood@gmail.com,Bubbles,Hillingdon,Northwood,Ice cream,,,openstreetmap,openstreetmap,1,+44 7939 389797,53 Green Lane,HA6 3AE,https://www.openstreetmap.org/way/1179985791
@@ -51,9 +52,10 @@ info@theinspirationclub.co.uk,The Inspiration Golf Club,Hillingdon,Yeading,Resta
 theloftuxbridgepub@gmail.com,The Loft,Hillingdon,Cowley,Pub,https://www.theloftuxbridge.com/,,venue website,openstreetmap,1,+44 1895 753179,33 Villier Street,UB8 2PU,https://www.openstreetmap.org/node/26603473
 enquiries@thenestclimbing.co.uk,The Nest Climbing,Hillingdon,Hayes,Restaurant,https://www.thenestclimbing.co.uk/,,venue website,food standards agency,1,,1-7 Material Walk,UB3 1DP,https://ratings.food.gov.uk/business/1426516
 old.orchard@brunningandprice.co.uk,The Old Orchard,Hillingdon,Harefield,Pub,https://www.brunningandprice.co.uk/oldorchard/,,venue website,openstreetmap,1,,,UB9 6HJ,https://www.openstreetmap.org/way/279506287
+info@riverside-venue.co.uk,The Riverside Venue,Hillingdon,Harlington,Restaurant,https://riverside-venue.co.uk/,,venue website,food standards agency,1,,1a Bath Road,TW6 2AA,https://ratings.food.gov.uk/business/519257
 enquiries@stockleypark.co.uk,The Set @ The Squareabout,Hillingdon,Hayes,Breakfast,https://stockleypark.co.uk/the-set-the-squareabout/,,venue website,openstreetmap,1,,,UB11 1HU,https://www.openstreetmap.org/way/1173718614
 whitebear.ruislip@whitebrasserie.com,The White Bear,Hillingdon,Ruislip,French,https://whitebearruislip.com,,openstreetmap,openstreetmap,1,+44 1895 679770,Ickenham Road,HA4 7DF,https://www.openstreetmap.org/way/1064875699
-whitehart.harlington@outlook.com,"The White Hart, Harlington",Hillingdon,Harlington,Pub,https://www.whitehartharlington.co.uk/,,venue website,openstreetmap,1,,,,https://www.openstreetmap.org/way/679552974
+whitehart.harlington@outlook.com,"The White Hart, Harlington",Hillingdon,Harlington,Pub,https://www.whitehartharlington.co.uk/,,venue website,openstreetmap,2,,,,https://www.openstreetmap.org/way/679552974
 hello@arens.uk,The Woodman,Hillingdon,Eastcote,Steak,https://arensbar.co.uk/,,venue website,openstreetmap,1,+44 20 8868 3092,Joel Street,HA5 2PR,https://www.openstreetmap.org/node/5375552656
 info@thewoodmanpinner.com,The Woodman Pinner,Hillingdon,Eastcote,Pub,https://thewoodmanpinner.com/,,venue website,food standards agency,1,,"The Woodman Public House, Joel Street",HA5 2PR,https://ratings.food.gov.uk/business/1525598
 paddington@turmerickitchen.co.uk,Turmeric Kitchen - Pinner,Hillingdon,Eastcote,Restaurant,https://turmerickitchen.co.uk/,pinner@turmerickitchen.co.uk,venue website,food standards agency,2,,50 Field End Road,HA5 2QN,https://ratings.food.gov.uk/business/1774804
@@ -64,4 +66,3 @@ sarahgowdy@wealdstonefc.com,Wealdstone FC,Hillingdon,Ruislip,Pub,https://www.wea
 contactus@wokandspice.co.uk,Wok & Spice,Hillingdon,Northwood,Asian; Chinese,https://wokandspice.co.uk,admin@wokandspice.co.uk,venue website,openstreetmap,1,+44 1923 518737,8 Joel Street,,https://www.openstreetmap.org/node/13147977472
 wyld_thyme@outlook.com,Wyld Thyme Eatery,Hillingdon,Northwood,Restaurant,https://www.wyldthymeeatery.co.uk/,,venue website,food standards agency,1,,58 High Street,HA6 1BL,https://ratings.food.gov.uk/business/1375891
 uxbridge@yumchichinese.co.uk,Yumchi Chinese LTD,Hillingdon,Hillingdon,Chinese,https://www.yumchichinese.co.uk/uxbridge/,,venue website,food standards agency,1,,"5 Halls Terrace, Uxbridge Road",UB10 0NS,https://ratings.food.gov.uk/business/1784075
-berkhamsted@zaza.co.uk,Zaza,Hillingdon,Ruislip,Italian,https://zaza.co.uk/,ruislip@zaza.co.uk; oldamersham@zaza.co.uk,venue website,openstreetmap,1,,2-4 High Street,HA4 7AR,https://www.openstreetmap.org/way/967982006
