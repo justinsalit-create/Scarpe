@@ -3413,3 +3413,622 @@
 {"key": "costa.co.uk/stores/penge", "emails": [], "status": "unknown", "final_url": "https://www.costa.co.uk/stores/penge", "v": 2}
 {"key": "pizzahut.co.uk/huts/uk-1/7548-penge", "emails": [], "status": "unknown", "final_url": "https://www.pizzahut.co.uk/huts/uk-1/7548-penge/", "v": 2}
 {"key": "kfc.co.uk/kfc-near-me/orpington-high-street", "emails": [], "status": "unknown", "final_url": "https://www.kfc.co.uk/kfc-near-me/orpington-high-street", "v": 2}
+{"key": "greeneking.co.uk/pubs/greater-london/swan", "emails": [], "status": "skipped", "final_url": "https://www.greeneking.co.uk/pubs/greater-london/swan", "v": 2}
+{"key": "greeneking.co.uk/pubs/greater-london/marlborough-arms", "emails": [], "status": "skipped", "final_url": "https://www.greeneking.co.uk/pubs/greater-london/marlborough-arms", "v": 2}
+{"key": "greeneking.co.uk/pubs/greater-london/lucas-arms", "emails": [], "status": "skipped", "final_url": "https://www.greeneking.co.uk/pubs/greater-london/lucas-arms", "v": 2}
+{"key": "greeneking.co.uk/pubs/greater-london/george", "emails": [], "status": "skipped", "final_url": "https://www.greeneking.co.uk/pubs/greater-london/george", "v": 2}
+{"key": "searcyskenwoodhouse.co.uk", "emails": [], "status": "unknown", "final_url": "http://searcyskenwoodhouse.co.uk", "v": 2}
+{"key": "restaurants.subway.com/united-kingdom/en/london/17-theobalds-road", "emails": [], "status": "dead", "final_url": "https://restaurants.subway.com/united-kingdom/en/london/17-theobalds-road", "v": 2}
+{"key": "dukeofstalbans.com", "emails": ["nell@dukeofstalbans.com"], "status": "ok", "final_url": "https://www.dukeofstalbans.com/", "v": 2}
+{"key": "thepineapplepubnw5.com", "emails": ["manager@thepineapplepubnw5.com"], "status": "ok", "final_url": "https://www.thepineapplepubnw5.com/", "v": 2}
+{"key": "namasteholborn.com", "emails": [], "status": "unknown", "final_url": "https://namasteholborn.com", "v": 2}
+{"key": "spaghettihouse.co.uk/location/holborn", "emails": [], "status": "dead", "final_url": "https://www.spaghettihouse.co.uk/location/holborn/", "v": 2}
+{"key": "acesandeightssaloonbar.com", "emails": ["bookings@acesandeightssaloonbar.com", "martyn.bonanza@acesandeightssaloonbar.com", "comedy@acesnw5.co.uk"], "status": "ok", "final_url": "https://www.acesandeightssaloonbar.com/", "v": 2}
+{"key": "mcdonalds.com/gb/en-gb/location/holborn/holborn/112-high-holborn/8260228.html", "emails": [], "status": "unknown", "final_url": "https://www.mcdonalds.com/gb/en-gb/location/holborn/holborn/112-high-holborn/8260228.html", "v": 2}
+{"key": "newmarkethotel.co.uk", "emails": [], "status": "ok", "final_url": "https://www.newmarkethotel.co.uk/", "v": 2}
+{"key": "mugenholdings.com", "emails": [], "status": "unknown", "final_url": "http://www.mugenholdings.com/", "v": 2}
+{"key": "wagamama.com/restaurants/london/camden", "emails": ["press@wagamama.com", "wagamama@allaboutfoodltd.com"], "status": "ok", "final_url": "https://www.wagamama.com/restaurants/london/camden", "v": 2}
+{"key": "sushihiroba.co.uk", "emails": [], "status": "unknown", "final_url": "http://www.sushihiroba.co.uk/", "v": 2}
+{"key": "indianymca.org/our-restaurant", "emails": [], "status": "dead", "final_url": "https://www.indianymca.org/our-restaurant/", "v": 2}
+{"key": "thecolonelfawcett.co.uk", "emails": ["info@thecolonelfawcett.co.uk"], "status": "ok", "final_url": "https://thecolonelfawcett.co.uk/", "v": 2}
+{"key": "horseandwig.com", "emails": ["horseandwig@gmail.com"], "status": "ok", "final_url": "https://www.horseandwig.com/", "v": 2}
+{"key": "thecraftbeerco.com/pubs/coventgarden", "emails": [], "status": "unknown", "final_url": "http://thecraftbeerco.com/pubs/coventgarden/", "v": 2}
+{"key": "skinnersarmslondon.com", "emails": ["skinnersarms@douglasinns.co.uk"], "status": "ok", "final_url": "https://skinnersarmslondon.com/", "v": 2}
+{"key": "dukepub.co.uk", "emails": [], "status": "unknown", "final_url": "http://www.dukepub.co.uk/", "v": 2}
+{"key": "ourblackheart.com", "emails": [], "status": "ok", "final_url": "https://www.ourblackheart.com/", "v": 2}
+{"key": "graftonarms.co.uk", "emails": [], "status": "unknown", "final_url": "https://www.graftonarms.co.uk/", "v": 2}
+{"key": "nicholsonspubs.co.uk/restaurants/london/thesirchristopherhattonhattongardenlondon", "emails": [], "status": "unknown", "final_url": "https://www.nicholsonspubs.co.uk/restaurants/london/thesirchristopherhattonhattongardenlondon", "v": 2}
+{"key": "camdendiner.com", "emails": [], "status": "dead", "final_url": "https://camdendiner.com", "v": 2}
+{"key": "starbucks.com/store-locator/store/2564/new-oxford-street-112-116-new-oxford-street-london-eng-wc-1-a-1-hh-g", "emails": [], "status": "ok", "final_url": "https://www.starbucks.com/store-locator/store/2564/new-oxford-street-112-116-new-oxford-street-london-eng-wc-1-a-1-hh-g", "v": 2}
+{"key": "oxfordarmscamden.co.uk", "emails": ["info@oxfordarmscamden.co.uk"], "status": "ok", "final_url": "https://oxfordarmscamden.co.uk", "v": 2}
+{"key": "jdwetherspoon.com/pubs/all-pubs/england/london/the-beaten-docket-cricklewood", "emails": [], "status": "skipped", "final_url": "https://www.jdwetherspoon.com/pubs/all-pubs/england/london/the-beaten-docket-cricklewood", "v": 2}
+{"key": "restaurants.subway.com/united-kingdom/en/london/86-high-street", "emails": [], "status": "dead", "final_url": "https://restaurants.subway.com/united-kingdom/en/london/86-high-street", "v": 2}
+{"key": "wasabi.uk.com/branches/1644", "emails": [], "status": "dead", "final_url": "https://www.wasabi.uk.com/branches/1644", "v": 2}
+{"key": "kikuchisushi.com", "emails": ["info@kikuchisushi.com"], "status": "ok", "final_url": "https://www.kikuchisushi.com/", "v": 2}
+{"key": "locations.pret.co.uk/london/117-euston-road", "emails": [], "status": "ok", "final_url": "https://www.pret.co.uk/en-GB/shop-finder/l/london/117-euston-road/10114", "v": 2}
+{"key": "starbucks.com/store-locator/store/2775/hampstead-west-end-lane-201-a-west-end-lane-london-eng-nw-6-2-lj-gb", "emails": [], "status": "ok", "final_url": "https://www.starbucks.com/store-locator/store/2775/hampstead-west-end-lane-201-a-west-end-lane-london-eng-nw-6-2-lj-gb", "v": 2}
+{"key": "yorkshiregrey.com", "emails": [], "status": "unknown", "final_url": "https://www.yorkshiregrey.com/", "v": 2}
+{"key": "restaurant-michaelnadra.co.uk/primrose", "emails": [], "status": "unknown", "final_url": "http://www.restaurant-michaelnadra.co.uk/primrose/", "v": 2}
+{"key": "84west.co.uk/index.html", "emails": [], "status": "unknown", "final_url": "https://www.84west.co.uk/index.html", "v": 2}
+{"key": "locations.burgerking.co.uk/london/117-kingsway", "emails": [], "status": "ok", "final_url": "https://locations.burgerking.co.uk/london/117-kingsway", "v": 2}
+{"key": "locations.pret.co.uk/london/8b-leather-lane", "emails": [], "status": "ok", "final_url": "https://www.pret.co.uk/en-GB/shop-finder/l/london/8b-leather-lane/10521", "v": 2}
+{"key": "eustonflyer.co.uk", "emails": ["eustonflyer@fullers.co.uk"], "status": "ok", "final_url": "https://www.eustonflyer.co.uk/", "v": 2}
+{"key": "jdwetherspoon.com/pubs/the-barrel-vault-camden", "emails": [], "status": "skipped", "final_url": "https://www.jdwetherspoon.com/pubs/the-barrel-vault-camden/", "v": 2}
+{"key": "sevendialsmarket.com", "emails": ["events@sevendialsmarket.com"], "status": "ok", "final_url": "https://www.sevendialsmarket.com", "v": 2}
+{"key": "theespressoroom.co.uk", "emails": [], "status": "dead", "final_url": "https://www.theespressoroom.co.uk/", "v": 2}
+{"key": "locations.pret.co.uk/london/240-241-high-holborn", "emails": [], "status": "ok", "final_url": "https://www.pret.co.uk/en-GB/shop-finder/l/london/240-241-high-holborn/21", "v": 2}
+{"key": "themagdala.co.uk", "emails": ["hello@themagdala.co.uk"], "status": "ok", "final_url": "https://www.themagdala.co.uk/", "v": 2}
+{"key": "caffenero.com/uk/stores/kingsway", "emails": [], "status": "ok", "final_url": "https://www.caffenero.com/uk/stores/kingsway", "v": 2}
+{"key": "gbk.co.uk", "emails": [], "status": "unknown", "final_url": "https://www.gbk.co.uk/", "v": 2}
+{"key": "fleettavern.com", "emails": [], "status": "unknown", "final_url": "https://www.fleettavern.com/", "v": 2}
+{"key": "roundhouse.org.uk/made-in-camden", "emails": [], "status": "unknown", "final_url": "http://www.roundhouse.org.uk/made-in-camden", "v": 2}
+{"key": "itsu.com/location/central-london/high-holborn", "emails": ["julian.metcalfe@itsu.com", "media@itsu.com", "harry.housen@itsu.com", "tom.sugarman@itsu.com", "greg.thorp@itsu.com", "tom.springett@itsu.com", "kinga.buda@itsu.com", "annabel.mackie@itsu.com", "claudia@itsugrocery.com", "chloe@itsugrocery.com", "william@itsugrocery.com", "sam@itsugrocery.com", "romain@itsugrocery.com", "misha@itsugrocery.com", "customerservice@itsugrocery.com", "appfeedback@itsu.com"], "status": "ok", "final_url": "https://www.itsu.com/location/central-london/high-holborn/", "v": 2}
+{"key": "locations.pret.co.uk/london/157-camden-high-street", "emails": [], "status": "ok", "final_url": "https://www.pret.co.uk/en-GB/shop-finder/l/london/157-camden-high-street/116", "v": 2}
+{"key": "doric-arch.co.uk", "emails": ["doricarch@fullers.co.uk"], "status": "ok", "final_url": "https://www.doric-arch.co.uk/", "v": 2}
+{"key": "starbucks.com/store-locator/store/2828/st-pancras-international-stati-st-pancras-international-station-london-eng-nw-1-2", "emails": [], "status": "ok", "final_url": "https://www.starbucks.com/store-locator/store/2828/st-pancras-international-stati-st-pancras-international-station-london-eng-nw-1-2", "v": 2}
+{"key": "hankang.co.uk/hankang.html", "emails": [], "status": "unknown", "final_url": "http://www.hankang.co.uk/hankang.html", "v": 2}
+{"key": "barracocafe.co.uk", "emails": [], "status": "unknown", "final_url": "http://www.barracocafe.co.uk/", "v": 2}
+{"key": "locations.burgerking.co.uk/london/27-29-euston-road", "emails": [], "status": "ok", "final_url": "https://locations.burgerking.co.uk/london/27-29-euston-road", "v": 2}
+{"key": "bananatree.co.uk/restaurants/west-hampstead", "emails": ["westhampstead@bananatree.co.uk", "bath@bananatree.co.uk", "battersea@bananatree.co.uk", "birminghambullring@bananatree.co.uk", "cardiff@bananatree.co.uk", "chelmsford@bananatree.co.uk", "coventgarden@bananatree.co.uk", "greenwich@bananatree.co.uk", "haywardsheath@bananatree.co.uk", "henley@bananatree.co.uk", "islington@bananatree.co.uk", "maidavale@bananatree.co.uk", "miltonkeynes@bananatree.co.uk", "theo2@bananatree.co.uk", "oxford@bananatree.co.uk", "portsmouth@bananatree.co.uk", "salford@bananatree.co.uk", "soho@bananatree.co.uk", "stevenage@bananatree.co.uk", "windsor@bananatree.co.uk"], "status": "ok", "final_url": "https://bananatree.co.uk/restaurants/west-hampstead", "v": 2}
+{"key": "benugo.com/sites/cafes/benugo-st-pancras", "emails": ["stpancras@benugo.com"], "status": "ok", "final_url": "https://www.benugo.com/sites/cafes/benugo-st-pancras/", "v": 2}
+{"key": "locations.chipotle.co.uk/gb/london/208-west-end-lane", "emails": ["uk.4284.westendlane@chipotle.com"], "status": "ok", "final_url": "https://locations.chipotle.co.uk/gb/london/208-west-end-lane", "v": 2}
+{"key": "swaybar.co.uk/london", "emails": [], "status": "dead", "final_url": "https://www.swaybar.co.uk/london", "v": 2}
+{"key": "shakeshack.co.uk/locations/kings-cross-st-pancras", "emails": [], "status": "unknown", "final_url": "https://www.shakeshack.co.uk/locations/kings-cross-st-pancras", "v": 2}
+{"key": "mcdonalds.com/gb/en-gb/location/swiss-cottage/swiss-cottage/4-harben-parade-right/8260042.html", "emails": [], "status": "unknown", "final_url": "https://www.mcdonalds.com/gb/en-gb/location/swiss-cottage/swiss-cottage/4-harben-parade-right/8260042.html", "v": 2}
+{"key": "beckscafe.co.uk", "emails": [], "status": "dead", "final_url": "http://www.beckscafe.co.uk/", "v": 2}
+{"key": "voncrumb.co.uk", "emails": ["info@voncrumb.co.uk"], "status": "ok", "final_url": "https://www.voncrumb.co.uk/", "v": 2}
+{"key": "rosewoodhotels.com/en/london/dining/holborn-dining-room", "emails": ["london.restaurants@rosewoodhotels.com", "london@rosewoodhotels.com"], "status": "ok", "final_url": "https://www.rosewoodhotels.com/en/london/dining/holborn-dining-room", "v": 2}
+{"key": "pizzaexpress.com/london-high-holborn", "emails": ["pizzaexpress@fticonsulting.com"], "status": "ok", "final_url": "https://www.pizzaexpress.com/london-high-holborn", "v": 2}
+{"key": "starbucks.com/store-locator/store/2790/euston-tower-unit-1-a-euston-tower-podium-regents-place-london-", "emails": [], "status": "ok", "final_url": "https://www.starbucks.com/store-locator/store/2790/euston-tower-unit-1-a-euston-tower-podium-regents-place-london-", "v": 2}
+{"key": "cocodimama.co.uk/locations/london-holborn", "emails": [], "status": "ok", "final_url": "https://www.cocodimama.co.uk/locations/restaurant/london-holborn", "v": 2}
+{"key": "locations.burgerking.co.uk/london/barrier-line-euston-station", "emails": [], "status": "ok", "final_url": "https://locations.burgerking.co.uk/london/barrier-line-euston-station", "v": 2}
+{"key": "favouritepizzaandchicken.co.uk", "emails": [], "status": "dead", "final_url": "https://favouritepizzaandchicken.co.uk/", "v": 2}
+{"key": "pizzaexpress.com/london-euston-road", "emails": ["pizzaexpress@fticonsulting.com"], "status": "ok", "final_url": "https://www.pizzaexpress.com/london-euston-road", "v": 2}
+{"key": "bluemoonthai.co.uk", "emails": [], "status": "dead", "final_url": "https://www.bluemoonthai.co.uk/", "v": 2}
+{"key": "patronlondon.com", "emails": ["info@patronlondon.com"], "status": "ok", "final_url": "https://www.patronrestaurant.com/", "v": 2}
+{"key": "madeinbrasil.co.uk", "emails": ["bookings@madeinbrasil.co.uk"], "status": "ok", "final_url": "https://www.madeinbrasil.co.uk/", "v": 2}
+{"key": "northseafishrestaurant.co.uk", "emails": ["info@northseafishrestaurant.co.uk"], "status": "ok", "final_url": "https://www.northseafishrestaurant.co.uk/", "v": 2}
+{"key": "thebullsteakexpert.co.uk", "emails": [], "status": "unknown", "final_url": "https://thebullsteakexpert.co.uk/", "v": 2}
+{"key": "studentsunionucl.org/eat-drink-shop/cafes/bloomsbury-cafe", "emails": ["su.advice@ucl.ac.uk", "su.activities@ucl.ac.uk", "teamucl@ucl.ac.uk", "artsucl@ucl.ac.uk", "su.activities-reception@ucl.ac.uk", "employment@ucl.ac.uk", "volunteering@ucl.ac.uk", "g.stepney@ucl.ac.uk", "hannah.p@ucl.ac.uk", "h.warne@ucl.ac.uk"], "status": "ok", "final_url": "https://studentsunionucl.org/eat-drink-shop/cafes/bloomsbury-cafe", "v": 2}
+{"key": "amorino.com/en/shop/london-camden.185.html", "emails": [], "status": "dead", "final_url": "https://www.amorino.com/en/shop/london-camden.185.html", "v": 2}
+{"key": "kamilondon.com", "emails": ["info@kamilondon.com"], "status": "ok", "final_url": "https://www.kamilondon.com/", "v": 2}
+{"key": "lemonia.co.uk", "emails": [], "status": "ok", "final_url": "https://www.lemonia.co.uk/", "v": 2}
+{"key": "yokoya.co.uk", "emails": ["reservations@kaisekiyokoya.co.uk"], "status": "ok", "final_url": "https://www.kaisekiyokoya.co.uk/", "v": 2}
+{"key": "rougamo.co.uk", "emails": [], "status": "ok", "final_url": "https://www.rougamo.co.uk", "v": 2}
+{"key": "scoffandbanter.com", "emails": ["kensington@scoffandbanter.com", "canarywharf@scoffandbanter.com"], "status": "ok", "final_url": "https://www.scoffandbanter.com/", "v": 2}
+{"key": "studentsunionucl.org/eat-drink-shop/cafes/print-room-cafe", "emails": ["su.foodandbeverage@ucl.ac.uk", "su.advice@ucl.ac.uk", "su.activities@ucl.ac.uk", "teamucl@ucl.ac.uk", "artsucl@ucl.ac.uk", "su.activities-reception@ucl.ac.uk", "employment@ucl.ac.uk", "volunteering@ucl.ac.uk", "g.stepney@ucl.ac.uk", "hannah.p@ucl.ac.uk", "h.warne@ucl.ac.uk"], "status": "ok", "final_url": "https://studentsunionucl.org/eat-drink-shop/cafes/print-room-cafe", "v": 2}
+{"key": "icco.co.uk", "emails": ["info@icco.co.uk"], "status": "ok", "final_url": "https://icco.co.uk/", "v": 2}
+{"key": "la-cage-imaginaire.co.uk", "emails": [], "status": "unknown", "final_url": "http://la-cage-imaginaire.co.uk/", "v": 2}
+{"key": "queensheadlondon.com", "emails": [], "status": "ok", "final_url": "https://www.queensheadlondon.com/", "v": 2}
+{"key": "natural-natural.shop/pages/ourshops", "emails": ["sakesakana@natural-natural.co.uk", "ealingcommon@natural-natural.co.uk", "finchleyroad@natural-natural.co.uk", "onlineshop@natural-natural.co.uk"], "status": "ok", "final_url": "https://natural-natural.shop/pages/ourshops", "v": 2}
+{"key": "itsbagels.com/location/primrose-hill", "emails": ["primrose@itsbagels.com"], "status": "ok", "final_url": "https://www.itsbagels.com/location/primrose-hill/", "v": 2}
+{"key": "paramount.uk.net", "emails": [], "status": "dead", "final_url": "http://www.paramount.uk.net/", "v": 2}
+{"key": "greeneking.co.uk/pubs/greater-london/friend-at-hand", "emails": [], "status": "skipped", "final_url": "https://www.greeneking.co.uk/pubs/greater-london/friend-at-hand", "v": 2}
+{"key": "arvocafe.co.uk", "emails": ["hello@cafearvo.com"], "status": "ok", "final_url": "https://www.arvocafe.co.uk/", "v": 2}
+{"key": "caravankingscross.co.uk", "emails": [], "status": "unknown", "final_url": "http://www.caravankingscross.co.uk/", "v": 2}
+{"key": "francomanca.co.uk/restaurants/belsize-park", "emails": [], "status": "ok", "final_url": "https://www.francomanca.co.uk/restaurants/belsize-park/", "v": 2}
+{"key": "shepherdfoods.co.uk", "emails": [], "status": "ok", "final_url": "https://shepherdfoods.co.uk/password", "v": 2}
+{"key": "nandos.co.uk/restaurants/holborn", "emails": [], "status": "ok", "final_url": "https://www.nandos.co.uk/restaurants/holborn", "v": 2}
+{"key": "eatdirtyburger.com", "emails": [], "status": "dead", "final_url": "http://www.eatdirtyburger.com/", "v": 2}
+{"key": "eattokyo.co.uk/holborn", "emails": [], "status": "ok", "final_url": "https://www.eattokyo.co.uk/holborn", "v": 2}
+{"key": "honeyandco.co.uk/places/honey-co-daily", "emails": ["bookings@honeyandco.co.uk"], "status": "ok", "final_url": "https://honeyandco.co.uk/places/honey-co-daily/", "v": 2}
+{"key": "neverforeverkt.com", "emails": ["hello@neverforeverkt.com", "events@neverforeverkt.com"], "status": "ok", "final_url": "https://neverforeverkt.com", "v": 2}
+{"key": "starbucks.com/store-locator/store/2676/great-russell-street-51-great-russell-street-london-eng-wc-1-b-3-ba-gb", "emails": [], "status": "ok", "final_url": "https://www.starbucks.com/store-locator/store/2676/great-russell-street-51-great-russell-street-london-eng-wc-1-b-3-ba-gb", "v": 2}
+{"key": "spierssalads.com", "emails": [], "status": "unknown", "final_url": "https://www.spierssalads.com/", "v": 2}
+{"key": "studentsunionucl.org/eat-drink-shop/cafes/gordons-cafe", "emails": ["su.advice@ucl.ac.uk", "su.activities@ucl.ac.uk", "teamucl@ucl.ac.uk", "artsucl@ucl.ac.uk", "su.activities-reception@ucl.ac.uk", "employment@ucl.ac.uk", "volunteering@ucl.ac.uk", "g.stepney@ucl.ac.uk", "hannah.p@ucl.ac.uk", "h.warne@ucl.ac.uk"], "status": "ok", "final_url": "https://studentsunionucl.org/eat-drink-shop/cafes/gordons-cafe", "v": 2}
+{"key": "london.mestizomx.com", "emails": [], "status": "skipped", "final_url": "https://london.mestizomx.com/", "v": 2}
+{"key": "caffenero.com/uk/stores/theobalds-rd", "emails": [], "status": "ok", "final_url": "https://www.caffenero.com/uk/stores/theobalds-rd", "v": 2}
+{"key": "thebetjemanarms.co.uk", "emails": ["betjemanarms@youngs.co.uk"], "status": "ok", "final_url": "https://www.thebetjemanarms.co.uk/", "v": 2}
+{"key": "nonnaselena.com", "emails": [], "status": "ok", "final_url": "https://nonnaselena.com/", "v": 2}
+{"key": "pizzaexpress.com/belsize-park-haverstock-hill", "emails": ["pizzaexpress@fticonsulting.com"], "status": "ok", "final_url": "https://www.pizzaexpress.com/belsize-park-haverstock-hill", "v": 2}
+{"key": "imperialhotels.co.uk/royal-national-hotel/restaurant/the-london-pub", "emails": ["info@imperialhotels.co.uk"], "status": "ok", "final_url": "https://www.imperialhotels.co.uk/royal-national-hotel/restaurant/the-london-pub/", "v": 2}
+{"key": "nandos.co.uk/restaurants/swiss-cottage", "emails": [], "status": "ok", "final_url": "https://www.nandos.co.uk/restaurants/swiss-cottage", "v": 2}
+{"key": "anglorestaurant.com", "emails": [], "status": "unknown", "final_url": "https://www.anglorestaurant.com/", "v": 2}
+{"key": "redemptionroasters.com/locations/lincolns-inn-fields", "emails": [], "status": "dead", "final_url": "https://www.redemptionroasters.com/locations/lincolns-inn-fields/", "v": 2}
+{"key": "speedyscafe.co.uk", "emails": [], "status": "unknown", "final_url": "http://www.speedyscafe.co.uk/", "v": 2}
+{"key": "senviet.has.restaurant", "emails": [], "status": "ok", "final_url": "https://senviet.has.restaurant/", "v": 2}
+{"key": "cordonbleu.edu/london/cafe-le-cordon-bleu/en", "emails": ["australia@cordonbleu.edu", "ateneodemanila@cordonbleu.edu", "paris@cordonbleu.edu", "saopaulo@cordonbleu.edu", "shanghai@cordonbleu.edu", "istanbul@cordonbleu.edu", "nz@cordonbleu.edu", "liban@cordonbleu.edu", "riodejaneiro@cordonbleu.edu", "london@cordonbleu.edu", "madrid@cordonbleu.edu", "howtoapplyusa@cordonbleu.edu", "thailand@cordonbleu.edu", "peru@cordonbleu.edu", "seoul_admissions@cordonbleu.edu", "malaysia@cordonbleu.edu", "taiwan-nkuht@cordonbleu.edu", "info@cordonbleu.edu", "online@cordonbleu.edu", "riyadh@cordonbleu.edu", "mexico@cordonbleu.edu", "ottawa@cordonbleu.edu"], "status": "ok", "final_url": "https://www.cordonbleu.edu/london/cafe-le-cordon-bleu/en", "v": 2}
+{"key": "restaurants.subway.com/united-kingdom/en/london/311-grays-inn-road", "emails": [], "status": "ok", "final_url": "https://restaurants.subway.com/united-kingdom/en/london/311-grays-inn-road", "v": 2}
+{"key": "wagamama.com/restaurants/london/holborn", "emails": ["press@wagamama.com", "wagamama@allaboutfoodltd.com"], "status": "ok", "final_url": "https://www.wagamama.com/restaurants/london/holborn", "v": 2}
+{"key": "fortnumandmason.com/st-pancras", "emails": [], "status": "ok", "final_url": "https://www.fortnumandmason.com/st-pancras", "v": 2}
+{"key": "poppiesfishandchips.co.uk/poppies-camden", "emails": ["info@poppiesfishandchips.co.uk"], "status": "ok", "final_url": "https://poppiesfishandchips.co.uk/poppies-camden/", "v": 2}
+{"key": "rotiking.com/location/euston", "emails": ["euston@rotiking.com", "hello@rotiking.com", "mediateam@wearememo.com", "'you@yours.com"], "status": "ok", "final_url": "https://rotiking.com/location/euston/", "v": 2}
+{"key": "in-parma.com", "emails": [], "status": "dead", "final_url": "https://www.in-parma.com/", "v": 2}
+{"key": "francomanca.co.uk/restaurants/holborn", "emails": [], "status": "dead", "final_url": "https://www.francomanca.co.uk/restaurants/holborn/", "v": 2}
+{"key": "notes-uk.co.uk", "emails": [], "status": "unknown", "final_url": "http://notes-uk.co.uk/", "v": 2}
+{"key": "castlehaven.org.uk", "emails": ["info@castlehaven.org.uk", "selina@castlehaven.org.uk", "healthhaven@castlehaven.org.uk", "beatrix@castlehaven.org.uk", "environmentalteam@castlehaven.org.uk"], "status": "ok", "final_url": "https://www.castlehaven.org.uk/", "v": 2}
+{"key": "escapemornington.co.uk", "emails": [], "status": "unknown", "final_url": "https://www.escapemornington.co.uk/", "v": 2}
+{"key": "carluccios.com/pages/restaurants/carluccios-st-pancras", "emails": ["stpancras@carluccios.co.uk", "contact@boparanrestaurants.com"], "status": "ok", "final_url": "https://www.carluccios.com/pages/restaurants/carluccios-st-pancras", "v": 2}
+{"key": "3gorges.co.uk", "emails": ["reservation@3gorges.co.uk", "info@3gorges.co.uk"], "status": "ok", "final_url": "https://3gorges.co.uk", "v": 2}
+{"key": "cafeloren.co.uk", "emails": [], "status": "unknown", "final_url": "http://cafeloren.co.uk/", "v": 2}
+{"key": "hakkasan.com/locations/hakkasan-hanway-place", "emails": [], "status": "ok", "final_url": "https://hakkasangroup.com/venues/hakkasan/", "v": 2}
+{"key": "rosasthaicafe.com/locations/westhampstead", "emails": ["bakerstreet@rosasthai.com", "brixton@rosasthai.com", "edinburgh@rosasthai.com", "greenwich@rosasthai.com", "kingscross@rosasthai.com", "leeds@rosasthai.com", "soho@rosasthai.com", "spitalfields@rosasthai.com", "victoria@rosasthai.com", "warrenstreet@rosasthai.com", "wimbledon@rosasthai.com"], "status": "ok", "final_url": "https://rosasthai.com/", "v": 2}
+{"key": "prufrockcoffee.com/cafe", "emails": [], "status": "dead", "final_url": "https://prufrockcoffee.com/cafe/", "v": 2}
+{"key": "thengacafe.com", "emails": [], "status": "unknown", "final_url": "https://www.thengacafe.com/", "v": 2}
+{"key": "restaurants.fiveguys.co.uk/greater-london/287/297-pentonville-rd", "emails": [], "status": "ok", "final_url": "https://restaurants.fiveguys.co.uk/greater-london/287/297-pentonville-rd", "v": 2}
+{"key": "londonreviewbookshop.co.uk", "emails": ["books@lrbshop.co.uk"], "status": "ok", "final_url": "https://www.londonreviewbookshop.co.uk", "v": 2}
+{"key": "maisushi.co.uk", "emails": ["info@maisushi.co.uk"], "status": "ok", "final_url": "https://www.maisushi.co.uk/", "v": 2}
+{"key": "blankstreet.com/locations/london/lgzq6y7aeev9d-st-pancras", "emails": ["partnerships@blankstreet.com", "press@blankstreet.com"], "status": "ok", "final_url": "https://www.blankstreet.com/en-US/locations/london/LGZQ6Y7AEEV9D-st-pancras", "v": 2}
+{"key": "daddydonkey.co.uk", "emails": ["info@daddydonkey.co.uk"], "status": "ok", "final_url": "https://www.daddydonkey.co.uk/", "v": 2}
+{"key": "grangerandco.com", "emails": ["info@grangerandco.com", "press@grangerandco.com"], "status": "ok", "final_url": "https://www.grangerandco.com/", "v": 2}
+{"key": "itsu.com/location/central-london/euston-station", "emails": ["julian.metcalfe@itsu.com", "media@itsu.com", "harry.housen@itsu.com", "tom.sugarman@itsu.com", "greg.thorp@itsu.com", "tom.springett@itsu.com", "kinga.buda@itsu.com", "annabel.mackie@itsu.com", "claudia@itsugrocery.com", "chloe@itsugrocery.com", "william@itsugrocery.com", "sam@itsugrocery.com", "romain@itsugrocery.com", "misha@itsugrocery.com", "customerservice@itsugrocery.com", "appfeedback@itsu.com"], "status": "ok", "final_url": "https://www.itsu.com/location/central-london/euston-station/", "v": 2}
+{"key": "chinchinlabs.com", "emails": [], "status": "unknown", "final_url": "http://www.chinchinlabs.com/", "v": 2}
+{"key": "thehawksmoor.com/locations/st-pancras", "emails": ["stpancras@thehawksmoor.com"], "status": "ok", "final_url": "https://thehawksmoor.com/locations/st-pancras/", "v": 2}
+{"key": "granarysquarebrasserie.com", "emails": ["groupdining@theivy-collection.com"], "status": "ok", "final_url": "https://ivycollection.com/restaurants-near-me/the-ivy-london/granary-square-brasserie-kings-cross/", "v": 2}
+{"key": "harrysdolcevita.com/restaurants/harrys-kings-cross", "emails": ["groupdining@theivy-collection.com"], "status": "ok", "final_url": "https://harrysdolcevita.com/italian-restaurants-near-me/italian-restaurants-london/harrys-kings-cross-italian-restaurant/", "v": 2}
+{"key": "cookiesandscream.com", "emails": [], "status": "unknown", "final_url": "http://cookiesandscream.com/", "v": 2}
+{"key": "kfc.co.uk/kfc-near-me/camden-high-street", "emails": [], "status": "unknown", "final_url": "https://www.kfc.co.uk/kfc-near-me/camden-high-street", "v": 2}
+{"key": "casatualondon.com", "emails": ["casatuacamden@gmail.com", "casatuakx@gmail.com", "casatuadelizie@gmail.com"], "status": "ok", "final_url": "https://casatualondon.com/", "v": 2}
+{"key": "thebarbary.co.uk", "emails": [], "status": "ok", "final_url": "https://www.thebarbary.co.uk/", "v": 2}
+{"key": "kerbfood.com/markets/camden", "emails": [], "status": "unknown", "final_url": "http://www.kerbfood.com/markets/camden/", "v": 2}
+{"key": "caffenero.com/uk/stores/southampton-row", "emails": [], "status": "ok", "final_url": "https://www.caffenero.com/uk/stores/southampton-row", "v": 2}
+{"key": "wiredco.london", "emails": [], "status": "unknown", "final_url": "http://www.wiredco.london/", "v": 2}
+{"key": "shakeshack.com", "emails": [], "status": "ok", "final_url": "https://shakeshack.com/", "v": 2}
+{"key": "mildreds.com/camden", "emails": ["hello@mildreds.com"], "status": "ok", "final_url": "https://www.mildreds.com/camden/", "v": 2}
+{"key": "camdentownbrewery.com/pages/visit-us", "emails": [], "status": "ok", "final_url": "https://camdentownbrewery.com/pages/visit-us", "v": 2}
+{"key": "starbucks.com/store-locator/store/1025615/euston-station-upstairs-balcon-euston-station-london-eng-nw-12-du-gb", "emails": [], "status": "ok", "final_url": "https://www.starbucks.com/store-locator/store/1025615/euston-station-upstairs-balcon-euston-station-london-eng-nw-12-du-gb", "v": 2}
+{"key": "llscafe.com", "emails": [], "status": "dead", "final_url": "https://www.llscafe.com/", "v": 2}
+{"key": "hoppercoffeehouse.com", "emails": [], "status": "unknown", "final_url": "https://www.hoppercoffeehouse.com/", "v": 2}
+{"key": "drakeandmorgan.co.uk/kings-cross", "emails": [], "status": "ok", "final_url": "https://www.drakeandmorgan.co.uk/", "v": 2}
+{"key": "sushisalsacamden.co.uk", "emails": [], "status": "ok", "final_url": "https://www.sushisalsacamden.co.uk/", "v": 2}
+{"key": "caffenero.com/uk/stores/euston-colonade", "emails": [], "status": "ok", "final_url": "https://www.caffenero.com/uk/stores/euston-colonade", "v": 2}
+{"key": "tortilla.co.uk/restaurants/kings-cross", "emails": ["kingscross@tortilla.co.uk"], "status": "ok", "final_url": "https://www.tortilla.co.uk/restaurants/kings-cross", "v": 2}
+{"key": "sohocoffee.com/kingsway-1", "emails": [], "status": "unknown", "final_url": "http://sohocoffee.com/kingsway-1", "v": 2}
+{"key": "dishoom.com/kings-cross", "emails": [], "status": "ok", "final_url": "https://www.dishoom.com/kings-cross/", "v": 2}
+{"key": "rubyviolet.co.uk", "emails": [], "status": "unknown", "final_url": "https://www.rubyviolet.co.uk/", "v": 2}
+{"key": "nojolondon.co.uk", "emails": ["love@nojolondon.co.uk"], "status": "ok", "final_url": "https://nojolondon.co.uk/", "v": 2}
+{"key": "kimchee.uk.com", "emails": ["kimchee_pancras@kimchee.uk.com"], "status": "ok", "final_url": "https://kimchee.uk.com/", "v": 2}
+{"key": "kungfood.co.uk", "emails": [], "status": "ok", "final_url": "https://kungfood.co.uk/", "v": 2}
+{"key": "origincoffee.co.uk", "emails": ["wholesale@origincoffee.co.uk", "info@origincoffee.co.uk"], "status": "ok", "final_url": "https://www.origincoffee.co.uk", "v": 2}
+{"key": "tortilla.co.uk/restaurants/russell-square", "emails": ["russellsq@tortilla.co.uk"], "status": "ok", "final_url": "https://www.tortilla.co.uk/restaurants/russell-square", "v": 2}
+{"key": "kinstreetfood.com", "emails": ["hello@kinstreetfood.com", "ellie@baredesign.me"], "status": "ok", "final_url": "https://www.kinstreetfood.com/", "v": 2}
+{"key": "history.ac.uk/events/room-hire/common-room", "emails": [], "status": "unknown", "final_url": "https://www.history.ac.uk/events/room-hire/common-room", "v": 2}
+{"key": "compagniewinebar.com/london", "emails": ["reservation@cvssevendials.com", "aaron@compagnienyc.com", "'events@venue.com", "sales@expegroup.com", "adriatica@palazzoexperimental.com", "amanda@plagebijou.com", "matt@cowleymanor.com", "eventsibiza@expegroup.com", "info@experimentalchalet.com", "ukevents@expegroup.com", "olimpia.n@expegroup.com", "experimental@experimental.com", "mathieu.c@experimentalchaletvaldisere.com", "reservation@experimentalchalet.com", "event@experimentalmarais.com", "reservation@grandpigalle.com", "events@grandsboulevardshotel.com", "eat@henriettahotel.com", "sales@reginaexperimental.com", "mirna@expegroup.com", "events@stereocoventgarden.com", "press@expegroup.com", "info@experimentalmarais.com", "bookevent-event@experimentalmarais.com"], "status": "ok", "final_url": "https://www.experimentalgroup.com/london/la-compagnie-neals-yard", "v": 2}
+{"key": "thedolphin-pub.com", "emails": [], "status": "unknown", "final_url": "https://www.thedolphin-pub.com/", "v": 2}
+{"key": "mannav.com", "emails": ["cooking@mannav.com"], "status": "ok", "final_url": "https://mannav.com/", "v": 2}
+{"key": "bar-salsa.com/soho", "emails": [], "status": "ok", "final_url": "https://bullysrestaurant.co.uk/", "v": 2}
+{"key": "postalmuseum.org", "emails": ["bookings@postalmuseum.org"], "status": "ok", "final_url": "https://www.postalmuseum.org/", "v": 2}
+{"key": "stpancrasbysearcys.co.uk/brasserie", "emails": ["stpancrasreception@searcys.co.uk"], "status": "ok", "final_url": "https://stpancrasbysearcys.co.uk/brasserie/", "v": 2}
+{"key": "gails.com/pages/swains-lane", "emails": [], "status": "ok", "final_url": "https://gails.com/pages/swains-lane", "v": 2}
+{"key": "vermuteria.cc", "emails": ["info@vermuteria.cc"], "status": "ok", "final_url": "https://vermuteria.cc", "v": 2}
+{"key": "thesherriffcentre.co.uk/the-sanctuary-cafe", "emails": [], "status": "dead", "final_url": "https://www.thesherriffcentre.co.uk/the-sanctuary-cafe/", "v": 2}
+{"key": "dallowayterrace.com", "emails": ["info@dallowayterrace.com"], "status": "ok", "final_url": "https://dallowayterrace.com/", "v": 2}
+{"key": "manitobatigella.com", "emails": [], "status": "unknown", "final_url": "http://www.manitobatigella.com", "v": 2}
+{"key": "cafechula.co.uk", "emails": ["hello@camdenlockside.co.uk", "events@camdenlockside.co.uk"], "status": "ok", "final_url": "https://camdenlockside.co.uk/180club/", "v": 2}
+{"key": "theobservatory.org", "emails": [], "status": "unknown", "final_url": "https://www.theobservatory.org", "v": 2}
+{"key": "francomanca.co.uk/restaurants/russell-square", "emails": [], "status": "ok", "final_url": "https://www.francomanca.co.uk/restaurants/russell-square/", "v": 2}
+{"key": "studentsunionucl.org/eat-drink-shop/bars/institute-bar", "emails": ["su.advice@ucl.ac.uk", "su.activities@ucl.ac.uk", "teamucl@ucl.ac.uk", "artsucl@ucl.ac.uk"], "status": "ok", "final_url": "https://studentsunionucl.org/eat-drink-shop/bars/institute-bar", "v": 2}
+{"key": "coaloffice.com", "emails": ["hello@coaloffice.com"], "status": "ok", "final_url": "https://coaloffice.com/", "v": 2}
+{"key": "antalyarestaurant.co.uk", "emails": ["booking@antalyarestaurant.co.uk"], "status": "ok", "final_url": "https://antalyarestaurant.co.uk/", "v": 2}
+{"key": "bbk.ac.uk/about-us/sustainability-at-birkbeck/sustainable-catering", "emails": ["disability@bbk.ac.uk"], "status": "ok", "final_url": "https://www.bbk.ac.uk/about-us/sustainability-at-birkbeck/sustainable-catering", "v": 2}
+{"key": "kfc.co.uk/kfc-near-me/hampstead-haverstock-hill", "emails": [], "status": "unknown", "final_url": "https://www.kfc.co.uk/kfc-near-me/hampstead-haverstock-hill", "v": 2}
+{"key": "benugo.com/sites/cafes/benugo-st-pancras-espresso-bar", "emails": ["stpancras@benugo.com"], "status": "ok", "final_url": "https://www.benugo.com/sites/cafes/benugo-st-pancras-espresso-bar/", "v": 2}
+{"key": "jacobtheangel.co.uk", "emails": ["rich@richkelly.uk", "hello@jacobtheangel.co.uk"], "status": "ok", "final_url": "https://jacobtheangel.co.uk", "v": 2}
+{"key": "circus-london.co.uk", "emails": [], "status": "dead", "final_url": "https://www.circus-london.co.uk/", "v": 2}
+{"key": "jdwetherspoon.com/pubs/all-pubs/england/london/the-ice-wharf-camden", "emails": [], "status": "skipped", "final_url": "https://www.jdwetherspoon.com/pubs/all-pubs/england/london/the-ice-wharf-camden", "v": 2}
+{"key": "rossodisera.co.uk", "emails": ["info@rossodisera.co.uk", "bookingrossodisera@gmail.com"], "status": "ok", "final_url": "https://rossodisera.co.uk/", "v": 2}
+{"key": "oldpostofficebakery.co.uk", "emails": [], "status": "unknown", "final_url": "http://www.oldpostofficebakery.co.uk/", "v": 2}
+{"key": "blacksheepcoffee.co.uk/blogs/locations/regents-place", "emails": ["press@blacksheepcoffee.co.uk", "l.blakey@blacksheepcoffee.co.uk", "blacksheepcoffee@frmclients.com"], "status": "ok", "final_url": "https://blacksheepcoffee.us/blogs/locations/regents-place?shpxid=7794674d-9dd9-4bb3-976a-8dfc3f260830", "v": 2}
+{"key": "atariya.co.uk", "emails": ["enquiries@atariyaretail.co.uk", "office@ts-ent.co.uk", "enquiries@atariyarestaurants.co.uk", "enquiries@atariya.co.uk", "acton@atariyaretail.co.uk", "finchley@atariyaretail.co.uk", "g.green@atariyaretail.co.uk", "kingston@atariyaretail.co.uk", "s.cottage@atariyaretail.co.uk", "cafejapan@atariyarestaurants.co.uk", "reservations@tokimeite.com"], "status": "ok", "final_url": "https://atariya.co.uk/", "v": 2}
+{"key": "flatironsteak.co.uk/restaurant/tottenham-court-road", "emails": ["sustainability@flatironsteak.co.uk"], "status": "ok", "final_url": "https://flatironsteak.co.uk/restaurant/tottenham-court-road/", "v": 2}
+{"key": "salaam-namaste.co.uk", "emails": ["info@salaam-namaste.co.uk"], "status": "ok", "final_url": "https://salaam-namaste.co.uk/new/", "v": 2}
+{"key": "montaguehotel.com/dining-and-drinks/afternoon-tea", "emails": ["bookmt@montaguehotel.com"], "status": "ok", "final_url": "https://montaguehotel.com/dining-and-drinks/afternoon-tea", "v": 2}
+{"key": "paolinathai.com", "emails": [], "status": "unknown", "final_url": "https://paolinathai.com/", "v": 2}
+{"key": "thecheesebar.com/seven-dials", "emails": [], "status": "dead", "final_url": "https://www.thecheesebar.com/seven-dials/", "v": 2}
+{"key": "eatcitro.com", "emails": ["info@eatcitro.com"], "status": "ok", "final_url": "https://www.eatcitro.com/", "v": 2}
+{"key": "wingwing.co.uk", "emails": ["ts@wingwing.co.uk", "info@wingwing.co.uk"], "status": "ok", "final_url": "https://wingwing.co.uk/", "v": 2}
+{"key": "caffenero.com/uk/stores/62-tottenham-court-road", "emails": [], "status": "ok", "final_url": "https://www.caffenero.com/uk/stores/62-tottenham-court-road", "v": 2}
+{"key": "tuttis.co.uk", "emails": ["contact@tuttis.co.uk"], "status": "ok", "final_url": "https://tuttis.co.uk/", "v": 2}
+{"key": "laduree.co.uk/laduree-st-pancras.html", "emails": [], "status": "ok", "final_url": "https://laduree.com/en/pages/store/laduree-london-st-pancras-international-station", "v": 2}
+{"key": "hollandesquire.com", "emails": [], "status": "ok", "final_url": "https://www.hollandesquire.com/password", "v": 2}
+{"key": "sevendialsmarket.com/vendor/cucumber-alley", "emails": ["megan@sevendialsmarket.com", "pr@kerbfood.com"], "status": "ok", "final_url": "https://www.sevendialsmarket.com/vendor/cucumber-alley/", "v": 2}
+{"key": "tlocoffee.com", "emails": [], "status": "unknown", "final_url": "https://www.tlocoffee.com/", "v": 2}
+{"key": "monsoonindiancuisine.co.uk", "emails": [], "status": "ok", "final_url": "https://www.monsoonindiancuisine.co.uk/", "v": 2}
+{"key": "happyface.pizza", "emails": [], "status": "ok", "final_url": "https://www.happyface.pizza/", "v": 2}
+{"key": "thecoralroom.co.uk", "emails": ["reservations@thecoralroom.co.uk"], "status": "ok", "final_url": "https://www.thecoralroom.co.uk/", "v": 2}
+{"key": "intermission.coffee", "emails": ["hello@intermission.coffee"], "status": "ok", "final_url": "https://www.intermission.coffee/", "v": 2}
+{"key": "honeyandco.co.uk/places/honey-co", "emails": ["bookings@honeyandco.co.uk"], "status": "ok", "final_url": "https://honeyandco.co.uk/places/honey-co/", "v": 2}
+{"key": "bukburger.com", "emails": [], "status": "unknown", "final_url": "https://www.bukburger.com/", "v": 2}
+{"key": "signalboxeuston.co.uk", "emails": ["signalbox@fullers.co.uk"], "status": "ok", "final_url": "https://www.signalboxeuston.co.uk/", "v": 2}
+{"key": "caffenero.com/uk/stores/central-st-giles", "emails": [], "status": "ok", "final_url": "https://www.caffenero.com/uk/stores/central-st-giles", "v": 2}
+{"key": "portobellojuice.com", "emails": [], "status": "unknown", "final_url": "http://www.portobellojuice.com/", "v": 2}
+{"key": "pizzahut.co.uk/huts/uk-1/7537-kentish-town", "emails": [], "status": "unknown", "final_url": "https://www.pizzahut.co.uk/huts/uk-1/7537-kentish-town/", "v": 2}
+{"key": "coffeewaybistro.co.uk", "emails": [], "status": "unknown", "final_url": "https://coffeewaybistro.co.uk/", "v": 2}
+{"key": "blacksheepcoffee.co.uk/blogs/locations/kings-cross", "emails": ["press@blacksheepcoffee.co.uk", "l.blakey@blacksheepcoffee.co.uk", "blacksheepcoffee@frmclients.com"], "status": "ok", "final_url": "https://blacksheepcoffee.us/blogs/locations/kings-cross?shpxid=f167e94b-6dec-4436-83a8-6bfdec1b7e80", "v": 2}
+{"key": "walkersquay.com", "emails": ["info@walkersquay.com", "info@walkersquay.co.uk"], "status": "ok", "final_url": "https://walkersquay.com/", "v": 2}
+{"key": "28churchrow.com", "emails": ["hello@28churchrow.com"], "status": "ok", "final_url": "https://28churchrow.com", "v": 2}
+{"key": "tetaslebanese.co.uk", "emails": [], "status": "unknown", "final_url": "https://tetaslebanese.co.uk/", "v": 2}
+{"key": "lantanacafe.co.uk/lantana-cafe-camden", "emails": [], "status": "unknown", "final_url": "https://lantanacafe.co.uk/lantana-cafe-camden/", "v": 2}
+{"key": "barrafina.co.uk/restaurants/coal-drops-yard", "emails": [], "status": "ok", "final_url": "https://www.barrafina.com/locations/coal-drops-yard/", "v": 2}
+{"key": "lantana.co.uk", "emails": ["marketing@lantanagroup.co.uk"], "status": "ok", "final_url": "https://lantana.co.uk/", "v": 2}
+{"key": "gails.com/pages/kings-cross", "emails": [], "status": "ok", "final_url": "https://gails.com/pages/kings-cross", "v": 2}
+{"key": "goldenvalleycamden.co.uk", "emails": ["info@mafiacasino.eu"], "status": "ok", "final_url": "https://goldenvalleycamden.co.uk/", "v": 2}
+{"key": "duckduckgoose.london", "emails": [], "status": "dead", "final_url": "https://www.duckduckgoose.london", "v": 2}
+{"key": "happylambuk.com/restaurants/holborn", "emails": ["holborn@lambhotpot.com", "bayswaterhotpot@gmail.com", "birmingham@lambhotpot.com", "edinburgh.happylamb@gmail.com"], "status": "ok", "final_url": "https://happylambuk.com/restaurants/holborn/", "v": 2}
+{"key": "caffenero.com/uk/stores/west-hampstead", "emails": [], "status": "ok", "final_url": "https://www.caffenero.com/uk/stores/west-hampstead", "v": 2}
+{"key": "starbucks.com/store-locator/store/1019950/5-warren-street-5-warren-street-london-eng-w-1-t-5-la-gb", "emails": [], "status": "ok", "final_url": "https://www.starbucks.com/store-locator/store/1019950/5-warren-street-5-warren-street-london-eng-w-1-t-5-la-gb", "v": 2}
+{"key": "restaurants.subway.com/united-kingdom/en/london/141-finchley-road", "emails": [], "status": "ok", "final_url": "https://restaurants.subway.com/united-kingdom/en/london/141-finchley-road", "v": 2}
+{"key": "hidencurry.com", "emails": ["info@hidencurry.com"], "status": "ok", "final_url": "https://hidencurry.com/", "v": 2}
+{"key": "leventborek.co.uk", "emails": ["john.doe@gmail.com", "info@trinix.co.uk"], "status": "ok", "final_url": "https://leventborek.co.uk/", "v": 2}
+{"key": "kimptonfitzroylondon.com/london-restaurant/burr-and-co", "emails": [], "status": "dead", "final_url": "https://www.kimptonfitzroylondon.com/london-restaurant/burr-and-co/", "v": 2}
+{"key": "lantanacafe.co.uk/lantana-dl78", "emails": ["marketing@lantanagroup.co.uk", "site.fitzrovia@lantanagroup.co.uk", "site.londonbridge@lantanagroup.co.uk", "site.shoreditch@lantanagroup.co.uk", "nsite.fitzrovia@lantanagroup.co.uk", "nsite.londonbridge@lantanagroup.co.uk", "nsite.shoreditch@lantanagroup.co.uk"], "status": "ok", "final_url": "https://lantana.co.uk/locations", "v": 2}
+{"key": "theladyottoline.com", "emails": [], "status": "ok", "final_url": "https://idc88irl.com/", "v": 2}
+{"key": "authentique-epicerie.com", "emails": [], "status": "unknown", "final_url": "http://authentique-epicerie.com/", "v": 2}
+{"key": "galvinrestaurants.com/restaurant/galvin-bar-and-grill", "emails": ["elise@galvinrestaurants.com", "privatedining.city@galvinrestaurants.com"], "status": "ok", "final_url": "https://galvinrestaurants.com/galvin-la-chapelle/", "v": 2}
+{"key": "wildlondon.org.uk/cafes", "emails": ["events@wildlondon.org.uk"], "status": "ok", "final_url": "https://www.wildlondon.org.uk/cafes", "v": 2}
+{"key": "oak-tree-cafe.business.site", "emails": [], "status": "dead", "final_url": "https://oak-tree-cafe.business.site/", "v": 2}
+{"key": "chamisse.com", "emails": ["info@chamisse.com"], "status": "ok", "final_url": "https://chamisse.com/", "v": 2}
+{"key": "superettestore.com", "emails": [], "status": "ok", "final_url": "https://www.superettestore.com/", "v": 2}
+{"key": "hiba-express.co.uk/hiba-express", "emails": [], "status": "ok", "final_url": "https://www.hiba-express.co.uk/hiba-express/", "v": 2}
+{"key": "shuffleboardbars.com/london", "emails": [], "status": "ok", "final_url": "https://shuffleboardbars.com/london/", "v": 2}
+{"key": "roguesquarter.com", "emails": ["roguesquarterlondon@gmail.com"], "status": "ok", "final_url": "https://www.roguesquarter.com/", "v": 2}
+{"key": "kintan.uk", "emails": ["dennis@dining-innovation-usa.com"], "status": "ok", "final_url": "https://kintan.uk/", "v": 2}
+{"key": "jdwetherspoon.com/pubs/all-pubs/england/london/the-captain-flinders", "emails": [], "status": "skipped", "final_url": "https://www.jdwetherspoon.com/pubs/all-pubs/england/london/the-captain-flinders", "v": 2}
+{"key": "arabicalondon.com", "emails": ["pr@arabicalondon.com"], "status": "ok", "final_url": "https://www.arabicalondon.com/", "v": 2}
+{"key": "swainslane.londonshellco.com", "emails": ["swains@londonshellco.com", "bookings@londonshellco.com"], "status": "ok", "final_url": "https://londonshellco.com/", "v": 2}
+{"key": "plazakhaogaeng.com", "emails": ["by@plazakhaogaeng.com", "cg@plazakhaogaeng.com", "tcr@plazakhaogaeng.com"], "status": "ok", "final_url": "https://plazakhaogaeng.com/", "v": 2}
+{"key": "spiritland.com", "emails": [], "status": "unknown", "final_url": "https://www.spiritland.com/", "v": 2}
+{"key": "3locksbeer.com", "emails": ["info@3locksbeer.com"], "status": "ok", "final_url": "https://www.3locksbeer.com/", "v": 2}
+{"key": "gails.com/pages/holborn", "emails": [], "status": "ok", "final_url": "https://gails.com/pages/holborn", "v": 2}
+{"key": "m.facebook.com/walkmisu", "emails": [], "status": "skipped", "final_url": "https://m.facebook.com/walkmisu", "v": 2}
+{"key": "takagiyalondon.com", "emails": ["info@takagiyalondon.com"], "status": "ok", "final_url": "https://www.takagiyalondon.com", "v": 2}
+{"key": "caffenero.com/uk/stores/hampstead", "emails": [], "status": "ok", "final_url": "https://www.caffenero.com/uk/stores/hampstead", "v": 2}
+{"key": "studiogauthier.co.uk", "emails": ["info@studiogauthier.co.uk", "james@gauthiersoho.co.uk"], "status": "ok", "final_url": "https://studiogauthier.co.uk", "v": 2}
+{"key": "planburrito.co.uk", "emails": [], "status": "ok", "final_url": "https://planburrito.co.uk/", "v": 2}
+{"key": "bombaynightsrestaurants.co.uk", "emails": [], "status": "ok", "final_url": "https://bombaynightsrestaurants.co.uk", "v": 2}
+{"key": "werewolfbeer.com", "emails": ["sales@werewolfbeer.com", "taproom@werewolfbeer.com", "admin@werewolfbeer.com"], "status": "ok", "final_url": "https://www.werewolfbeer.com/", "v": 2}
+{"key": "haveanavo.com", "emails": [], "status": "dead", "final_url": "https://www.haveanavo.com", "v": 2}
+{"key": "pizzadirect.co", "emails": ["888bme@gmail.com"], "status": "ok", "final_url": "https://wamodern.jp.net/", "v": 2}
+{"key": "dintaifung-uk.com", "emails": [], "status": "unknown", "final_url": "https://dintaifung-uk.com/", "v": 2}
+{"key": "nandos.co.uk/restaurants/west-hampstead", "emails": [], "status": "ok", "final_url": "https://www.nandos.co.uk/restaurants/west-hampstead", "v": 2}
+{"key": "kitchentablelondon.co.uk", "emails": ["info@kitchentablelondon.co.uk", "kitchentable@toniccomms.co.uk"], "status": "ok", "final_url": "https://kitchentablelondon.co.uk/", "v": 2}
+{"key": "caffenero.com/uk/stores/finchley-road", "emails": [], "status": "ok", "final_url": "https://www.caffenero.com/uk/stores/finchley-road", "v": 2}
+{"key": "baba-tang.com", "emails": [], "status": "unknown", "final_url": "http://www.baba-tang.com/", "v": 2}
+{"key": "taminilebanesebakery.com", "emails": ["info@ta3minilebanesebakery.com", "ali@ta3minilebanesebakery.com"], "status": "ok", "final_url": "https://www.taminilebanesebakery.com/", "v": 2}
+{"key": "pritchardandure.com", "emails": [], "status": "unknown", "final_url": "http://www.pritchardandure.com/", "v": 2}
+{"key": "locations.tacobell.co.uk/london/122-high-street--camden.html", "emails": [], "status": "ok", "final_url": "https://www.tacobell.co.uk/locations/", "v": 2}
+{"key": "cushlacamden.com", "emails": [], "status": "dead", "final_url": "http://www.cushlacamden.com", "v": 2}
+{"key": "babelbeerhouse.com", "emails": [], "status": "ok", "final_url": "https://www.babelbeerhouse.com/", "v": 2}
+{"key": "mamaskubo.com", "emails": ["mamaskubo@gmail.com"], "status": "ok", "final_url": "https://www.mamaskubo.com/", "v": 2}
+{"key": "udoncafe.co.uk", "emails": [], "status": "unknown", "final_url": "https://udoncafe.co.uk", "v": 2}
+{"key": "kerbfood.com/markets/holborn", "emails": [], "status": "ok", "final_url": "https://www.kerbfood.com/markets/holborn/", "v": 2}
+{"key": "greeneking.co.uk/pubs/greater-london/crown", "emails": [], "status": "skipped", "final_url": "https://www.greeneking.co.uk/pubs/greater-london/crown", "v": 2}
+{"key": "bloomsburylondon.com/tenants/arcana-coffee", "emails": ["hello@bloomsburylondon.com", "customerservice@arcanacoffee.co.uk"], "status": "ok", "final_url": "https://www.bloomsburylondon.com/tenants/arcana-coffee", "v": 2}
+{"key": "greeneking.co.uk/pubs/greater-london/two-brewers", "emails": [], "status": "skipped", "final_url": "https://www.greeneking.co.uk/pubs/greater-london/two-brewers", "v": 2}
+{"key": "the10cases.co.uk", "emails": [], "status": "unknown", "final_url": "http://www.the10cases.co.uk/", "v": 2}
+{"key": "bloomsburycoffeehouse.co.uk", "emails": [], "status": "unknown", "final_url": "https://www.bloomsburycoffeehouse.co.uk/", "v": 2}
+{"key": "gails.com/pages/euston", "emails": [], "status": "ok", "final_url": "https://gails.com/pages/euston", "v": 2}
+{"key": "pizzapilgrims.co.uk/pizzerias/euston", "emails": ["events@pizzapilgrims.co.uk", "brighton@pizzapilgrims.co.uk", "masterclass@pizzapilgrims.co.uk"], "status": "ok", "final_url": "https://www.pizzapilgrims.co.uk/pizzerias/euston/", "v": 2}
+{"key": "themillhousecafe.com", "emails": [], "status": "ok", "final_url": "https://rajabotak.com/", "v": 2}
+{"key": "fortunecafe.co.uk", "emails": ["info@fortunecafe.co.uk"], "status": "ok", "final_url": "https://fortunecafe.co.uk", "v": 2}
+{"key": "trade-made.co.uk", "emails": [], "status": "ok", "final_url": "https://www.trade-made.co.uk/", "v": 2}
+{"key": "dapur.co.uk", "emails": ["holborn@dapur.co.uk"], "status": "ok", "final_url": "https://dapur.co.uk/", "v": 2}
+{"key": "gails.com/pages/st-pancras", "emails": [], "status": "ok", "final_url": "https://gails.com/pages/st-pancras", "v": 2}
+{"key": "batchd.co.uk", "emails": ["hello@batchd.co.uk"], "status": "ok", "final_url": "https://www.batchd.co.uk", "v": 2}
+{"key": "balady.co.uk", "emails": [], "status": "unknown", "final_url": "https://balady.co.uk/", "v": 2}
+{"key": "swissbutter.com", "emails": [], "status": "ok", "final_url": "https://swissbutter.com/", "v": 2}
+{"key": "monmouthcoffee.co.uk", "emails": ["beans@monmouthcoffee.co.uk"], "status": "ok", "final_url": "https://www.monmouthcoffee.co.uk/", "v": 2}
+{"key": "kingscrosstandoori.co.uk", "emails": ["info@kingscrosstandoori.co.uk"], "status": "ok", "final_url": "https://www.kingscrosstandoori.co.uk/", "v": 2}
+{"key": "amorino.com/en/stores/amorino-west-end", "emails": ["stalbans.amorino@gmail.com", "amorinosaintraphael@gmail.com", "amorino.paris.kleber@gmail.com", "arenal@amorino.es", "operations.belgique@amorino.com", "a.baetens@tb-data.com", "denia@amorino.es", "sofifoyo@gmail.com", "mhuvos@amorino.es", "ifernandez@amorino.ad", "m.lejeune@amorino.nc", "s.mouza@amorino.nc", "andrea.berger@amorino.com", "tm@amorino.es", "fg@amorino.es", "info.am.jvhn@gmail.com", "mh@amorino.es", "diksha@mosfashion.es", "monicanotani@gmail.com", "amorino.niort79@gmail.com", "amorino.canterbury@gmail.com", "amorino.bath@dpsw.co.uk", "vmanwani@amorino.es", "du@amorino.es", "mm@amorino.es", "elfuerte@amorino.es", "ar@amorino.es", "sebastiencreusot@hotmail.fr", "shan@barackholidings.co.uk", "amorino.lepuyenvelay@gmail.com", "alexisbarcikowsky@yahoo.fr", "amorino.cardiff@dpsw.co.uk", "amorino.gp@gmail.com", "annemasse.amorino@gmail.com", "morges.gare@amorino.com", "amorino.palavas@gmail.com", "pkafka@amorino.com", "david@cherubino.com.mt", "matthieucourreges@hotmail.fr", "cajuam21@gmail.com", "gaetanogiverny@gmail.com", "sachin.gupta7@gmail.com", "amorino.besancon@gmail.com", "guillaumehauck@gmail.com", "chartres@amorino.com", "constantin.cronenberg@amorino.com", "mustafa.celik@amorino.com", "qwartz@amorino.com", "mklasing@hotmail.fr", "fortworth.clearfork@amorino.com", "marksawall@aol.com", "amorino.carcassonne@gmail.com", "amorino.avignon84@gmail.com", "laurent.renard1@hotmail.com", "hb7q1@accor.com", "bandol@amorino.com", "amorino.canet@groupebc.com", "laciotat@amorino.com", "oleti.amorino@gmail.com", "clermont-ferrand@amorino.com", "christi.dir@hotmail.fr", "gaetanovillefontaine@gmail.com", "amorinogrenette@gmail.com", "vamorino9@gmail.com", "tiphaine.brun@hotmail.fr", "olivia.govin@amorino.com", "amorino.royale@gmail.com", "amorino.nimes@gmail.com", "rh.amorino@gmail.com", "gaetanomiramas@gmail.com", "amorino.montpellier.triangle@gmail.com", "nantes.amorino@gmail.com", "patricia.prandini@wanadoo.fr", "amorino.montpellier.loge@gmail.com", "laurence-ducrocq@orange.fr", "gaetanolavallee@gmail.com", "plano.legacywest@amorino.com", "reims.erlon@amorino.com", "amorino.perpignan@groupebc.com", "dfranklin@sienaglobal.com", "santo.bruno@amorino.com.mt", "raleigh.davie@amorino.com", "br@amorino.es", "vd@amorino.es", "jc@amorino.es", "pb@amorino.es", "amorino.vr@libero.it", "hr.firenze@amorino.com", "ss@amorino.es", "rouen.horloge@amorino.com", "tl@amorino.es", "amorino.sete@gmail.com", "vishal_kakar@yahoo.com", "jk@amorino.es", "amorinothiais@gmail.com", "cfriederich67@gmail.com", "tonigallan@yahoo.es", "brian@strawberry-fields.co.uk", "london.camden@amorino.com", "blum.sylvie@free.fr", "regis.rocca@orange.fr", "me@amorino.es", "marilex@gmx.ch", "vilamoura.marina@amorino.com", "toulouse.capitole@amorino.com", "chrystal.boisse@outlook.fr", "v.vasseur@amorino.nc", "luca.sereni@amorino.com", "hr.uk@amorino.com", "mexico@amorino.com", "recrutementb2s@amorino.com", "tc@amorino.es", "lauragiroamorino@hotmail.com", "jb@amorino.es", "t.rh@amorino.com", "sz@amorino.com", "alexjuly2@hotmail.fr", "amorino.chamonix@amorino.com", "amorinohouston@gmail.com", "gaelpatavia@gmail.com", "r_tajouri@me.com", "elisabetta.sereni@amorino.com", "jean.christophe@amorino.com", "mohd.alteree@gmail.com", "ha@amorino.es", "christopher.roldan@amorino.com", "angers@amorino.com", "info@jmprema.fr", "muriel.amorino@gmail.com", "amorino101gm@gmail.com", "cyril.pansu@amorino.com", "amorino.lyon@gmail.com", "a2c.amorino@gmail.com", "gillsmedia@gmail.com", "sp@amorino.es", "recrutamentoamorinolisboa@gmail.com", "info@amorino.com.mt"], "status": "ok", "final_url": "https://www.amorino.com/en/stores/amorino-west-end", "v": 2}
+{"key": "electricshuffle.com/uk/london/kingscross", "emails": ["press@electricshuffle.com"], "status": "ok", "final_url": "https://electricshuffle.com/uk/london/kingscross", "v": 2}
+{"key": "blacksheepcoffee.co.uk/blogs/locations/smarts-place", "emails": ["press@blacksheepcoffee.co.uk", "l.blakey@blacksheepcoffee.co.uk", "blacksheepcoffee@frmclients.com"], "status": "ok", "final_url": "https://blacksheepcoffee.us/blogs/locations/smarts-place?shpxid=02a02932-991f-40fb-9ce1-df9320f43514", "v": 2}
+{"key": "rosewoodhotels.com/en/london/dining/the-pie-room", "emails": ["info@holborndiningroom.com", "london.restaurants@rosewoodhotels.com", "london@rosewoodhotels.com"], "status": "ok", "final_url": "https://www.rosewoodhotels.com/en/london/dining/the-pie-room", "v": 2}
+{"key": "curledleaf.co.uk", "emails": [], "status": "ok", "final_url": "https://bestofeverythingblog.com/", "v": 2}
+{"key": "rosewoodhotels.com/en/london/dining/mirror-room", "emails": ["london.mirrorroom@rosewoodhotels.com", "london.restaurants@rosewoodhotels.com", "london@rosewoodhotels.com"], "status": "ok", "final_url": "https://www.rosewoodhotels.com/en/london/dining/mirror-room", "v": 2}
+{"key": "cqcuisine.com", "emails": [], "status": "unknown", "final_url": "https://cqcuisine.com/", "v": 2}
+{"key": "monplaisir.co.uk", "emails": ["info@monplaisir.co.uk"], "status": "ok", "final_url": "https://www.monplaisir.co.uk/", "v": 2}
+{"key": "hokolondon.co/hoko-wonton-noodles-seven-dials-market", "emails": ["hello@hokolondon.co", "bricklane@hokolondon.co", "info@hokonoodles.co", "bethnalgreen@hokolondon.co", "info@hokolondon.co"], "status": "ok", "final_url": "https://www.hokolondon.co/hoko-wonton-noodles-seven-dials-market", "v": 2}
+{"key": "cafebotanical.com", "emails": [], "status": "ok", "final_url": "https://cafebotanical.com/", "v": 2}
+{"key": "locations.pret.co.uk/london/125-high-holborn", "emails": [], "status": "ok", "final_url": "https://www.pret.co.uk/en-GB/shop-finder/l/london/125-high-holborn/10212", "v": 2}
+{"key": "eatcrudo.com", "emails": ["hola@eatcrudo.com"], "status": "ok", "final_url": "https://www.eatcrudo.com/", "v": 2}
+{"key": "lacreperiedehampstead.com", "emails": [], "status": "unknown", "final_url": "https://www.lacreperiedehampstead.com/", "v": 2}
+{"key": "bubala.co.uk/kings-cross", "emails": ["reservations@bubala.co.uk"], "status": "ok", "final_url": "https://bubala.co.uk/restaurant/kings-cross/", "v": 2}
+{"key": "whamlondon.com", "emails": ["whamcamden@gmail.com"], "status": "ok", "final_url": "https://whamlondon.com", "v": 2}
+{"key": "thelibratc.com", "emails": ["thelibracontact@gmail.com"], "status": "ok", "final_url": "https://www.thelibratc.com/", "v": 2}
+{"key": "fongskitchenonline.co.uk", "emails": [], "status": "ok", "final_url": "https://fongskitchenonline.co.uk/", "v": 2}
+{"key": "quillsbrunchbar.co.uk", "emails": ["butternut@squash.com"], "status": "ok", "final_url": "https://quillsbrunchbar.co.uk/", "v": 2}
+{"key": "spagnoletti.co.uk", "emails": ["websupport@thisisformula.com"], "status": "ok", "final_url": "https://www.themegarocollection.com/spagnoletti/", "v": 2}
+{"key": "spicedeli.co.uk", "emails": ["kim@spicedeli.co.uk"], "status": "ok", "final_url": "https://www.spicedeli.co.uk/", "v": 2}
+{"key": "fratellipizzeria.co.uk", "emails": [], "status": "ok", "final_url": "https://www.fratellipizzeria.co.uk/", "v": 2}
+{"key": "bbagel.co.uk", "emails": ["orders@bbagelplatters.co.uk"], "status": "ok", "final_url": "https://www.bbagel.co.uk/", "v": 2}
+{"key": "theforgecamden.co.uk/restaurant-bookings", "emails": [], "status": "ok", "final_url": "https://theforgecamden.co.uk/", "v": 2}
+{"key": "peartreecafe.co.uk/lincolns-inn-fields", "emails": [], "status": "dead", "final_url": "https://www.peartreecafe.co.uk/lincolns-inn-fields", "v": 2}
+{"key": "rosenrose.co.uk", "emails": [], "status": "ok", "final_url": "https://www.rosenrose.co.uk/", "v": 2}
+{"key": "starbucks.com/store-locator/store/2506/hampstead-south-end-road-5-7-south-end-road-london-eng-nw-3-2-pt-gb", "emails": [], "status": "ok", "final_url": "https://www.starbucks.com/store-locator/store/2506/hampstead-south-end-road-5-7-south-end-road-london-eng-nw-3-2-pt-gb", "v": 2}
+{"key": "clerkandwell.co.uk", "emails": [], "status": "unknown", "final_url": "https://www.clerkandwell.co.uk/", "v": 2}
+{"key": "lock-tavern.co.uk", "emails": [], "status": "unknown", "final_url": "http://www.lock-tavern.co.uk", "v": 2}
+{"key": "eustontap.com", "emails": [], "status": "unknown", "final_url": "http://eustontap.com", "v": 2}
+{"key": "amelia.london", "emails": [], "status": "ok", "final_url": "https://www.amelia.london", "v": 2}
+{"key": "thesteelespub.co.uk", "emails": [], "status": "parked", "final_url": "https://thesteelespub.co.uk/", "v": 2}
+{"key": "elephantsheadcamden.com", "emails": ["info@elephantsheadcamden.com"], "status": "ok", "final_url": "https://www.elephantsheadcamden.com/", "v": 2}
+{"key": "dominiquescafe.co.uk", "emails": [], "status": "ok", "final_url": "https://www.dominiquescafe.co.uk/", "v": 2}
+{"key": "itadakizen-uk.com", "emails": [], "status": "ok", "final_url": "https://www.itadakizen-uk.com/", "v": 2}
+{"key": "daisygreenfood.com/location-parliament-hill", "emails": ["reservations@daisygreenfood.com"], "status": "ok", "final_url": "https://www.daisygreenfood.com/location-parliament-hill", "v": 2}
+{"key": "hotstonelondon.com", "emails": [], "status": "ok", "final_url": "https://www.hotstonelondon.com", "v": 2}
+{"key": "thegipsyqueennw5.co.uk", "emails": [], "status": "unknown", "final_url": "https://www.thegipsyqueennw5.co.uk/", "v": 2}
+{"key": "zero75.co.uk", "emails": [], "status": "unknown", "final_url": "http://www.zero75.co.uk/", "v": 2}
+{"key": "gails.com/pages/south-end-green", "emails": [], "status": "ok", "final_url": "https://gails.com/pages/south-end-green", "v": 2}
+{"key": "bigchillbar.com", "emails": [], "status": "unknown", "final_url": "https://www.bigchillbar.com/", "v": 2}
+{"key": "theninthlondon.com", "emails": ["bookings@theninthlondon.com"], "status": "ok", "final_url": "https://theninthlondon.com/", "v": 2}
+{"key": "ciaobellarestaurant.co.uk", "emails": [], "status": "unknown", "final_url": "http://www.ciaobellarestaurant.co.uk/", "v": 2}
+{"key": "tarimuyghurrestaurant.co.uk", "emails": [], "status": "ok", "final_url": "https://tarimuyghurrestaurant.co.uk", "v": 2}
+{"key": "kfc.co.uk/kfc-near-me/london-southampton-row", "emails": [], "status": "unknown", "final_url": "https://www.kfc.co.uk/kfc-near-me/london-southampton-row", "v": 2}
+{"key": "thesouthamptonarms.co.uk", "emails": [], "status": "unknown", "final_url": "http://www.thesouthamptonarms.co.uk/", "v": 2}
+{"key": "germangymnasium.com", "emails": ["reservationsgg@germangymnasium.com", "press@evolvcollection.com"], "status": "ok", "final_url": "https://germangymnasium.com/", "v": 2}
+{"key": "norfolkarms.co.uk", "emails": ["info@norfolkarms.co.uk"], "status": "ok", "final_url": "https://norfolkarms.co.uk/", "v": 2}
+{"key": "oseyo.co.uk/stores/tottenham-court-road", "emails": [], "status": "ok", "final_url": "https://oseyo.co.uk/stores/tottenham-court-road/", "v": 2}
+{"key": "burghhouse.org.uk", "emails": [], "status": "ok", "final_url": "https://www.burghhouse.org.uk/", "v": 2}
+{"key": "crafted-social.co.uk/bucks-head-camden", "emails": ["buckshead.kingscross@stonegategroup.co.uk"], "status": "ok", "final_url": "https://www.socialpubandkitchen.co.uk/bucks-head-camden", "v": 2}
+{"key": "thebullandlast.co.uk", "emails": ["enquiries@thebullandlast.co.uk"], "status": "ok", "final_url": "https://thebullandlast.co.uk", "v": 2}
+{"key": "lume.london", "emails": [], "status": "ok", "final_url": "https://lume.london/", "v": 2}
+{"key": "roseandcrownkentishtown.com", "emails": ["contact@roseandcrownkentishtown.com", "bookings@roseandcrownkentishtown.com"], "status": "ok", "final_url": "https://www.roseandcrownkentishtown.com/", "v": 2}
+{"key": "bliss-bite.co.uk", "emails": [], "status": "dead", "final_url": "https://bliss-bite.co.uk/", "v": 2}
+{"key": "thelamblondon.com", "emails": ["lamb.bloomsbury@youngs.co.uk"], "status": "ok", "final_url": "https://www.thelamblondon.com/", "v": 2}
+{"key": "veganplanet.uk", "emails": [], "status": "ok", "final_url": "https://veganplanet.uk/", "v": 2}
+{"key": "elsabistro.co.uk", "emails": ["hello@elsabistro.co.uk"], "status": "ok", "final_url": "https://elsabistro.co.uk/", "v": 2}
+{"key": "maisonvie.co.uk", "emails": [], "status": "dead", "final_url": "http://maisonvie.co.uk/", "v": 2}
+{"key": "junctiontavern.co.uk", "emails": ["stonegatepress@stonegategroup.co.uk"], "status": "ok", "final_url": "https://www.stonegategroup.co.uk/find-your-local/?long=-0.14034&lat=51.55459&address=NW5%201AG,%20London,%20England,%20United%20Kingdom", "v": 2}
+{"key": "thatcoffee.co", "emails": [], "status": "dead", "final_url": "http://thatcoffee.co/", "v": 2}
+{"key": "almacafe.co.uk", "emails": [], "status": "unknown", "final_url": "https://almacafe.co.uk/", "v": 2}
+{"key": "freemasonsarms.co.uk", "emails": [], "status": "unknown", "final_url": "https://www.freemasonsarms.co.uk/", "v": 2}
+{"key": "haylaz.uk", "emails": [], "status": "unknown", "final_url": "https://haylaz.uk/", "v": 2}
+{"key": "greeneking-pubs.co.uk/pubs/greater-london/royal-george", "emails": ["7244@greeneking.co.uk"], "status": "ok", "final_url": "https://www.greeneking.co.uk/pubs/greater-london/royal-george", "v": 2}
+{"key": "savoir.co.uk", "emails": [], "status": "unknown", "final_url": "https://www.savoir.co.uk/", "v": 2}
+{"key": "master-wei.com", "emails": [], "status": "ok", "final_url": "https://master-wei.com", "v": 2}
+{"key": "youngs.co.uk/pub-detail.asp", "emails": ["feedback@youngs.co.uk", "events@youngs.co.uk", "shareholder@youngs.co.uk", "enquiries@youngs.co.uk", "pressenquiries@youngs.co.uk"], "status": "ok", "final_url": "https://www.youngs.co.uk/our-pubs?PubID=432", "v": 2}
+{"key": "pied-a-terre.co.uk", "emails": [], "status": "unknown", "final_url": "https://www.pied-a-terre.co.uk/", "v": 2}
+{"key": "greeneking.co.uk/pubs/greater-london/fitzrovia", "emails": [], "status": "skipped", "final_url": "https://www.greeneking.co.uk/pubs/greater-london/fitzrovia", "v": 2}
+{"key": "locations.pret.co.uk/london/219-finchley-road", "emails": [], "status": "ok", "final_url": "https://www.pret.co.uk/en-GB/shop-finder/l/london/219-finchley-road/10715", "v": 2}
+{"key": "restaurants.subway.com/united-kingdom/en/london/214-shaftsbury-avenue", "emails": [], "status": "dead", "final_url": "https://restaurants.subway.com/united-kingdom/en/london/214-shaftsbury-avenue", "v": 2}
+{"key": "jichickens.com", "emails": ["jibrighton001@gmail.com", "jibristol5@gmail.com", "roger@bigbefoodieltd.com", "jichickens@gmail.com"], "status": "ok", "final_url": "https://jichickens.wordpress.com/", "v": 2}
+{"key": "luso.restaurant", "emails": ["contact@luso.restaurant", "press@luso.restaurant"], "status": "ok", "final_url": "https://luso.restaurant/", "v": 2}
+{"key": "yatrieuston.com", "emails": ["yatrilondon@gmail.com", "nw1@yatrieuston.com"], "status": "ok", "final_url": "https://yatrieuston.com/", "v": 2}
+{"key": "rockandsoleplaice.com", "emails": ["reservations@rockandsoleplaice.co.uk", "reservations@rockandsoleplaice.com"], "status": "ok", "final_url": "https://www.rockandsoleplaice.com/", "v": 2}
+{"key": "greatukpubs.co.uk/old-bell-kilburn", "emails": ["oldbell.kilburn@stonegategroup.co.uk"], "status": "ok", "final_url": "https://www.greatlocalpubs.co.uk/old-bell-kilburn", "v": 2}
+{"key": "leverandbloomcoffee.co.uk", "emails": ["hello@leverandbloomcoffee.co.uk"], "status": "ok", "final_url": "https://www.leverandbloomcoffee.co.uk/", "v": 2}
+{"key": "mcdonalds.com/gb/en-gb/location/westminster/cambridge-circus/24-cambridge-circus/8261457.html", "emails": [], "status": "unknown", "final_url": "https://www.mcdonalds.com/gb/en-gb/location/westminster/cambridge-circus/24-cambridge-circus/8261457.html", "v": 2}
+{"key": "inebytaku.com", "emails": ["reservations@inebytaku.com"], "status": "ok", "final_url": "https://inebytaku.com/", "v": 2}
+{"key": "thesevenstars1602.co.uk", "emails": [], "status": "unknown", "final_url": "http://www.thesevenstars1602.co.uk/", "v": 2}
+{"key": "homeslicepizza.co.uk", "emails": ["info@homeslicepizza.co.uk"], "status": "ok", "final_url": "https://www.homeslicepizza.co.uk/", "v": 2}
+{"key": "oleandsteen.co.uk/stores", "emails": ["canarywharf@oleandsteen.co.uk", "chiswick@oleandsteen.co.uk", "ecclestonplace@oleandsteen.co.uk", "greenwich@oleandsteen.co.uk", "guildford@oleandsteen.co.uk", "hampstead@oleandsteen.co.uk", "jubileeplace@oleandsteen.co.uk", "kensingtonhighstreet@oleandsteen.co.uk", "kingston@oleandsteen.co.uk", "leicestersquare@oleandsteen.co.uk", "londonbridge@oleandsteen.co.uk", "moorgate@oleandsteen.co.uk", "northcoteroad@oleandsteen.co.uk", "nottinghill@oleandsteen.co.uk", "oxfordcircus@oleandsteen.co.uk", "oxfordwestgate@oleandsteen.co.uk", "richmond@oleandsteen.co.uk", "sevendials@oleandsteen.co.uk", "southkensington@oleandsteen.co.uk", "stjames@oleandsteen.co.uk", "strand@oleandsteen.co.uk", "tottenhamcourtroad@oleandsteen.co.uk", "victorianova@oleandsteen.co.uk", "westfieldwhitecity@oleandsteen.co.uk", "wigmore@oleandsteen.co.uk", "windsor@oleandsteen.co.uk"], "status": "ok", "final_url": "https://oleandsteen.co.uk/stores", "v": 2}
+{"key": "huslondon.co.uk", "emails": ["loteezofoodltd@gmail.com"], "status": "ok", "final_url": "https://www.huslondon.co.uk/", "v": 2}
+{"key": "thelytteltonarmscamden.co.uk", "emails": [], "status": "unknown", "final_url": "http://www.thelytteltonarmscamden.co.uk/", "v": 2}
+{"key": "rossodisera.co.uk/menu-hampstead", "emails": [], "status": "dead", "final_url": "https://rossodisera.co.uk/menu-hampstead/", "v": 2}
+{"key": "shanghaifamily.co.uk", "emails": [], "status": "ok", "final_url": "https://shanghaifamily.co.uk/", "v": 2}
+{"key": "tikino.co.uk", "emails": [], "status": "dead", "final_url": "http://tikino.co.uk/", "v": 2}
+{"key": "wagamama.com/restaurants/london/hampstead", "emails": ["press@wagamama.com", "wagamama@allaboutfoodltd.com"], "status": "ok", "final_url": "https://www.wagamama.com/restaurants/london/hampstead", "v": 2}
+{"key": "purpleturtlecamden.co.uk", "emails": [], "status": "unknown", "final_url": "http://www.purpleturtlecamden.co.uk", "v": 2}
+{"key": "gails.com/pages/hampstead", "emails": [], "status": "ok", "final_url": "https://gails.com/pages/hampstead", "v": 2}
+{"key": "saporescamden.co.uk", "emails": [], "status": "dead", "final_url": "http://www.saporescamden.co.uk/", "v": 2}
+{"key": "kfc.co.uk/kfc-near-me/swiss-cottage-finchley-road", "emails": [], "status": "unknown", "final_url": "https://www.kfc.co.uk/kfc-near-me/swiss-cottage-finchley-road", "v": 2}
+{"key": "pastation.website", "emails": [], "status": "dead", "final_url": "http://pastation.website/", "v": 2}
+{"key": "taste-of-siam.co.uk", "emails": [], "status": "unknown", "final_url": "http://taste-of-siam.co.uk/", "v": 2}
+{"key": "jinlirestaurant.com", "emails": [], "status": "ok", "final_url": "https://www.jinlirestaurant.com", "v": 2}
+{"key": "alexanderthegreatgreekrestaurant.co.uk", "emails": [], "status": "unknown", "final_url": "http://www.alexanderthegreatgreekrestaurant.co.uk/", "v": 2}
+{"key": "blacklionkilburn.co.uk", "emails": ["manager@blacklionkilburn.co.uk"], "status": "ok", "final_url": "https://blacklionkilburn.co.uk/", "v": 2}
+{"key": "simmonsbar.co.uk", "emails": ["info@simmonsbar.co.uk"], "status": "ok", "final_url": "https://www.simmonsbar.co.uk/", "v": 2}
+{"key": "sushiwaka.co.uk", "emails": [], "status": "unknown", "final_url": "https://www.sushiwaka.co.uk/", "v": 2}
+{"key": "hollybushhampstead.co.uk", "emails": ["hollybush.hampstead.manager@fullers.co.uk"], "status": "ok", "final_url": "https://www.hollybushhampstead.co.uk/", "v": 2}
+{"key": "greeneking.co.uk/pubs/greater-london/railway-west-hampstead", "emails": [], "status": "skipped", "final_url": "https://www.greeneking.co.uk/pubs/greater-london/railway-west-hampstead", "v": 2}
+{"key": "bombayflame.com", "emails": [], "status": "unknown", "final_url": "http://bombayflame.com", "v": 2}
+{"key": "otinorestaurant.co.uk", "emails": ["reservation.otino@gmail.com", "otinorestaurant@gmail.com"], "status": "ok", "final_url": "https://www.otinorestaurant.co.uk/", "v": 2}
+{"key": "thecraftbeerco.com/clerkenwell", "emails": [], "status": "unknown", "final_url": "http://www.thecraftbeerco.com/clerkenwell/", "v": 2}
+{"key": "cittieofyorkeholborn.co.uk", "emails": ["info@cittieofyorkeholborn.co.uk", "contact-info@cittieofyorkeholborn.co.uk", "photo@benbroomfield.com"], "status": "ok", "final_url": "https://cittieofyorkeholborn.co.uk/", "v": 2}
+{"key": "nandos.co.uk/restaurants/euston", "emails": [], "status": "ok", "final_url": "https://www.nandos.co.uk/restaurants/euston", "v": 2}
+{"key": "nandos.co.uk/restaurants/kilburn", "emails": [], "status": "ok", "final_url": "https://www.nandos.co.uk/restaurants/kilburn", "v": 2}
+{"key": "restaurants.subway.com/united-kingdom/en/london/233-finchley-road", "emails": [], "status": "ok", "final_url": "https://restaurants.subway.com/united-kingdom/en/london/233-finchley-road", "v": 2}
+{"key": "itsu.com/location/north-london/hampstead", "emails": ["julian.metcalfe@itsu.com", "media@itsu.com", "harry.housen@itsu.com", "tom.sugarman@itsu.com", "greg.thorp@itsu.com", "tom.springett@itsu.com", "kinga.buda@itsu.com", "annabel.mackie@itsu.com", "claudia@itsugrocery.com", "chloe@itsugrocery.com", "william@itsugrocery.com", "sam@itsugrocery.com", "romain@itsugrocery.com", "misha@itsugrocery.com", "customerservice@itsugrocery.com", "appfeedback@itsu.com"], "status": "ok", "final_url": "https://www.itsu.com/location/north-london/hampstead/", "v": 2}
+{"key": "herculespillars.co.uk", "emails": [], "status": "unknown", "final_url": "http://www.herculespillars.co.uk/", "v": 2}
+{"key": "jdwetherspoon.com/pubs/all-pubs/england/london/shakespeares-head-holborn", "emails": [], "status": "skipped", "final_url": "https://www.jdwetherspoon.com/pubs/all-pubs/england/london/shakespeares-head-holborn", "v": 2}
+{"key": "chickencottage.com/chicken-cottage-finchley-road", "emails": [], "status": "dead", "final_url": "https://chickencottage.com/chicken-cottage-finchley-road/", "v": 2}
+{"key": "thegeorgeholborn.com", "emails": [], "status": "dead", "final_url": "http://www.thegeorgeholborn.com/", "v": 2}
+{"key": "tinseltown.co.uk", "emails": ["franchising@tinseltown.co.uk", "info@tinseltown.co.uk"], "status": "ok", "final_url": "https://www.tinseltown.co.uk/", "v": 2}
+{"key": "fengshang.co.uk", "emails": ["info@fengshang.co.uk"], "status": "ok", "final_url": "https://www.fengshang.co.uk/", "v": 2}
+{"key": "lapatagonia.co.uk", "emails": ["mail@lapatagonia.co.uk", "marketing.lapatagonia@gmail.com"], "status": "ok", "final_url": "https://www.lapatagonia.co.uk/", "v": 2}
+{"key": "papajohns.co.uk/stores/camden-town", "emails": [], "status": "ok", "final_url": "https://www.papajohns.co.uk/stores/camden-town", "v": 2}
+{"key": "storestespresso.co.uk", "emails": ["storestreetespresso@gmail.com", "coffee@storestespresso.co.uk"], "status": "ok", "final_url": "https://www.storestespresso.co.uk/", "v": 2}
+{"key": "almasrestaurant.co.uk", "emails": [], "status": "unknown", "final_url": "https://www.almasrestaurant.co.uk", "v": 2}
+{"key": "49cafe.co.uk", "emails": [], "status": "unknown", "final_url": "http://49cafe.co.uk/", "v": 2}
+{"key": "mapstudiocafe.com", "emails": ["maprecordingstudio@gmail.com", "mapstudioevents@gmail.com", "thearterymusic@gmail.com"], "status": "ok", "final_url": "https://mapstudiocafe.com/", "v": 2}
+{"key": "themarquiscornwalliswc1.co.uk", "emails": [], "status": "unknown", "final_url": "https://www.themarquiscornwalliswc1.co.uk/", "v": 2}
+{"key": "nandos.co.uk/restaurants/brunswick", "emails": [], "status": "ok", "final_url": "https://www.nandos.co.uk/restaurants/brunswick", "v": 2}
+{"key": "gails.com/pages/kentish-town", "emails": [], "status": "ok", "final_url": "https://gails.com/pages/kentish-town", "v": 2}
+{"key": "mammasantissimauk.com/en", "emails": ["fra.cavaliere@hotmail.com"], "status": "ok", "final_url": "https://mammasantissimauk.com/en", "v": 2}
+{"key": "templeofseitan.co.uk", "emails": ["info@templeofseitan.co.uk", "sean@templeofseitan.co.uk"], "status": "ok", "final_url": "https://www.templeofseitan.co.uk/", "v": 2}
+{"key": "starbucks.com/store-locator/store/3126/brunswick-centre-brunswick-centre-london-eng-wc-1-n-1-aw-gb", "emails": [], "status": "ok", "final_url": "https://www.starbucks.com/store-locator/store/3126/brunswick-centre-brunswick-centre-london-eng-wc-1-n-1-aw-gb", "v": 2}
+{"key": "pizzaexpress.com/camden-parkway", "emails": ["pizzaexpress@fticonsulting.com"], "status": "ok", "final_url": "https://www.pizzaexpress.com/camden-parkway", "v": 2}
+{"key": "nandos.co.uk/restaurants/kentish-town", "emails": [], "status": "ok", "final_url": "https://www.nandos.co.uk/restaurants/kentish-town", "v": 2}
+{"key": "honestburgers.co.uk/locations/holborn", "emails": [], "status": "ok", "final_url": "https://www.honestburgers.co.uk/locations/holborn/", "v": 2}
+{"key": "gails.com/pages/brunswick-centre", "emails": [], "status": "ok", "final_url": "https://gails.com/pages/brunswick-centre", "v": 2}
+{"key": "itsu.com/location/central-london/great-queen-street", "emails": ["julian.metcalfe@itsu.com", "media@itsu.com", "harry.housen@itsu.com", "tom.sugarman@itsu.com", "greg.thorp@itsu.com", "tom.springett@itsu.com", "kinga.buda@itsu.com", "annabel.mackie@itsu.com", "claudia@itsugrocery.com", "chloe@itsugrocery.com", "william@itsugrocery.com", "sam@itsugrocery.com", "romain@itsugrocery.com", "misha@itsugrocery.com", "customerservice@itsugrocery.com", "appfeedback@itsu.com"], "status": "ok", "final_url": "https://www.itsu.com/location/central-london/great-queen-street/", "v": 2}
+{"key": "harrisonbar.co.uk", "emails": ["harrisonbar@hotmail.com", "janeknightuxcontentdesign@gmail.com"], "status": "ok", "final_url": "https://theharrisonpub.com/", "v": 2}
+{"key": "mcdonalds.com/gb/en-gb/location/kentish-town/kentish-town/295-kentish-town-road/8260023.html", "emails": [], "status": "unknown", "final_url": "https://www.mcdonalds.com/gb/en-gb/location/kentish-town/kentish-town/295-kentish-town-road/8260023.html", "v": 2}
+{"key": "theoldfarmhousepub.com", "emails": ["reception@frgroup.co.uk", "info@theoldfarmhousepub.com"], "status": "ok", "final_url": "https://www.theoldfarmhousepub.com/", "v": 2}
+{"key": "restaurants.fiveguys.co.uk/greater-london/266-tottenham-court-road", "emails": [], "status": "ok", "final_url": "https://restaurants.fiveguys.co.uk/greater-london/266-tottenham-court-road", "v": 2}
+{"key": "albertini.co.uk", "emails": ["evgenia.osmani@yahoo.com"], "status": "ok", "final_url": "https://www.albertini.co.uk/", "v": 2}
+{"key": "gokyuzurestaurant.co.uk/kentish-town", "emails": [], "status": "dead", "final_url": "https://gokyuzurestaurant.co.uk/kentish-town/", "v": 2}
+{"key": "itsu.com/location/central-london/brunswick-centre", "emails": ["julian.metcalfe@itsu.com", "media@itsu.com", "harry.housen@itsu.com", "tom.sugarman@itsu.com", "greg.thorp@itsu.com", "tom.springett@itsu.com", "kinga.buda@itsu.com", "annabel.mackie@itsu.com", "claudia@itsugrocery.com", "chloe@itsugrocery.com", "william@itsugrocery.com", "sam@itsugrocery.com", "romain@itsugrocery.com", "misha@itsugrocery.com", "customerservice@itsugrocery.com", "appfeedback@itsu.com"], "status": "ok", "final_url": "https://www.itsu.com/location/central-london/brunswick-centre/", "v": 2}
+{"key": "mcdonalds.com/gb/en-gb/location/camden/warren-street/134-tottenham-court-road/8260044.html", "emails": [], "status": "unknown", "final_url": "https://www.mcdonalds.com/gb/en-gb/location/camden/warren-street/134-tottenham-court-road/8260044.html", "v": 2}
+{"key": "locations.pret.co.uk/london/341-kentish-town-road", "emails": [], "status": "ok", "final_url": "https://www.pret.co.uk/en-GB/shop-finder/l/london/341-kentish-town-road/10261", "v": 2}
+{"key": "babuji.co.uk", "emails": ["hello@babuji.co.uk"], "status": "ok", "final_url": "https://babuji.co.uk", "v": 2}
+{"key": "northumberland-arms.com", "emails": ["info@northumberland-arms.com"], "status": "ok", "final_url": "https://www.northumberland-arms.com/", "v": 2}
+{"key": "gails.com/pages/bloomsbury", "emails": [], "status": "ok", "final_url": "https://gails.com/pages/bloomsbury", "v": 2}
+{"key": "drury188189.co.uk", "emails": [], "status": "ok", "final_url": "https://drury188189.co.uk/", "v": 2}
+{"key": "restaurants.subway.com/united-kingdom/en/london/109-tottenham-court-road", "emails": [], "status": "ok", "final_url": "https://restaurants.subway.com/united-kingdom/en/london/109-tottenham-court-road", "v": 2}
+{"key": "chutneyseuston.uk", "emails": [], "status": "unknown", "final_url": "http://chutneyseuston.uk/", "v": 2}
+{"key": "popeyesuk.com/restaurants/kilburn", "emails": [], "status": "ok", "final_url": "https://popeyesuk.com/restaurants/kilburn", "v": 2}
+{"key": "kiki-restaurant-happy.com", "emails": [], "status": "ok", "final_url": "https://kiki-restaurant-happy.com/", "v": 2}
+{"key": "thecrownandanchornw1.co.uk", "emails": [], "status": "unknown", "final_url": "https://www.thecrownandanchornw1.co.uk/", "v": 2}
+{"key": "purezza.co.uk/locations/camden", "emails": [], "status": "ok", "final_url": "https://purezza.co.uk/locations/london/", "v": 2}
+{"key": "fabrique.co.uk", "emails": [], "status": "unknown", "final_url": "http://fabrique.co.uk/", "v": 2}
+{"key": "caffenero.com/uk/stores/tcr-warren-st", "emails": [], "status": "ok", "final_url": "https://www.caffenero.com/uk/stores/tcr-warren-st", "v": 2}
+{"key": "thaimetro.co.uk", "emails": [], "status": "unknown", "final_url": "http://thaimetro.co.uk/", "v": 2}
+{"key": "locations.pret.co.uk/london/67-tottenham-court-road", "emails": [], "status": "ok", "final_url": "https://www.pret.co.uk/en-GB/shop-finder/l/london/67-tottenham-court-road/10145", "v": 2}
+{"key": "jackhornerpub.co.uk", "emails": ["jackhorner.w1@fullers.co.uk"], "status": "ok", "final_url": "https://www.jackhornerpub.co.uk/", "v": 2}
+{"key": "samuelsmithsbrewery.co.uk", "emails": ["sales@samuelsmithsbrewery.co.uk", "sales@samuelsmithsbrewery.co"], "status": "ok", "final_url": "https://samuelsmithsbrewery.co.uk/", "v": 2}
+{"key": "drummondvilla.co.uk", "emails": ["drummondvilla@gmail.com"], "status": "ok", "final_url": "https://www.drummondvilla.co.uk/", "v": 2}
+{"key": "costa.co.uk/stores/london-holborn-chancery-ln", "emails": [], "status": "unknown", "final_url": "https://www.costa.co.uk/stores/london-holborn-chancery-ln", "v": 2}
+{"key": "francomanca.co.uk/restaurants/kentish-town", "emails": [], "status": "ok", "final_url": "https://www.francomanca.co.uk/restaurants/kentish-town/", "v": 2}
+{"key": "hiba-express.co.uk/hiba-street", "emails": [], "status": "ok", "final_url": "https://www.hiba-express.co.uk/hiba-street/", "v": 2}
+{"key": "superstarbbq.co.uk", "emails": ["info@superstarbbq.co.uk"], "status": "ok", "final_url": "https://www.superstarbbq.co.uk/", "v": 2}
+{"key": "hawramancamdencafe.com", "emails": [], "status": "dead", "final_url": "https://www.hawramancamdencafe.com", "v": 2}
+{"key": "gigsfishandchips.com", "emails": [], "status": "unknown", "final_url": "https://www.gigsfishandchips.com/", "v": 2}
+{"key": "itsu.com/location/central-london/tottenham-court-road", "emails": ["julian.metcalfe@itsu.com", "media@itsu.com", "harry.housen@itsu.com", "tom.sugarman@itsu.com", "greg.thorp@itsu.com", "tom.springett@itsu.com", "kinga.buda@itsu.com", "annabel.mackie@itsu.com", "claudia@itsugrocery.com", "chloe@itsugrocery.com", "william@itsugrocery.com", "sam@itsugrocery.com", "romain@itsugrocery.com", "misha@itsugrocery.com", "customerservice@itsugrocery.com", "appfeedback@itsu.com"], "status": "ok", "final_url": "https://www.itsu.com/location/central-london/tottenham-court-road/", "v": 2}
+{"key": "marineices.co.uk", "emails": [], "status": "dead", "final_url": "https://www.marineices.co.uk/", "v": 2}
+{"key": "woktowalk.com", "emails": [], "status": "ok", "final_url": "https://www.woktowalk.com/", "v": 2}
+{"key": "thegraftonnw5.co.uk", "emails": ["info@thegraftonnw5.co.uk"], "status": "ok", "final_url": "https://thegraftonnw5.co.uk/", "v": 2}
+{"key": "blacklist-lounge.com", "emails": [], "status": "unknown", "final_url": "https://blacklist-lounge.com/", "v": 2}
+{"key": "thewashingtonhampstead.co.uk", "emails": [], "status": "unknown", "final_url": "http://www.thewashingtonhampstead.co.uk/", "v": 2}
+{"key": "burgerbites.co.uk", "emails": [], "status": "unknown", "final_url": "https://burgerbites.co.uk/", "v": 2}
+{"key": "nandos.co.uk/restaurants/camden", "emails": [], "status": "ok", "final_url": "https://www.nandos.co.uk/restaurants/camden", "v": 2}
+{"key": "cafe-deco.co.uk", "emails": ["hello@cafe-deco.co.uk"], "status": "ok", "final_url": "https://www.cafe-deco.co.uk", "v": 2}
+{"key": "cabana-brasil.com/covent-garden", "emails": [], "status": "unknown", "final_url": "https://www.cabana-brasil.com/covent-garden", "v": 2}
+{"key": "starbucks.com/store-locator/store/87135/kings-cross-station-concour-euston-road-london-eng-n-1-9-al-gb", "emails": [], "status": "ok", "final_url": "https://www.starbucks.com/store-locator/store/87135/kings-cross-station-concour-euston-road-london-eng-n-1-9-al-gb", "v": 2}
+{"key": "zoyalounge.co.uk", "emails": [], "status": "unknown", "final_url": "https://www.zoyalounge.co.uk", "v": 2}
+{"key": "greeneking.co.uk/pubs/greater-london/rising-sun", "emails": [], "status": "skipped", "final_url": "https://www.greeneking.co.uk/pubs/greater-london/rising-sun", "v": 2}
+{"key": "zizzi.co.uk/italian/restaurants/st-giles", "emails": ["feedback@zizzi.co.uk"], "status": "ok", "final_url": "https://www.zizzi.co.uk/italian-restaurants/greater-london/london/central-st-giles", "v": 2}
+{"key": "capitalpubcompany.com/our-pubs/the-square-pig", "emails": [], "status": "unknown", "final_url": "http://www.capitalpubcompany.com/our-pubs/the-square-pig/", "v": 2}
+{"key": "living-room.club", "emails": ["info@livingroomevents.org"], "status": "ok", "final_url": "https://www.living-room.club/", "v": 2}
+{"key": "thesmugglerstavern.co.uk", "emails": ["info@thesmugglerstavern.co.uk"], "status": "ok", "final_url": "https://thesmugglerstavern.co.uk/", "v": 2}
+{"key": "chilango.co.uk", "emails": ["chancery@chilango.co.uk", "islington@chilango.co.uk"], "status": "ok", "final_url": "https://www.chilango.co.uk/", "v": 2}
+{"key": "turpanuyghur.com", "emails": ["info@turpanuyghur.com"], "status": "ok", "final_url": "https://www.turpanuyghur.com/", "v": 2}
+{"key": "blacksheepcoffee.co.uk/blogs/locations/goodge-street", "emails": ["press@blacksheepcoffee.co.uk", "l.blakey@blacksheepcoffee.co.uk", "blacksheepcoffee@frmclients.com"], "status": "ok", "final_url": "https://blacksheepcoffee.us/blogs/locations/goodge-street?shpxid=1569f12a-5310-4f14-addf-b6356f51b06f", "v": 2}
+{"key": "uzumakilondon.com", "emails": ["hello@uzumakilondon.com"], "status": "ok", "final_url": "https://www.uzumakilondon.com/", "v": 2}
+{"key": "oldnickholborn.co.uk", "emails": [], "status": "unknown", "final_url": "https://www.oldnickholborn.co.uk/", "v": 2}
+{"key": "sagarveg.co.uk", "emails": [], "status": "unknown", "final_url": "http://www.sagarveg.co.uk/", "v": 2}
+{"key": "houseofho.co.uk", "emails": [], "status": "unknown", "final_url": "http://www.houseofho.co.uk/", "v": 2}
+{"key": "ousia.co.uk", "emails": [], "status": "ok", "final_url": "https://ousia.co.uk/", "v": 2}
+{"key": "shibainuswithlove.com", "emails": [], "status": "unknown", "final_url": "https://www.shibainuswithlove.com/", "v": 2}
+{"key": "chettinadrestaurant.com", "emails": [], "status": "ok", "final_url": "https://www.chettinadrestaurant.com/", "v": 2}
+{"key": "bangbangcanteen.co.uk", "emails": [], "status": "unknown", "final_url": "http://bangbangcanteen.co.uk/", "v": 2}
+{"key": "bobocharlotte.com", "emails": ["enquiries@bobosocial.com", "events@bobosocial.com", "marketing@bobosocial.com"], "status": "ok", "final_url": "https://boboealing.com/", "v": 2}
+{"key": "newtasteofindianw1.co.uk", "emails": [], "status": "dead", "final_url": "http://www.newtasteofindianw1.co.uk", "v": 2}
+{"key": "camdenenterprise.com", "emails": ["booktable@camdenenterprise.com"], "status": "ok", "final_url": "https://camdenenterprise.com/", "v": 2}
+{"key": "coopersarmskilburn.co.uk", "emails": [], "status": "unknown", "final_url": "https://www.coopersarmskilburn.co.uk/", "v": 2}
+{"key": "crafted-social.co.uk/college-arms-bloomsbury", "emails": ["stonegatepress@stonegategroup.co.uk"], "status": "ok", "final_url": "https://www.stonegategroup.co.uk/find-your-local/?long=-0.13188&lat=51.51977&address=WC1E%207DH,%20London,%20England,%20United%20Kingdom", "v": 2}
+{"key": "bullandgatenw5.co.uk", "emails": [], "status": "unknown", "final_url": "http://www.bullandgatenw5.co.uk/", "v": 2}
+{"key": "camdenassembly.com", "emails": [], "status": "ok", "final_url": "https://www.barflycamden.com/", "v": 2}
+{"key": "pizzasophia.com", "emails": [], "status": "unknown", "final_url": "https://pizzasophia.com/", "v": 2}
+{"key": "drink.brewdog.com/uk/brewdog-seven-dials", "emails": ["recipient@giftnote.com"], "status": "ok", "final_url": "https://brewdog.com/pages/bar-locator", "v": 2}
+{"key": "camdenhead.com", "emails": [], "status": "unknown", "final_url": "https://www.camdenhead.com/", "v": 2}
+{"key": "sandwichsandwich.co.uk/locations/tottenham-court-road", "emails": ["customerservice@sandwichsandwich.co.uk", "orders@sandwichsandwich.co.uk"], "status": "ok", "final_url": "https://sandwichsandwich.co.uk/locations/tottenham-court-road/", "v": 2}
+{"key": "mielbakery.co.uk", "emails": ["hello@mielbakery.co.uk"], "status": "ok", "final_url": "https://mielbakery.co.uk", "v": 2}
+{"key": "theprinceofwalesfeathersw1.co.uk", "emails": [], "status": "unknown", "final_url": "https://www.theprinceofwalesfeathersw1.co.uk/", "v": 2}
+{"key": "thegatehousen6.com", "emails": ["contact@thegatehousen6.com", "events@urbanpubsandbars.com"], "status": "ok", "final_url": "https://www.urbanpubsandbars.com/venues/the-gatehouse", "v": 2}
+{"key": "caffenero.com/uk/stores/seven-dials", "emails": [], "status": "ok", "final_url": "https://www.caffenero.com/uk/stores/seven-dials", "v": 2}
+{"key": "thejeremybentham.co.uk", "emails": [], "status": "ok", "final_url": "https://thejeremybentham.co.uk/", "v": 2}
+{"key": "braziliangourmet.co.uk", "emails": [], "status": "ok", "final_url": "https://www.braziliangourmet.co.uk/", "v": 2}
+{"key": "elyseerestaurant.com", "emails": ["info@elyseerestaurant.com"], "status": "ok", "final_url": "https://www.elyseerestaurant.com/", "v": 2}
+{"key": "yeoldemitreholborn.co.uk", "emails": ["yeoldemitre.ec1@fullers.co.uk"], "status": "ok", "final_url": "https://www.yeoldemitreholborn.co.uk/", "v": 2}
+{"key": "starbucks.com/store-locator/store/2652/camden-parkway-4-6-parkway-camden-london-eng-nw-1-7-aa-gb", "emails": [], "status": "ok", "final_url": "https://www.starbucks.com/store-locator/store/2652/camden-parkway-4-6-parkway-camden-london-eng-nw-1-7-aa-gb", "v": 2}
+{"key": "restaurants.subway.com/united-kingdom/en/london/4-camden-road", "emails": [], "status": "dead", "final_url": "https://restaurants.subway.com/united-kingdom/en/london/4-camden-road", "v": 2}
+{"key": "namaastekitchen.co.uk", "emails": [], "status": "unknown", "final_url": "http://www.namaastekitchen.co.uk", "v": 2}
+{"key": "280degrees.com", "emails": [], "status": "dead", "final_url": "http://www.280degrees.com/", "v": 2}
+{"key": "restaurants.fiveguys.co.uk/greater-london/32-parkway", "emails": [], "status": "ok", "final_url": "https://restaurants.fiveguys.co.uk/greater-london/32-parkway", "v": 2}
+{"key": "caffenero.com/uk/stores/kings-cross-central", "emails": [], "status": "ok", "final_url": "https://www.caffenero.com/uk/stores/kings-cross-central", "v": 2}
+{"key": "lumilondon.co.uk", "emails": ["lumicamden@gmail.com"], "status": "ok", "final_url": "https://www.lumilondon.co.uk/", "v": 2}
+{"key": "mcdonalds.com/gb/en-gb/location/camden/camden/112-high-street/8260419.html", "emails": [], "status": "unknown", "final_url": "https://www.mcdonalds.com/gb/en-gb/location/camden/camden/112-high-street/8260419.html", "v": 2}
+{"key": "craftunionpubs.com/old-oak-hampstead", "emails": [], "status": "ok", "final_url": "https://www.craftunionpubs.com/old-oak-hampstead", "v": 2}
+{"key": "parcelyard.co.uk", "emails": ["parcelyard.n1-bookings@fullers.co.uk"], "status": "ok", "final_url": "https://www.parcelyard.co.uk/", "v": 2}
+{"key": "the-enterprise.co.uk", "emails": [], "status": "unknown", "final_url": "http://www.the-enterprise.co.uk/", "v": 2}
+{"key": "greeneking.co.uk/pubs/greater-london/museum-tavern", "emails": [], "status": "skipped", "final_url": "https://www.greeneking.co.uk/pubs/greater-london/museum-tavern", "v": 2}
+{"key": "greeneking.co.uk/pubs/greater-london/plough", "emails": [], "status": "skipped", "final_url": "https://www.greeneking.co.uk/pubs/greater-london/plough", "v": 2}
+{"key": "amorino.com/en/stores/london-tottenham", "emails": ["stalbans.amorino@gmail.com", "amorinosaintraphael@gmail.com", "amorino.paris.kleber@gmail.com", "arenal@amorino.es", "operations.belgique@amorino.com", "a.baetens@tb-data.com", "denia@amorino.es", "sofifoyo@gmail.com", "mhuvos@amorino.es", "ifernandez@amorino.ad", "m.lejeune@amorino.nc", "s.mouza@amorino.nc", "andrea.berger@amorino.com", "tm@amorino.es", "fg@amorino.es", "info.am.jvhn@gmail.com", "mh@amorino.es", "diksha@mosfashion.es", "monicanotani@gmail.com", "amorino.niort79@gmail.com", "amorino.canterbury@gmail.com", "amorino.bath@dpsw.co.uk", "vmanwani@amorino.es", "du@amorino.es", "mm@amorino.es", "elfuerte@amorino.es", "ar@amorino.es", "sebastiencreusot@hotmail.fr", "shan@barackholidings.co.uk", "amorino.lepuyenvelay@gmail.com", "alexisbarcikowsky@yahoo.fr", "amorino.cardiff@dpsw.co.uk", "amorino.gp@gmail.com", "annemasse.amorino@gmail.com", "morges.gare@amorino.com", "amorino.palavas@gmail.com", "pkafka@amorino.com", "david@cherubino.com.mt", "matthieucourreges@hotmail.fr", "cajuam21@gmail.com", "gaetanogiverny@gmail.com", "sachin.gupta7@gmail.com", "amorino.besancon@gmail.com", "guillaumehauck@gmail.com", "chartres@amorino.com", "constantin.cronenberg@amorino.com", "mustafa.celik@amorino.com", "qwartz@amorino.com", "mklasing@hotmail.fr", "fortworth.clearfork@amorino.com", "marksawall@aol.com", "amorino.carcassonne@gmail.com", "amorino.avignon84@gmail.com", "laurent.renard1@hotmail.com", "hb7q1@accor.com", "bandol@amorino.com", "amorino.canet@groupebc.com", "laciotat@amorino.com", "oleti.amorino@gmail.com", "clermont-ferrand@amorino.com", "christi.dir@hotmail.fr", "gaetanovillefontaine@gmail.com", "amorinogrenette@gmail.com", "vamorino9@gmail.com", "tiphaine.brun@hotmail.fr", "olivia.govin@amorino.com", "amorino.royale@gmail.com", "amorino.nimes@gmail.com", "rh.amorino@gmail.com", "gaetanomiramas@gmail.com", "amorino.montpellier.triangle@gmail.com", "nantes.amorino@gmail.com", "patricia.prandini@wanadoo.fr", "amorino.montpellier.loge@gmail.com", "laurence-ducrocq@orange.fr", "gaetanolavallee@gmail.com", "plano.legacywest@amorino.com", "reims.erlon@amorino.com", "amorino.perpignan@groupebc.com", "dfranklin@sienaglobal.com", "santo.bruno@amorino.com.mt", "raleigh.davie@amorino.com", "br@amorino.es", "vd@amorino.es", "jc@amorino.es", "pb@amorino.es", "amorino.vr@libero.it", "hr.firenze@amorino.com", "ss@amorino.es", "rouen.horloge@amorino.com", "tl@amorino.es", "amorino.sete@gmail.com", "vishal_kakar@yahoo.com", "jk@amorino.es", "amorinothiais@gmail.com", "cfriederich67@gmail.com", "tonigallan@yahoo.es", "brian@strawberry-fields.co.uk", "london.camden@amorino.com", "blum.sylvie@free.fr", "regis.rocca@orange.fr", "me@amorino.es", "marilex@gmx.ch", "vilamoura.marina@amorino.com", "toulouse.capitole@amorino.com", "chrystal.boisse@outlook.fr", "v.vasseur@amorino.nc", "luca.sereni@amorino.com", "hr.uk@amorino.com", "mexico@amorino.com", "recrutementb2s@amorino.com", "tc@amorino.es", "lauragiroamorino@hotmail.com", "jb@amorino.es", "t.rh@amorino.com", "sz@amorino.com", "alexjuly2@hotmail.fr", "amorino.chamonix@amorino.com", "amorinohouston@gmail.com", "gaelpatavia@gmail.com", "r_tajouri@me.com", "elisabetta.sereni@amorino.com", "jean.christophe@amorino.com", "mohd.alteree@gmail.com", "ha@amorino.es", "christopher.roldan@amorino.com", "angers@amorino.com", "info@jmprema.fr", "muriel.amorino@gmail.com", "amorino101gm@gmail.com", "cyril.pansu@amorino.com", "amorino.lyon@gmail.com", "a2c.amorino@gmail.com", "gillsmedia@gmail.com", "sp@amorino.es", "recrutamentoamorinolisboa@gmail.com", "info@amorino.com.mt"], "status": "ok", "final_url": "https://www.amorino.com/en/stores/london-tottenham", "v": 2}
+{"key": "sarracinorestaurant.com", "emails": ["info@sarracinorestaurant.com"], "status": "ok", "final_url": "https://www.sarracinorestaurant.com/", "v": 2}
+{"key": "thewellshampstead.co.uk", "emails": ["info@thewellshampstead.london", "info@thewellshampstead.co.uk"], "status": "ok", "final_url": "https://thewellshampstead.co.uk/", "v": 2}
+{"key": "cocororestaurant.co.uk", "emails": [], "status": "unknown", "final_url": "http://www.cocororestaurant.co.uk", "v": 2}
+{"key": "theengineerprimrosehill.co.uk", "emails": [], "status": "unknown", "final_url": "https://www.theengineerprimrosehill.co.uk/", "v": 2}
+{"key": "itsu.com/location/central-london/regents-place", "emails": ["julian.metcalfe@itsu.com", "media@itsu.com", "harry.housen@itsu.com", "tom.sugarman@itsu.com", "greg.thorp@itsu.com", "tom.springett@itsu.com", "kinga.buda@itsu.com", "annabel.mackie@itsu.com", "claudia@itsugrocery.com", "chloe@itsugrocery.com", "william@itsugrocery.com", "sam@itsugrocery.com", "romain@itsugrocery.com", "misha@itsugrocery.com", "customerservice@itsugrocery.com", "appfeedback@itsu.com"], "status": "ok", "final_url": "https://www.itsu.com/location/central-london/regents-place/", "v": 2}
+{"key": "jdwetherspoon.com/pubs/all-pubs/england/london/the-sir-john-oldcastle-farringdon", "emails": [], "status": "skipped", "final_url": "https://www.jdwetherspoon.com/pubs/all-pubs/england/london/the-sir-john-oldcastle-farringdon", "v": 2}
+{"key": "thebullandbush.co.uk", "emails": [], "status": "unknown", "final_url": "https://www.thebullandbush.co.uk/", "v": 2}
+{"key": "dominos.co.uk/pizza-near-me/london/166-finchley-road", "emails": [], "status": "unknown", "final_url": "https://www.dominos.co.uk/pizza-near-me/london/166-finchley-road", "v": 2}
+{"key": "thelighterman.co.uk", "emails": ["marketing@openhouselondon.com", "events@thelighterman.co.uk"], "status": "ok", "final_url": "https://www.thelighterman.co.uk/", "v": 2}
+{"key": "uklocations.wendys.com/london/189-191-camden-high-street", "emails": [], "status": "ok", "final_url": "https://uklocations.wendys.com/london/189-191-camden-high-street", "v": 2}
+{"key": "oleandsteen.co.uk/store/44141-tottenham-court-road", "emails": ["tottenhamcourtroad@oleandsteen.co.uk"], "status": "ok", "final_url": "https://oleandsteen.co.uk/store/44141-tottenham-court-road", "v": 2}
+{"key": "papajohns.co.uk/stores/west-hampstead", "emails": [], "status": "ok", "final_url": "https://www.papajohns.co.uk/stores/west-hampstead", "v": 2}
+{"key": "abeno.co.uk", "emails": ["office@abeno.co.uk"], "status": "ok", "final_url": "https://www.abeno.co.uk/", "v": 2}
+{"key": "crafted-social.co.uk/earl-of-camden", "emails": ["earlof.camden@stonegategroup.co.uk"], "status": "ok", "final_url": "https://www.socialpubandkitchen.co.uk/earl-of-camden", "v": 2}
+{"key": "rudyspizza.co.uk/pizzerias/tottenham-court-road", "emails": ["tottenhamcourtroad@rudyspizza.co.uk"], "status": "ok", "final_url": "https://www.rudyspizza.co.uk/location/tottenham-court-road/", "v": 2}
+{"key": "andystaverna.co.uk", "emails": [], "status": "unknown", "final_url": "https://www.andystaverna.co.uk", "v": 2}
+{"key": "tasrestaurants.co.uk", "emails": [], "status": "unknown", "final_url": "https://www.tasrestaurants.co.uk/", "v": 2}
+{"key": "starbucks.com/store-locator/store/3101/tottenham-court-road-capper-st-175-tottenham-court-road-london-eng-w-1-t-7-nu-gb", "emails": [], "status": "ok", "final_url": "https://www.starbucks.com/store-locator/store/3101/tottenham-court-road-capper-st-175-tottenham-court-road-london-eng-w-1-t-7-nu-gb", "v": 2}
+{"key": "tarosushi.co.uk", "emails": [], "status": "ok", "final_url": "https://tarosushi.co.uk/", "v": 2}
+{"key": "thehawleyarms.co.uk", "emails": [], "status": "unknown", "final_url": "http://www.thehawleyarms.co.uk/", "v": 2}
+{"key": "lovetheprincess.com", "emails": [], "status": "ok", "final_url": "https://www.lovetheprincess.com", "v": 2}
+{"key": "thestagnw3.com", "emails": [], "status": "unknown", "final_url": "http://www.thestagnw3.com/", "v": 2}
+{"key": "restaurants.subway.com/united-kingdom/en/london/95-leather-lane", "emails": [], "status": "ok", "final_url": "https://restaurants.subway.com/united-kingdom/en/london/95-leather-lane", "v": 2}
+{"key": "thehatandtun.com", "emails": ["info@thehatandtun.com"], "status": "ok", "final_url": "https://www.thehatandtun.com", "v": 2}
+{"key": "papajohns.co.uk/stores/farringdon", "emails": [], "status": "ok", "final_url": "https://www.papajohns.co.uk/stores/farringdon", "v": 2}
+{"key": "morsolondon.co.uk", "emails": ["abbeyroad@morsolondon.co.uk"], "status": "ok", "final_url": "https://www.morsolondon.co.uk/", "v": 2}
+{"key": "lemongrassrestaurant.co.uk", "emails": [], "status": "dead", "final_url": "https://www.lemongrassrestaurant.co.uk/", "v": 2}
+{"key": "buvette-london.com", "emails": [], "status": "ok", "final_url": "https://buvette-london.com", "v": 2}
+{"key": "tappingtheadmiral.com", "emails": [], "status": "unknown", "final_url": "http://www.tappingtheadmiral.com/", "v": 2}
+{"key": "urumchi.co.uk", "emails": ["infourumchi@gmail.com"], "status": "ok", "final_url": "https://urumchi.co.uk/", "v": 2}
+{"key": "meileaf.com", "emails": ["ilove@tea.com"], "status": "ok", "final_url": "https://meileaf.com/", "v": 2}
+{"key": "parrillan.co.uk", "emails": ["byreservations@parrillan.co.uk", "cdyreservations@parrillan.co.uk"], "status": "ok", "final_url": "https://www.parrillan.co.uk/", "v": 2}
+{"key": "caliendos.co.uk", "emails": ["gelato@caliendos.co.uk"], "status": "ok", "final_url": "https://www.caliendos.co.uk", "v": 2}
+{"key": "bellylondon.com", "emails": ["belly@mgnhw.com"], "status": "ok", "final_url": "https://www.bellylondon.com/", "v": 2}
+{"key": "arancinibrothers.com", "emails": [], "status": "parked", "final_url": "https://latestkitchenideas.com/acquisition-of-arancinibrothers-com/", "v": 2}
+{"key": "cafe-renoir.co.uk", "emails": [], "status": "parked", "final_url": "https://www.cafe-renoir.co.uk/", "v": 2}
+{"key": "ngonngon.co.uk", "emails": ["info@ngonngon.co.uk"], "status": "ok", "final_url": "https://ngonngon.co.uk/", "v": 2}
+{"key": "kossoffs.com", "emails": ["contact@kossoffs.com"], "status": "ok", "final_url": "https://kossoffs.com/", "v": 2}
+{"key": "dominos.co.uk/pizza-near-me/london/194-kentish-town-road", "emails": [], "status": "unknown", "final_url": "https://www.dominos.co.uk/pizza-near-me/london/194-kentish-town-road", "v": 2}
+{"key": "thelostelephantskitchen.co.ukhttps//www.thelostelephantskitchen.co.uk", "emails": [], "status": "dead", "final_url": "https://www.thelostelephantskitchen.co.ukhttps//www.thelostelephantskitchen.co.uk", "v": 2}
+{"key": "kfc.co.uk/kfc-near-me/mornington-crescent", "emails": [], "status": "unknown", "final_url": "https://www.kfc.co.uk/kfc-near-me/mornington-crescent", "v": 2}
+{"key": "porkys.co.uk", "emails": [], "status": "unknown", "final_url": "http://www.porkys.co.uk", "v": 2}
+{"key": "thegoodmews.co.uk", "emails": ["ross@thegoodmews.co.uk"], "status": "ok", "final_url": "https://www.thegoodmews.co.uk/", "v": 2}
+{"key": "newyorkpizzacamden.co.uk", "emails": [], "status": "ok", "final_url": "https://www.newyorkpizzacamden.co.uk/", "v": 2}
+{"key": "kfc.co.uk/kfc-near-me/tottenham-court-road", "emails": [], "status": "unknown", "final_url": "https://www.kfc.co.uk/kfc-near-me/tottenham-court-road", "v": 2}
+{"key": "sircc.pub", "emails": ["manager@sircc.pub"], "status": "ok", "final_url": "https://www.sircc.pub", "v": 2}
+{"key": "pizzaexpress.com/london-coptic-street", "emails": ["pizzaexpress@fticonsulting.com"], "status": "ok", "final_url": "https://www.pizzaexpress.com/london-coptic-street", "v": 2}
+{"key": "salvino.co.uk", "emails": [], "status": "unknown", "final_url": "https://www.salvino.co.uk/", "v": 2}
+{"key": "timeartcafe.com", "emails": [], "status": "ok", "final_url": "https://www.timeartcafe.com", "v": 2}
+{"key": "thefiddlerselbow.co.uk", "emails": ["elbowgigs@hotmail.co.uk"], "status": "ok", "final_url": "https://www.thefiddlerselbow.co.uk/", "v": 2}
+{"key": "thehaverstocktavern.co.uk", "emails": [], "status": "unknown", "final_url": "https://thehaverstocktavern.co.uk", "v": 2}
+{"key": "princealbert.pub", "emails": ["hello@princealbert.pub", "manager@princealbert.pub"], "status": "ok", "final_url": "https://www.princealbert.pub/", "v": 2}
+{"key": "studentsunionucl.org/eat-drink-shop/bars/huntley", "emails": ["su.advice@ucl.ac.uk", "su.activities@ucl.ac.uk", "teamucl@ucl.ac.uk", "artsucl@ucl.ac.uk", "su.activities-reception@ucl.ac.uk", "employment@ucl.ac.uk", "volunteering@ucl.ac.uk", "g.stepney@ucl.ac.uk", "hannah.p@ucl.ac.uk", "h.warne@ucl.ac.uk"], "status": "ok", "final_url": "https://studentsunionucl.org/eat-drink-shop/bars/huntley", "v": 2}
+{"key": "starbucks.com/store-locator/store/2562/belsize-park-englands-lane-57-englands-lane-belsize-park-london-eng-nw-3-4-yd", "emails": [], "status": "ok", "final_url": "https://www.starbucks.com/store-locator/store/2562/belsize-park-englands-lane-57-englands-lane-belsize-park-london-eng-nw-3-4-yd", "v": 2}
+{"key": "greenberrycafe.co.uk", "emails": ["reservations@greenberrycafe.co.uk", "info@greenberrycafe.co.uk"], "status": "ok", "final_url": "https://www.greenberrycafe.co.uk/", "v": 2}
+{"key": "gritchiepubs.com/contact", "emails": ["loreoftheland@fatboypubs.co.uk", "hello@loreoftheland.com", "events@fatboypubs.co.uk", "guy@ritchie.pub"], "status": "ok", "final_url": "https://loreoftheland.com/", "v": 2}
+{"key": "thefieldsbeneath.com", "emails": ["kentishtown@thefieldsbeneath.com"], "status": "ok", "final_url": "https://www.thefieldsbeneath.com", "v": 2}
+{"key": "creamscafe.com/our-stores/kentish-town", "emails": ["kentishtown@creamscafe.com"], "status": "ok", "final_url": "https://www.creamscafe.com/our-stores/kentish-town/", "v": 2}
+{"key": "website-796984007307454667834-cafe.business.site", "emails": [], "status": "dead", "final_url": "https://website-796984007307454667834-cafe.business.site/", "v": 2}
+{"key": "terramodernalondon.com", "emails": ["info@terramodernalondon.com", "info@terramoderna.com"], "status": "ok", "final_url": "https://www.terramodernalondon.com/", "v": 2}
+{"key": "jdwetherspoon.com/pubs/all-pubs/england/london/penderels-oak-holborn", "emails": [], "status": "skipped", "final_url": "https://www.jdwetherspoon.com/pubs/all-pubs/england/london/penderels-oak-holborn", "v": 2}
+{"key": "lbpedlar.com", "emails": ["enquiries@lbpedlar.com"], "status": "ok", "final_url": "https://www.lbpedlar.com/", "v": 2}
+{"key": "thesomerstowncoffeehouse.co.uk", "emails": [], "status": "unknown", "final_url": "https://www.thesomerstowncoffeehouse.co.uk/", "v": 2}
+{"key": "ripekitchen.co.uk", "emails": ["info@ripekitchen.co.uk"], "status": "ok", "final_url": "https://ripekitchen.co.uk/", "v": 2}
+{"key": "greeneking-pubs.co.uk/pubs/greater-london/assembly-house", "emails": ["6018@greeneking.co.uk"], "status": "ok", "final_url": "https://www.greeneking.co.uk/pubs/greater-london/assembly-house", "v": 2}
+{"key": "lalibelarestaurant.co.uk", "emails": [], "status": "unknown", "final_url": "https://www.lalibelarestaurant.co.uk/", "v": 2}
+{"key": "pesantissimo.com", "emails": ["info@pesantissimo.com"], "status": "ok", "final_url": "https://www.pesantissimo.com/", "v": 2}
+{"key": "theparakeetpub.com", "emails": ["bookings@theparakeetpub.com"], "status": "ok", "final_url": "https://theparakeetpub.com", "v": 2}
+{"key": "golden-p.co.uk/default.htm", "emails": [], "status": "dead", "final_url": "http://www.golden-p.co.uk/default.htm", "v": 2}
+{"key": "orders.joejuice.com/store/1602ef0d-db7a-4074-9f5c-82a20df839df", "emails": [], "status": "unknown", "final_url": "https://orders.joejuice.com/store/1602ef0d-db7a-4074-9f5c-82a20df839df", "v": 2}
+{"key": "thelordstanley.com", "emails": [], "status": "unknown", "final_url": "https://www.thelordstanley.com", "v": 2}
+{"key": "theflaskhighgate.com", "emails": ["flask@fullers.co.uk"], "status": "ok", "final_url": "https://www.theflaskhighgate.com/", "v": 2}
+{"key": "locipubs.com/alliance", "emails": [], "status": "ok", "final_url": "https://locipubs.com/alliance/", "v": 2}
+{"key": "wildwoodrestaurants.co.uk/restaurant/seven-dials", "emails": ["customercare@wildwoodrestaurants.co.uk"], "status": "ok", "final_url": "https://wildwoodrestaurants.co.uk/restaurant/covent-garden/", "v": 2}
+{"key": "paddycakes.uk", "emails": ["orders@paddycakes.uk"], "status": "ok", "final_url": "https://www.paddycakes.uk/", "v": 2}
+{"key": "kkini-korean-restaurant.business.site", "emails": [], "status": "dead", "final_url": "https://kkini-korean-restaurant.business.site/", "v": 2}
+{"key": "thegardengatehampstead.co.uk", "emails": [], "status": "unknown", "final_url": "https://www.thegardengatehampstead.co.uk/", "v": 2}
+{"key": "gails.com/pages/belsize-park", "emails": [], "status": "ok", "final_url": "https://gails.com/pages/belsize-park", "v": 2}
+{"key": "thelionandunicornnw5.co.uk", "emails": ["lionandunicorn@youngs.co.uk"], "status": "ok", "final_url": "https://www.thelionandunicornnw5.co.uk/", "v": 2}
+{"key": "terroni.co.uk", "emails": ["info@terroni.co.uk"], "status": "ok", "final_url": "https://terroni.co.uk", "v": 2}
+{"key": "spiceofhaverstock.com", "emails": [], "status": "ok", "final_url": "https://spiceofhaverstock.com", "v": 2}
+{"key": "studentsunionucl.org/eat-drink-shop/cafes/union-streat-kitchen", "emails": ["su.advice@ucl.ac.uk", "su.activities@ucl.ac.uk", "teamucl@ucl.ac.uk", "artsucl@ucl.ac.uk"], "status": "ok", "final_url": "https://studentsunionucl.org/eat-drink-shop/cafes/george-farha-cafe", "v": 2}
+{"key": "albionsrestaurant.co.uk", "emails": ["info@albionsrestaurant.co.uk"], "status": "ok", "final_url": "https://www.albionsrestaurant.co.uk/", "v": 2}
+{"key": "theoldwhitebearhampstead.co.uk", "emails": ["info@theoldwhitebearhampstead.co.uk"], "status": "ok", "final_url": "https://theoldwhitebearhampstead.co.uk/", "v": 2}
+{"key": "oliversfishandchips.com", "emails": ["admin@oliversfishandchips.com"], "status": "ok", "final_url": "https://www.oliversfishandchips.com/", "v": 2}
+{"key": "cafepalestina.co.uk", "emails": ["info@cafepalestina.co.uk", "online@cafepalestina.co.uk"], "status": "ok", "final_url": "https://cafepalestina.co.uk/", "v": 2}
+{"key": "eastwestlondon.com", "emails": ["bookings@eastwestlondon.com", "hello@eastwestlondon.com"], "status": "ok", "final_url": "https://www.eastwestlondon.com/", "v": 2}
+{"key": "remedykitchen.co.uk", "emails": ["healthy@remedykitchen.co.uk"], "status": "ok", "final_url": "https://remedykitchen.co.uk", "v": 2}
+{"key": "yacobskitchen.co.uk", "emails": ["info@yacobskitchen.co.uk", "hello@yacobskitchen.co.uk"], "status": "ok", "final_url": "https://yacobskitchen.co.uk", "v": 2}
+{"key": "farmerj.com/location/tottenham-court-road", "emails": [], "status": "ok", "final_url": "https://www.farmerj.com/location/tottenham-court-road/", "v": 2}
+{"key": "jamonjamon.uk.com", "emails": ["soho@jamonjamonrestaurants.com", "belsizepark@jamonjamonrestaurant.com", "belsizepark@jamonjamonrestaurants.com"], "status": "ok", "final_url": "https://www.jamonjamonrestaurants.com/", "v": 2}
+{"key": "camdenartcentre.org/come-visit-us/cafe", "emails": ["hires@camdenartscentre.org", "info@camdenartcentre.org", "hires@camdenartcentre.org"], "status": "ok", "final_url": "https://camdenartcentre.org/come-visit-us/cafe", "v": 2}
+{"key": "hiro100.com", "emails": [], "status": "unknown", "final_url": "https://www.hiro100.com", "v": 2}
+{"key": "survivorsfood.co.uk/restaurants/camden", "emails": [], "status": "unknown", "final_url": "https://survivorsfood.co.uk/restaurants/camden/", "v": 2}
+{"key": "maharanicamden.co.uk", "emails": [], "status": "unknown", "final_url": "https://www.maharanicamden.co.uk/", "v": 2}
+{"key": "sheephavenbaycamden.co.uk", "emails": [], "status": "unknown", "final_url": "https://sheephavenbaycamden.co.uk/", "v": 2}
+{"key": "berberepizzeria.co.uk/kentish-town", "emails": [], "status": "ok", "final_url": "https://www.berberepizzeria.co.uk/kentish-town/", "v": 2}
+{"key": "kfc.co.uk/kfc-near-me/london-farringdon-road", "emails": [], "status": "unknown", "final_url": "https://www.kfc.co.uk/kfc-near-me/london-farringdon-road", "v": 2}
