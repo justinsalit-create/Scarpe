@@ -192,7 +192,8 @@ def find_websites(venues, cache_dir, limit, workers):
             f.result()
             done += 1
             if done % 250 == 0:
-                hits = sum(1 for r in cache.data.values() if r["website"])
+                with cache.lock:
+                    hits = sum(1 for r in cache.data.values() if r["website"])
                 print(f"  discovery {done}/{len(todo)} ({hits} websites found so far)", file=sys.stderr)
     found = 0
     for v in missing:
