@@ -9,11 +9,11 @@ python3 -c "from londonfood.boroughs import BOROUGHS; print('\n'.join(BOROUGHS))
   [ -f "output/runs/$short/london_food_contacts.csv" ] && continue
   echo "=== $b ==="
   python3 -m londonfood --boroughs "$b" --out "output/runs/$short" --workers 24 || { echo "FAILED: $b"; continue; }
-  git add output/runs && git add -f .cache/crawl.jsonl .cache/osm
+  git add output/runs; git add -f .cache 2>/dev/null
   git commit -qm "Data: $b" && push
 done
 python3 -m londonfood --out output --workers 24
 git rm -rq --cached output/runs 2>/dev/null; rm -rf output/runs
-git add output && git add -f .cache/crawl.jsonl .cache/osm
+git add output; git add -f .cache 2>/dev/null
 git commit -qm "Data: combined London food venue contacts (all boroughs)" && push
 echo ALL DONE
