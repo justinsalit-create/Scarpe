@@ -1,12 +1,17 @@
 email,name,borough,area,categories,website,other_emails,email_source,source,locations,phone,address,postcode,osm_url
 info@ademcoffee.co.uk,Adem coffee,Hillingdon,Eastcote,Food truck,https://ademcoffee.co.uk/,shubhnsh@gmail.com,venue website,food standards agency,1,,Victoria Road,HA4 0QB,https://ratings.food.gov.uk/business/1932028
+contact@briskit.co.uk,BRISK IT,Hillingdon,Uxbridge,Restaurant,https://briskit.co.uk/,,venue website,food standards agency,1,,23 Windsor Street,UB8 1AB,https://ratings.food.gov.uk/business/1836221
 bubbleslondon.northwood@gmail.com,Bubbles,Hillingdon,Northwood,Ice cream,,,openstreetmap,openstreetmap,1,+44 7939 389797,53 Green Lane,HA6 3AE,https://www.openstreetmap.org/way/1179985791
 info@cintias.cafe,cinitas cafe,Hillingdon,Sipson,Breakfast,https://www.cintias.cafe/,,venue website,openstreetmap,1,+44 20 8001 1322,Holloway Lane,UB7 0AE,https://www.openstreetmap.org/way/968229584
 uxbridge@creamscafe.com,Creams,Hillingdon,Uxbridge,Ice cream,https://www.creamscafe.com/our-stores/uxbridge/,,venue website,openstreetmap,1,,61 Belmont Road,UB8 1QT,https://www.openstreetmap.org/node/6110818404
+info@dumfactory.co.uk,Dum Factory,Hillingdon,Uxbridge,Takeaway,https://dumfactory.co.uk/,,venue website,food standards agency,1,,"Cloud iX Kitchens, 4 Eskdale Road",UB8 2RT,https://ratings.food.gov.uk/business/1840529
 granero@thelounges.co.uk,Granero Lounge,Hillingdon,Ruislip,Restaurant,https://thelounges.co.uk/granero,,venue website,openstreetmap,1,,81-83 High Street,HA4 8JB,https://www.openstreetmap.org/node/13907190773
+info@haloplaycafe.co.uk,Halo Play Cafe,Hillingdon,Uxbridge,Cafe,https://haloplaycafe.co.uk/,,venue website,openstreetmap,1,,High Street,UB8 1GB,https://www.openstreetmap.org/node/13390917971
+hccharbourmaster@hotmail.com,Hillingdon Canal Club,Hillingdon,Uxbridge,Pub,https://hillingdoncanalclub.com/,,venue website,food standards agency,1,,"Hillingdon Canal Club, Waterloo Road",UB8 2QX,https://ratings.food.gov.uk/business/519836
 sudrise6@gmail.com,Hot House Pizza,Hillingdon,Northwood,Pizza,https://hothousenorthwood.co.uk/,'sudrise6@gmail.com,venue website,openstreetmap,1,+44 1923 510520,91 Joel Street,HA6 1LW,https://www.openstreetmap.org/node/13409475027
 mailbox@jasmines-kitchen.co.uk,Jasmine's Kitchen,Hillingdon,Hayes,Takeaway,https://www.jasmines-kitchen.co.uk/,,venue website,food standards agency,1,,"5 Dawley Parade, Dawley Road",UB3 1EA,https://ratings.food.gov.uk/business/1774800
 info@thekarmalounge.co.uk,Karma Lounge,Hillingdon,Cowley,Restaurant,https://thekarmalounge.co.uk/,,venue website,openstreetmap,1,,,,https://www.openstreetmap.org/node/26603928
+info@manisgrill.uk,Mani's grill,Hillingdon,Uxbridge,Takeaway,https://manisgrill.uk/,,venue website,food standards agency,1,,34 Cowley Mill Road,UB8 2QD,https://ratings.food.gov.uk/business/1467680
 info@manor-pizza.co.uk,Manor pizza,Hillingdon,Eastcote,Pizza,https://manor-pizza.co.uk/,,venue website,food standards agency,1,,122 Victoria Road,HA4 0AL,https://ratings.food.gov.uk/business/1802384
 order@momorendezvous.com,Momo Rendezvous,Hillingdon,Hayes,Restaurant,http://momorendezvous.com/,,venue website,food standards agency,1,,"Cardinal Building Highpoint Village, Station Approach",UB3 4FE,https://ratings.food.gov.uk/business/1749627
 morello@thelounges.co.uk,Morello Lounge,Hillingdon,Uxbridge,Restaurant,https://thelounges.co.uk/morello,,venue website,openstreetmap,1,,1-4 High Street,UB8 1BP,https://www.openstreetmap.org/node/12593552662
@@ -24,6 +29,7 @@ tgmgril786@gmail.com,Tabaak Grill Master,Hillingdon,Hayes,Restaurant,https://tab
 info@tenrestaurant.co.uk,Ten Restaurant,Hillingdon,Eastcote,Restaurant,https://www.tenrestaurant.co.uk/,manager@tenrestaurant.co.uk,venue website,food standards agency,1,,10 Victoria Road,HA4 0AA,https://ratings.food.gov.uk/business/1486355
 the3stepsph@gmail.com,The 3 Steps,Hillingdon,Cowley,Pub,https://www.thethreesteps.co.uk/,,venue website,openstreetmap,1,,High Street,UB8 2DX,https://www.openstreetmap.org/way/974404015
 caseisaltered@mcmanuspub.co.uk,The Case Is Altered,Hillingdon,Eastcote,Pub,https://caseisalteredpinner.co.uk/,,openstreetmap,openstreetmap,1,+44 20 8866 0476,High Road Eastcote,HA5 2EW,https://www.openstreetmap.org/node/2407449923
+thecrowntreaty@gmail.com,The Crown and Treaty,Hillingdon,Uxbridge,Pub,https://thecrownandtreaty.co.uk/,,venue website,openstreetmap,1,,90 Oxford Road,UB8 1LU,https://www.openstreetmap.org/way/279612298
 m1533@greeneking.co.uk,The Fig Tree,Hillingdon,Uxbridge,Pub,https://www.greeneking-pubs.co.uk/pubs/middlesex/fig-tree/,,venue website,openstreetmap,1,+44 1895 257932,49 Windsor Street,UB8 1AB,https://www.openstreetmap.org/node/26979400
 theloftuxbridgepub@gmail.com,The Loft,Hillingdon,Cowley,Pub,https://www.theloftuxbridge.com/,,venue website,openstreetmap,1,+44 1895 753179,33 Villier Street,UB8 2PU,https://www.openstreetmap.org/node/26603473
 enquiries@thenestclimbing.co.uk,The Nest Climbing,Hillingdon,Hayes,Restaurant,https://www.thenestclimbing.co.uk/,,venue website,food standards agency,1,,1-7 Material Walk,UB3 1DP,https://ratings.food.gov.uk/business/1426516

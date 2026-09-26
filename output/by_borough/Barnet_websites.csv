@@ -1,8 +1,11 @@
 website,website_type,name,borough,area,categories,email,locations,phone,address,postcode,source,facebook,instagram,osm_url
 https://www.2broslondon.com/northfinchley,own site,2 Bro's,Barnet,North Finchley,Burger; Pizza,,1,,378 Ballards Lane,N12 0EE,openstreetmap,,,https://www.openstreetmap.org/node/11061651208
+https://www.805restaurants.com/,"own site (found by name, postcode verified)",805 Restaurant,Barnet,Hendon,Restaurant,catering@805restaurants.com,1,,60 Vivian Avenue London,NW4 3XH,food standards agency,,,https://ratings.food.gov.uk/business/930521
 https://aisushi.co.uk,own site,Ai Sushi,Barnet,North Finchley,Asian; Sushi,,1,+44 20 8446 9808,830 High Road,N12 9RA,openstreetmap,,,https://www.openstreetmap.org/node/2341125360
 https://www.askitalian.co.uk/italian/restaurants/london-finchley,own site,ASK Italian,Barnet,Finchley,Italian,,1,+44 20 3802 6363,Chaplin Square,N12 0GL,openstreetmap,,,https://www.openstreetmap.org/node/1409601934
+https://ataritei.co.uk/,"own site (found by name, postcode verified)",Atari-Tei,Barnet,Hendon,Restaurant,,1,,31 Vivian Avenue London,NW4 3UX,food standards agency,,,https://ratings.food.gov.uk/business/1828709
 https://www.awesomethai.co.uk,own site,Awesome Thai,Barnet,North Finchley,Asian,,2,+44 20 8492 8477,826 High Road,N12 9RA,openstreetmap,,,https://www.openstreetmap.org/node/2341125368
+https://www.bagelsbar.com/,"own site (found by name, postcode verified)",Bagels Bar,Barnet,Hendon,Bagels,grillhouse@bagelsbar.com,1,,84 Brent Street London,NW4 2ES,food standards agency,,,https://ratings.food.gov.uk/business/758411
 https://www.balisatayhouse.co.uk/,own site,Bali Satay House,Barnet,New Barnet,Asian,,1,,4-5 Great North Road,,openstreetmap,,,https://www.openstreetmap.org/way/1506413100
 https://www.bellamianorthfinchley.co.uk,own site,Bella Mia,Barnet,North Finchley,Italian,bellamianorthfinchley@gmail.com,1,+44 20 8445 6008,857 High Road,N12 8PT,openstreetmap,,,https://www.openstreetmap.org/node/11300073110
 https://bims.co.uk/,own site,BIMS,Barnet,North Finchley,Burger; Halal,,4,+44 20 8282 8805,784 High Road,N12 9QR,openstreetmap,,,https://www.openstreetmap.org/node/6947966049
@@ -10,6 +13,8 @@ https://bluebellesofportobello.com,own site,Bluebelles Of Portobello,Barnet,Chur
 https://bonjour.edan.io/,own site,Bonjour Cafe-Bakery,Barnet,Hendon,Bakery,,1,+44 20 8203 8848,"78,80 Brent Street",NW4 2ES,openstreetmap,,,https://www.openstreetmap.org/node/6766517285
 https://www.boulevard.uk.com,own site,Boulevard,Barnet,Friern Barnet,Indian,,1,,115 Friern Barnet Road,N11 3EU,openstreetmap,,,https://www.openstreetmap.org/node/9452878443
 https://locations.burgerking.co.uk/,chain site (same name as 42 mapped branches),Burger King,Barnet,Brent Cross,Burger,,17,,,,openstreetmap,,,https://www.openstreetmap.org/node/6553257208
+https://www.cafechibo.co.uk/,"own site (found by name, postcode verified)",Cafe Chibo,Barnet,Hendon,Restaurant,chibocafe@gmail.com,1,,29 Church Road London,NW4 4EB,food standards agency,,,https://ratings.food.gov.uk/business/1927251
+http://www.cafevert.co.uk/,"own site (found by name, postcode verified)",Cafe Vert,Barnet,Hendon,Restaurant,info@cafevert.co.uk,1,,25 Finchley Lane London,NW4 1BN,food standards agency,,,https://ratings.food.gov.uk/business/756821
 https://caffenero.com/,chain site (same name as 123 mapped branches),Caffe Nero,Barnet,"Barnet (also Chipping Barnet, High Barnet)",Restaurant,,146,,128 High Street Barnet,EN5 5XQ,food standards agency,,,https://ratings.food.gov.uk/business/860323
 https://www.caffenero.com/uk/stores/golders-green,own site,Caffè Nero,Barnet,Golders Green,Breakfast,,1,,,,openstreetmap,,,https://www.openstreetmap.org/node/1798788051
 https://www.caffenero.com/uk/stores/north-finchley-high-road,own site,Caffè Nero,Barnet,North Finchley,Breakfast,,1,,776 High Road,N12 9QH,openstreetmap,,,https://www.openstreetmap.org/node/2341125346
@@ -22,7 +27,7 @@ https://www.instagram.com/chawanjia_uk,instagram,Cha Wan Jia,Barnet,"Barnet (als
 https://cheatmeals.co.uk/,chain site (same name as 3 mapped branches),Cheatmeals,Barnet,Edgware,Takeaway,,16,,,,openstreetmap,,,https://www.openstreetmap.org/node/12181708797
 https://chickencottage.com/,chain site (same name as 14 mapped branches),Chicken Cottage,Barnet,West Hendon,Takeaway,info@chickencottage.com,19,,264 West Hendon Broadway London,NW9 6AG,food standards agency,,,https://ratings.food.gov.uk/business/1834984
 https://chicken-hub.com/,chain site (same name as 3 mapped branches),Chicken Hub,Barnet,North Finchley,Takeaway,,9,+44 20 8445 5379,676 High Road,N12 9PT,openstreetmap,,,https://www.openstreetmap.org/node/10213894384
-https://chickenvalley.co.uk/,"own site (found by name, phone verified)",Chicken Valley,Barnet,New Barnet,Takeaway,franchising@chickenvalley.co.uk,11,,12 Great North Road,,openstreetmap,,,https://www.openstreetmap.org/way/592995896
+https://chickenvalley.co.uk/,"own site (found by name, phone verified)",Chicken Valley,Barnet,New Barnet,Takeaway,franchising@chickenvalley.co.uk,13,,12 Great North Road,,openstreetmap,,,https://www.openstreetmap.org/way/592995896
 https://chutneysbarnet.com/,own site,Chutneys,Barnet,New Barnet,Indian,,1,,10 Lytton Road,,openstreetmap,,,https://www.openstreetmap.org/node/13374989379
 https://www.claddagh-ring.co.uk/,own site,Claddagh Ring,Barnet,Hendon,Pub,info@claddagh-ring.co.uk,1,+44 20 8203 2600,,,openstreetmap,https://www.facebook.com/TheCladdaghRingIrishBar,,https://www.openstreetmap.org/node/250080603
 https://www.costa.co.uk/stores/new-barnet,own site,Costa,Barnet,New Barnet,Breakfast,,1,,14 Great North Road,,openstreetmap,,,https://www.openstreetmap.org/way/1506413108
@@ -51,6 +56,7 @@ https://goldenbite.co.uk,own site,Golden Bite,Barnet,North Finchley,Cafe,,1,,308
 https://www.grillheist.co.uk,own site,Grill Heist,Barnet,North Finchley,Burger,,1,+44 20 8445 5224,728 High Road,N12 9QD,openstreetmap,,,https://www.openstreetmap.org/node/10678662641
 https://gokyuzurestaurant.co.uk/finchley/,own site,Gökyüzü,Barnet,North Finchley,Restaurant,finchley@gokyuzurestaurant.co.uk,1,,1 Leisure Way,N12 0QZ,openstreetmap,,,https://www.openstreetmap.org/way/187826901
 https://www.harmony-n10.com,own site,Harmony,Barnet,Colney Hatch,Cafe,info@harmony-n10.com,1,,125 Colney Hatch Lane,N10 1HD,openstreetmap,,,https://www.openstreetmap.org/node/8094817705
+https://www.hendonbagelbakery.co.uk/,"own site (found by name, postcode verified)",Hendon Bagel Bakery,Barnet,Hendon,Bagels; Bakery,info@hendonbagelbakery.co.uk,1,,55 Church Road London,NW4 4DU,food standards agency,,,https://ratings.food.gov.uk/business/756694
 https://www.rafmuseum.org.uk/london/plan-your-day/restaurant/,own site,Hendon Kitchen,Barnet,Grahame Park,Cafe,,1,,,,openstreetmap,,,https://www.openstreetmap.org/node/11260948235
 http://hendonparkcafe.co.uk/,own site,Hendon Park Cafe,Barnet,Hendon,Cafe,,1,,,NW4 2TG,openstreetmap,,,https://www.openstreetmap.org/way/201307372
 https://holybellacafebistro.co.uk,own site,Holybella,Barnet,Colney Hatch,Cafe,,1,,156 Colney Hatch Lane,N10 1ER,openstreetmap,,holybella_london,https://www.openstreetmap.org/node/467699596
@@ -64,6 +70,7 @@ https://izgararestaurant.com/,own site,Izgara,Barnet,Whetstone,Restaurant,izgara
 https://www.izgararestaurant.co.uk/,own site,Izgara,Barnet,Edgware,Restaurant,info@izgararestaurant.co.uk,1,+44 20 8951 4460,165-167 Station Road,HA8 7JU,openstreetmap,izgarahatchend,izgaraedgware,https://www.openstreetmap.org/node/12638548101
 https://izgarafinchley.co.uk/,own site,Izgara Finchley,Barnet,Church End,Halal; Steak,,1,+44 20 8371 8282,No: 11 Hendon Lane,N3 1RT,openstreetmap,https://www.facebook.com/izgarafinchley,,https://www.openstreetmap.org/node/10559429452
 https://www.johnspizzaonline.co.uk,own site,John's Pizza,Barnet,Colney Hatch,Pizza,,1,+44 20 8442 1818,93 Colney Hatch Lane,N10 1LR,openstreetmap,,,https://www.openstreetmap.org/node/9448320621
+https://kentuckygrill.co.uk/,"own site (found by name, postcode verified)",Kentucky Grill,Barnet,Hendon,Restaurant,info@kentuckygrill.co.uk,1,,33 Watford Way London,NW4 3JH,food standards agency,,,https://ratings.food.gov.uk/business/1589670
 https://www.kfc.co.uk/kfc-near-me/london-cricklewood,own site,KFC,Barnet,Cricklewood,Takeaway,,1,,158 Cricklewood Broadway,NW2 3ED,openstreetmap,,,https://www.openstreetmap.org/node/410949882
 https://www.kfc.co.uk/kfc-near-me/london-apex-corner,own site,KFC,Barnet,"Hale, The",Takeaway,,1,,A41,NW7 3ET,openstreetmap,,,https://www.openstreetmap.org/node/1454284031
 https://www.kfc.co.uk/kfc-near-me/golders-green-golders-green-road,own site,KFC,Barnet,Golders Green,Takeaway,,1,,12 Golders Green Road,NW11 8LL,openstreetmap,,,https://www.openstreetmap.org/node/1798766804
@@ -77,6 +84,7 @@ https://www.koimillhill.london/,own site,Koi,Barnet,"Hale, The",Asian; Chinese; 
 https://lemontreegreekfoods.co.uk/,own site,Lemon Tree,Barnet,New Barnet,Greek,hi@lemontreegreekfoods.co.uk,1,,1 Great North Road,,openstreetmap,,,https://www.openstreetmap.org/way/594761504
 https://www.maltandhopslondon.co.uk,own site,Malt and Hops,Barnet,Woodside Park,Pub,contact@maltandhopslondon.co.uk,1,+44 20 3011 1317,891 High Road,N12 8QA,openstreetmap,,,https://www.openstreetmap.org/way/490082508
 https://www.mamafifi.com/,own site,Mama Fifi,Barnet,"Barnet (also Chipping Barnet, High Barnet)",Italian,info@mamafifi.com,1,+44 20 8191 1222,111 High Street,EN5 5XY,openstreetmap,,,https://www.openstreetmap.org/node/8710512532
+https://www.mannadeli.com/,"own site (found by name, postcode verified)",Manna Deli,Barnet,Hendon,Deli,,1,,146 Brent Street London,NW4 2DR,food standards agency,,,https://ratings.food.gov.uk/business/756611
 https://marugame.co.uk/,chain site (same name as 3 mapped branches),Marugame Udon,Barnet,Brent Cross,Takeaway,,9,,Brent Cross Shopping Centre  Prince Charles Drive London,NW4 3FZ,food standards agency,,,https://ratings.food.gov.uk/business/1889812
 https://matthewskitchen.london/,own site,Matthew's Kitchen Seafood & Grill,Barnet,Whetstone,Seafood,contact@matthewskitchen.london,1,+44 20 3609 3336,1288 High Road,N20 9HJ,openstreetmap,,,https://www.openstreetmap.org/node/5419174368
 https://www.mcdonalds.com/gb/en-gb/location/cricklewood/cricklewood/136140-cricklewood-broadway/8260340.html,own site,McDonald's,Barnet,Cricklewood,Burger,,1,+44 20 8450 9263,,,openstreetmap,,,https://www.openstreetmap.org/node/410949909
@@ -99,6 +107,8 @@ https://nkora.co.uk,own site,Nkora,Barnet,"Barnet (also Chipping Barnet, High Ba
 https://www.noshers.co.uk/,own site,Noshers,Barnet,Whetstone,Deli,info@noshers.co.uk,1,,40 Totteridge Lane,N20 9QJ,openstreetmap,,,https://www.openstreetmap.org/way/161746346
 https://oceancitylondon.co.uk,own site,Ocean City,Barnet,North Finchley,Asian; Chinese,,1,+44 20 8445 3260,220 Woodhouse Road,N12 0RS,openstreetmap,,,https://www.openstreetmap.org/way/1038752220
 http://www.odosrestaurant.co.uk,own site,Odos,Barnet,"Barnet (also Chipping Barnet, High Barnet)",Restaurant,,1,+44 20 8440 6222,238 High Street,EN5 5TD,openstreetmap,,odosrestaurant,https://www.openstreetmap.org/node/1629050417
+https://oishiisushi.co.uk/,"own site (found by name, postcode verified)",Oishii Sushi,Barnet,Hendon,Sushi,,2,,30 Watford Way London,NW4 3AL,food standards agency,,,https://ratings.food.gov.uk/business/1194132
+https://originallahorerestaurant.com/,"own site (found by name, postcode verified)",Original Lahore,Barnet,Hendon,Restaurant,,1,,148 Brent Street London,NW4 2DR,food standards agency,,,https://ratings.food.gov.uk/business/951842
 https://ozzisburritoshack.co.uk,own site,Ozzi's Burrito Shack,Barnet,"Barnet (also Chipping Barnet, High Barnet)",Mexican,,1,+44 20 8441 3758,89 High Street,EN5 5UR,openstreetmap,ozzisburritoshack,,https://www.openstreetmap.org/node/8941754040
 https://www.papajohns.co.uk/stores/barnet,own site,Papa John's,Barnet,"Barnet (also Chipping Barnet, High Barnet)",Pizza,,1,+44 20 8447 1722,,,openstreetmap,,,https://www.openstreetmap.org/node/1634342557
 https://www.papajohns.co.uk/stores/east-finchley,own site,Papa John's,Barnet,Finchley,Pizza,,1,+44 20 8444 4550,East End Road,,openstreetmap,,,https://www.openstreetmap.org/node/10559413178
@@ -119,6 +129,7 @@ https://www.pizzahut.co.uk/huts/uk-1/892-east-barnet/,own site,Pizza Hut Deliver
 https://www.pizzaexpress.com/mill-hill-the-broadway,own site,PizzaExpress,Barnet,Mill Hill,Pizza,,1,,,,openstreetmap,,,https://www.openstreetmap.org/node/5749897897
 https://pizzaexpress.com/,chain site (same name as 85 mapped branches),PizzaExpress,Barnet,Brent Cross,Pizza,bookings@pizzaexpress.com,37,,Brent Cross Shopping Centre  Prince Charles Drive London,NW4 3FZ,food standards agency,,,https://ratings.food.gov.uk/business/757915
 https://finchleypizza.co.uk,own site,Planet Pizza,Barnet,North Finchley,Burger; Italian; Pizza,,1,+44 20 8492 7777,680 High Road,N12 9PT,openstreetmap,,,https://www.openstreetmap.org/node/11950442533
+https://www.portoberry.com/,"own site (found by name, postcode verified)",Portoberry,Barnet,Hendon,Restaurant,info@portoberry.com,1,,106 Brent Street,NW4 2HH,food standards agency,,,https://ratings.food.gov.uk/business/1972337
 https://www.greatukpubs.co.uk/prince-of-wales-east-barnet,own site,Prince of Wales,Barnet,East Barnet,Pub,stonegatepress@stonegategroup.co.uk,1,,2 Church Hill Road,EN4 8TB,openstreetmap,,,https://www.openstreetmap.org/way/157956284
 https://www.railwaymillhill.com,own site,Railway Tavern,Barnet,"Hale, The",Pub,,1,,129 Hale Lane,NW7 3SB,openstreetmap,,,https://www.openstreetmap.org/node/535099403
 https://www.stonehouserestaurants.co.uk/nationalsearch/eastofengland/theredlionbarnet#/,own site,Red Lion,Barnet,"Barnet (also Chipping Barnet, High Barnet)",Pub,,1,,,,openstreetmap,,,https://www.openstreetmap.org/node/5656299527
@@ -129,6 +140,7 @@ https://senatorlounge.co.uk/,own site,Senator Lounge,Barnet,Hendon,Restaurant,in
 https://www.shahabbasrestaurant.uk/northfinchley,own site,Shah Abbas,Barnet,North Finchley,Restaurant,info@shahabbasrestaurant.uk,1,,,,openstreetmap,,,https://www.openstreetmap.org/node/10213894378
 https://www.shakeshack.co.uk/locations/brent-cross/,own site,Shake Shack,Barnet,Brent Cross,Burger,,1,+44 1923 886217,Brent Cross Shopping Centre,NW4 3FP,openstreetmap,,,https://www.openstreetmap.org/node/12394448602
 https://www.sliceandsushi.com,own site,Slice,Barnet,Brent Cross,Asian; Pizza; Sushi,,1,+44 20 8458 9483,,,openstreetmap,,,https://www.openstreetmap.org/node/10654321376
+https://soorlounge.com/,"own site (found by name, postcode verified)",Soor Lounge,Barnet,Hendon,Restaurant,,1,,8 Watford Way London,NW4 3AD,food standards agency,,,https://ratings.food.gov.uk/business/1453126
 https://soyo.co.uk/,own site,Soyo Edgware,Barnet,Edgware,Breakfast,ali@soyo.co.uk,1,+44 20 8958 8181,307 Hale Lane,HA8 7AX,openstreetmap,,,https://www.openstreetmap.org/node/10935101747
 http://thespaniardshampstead.co.uk/,own site (Wikidata),Spaniards Inn,Barnet,Hampstead Garden Suburb,Pub,,1,,,,openstreetmap,,,https://www.openstreetmap.org/way/334243397
 https://www.starbucks.com/store-locator/store/3147/north-finchley-high-road-811-high-road-london-eng-n-12-8-jr-gb,own site,Starbucks,Barnet,North Finchley,Breakfast,press@starbucks.com,1,,811 High Road,N12 8JR,openstreetmap,,,https://www.openstreetmap.org/node/1943457002
@@ -136,6 +148,7 @@ https://www.starbucks.com/store-locator/store/18821/london-gateway-welcome-break
 https://restaurants.subway.com/united-kingdom/en/london/16-watford-way,own site,Subway,Barnet,Hendon,Deli,,1,,,,openstreetmap,,,https://www.openstreetmap.org/node/6740031587
 https://restaurants.subway.com/united-kingdom/en/london/1294-high-road,own site,Subway,Barnet,Whetstone,Deli,,1,,1294 High Road,N20 9HJ,openstreetmap,,,https://www.openstreetmap.org/way/157935542
 https://restaurants.subway.com/united-kingdom/en/london/friern-bridge-retail-park,own site,Subway,Barnet,New Southgate,Deli,,1,,Pegasus Way,N11 3PW,openstreetmap,,,https://www.openstreetmap.org/way/1030178409
+https://www.sunnyhillcafe.co.uk/,"own site (found by name, postcode verified)",Sunny Hill Café,Barnet,Hendon,Cafe,enquiries@sunnyhillcafe.co.uk,1,,Watford Way,NW4 4XA,openstreetmap,,,https://www.openstreetmap.org/way/203306809
 https://sushimania.co.uk/location/golders-green/,own site,Sushimania,Barnet,Golders Green,Asian; Japanese; Sushi,goldersgreen@orders.sushimania.co.uk,1,+442084551338,130 Golders Green Road,,openstreetmap,,,https://www.openstreetmap.org/node/4668657495
 https://sushimania.co.uk/location/finchley/,own site,Sushimania,Barnet,North Finchley,Asian; Japanese; Sushi,finchley@orders.sushimania.co.uk,1,+442084458282,650 High Road,N12 0NL,openstreetmap,,,https://www.openstreetmap.org/node/10678907302
 https://sushimania.co.uk/location/edgware/,own site,Sushimania,Barnet,Edgware,Asian; Japanese; Sushi,edg.sushimania@gmail.com,1,+442089580222,210 Station Road,HA8 7AR,openstreetmap,,,https://www.openstreetmap.org/node/12181721459
