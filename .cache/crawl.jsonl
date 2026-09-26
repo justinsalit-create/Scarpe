@@ -4185,3 +4185,193 @@
 {"key": "kfc.co.uk/kfc-near-me/croydon-london-road", "emails": [], "status": "unknown", "final_url": "https://www.kfc.co.uk/kfc-near-me/croydon-london-road", "v": 2}
 {"key": "pizzahut.co.uk/huts/uk-1/8263-west-croydon", "emails": [], "status": "unknown", "final_url": "https://www.pizzahut.co.uk/huts/uk-1/8263-west-croydon/", "v": 2}
 {"key": "pizzahut.co.uk/huts/uk-1/7547-coulsdon", "emails": [], "status": "unknown", "final_url": "https://www.pizzahut.co.uk/huts/uk-1/7547-coulsdon/", "v": 2}
+{"key": "greeneking.co.uk/pubs/greater-london/greystoke", "emails": [], "status": "skipped", "final_url": "https://www.greeneking.co.uk/pubs/greater-london/greystoke", "v": 2}
+{"key": "jdwetherspoon.com/pubs/the-red-lion-pineapple-acton", "emails": [], "status": "skipped", "final_url": "https://www.jdwetherspoon.com/pubs/the-red-lion-pineapple-acton/", "v": 2}
+{"key": "munsonscoffee.com", "emails": [], "status": "dead", "final_url": "http://www.munsonscoffee.com/", "v": 2}
+{"key": "thehavenarms.co.uk", "emails": [], "status": "dead", "final_url": "http://www.thehavenarms.co.uk/", "v": 2}
+{"key": "theredlionw5.com", "emails": [], "status": "unknown", "final_url": "https://www.theredlionw5.com/", "v": 2}
+{"key": "castleealing.co.uk", "emails": ["info@thecastleealing.com"], "status": "ok", "final_url": "https://www.castleealing.co.uk/", "v": 2}
+{"key": "nandos.co.uk/restaurants/ealing-common", "emails": [], "status": "ok", "final_url": "https://www.nandos.co.uk/restaurants/ealing-common", "v": 2}
+{"key": "thegreenw7.com", "emails": [], "status": "unknown", "final_url": "https://www.thegreenw7.com/", "v": 2}
+{"key": "revivalcafelondon.co.uk", "emails": [], "status": "unknown", "final_url": "https://www.revivalcafelondon.co.uk/", "v": 2}
+{"key": "thefarmw5.co.uk", "emails": [], "status": "dead", "final_url": "https://www.thefarmw5.co.uk/", "v": 2}
+{"key": "wheatsheaf-ealing.co.uk", "emails": ["thewheatsheafealing@gmail.com", "ealingboardgames@gmail.com"], "status": "ok", "final_url": "https://www.wheatsheaf-ealing.co.uk/", "v": 2}
+{"key": "mcdonalds.com/gb/en-gb/location/ealing/ealing-broadway/units-1322c-the-arcadia-centre/8260455.html", "emails": [], "status": "unknown", "final_url": "https://www.mcdonalds.com/gb/en-gb/location/ealing/ealing-broadway/units-1322c-the-arcadia-centre/8260455.html", "v": 2}
+{"key": "harvester.co.uk/restaurants/london/theroyallondon", "emails": [], "status": "unknown", "final_url": "https://www.harvester.co.uk/restaurants/london/theroyallondon", "v": 2}
+{"key": "jdwetherspoon.com/pubs/all-pubs/england/london/the-sir-michael-balcon-ealing", "emails": [], "status": "skipped", "final_url": "https://www.jdwetherspoon.com/pubs/all-pubs/england/london/the-sir-michael-balcon-ealing", "v": 2}
+{"key": "tiramisucafe.co.uk", "emails": [], "status": "parked", "final_url": "https://www.tiramisucafe.co.uk/", "v": 2}
+{"key": "take-sushi.co.uk", "emails": ["info@take-sushi.co.uk"], "status": "ok", "final_url": "https://www.take-sushi.co.uk/", "v": 2}
+{"key": "cote.co.uk/restaurant/ealing", "emails": ["ealing@cote.co.uk"], "status": "ok", "final_url": "https://www.cote.co.uk/restaurant/ealing", "v": 2}
+{"key": "levacherin.com", "emails": ["info@levacherin.com"], "status": "ok", "final_url": "https://www.levacherin.com/", "v": 2}
+{"key": "phosaigon.co.uk", "emails": ["phosaigonealing41@gmail.com"], "status": "ok", "final_url": "https://phosaigon.co.uk/", "v": 2}
+{"key": "hareandtortoise.co.uk/ealing", "emails": [], "status": "unknown", "final_url": "https://www.hareandtortoise.co.uk/ealing", "v": 2}
+{"key": "starbucks.co.uk/store-locator/12953-140504", "emails": ["yourstore@starbucks.com", "pressemea@starbucks.com"], "status": "ok", "final_url": "https://www.starbucks.co.uk/store-locator/12953-140504", "v": 2}
+{"key": "nandos.co.uk/restaurants/ealing-bond-street", "emails": [], "status": "ok", "final_url": "https://www.nandos.co.uk/restaurants/ealing-bond-street", "v": 2}
+{"key": "lorodinapoli-ealing.com", "emails": [], "status": "unknown", "final_url": "https://lorodinapoli-ealing.com/", "v": 2}
+{"key": "electriccoffee.co.uk", "emails": ["roastery@electriccoffee.co.uk"], "status": "ok", "final_url": "https://www.electriccoffee.co.uk/", "v": 2}
+{"key": "thekingsheadhotellondon.co.uk", "emails": ["stay@thekingsheadhotellondon.co.uk", "office@merithotels.co.uk"], "status": "ok", "final_url": "https://kedisinhotels.com/hotels/the-kings-head-hotel/", "v": 2}
+{"key": "northalafieldscafe.co.uk", "emails": [], "status": "unknown", "final_url": "http://northalafieldscafe.co.uk/", "v": 2}
+{"key": "pulcinellapizzeria.co.uk", "emails": [], "status": "dead", "final_url": "https://www.pulcinellapizzeria.co.uk/", "v": 2}
+{"key": "butlersthai.co.uk", "emails": [], "status": "ok", "final_url": "https://www.butlersthai.co.uk/", "v": 2}
+{"key": "grosvenorpub.com", "emails": ["info@grosvenorpub.com", "grosvenor@queenswayrm.co.uk"], "status": "ok", "final_url": "https://grosvenorpub.com/", "v": 2}
+{"key": "iguanas.co.uk/restaurants/london-ealing", "emails": ["basingstoke@iguanas.co.uk", "bath@iguanas.co.uk", "birmingham@iguanas.co.uk", "brindleyplace@iguanas.co.uk", "resortsworld@iguanas.co.uk", "templestreet@iguanas.co.uk", "bolton@iguanas.co.uk", "bracknell@iguanas.co.uk", "brighton@iguanas.co.uk", "cribbscauseway@iguanas.co.uk", "bristol.hs@iguanas.co.uk", "cambridge@iguanas.co.uk", "canterbury@iguanas.co.uk", "mermaidquay@iguanas.co.uk", "cardiff@iguanas.co.uk", "elveden@iguanas.co.uk", "longleat@iguanas.co.uk", "sherwood@iguanas.co.uk", "woburn@iguanas.co.uk", "chelmsford@iguanas.co.uk", "coventry@iguanas.co.uk", "lakeside@iguanas.co.uk", "leicester@iguanas.co.uk", "liverpool@iguanas.co.uk", "livingston@iguanas.co.uk", "o2@iguanas.co.uk", "wembley@iguanas.co.uk", "deansgate@iguanas.co.uk", "miltonkeynes@iguanas.co.uk", "newcastle@iguanas.co.uk", "newport@iguanas.co.uk", "nottingham@iguanas.co.uk", "peterborough@iguanas.co.uk", "plymouth@iguanas.co.uk", "gunwharf@iguanas.co.uk", "reading@iguanas.co.uk", "meadowhall@iguanas.co.uk", "southampton@iguanas.co.uk", "swansea@iguanas.co.uk", "torquay@iguanas.co.uk", "watford@iguanas.co.uk"], "status": "ok", "final_url": "https://www.iguanas.co.uk/", "v": 2}
+{"key": "georgeanddragonacton.co.uk", "emails": ["info@georgeanddragonacton.co.uk"], "status": "ok", "final_url": "https://georgeanddragonacton.co.uk/", "v": 2}
+{"key": "restaurants.subway.com/united-kingdom/en/london/5-central-buildings", "emails": [], "status": "ok", "final_url": "https://restaurants.subway.com/united-kingdom/en/london/5-central-buildings", "v": 2}
+{"key": "artisancoffee.co.uk", "emails": ["artisanputney@outlook.com", "artisaneastsheen@outlook.com", "putney@artisancoffee.co.uk", "stamfordbrook@artisancoffee.co.uk", "ealing@artisancoffee.co.uk", "eastsheen@artisancoffee.co.uk", "fulham@artisancoffee.co.uk"], "status": "ok", "final_url": "https://artisancoffee.co.uk/", "v": 2}
+{"key": "montysoflondon.co.uk", "emails": ["info@montysoflondon.co.uk", "jwt@montysoflondon.co.uk"], "status": "ok", "final_url": "https://montysoflondon.co.uk/", "v": 2}
+{"key": "goodfortuneclub.co.uk", "emails": ["info@goodfortuneclub.co.uk", "info@goodfortuneclub.co"], "status": "ok", "final_url": "https://www.goodfortuneclub.co.uk/", "v": 2}
+{"key": "phocafe.co.uk/locations/ealing", "emails": ["bakerstreet@phocafe.co.uk", "balham@phocafe.co.uk", "battersea@phocafe.co.uk", "birmingham@phocafe.co.uk", "bluewater@phocafe.co.uk", "borough@phocafe.co.uk", "bournemouth@phocafe.co.uk", "brighton@phocafe.co.uk", "bristol@phocafe.co.uk", "brunswick@phocafe.co.uk", "cambridge@phocafe.co.uk", "canarywharf@phocafe.co.uk", "canterbury@phocafe.co.uk", "cardiff@phocafe.co.uk", "cheltenham@phocafe.co.uk", "cheshireoaks@phocafe.co.uk", "chiswick@phocafe.co.uk", "cg@phocafe.co.uk", "ealing@phocafe.co.uk", "edinburgh@phocafe.co.uk", "lothianroad@phocafe.co.uk", "exeter@phocafe.co.uk", "fulham@phocafe.co.uk", "glasgow@phocafe.co.uk", "greenwich@phocafe.co.uk", "guildford@phocafe.co.uk", "harborne@phocafe.co.uk", "islington@phocafe.co.uk", "kingston@phocafe.co.uk", "leeds@phocafe.co.uk", "leicester@phocafe.co.uk", "lincoln@phocafe.co.uk", "liverpool@phocafe.co.uk", "liverpoolcastlest@phocafe.co.uk", "manchester@phocafe.co.uk", "miltonkeynes@phocafe.co.uk", "newcastle@phocafe.co.uk", "norwich@phocafe.co.uk", "nottingham@phocafe.co.uk", "oxford@phocafe.co.uk", "portsmouth@phocafe.co.uk", "reading@phocafe.co.uk", "sheffield@phocafe.co.uk", "soho@phocafe.co.uk", "spitalfields@phocafe.co.uk", "stalbans@phocafe.co.uk", "stratford@phocafe.co.uk", "tunbridgewells@phocafe.co.uk", "wiltonroad@phocafe.co.uk", "thecut@phocafe.co.uk", "westfield@phocafe.co.uk", "wimbledon@phocafe.co.uk", "york@phocafe.co.uk"], "status": "ok", "final_url": "https://www.phocafe.co.uk/locations/ealing/", "v": 2}
+{"key": "starbucks.com/store-locator/store/1016351/ealing-broadway-haven-green-the-broadway-london-eng-w-5-2-nt-gb", "emails": [], "status": "ok", "final_url": "https://www.starbucks.com/store-locator/store/1016351/ealing-broadway-haven-green-the-broadway-london-eng-w-5-2-nt-gb", "v": 2}
+{"key": "mosaickitchen.co.uk", "emails": ["contact@mosaickitchen.co.uk"], "status": "ok", "final_url": "https://www.mosaickitchen.co.uk/", "v": 2}
+{"key": "caffenero.com/uk/stores/ealing-broadway", "emails": [], "status": "ok", "final_url": "https://www.caffenero.com/uk/stores/ealing-broadway", "v": 2}
+{"key": "molanarestaurant.co.uk", "emails": ["info@molanarestaurant.co.uk"], "status": "ok", "final_url": "https://www.molanarestaurant.co.uk", "v": 2}
+{"key": "11coffee.co.uk", "emails": [], "status": "closed", "final_url": "https://www.11coffee.co.uk/", "v": 2}
+{"key": "thedukeofsussex.co.uk", "emails": ["5678@greeneking.co.uk", "fallback@greeeneking.test"], "status": "ok", "final_url": "https://www.thedukeofsussex.co.uk/", "v": 2}
+{"key": "creamscafe.com/our-stores/ealing", "emails": ["ealing@creamscafe.com"], "status": "ok", "final_url": "https://www.creamscafe.com/our-stores/ealing/", "v": 2}
+{"key": "boofrestaurant.co.uk", "emails": [], "status": "unknown", "final_url": "https://boofrestaurant.co.uk/", "v": 2}
+{"key": "dukeofkent.co.uk", "emails": ["thedukeofkent@fullers.co.uk"], "status": "ok", "final_url": "https://www.dukeofkent.co.uk/", "v": 2}
+{"key": "heavenlydesserts.co.uk", "emails": ["johnsmith@hotmail.com"], "status": "ok", "final_url": "https://www.heavenlydesserts.co.uk", "v": 2}
+{"key": "aromaitalian-restaurant.co.uk", "emails": [], "status": "ok", "final_url": "https://aromaitalian-restaurant.co.uk/", "v": 2}
+{"key": "ploughnorthfields.co.uk", "emails": ["ploughinn@fullers.co.uk"], "status": "ok", "final_url": "https://www.ploughnorthfields.co.uk/", "v": 2}
+{"key": "gingerandmoore.com", "emails": ["hello@gingerandmoore.com"], "status": "ok", "final_url": "https://www.gingerandmoore.com/", "v": 2}
+{"key": "restaurants.subway.com/united-kingdom/en/london/westway-cross-shopping-park", "emails": [], "status": "ok", "final_url": "https://restaurants.subway.com/united-kingdom/en/london/westway-cross-shopping-park", "v": 2}
+{"key": "aeronaut.pub", "emails": [], "status": "unknown", "final_url": "https://www.aeronaut.pub/", "v": 2}
+{"key": "dominos.co.uk/pizza-near-me/london/1322-greenford-road", "emails": [], "status": "unknown", "final_url": "https://www.dominos.co.uk/pizza-near-me/london/1322-greenford-road", "v": 2}
+{"key": "thebakersofealing.com", "emails": ["orders@thebakersofealing.com"], "status": "ok", "final_url": "https://www.thebakersofealing.com/", "v": 2}
+{"key": "roseandcrownealing.co.uk", "emails": ["roseandcrown@fullers.co.uk"], "status": "ok", "final_url": "https://www.roseandcrownealing.co.uk/", "v": 2}
+{"key": "ploughinnnorwoodgreen.co.uk", "emails": [], "status": "unknown", "final_url": "http://www.ploughinnnorwoodgreen.co.uk/", "v": 2}
+{"key": "honestburgers.co.uk/locations/ealing", "emails": [], "status": "ok", "final_url": "https://www.honestburgers.co.uk/locations/ealing/", "v": 2}
+{"key": "rosasthai.com/locations/rosas-thai-restaurant-delivery-takeaway-ealing", "emails": ["ealing@rosasthai.com"], "status": "ok", "final_url": "https://rosasthai.com/locations/ealing-restaurant", "v": 2}
+{"key": "thedodomicropub.com", "emails": ["hello@thedodomicropub.com"], "status": "ok", "final_url": "https://www.thedodomicropub.com/", "v": 2}
+{"key": "moonandmaybe.com", "emails": [], "status": "dead", "final_url": "http://moonandmaybe.com/", "v": 2}
+{"key": "princeofwalessouthall.com", "emails": [], "status": "unknown", "final_url": "https://www.princeofwalessouthall.com/", "v": 2}
+{"key": "dominos.co.uk/pizza-near-me/london/192-victoria-road", "emails": [], "status": "unknown", "final_url": "https://www.dominos.co.uk/pizza-near-me/london/192-victoria-road", "v": 2}
+{"key": "my.morrisons.com/storefinder/302/acton", "emails": [], "status": "ok", "final_url": "https://my.morrisons.com/storefinder/302/acton/", "v": 2}
+{"key": "thestationhousew3.com", "emails": [], "status": "ok", "final_url": "https://www.thestationhousew3.com/", "v": 2}
+{"key": "restaurants.fiveguys.co.uk/greater-london/2-3-central-buildings-the-broadway", "emails": [], "status": "ok", "final_url": "https://restaurants.fiveguys.co.uk/greater-london/2-3-central-buildings-the-broadway", "v": 2}
+{"key": "arisecoffee.co.uk", "emails": ["info@arisecoffee.co.uk"], "status": "ok", "final_url": "https://arisecoffee.co.uk/", "v": 2}
+{"key": "pizzaexpress.com/ealing-bond-street", "emails": ["pizzaexpress@fticonsulting.com"], "status": "ok", "final_url": "https://www.pizzaexpress.com/ealing-bond-street", "v": 2}
+{"key": "lapdung.com", "emails": [], "status": "dead", "final_url": "https://lapdung.com", "v": 2}
+{"key": "parks-kitchen.com", "emails": ["info@parks-kitchen.com", "hammersmith@parks-kitchen.com"], "status": "ok", "final_url": "https://www.parks-kitchen.com/", "v": 2}
+{"key": "haweliofealing.com", "emails": [], "status": "ok", "final_url": "https://www.haweliofealing.com", "v": 2}
+{"key": "cakebox.com/storelocator/ealing", "emails": [], "status": "skipped", "final_url": "https://www.cakebox.com/storelocator/ealing/", "v": 2}
+{"key": "restaurants.subway.com/united-kingdom/en/london/54-broadway", "emails": [], "status": "ok", "final_url": "https://restaurants.subway.com/united-kingdom/en/london/54-broadway", "v": 2}
+{"key": "tonyspita.co.uk", "emails": [], "status": "ok", "final_url": "https://tonyspita.co.uk", "v": 2}
+{"key": "rotikitchen.com", "emails": [], "status": "parked", "final_url": "https://www.rotikitchen.com", "v": 2}
+{"key": "starbucks.com/store-locator/store/1029918/greenford-quay-oldfield-lane-n-unit-g-5-tillermans-court-grenan-square-greenford-", "emails": [], "status": "ok", "final_url": "https://www.starbucks.com/store-locator/store/1029918/greenford-quay-oldfield-lane-n-unit-g-5-tillermans-court-grenan-square-greenford-", "v": 2}
+{"key": "townbikes.co.uk", "emails": [], "status": "ok", "final_url": "https://townbikes.co.uk/", "v": 2}
+{"key": "laruedagrillbar.com", "emails": [], "status": "dead", "final_url": "https://www.laruedagrillbar.com", "v": 2}
+{"key": "torabakeryandpatisserie.co.uk", "emails": [], "status": "ok", "final_url": "https://torabakeryandpatisserie.co.uk/", "v": 2}
+{"key": "dominos.co.uk/pizza-near-me/london/140-broadway", "emails": [], "status": "unknown", "final_url": "https://www.dominos.co.uk/pizza-near-me/london/140-broadway", "v": 2}
+{"key": "mcdonalds.com/gb/en-gb/location/park-royal/park-royal---asda/2-20-western-road/8261569.html", "emails": [], "status": "unknown", "final_url": "https://www.mcdonalds.com/gb/en-gb/location/park-royal/park-royal---asda/2-20-western-road/8261569.html", "v": 2}
+{"key": "gails.com/pages/ealing", "emails": [], "status": "ok", "final_url": "https://gails.com/pages/ealing", "v": 2}
+{"key": "sangaki.co.uk", "emails": [], "status": "ok", "final_url": "https://www.sangaki.co.uk", "v": 2}
+{"key": "havengrill.co.uk", "emails": [], "status": "ok", "final_url": "https://havengrill.co.uk/", "v": 2}
+{"key": "elementcoffee.co.uk", "emails": [], "status": "ok", "final_url": "https://www.elementcoffee.co.uk", "v": 2}
+{"key": "maderorestaurant.co.uk", "emails": ["maderoitalian@gmail.com"], "status": "ok", "final_url": "https://www.maderorestaurant.co.uk/", "v": 2}
+{"key": "itsu.com/location/london/ealing-broadway", "emails": ["julian.metcalfe@itsu.com", "media@itsu.com", "harry.housen@itsu.com", "tom.sugarman@itsu.com", "greg.thorp@itsu.com", "tom.springett@itsu.com", "kinga.buda@itsu.com", "annabel.mackie@itsu.com", "claudia@itsugrocery.com", "chloe@itsugrocery.com", "william@itsugrocery.com", "sam@itsugrocery.com", "romain@itsugrocery.com", "misha@itsugrocery.com", "customerservice@itsugrocery.com", "appfeedback@itsu.com"], "status": "ok", "final_url": "https://www.itsu.com/location/west-london/ealing-broadway/", "v": 2}
+{"key": "ksara.co.uk", "emails": [], "status": "dead", "final_url": "https://ksara.co.uk/", "v": 2}
+{"key": "tapelia.co.uk", "emails": ["info@tapelia.co.uk"], "status": "ok", "final_url": "https://www.tapelia.co.uk/", "v": 2}
+{"key": "wagamama.com/restaurants/london/ealing", "emails": ["press@wagamama.com", "wagamama@allaboutfoodltd.com"], "status": "ok", "final_url": "https://www.wagamama.com/restaurants/london/ealing", "v": 2}
+{"key": "oburger.co.uk", "emails": [], "status": "dead", "final_url": "https://www.oburger.co.uk/", "v": 2}
+{"key": "mosrestaurant.co.uk", "emails": [], "status": "ok", "final_url": "https://www.mosrestaurant.co.uk/", "v": 2}
+{"key": "rangoz.com", "emails": [], "status": "parked", "final_url": "https://rangoz.com/", "v": 2}
+{"key": "sikulofood.com", "emails": [], "status": "dead", "final_url": "https://www.sikulofood.com/", "v": 2}
+{"key": "lavishlounge.uk", "emails": [], "status": "dead", "final_url": "https://www.lavishlounge.uk", "v": 2}
+{"key": "dadasdineracton.com", "emails": [], "status": "dead", "final_url": "https://dadasdineracton.com/", "v": 2}
+{"key": "creperie-cila.co.uk", "emails": [], "status": "ok", "final_url": "https://creperie-cila.co.uk", "v": 2}
+{"key": "mamasnepalesekitchen.co.uk", "emails": ["santosh77@hotmail.co.uk"], "status": "ok", "final_url": "https://mamasnepalesekitchen.co.uk/", "v": 2}
+{"key": "bellamira.co.uk", "emails": ["sales@bellamira.co.uk"], "status": "ok", "final_url": "https://www.bellamira.co.uk", "v": 2}
+{"key": "actoncharcoalgrill.co.uk", "emails": [], "status": "unknown", "final_url": "https://actoncharcoalgrill.co.uk/", "v": 2}
+{"key": "sobeburger.co.uk", "emails": [], "status": "ok", "final_url": "https://www.sobeburger.co.uk/", "v": 2}
+{"key": "dashackpoke.co.uk", "emails": ["hello@dashackpoke.co.uk"], "status": "ok", "final_url": "https://www.dashackpoke.co.uk/", "v": 2}
+{"key": "montysnepalesecuisine.com", "emails": [], "status": "ok", "final_url": "https://montysnepalesecuisine.com/", "v": 2}
+{"key": "cakebox.com/storelocator/acton", "emails": [], "status": "skipped", "final_url": "https://www.cakebox.com/storelocator/acton/", "v": 2}
+{"key": "caffenero.com/uk/stores/ealing-town-hall", "emails": [], "status": "ok", "final_url": "https://www.caffenero.com/uk/stores/ealing-town-hall", "v": 2}
+{"key": "draytoncourtlondon.co.uk", "emails": ["draytoncourt@fullers.co.uk"], "status": "ok", "final_url": "https://www.draytoncourtlondon.co.uk/", "v": 2}
+{"key": "thecoffeehouseacton.co.uk", "emails": [], "status": "ok", "final_url": "https://www.thecoffeehouseacton.co.uk/", "v": 2}
+{"key": "topspizza.co.uk/acton", "emails": [], "status": "ok", "final_url": "https://topspizza.co.uk/acton", "v": 2}
+{"key": "papilloncafe.co.uk", "emails": [], "status": "unknown", "final_url": "https://papilloncafe.co.uk/", "v": 2}
+{"key": "jamaicablue.co.uk", "emails": ["info@jamaicablue.co.uk"], "status": "ok", "final_url": "https://www.jamaicablue.co.uk/", "v": 2}
+{"key": "restaurants.subway.com/united-kingdom/en/london/180-high-street", "emails": [], "status": "ok", "final_url": "https://restaurants.subway.com/united-kingdom/en/london/180-high-street", "v": 2}
+{"key": "chaiwala.co.uk", "emails": [], "status": "unknown", "final_url": "https://chaiwala.co.uk/", "v": 2}
+{"key": "mcdonalds.com/gb/en-gb/location/acton/acton/147151-high-street/8260066.html", "emails": [], "status": "unknown", "final_url": "https://www.mcdonalds.com/gb/en-gb/location/acton/acton/147151-high-street/8260066.html", "v": 2}
+{"key": "old-oak-cafe1937.business.site", "emails": [], "status": "dead", "final_url": "https://old-oak-cafe1937.business.site", "v": 2}
+{"key": "patri.co.uk", "emails": ["hello@patri.co.uk"], "status": "ok", "final_url": "https://patri.co.uk/", "v": 2}
+{"key": "blacksheepcoffee.co.uk/blogs/locations/ealing", "emails": ["press@blacksheepcoffee.co.uk", "l.blakey@blacksheepcoffee.co.uk", "blacksheepcoffee@frmclients.com"], "status": "ok", "final_url": "https://blacksheepcoffee.us/blogs/locations/ealing?shpxid=5bbf6a38-8c96-4786-816d-0bd07e0b113f", "v": 2}
+{"key": "yoyokitchen.co.uk", "emails": ["info@yoyokitchen.co.uk"], "status": "ok", "final_url": "https://www.yoyokitchen.co.uk/", "v": 2}
+{"key": "wineandmousakaealing.co.uk", "emails": [], "status": "unknown", "final_url": "https://wineandmousakaealing.co.uk", "v": 2}
+{"key": "chickencottage.com/chicken-cottage-southall", "emails": ["info@chickencottage.com"], "status": "ok", "final_url": "https://chickencottage.com/chicken-cottage-southall/", "v": 2}
+{"key": "beleafjuicebar.com", "emails": ["info@beleafjuicebar.com"], "status": "ok", "final_url": "https://beleafjuicebar.com/", "v": 2}
+{"key": "topspizza.co.uk/southall", "emails": [], "status": "ok", "final_url": "https://topspizza.co.uk/Southall", "v": 2}
+{"key": "wenzels.co.uk/shop/ealing-broadway", "emails": [], "status": "ok", "final_url": "https://www.wenzels.co.uk/our-stores/ealing-broadway/", "v": 2}
+{"key": "mcdonalds.com/gb/en-gb/location/southall/southall-the-broadway/170-the-broadway/8260904.html", "emails": [], "status": "unknown", "final_url": "https://www.mcdonalds.com/gb/en-gb/location/southall/southall-the-broadway/170-the-broadway/8260904.html", "v": 2}
+{"key": "popeyesuk.com/restaurants/ealing", "emails": [], "status": "ok", "final_url": "https://popeyesuk.com/restaurants/Ealing", "v": 2}
+{"key": "nandos.co.uk/restaurants/greenford", "emails": [], "status": "ok", "final_url": "https://www.nandos.co.uk/restaurants/greenford", "v": 2}
+{"key": "anokhaindian.com", "emails": ["info@anokhaindian.com"], "status": "ok", "final_url": "https://anokhaindian.com/", "v": 2}
+{"key": "papajohns.co.uk/stores/london-ealing", "emails": [], "status": "ok", "final_url": "https://www.papajohns.co.uk/stores/london-ealing", "v": 2}
+{"key": "jmaps.net/cafe-ola", "emails": [], "status": "ok", "final_url": "https://jmaps.net/cafe-ola", "v": 2}
+{"key": "papajohns.co.uk/stores/london-acton", "emails": [], "status": "ok", "final_url": "https://www.papajohns.co.uk/stores/london-acton", "v": 2}
+{"key": "farmhousepizza.co.uk", "emails": [], "status": "ok", "final_url": "https://www.farmhousepizza.co.uk/", "v": 2}
+{"key": "turtlebay.co.uk/restaurants/ealing", "emails": [], "status": "unknown", "final_url": "https://turtlebay.co.uk/restaurants/ealing", "v": 2}
+{"key": "nodrama.london", "emails": [], "status": "ok", "final_url": "https://www.nodrama.london/", "v": 2}
+{"key": "bymaxw3.com", "emails": ["hello@bymaxw3.com"], "status": "ok", "final_url": "https://www.bymaxw3.com/", "v": 2}
+{"key": "blondinconsortium.org.uk", "emails": ["info@blondinconsortium.org.uk"], "status": "ok", "final_url": "https://www.blondinconsortium.org.uk/", "v": 2}
+{"key": "theterracerestaurants.com", "emails": ["marwan@theterracerestaurants.com"], "status": "ok", "final_url": "https://www.terracebakery.com/", "v": 2}
+{"key": "mahabacafe.org", "emails": ["info@mahabacafe.org"], "status": "ok", "final_url": "https://www.mahabacafe.org/", "v": 2}
+{"key": "pizzagogo.co.uk/stores/acton", "emails": ["cs@pizzagogo.net"], "status": "ok", "final_url": "https://www.pizzagogo.co.uk/stores/acton", "v": 2}
+{"key": "greeneking.co.uk/pubs/middlesex/myllet-arms", "emails": [], "status": "skipped", "final_url": "https://www.greeneking.co.uk/pubs/middlesex/myllet-arms", "v": 2}
+{"key": "joeblakes.com", "emails": [], "status": "ok", "final_url": "https://joeblakes.com/", "v": 2}
+{"key": "emathcafe.com", "emails": ["contact@emathcafe.com"], "status": "ok", "final_url": "https://emathcafe.com", "v": 2}
+{"key": "cafepaolo.has.restaurant", "emails": [], "status": "ok", "final_url": "https://cafepaolo.has.restaurant", "v": 2}
+{"key": "bagelfactory.co.uk/locations/london/ealing-broadway", "emails": [], "status": "dead", "final_url": "https://bagelfactory.co.uk/locations/london/ealing-broadway/", "v": 2}
+{"key": "northchina.co.uk", "emails": [], "status": "ok", "final_url": "https://www.northchina.co.uk/", "v": 2}
+{"key": "mcdonalds.com/gb/en-gb/location/alperton/alperton/quill-street/8260504.html", "emails": [], "status": "unknown", "final_url": "https://www.mcdonalds.com/gb/en-gb/location/alperton/alperton/quill-street/8260504.html", "v": 2}
+{"key": "uspizza.co.uk", "emails": ["admin@uspizza.co.uk"], "status": "ok", "final_url": "https://uspizza.co.uk/", "v": 2}
+{"key": "nandos.co.uk/restaurants/park-royal", "emails": [], "status": "ok", "final_url": "https://www.nandos.co.uk/restaurants/park-royal", "v": 2}
+{"key": "finnegansworld.co.uk", "emails": ["info@finnegansworld.co.uk"], "status": "ok", "final_url": "https://www.finnegansworld.co.uk/", "v": 2}
+{"key": "mcdonalds.com/gb/en-gb/location/northolt/target-public-house-a40/256-church-road/8260484.html", "emails": [], "status": "unknown", "final_url": "https://www.mcdonalds.com/gb/en-gb/location/northolt/target-public-house-a40/256-church-road/8260484.html", "v": 2}
+{"key": "dragoninnorder.co.uk", "emails": [], "status": "unknown", "final_url": "https://dragoninnorder.co.uk/", "v": 2}
+{"key": "sizzlingpubs.co.uk/findapub/london/thecrownnortholt", "emails": [], "status": "unknown", "final_url": "http://www.sizzlingpubs.co.uk/findapub/london/thecrownnortholt", "v": 2}
+{"key": "harehoundspub.co.uk", "emails": [], "status": "unknown", "final_url": "http://www.harehoundspub.co.uk/", "v": 2}
+{"key": "yumasushi.co.uk", "emails": ["info@yumasushi.co.uk"], "status": "ok", "final_url": "https://www.yumasushi.co.uk/", "v": 2}
+{"key": "mcdonalds.com/gb/en-gb/location/greenford/greenford-2/unit-13-westway-cross-shopping-park/8261396.html", "emails": [], "status": "unknown", "final_url": "https://www.mcdonalds.com/gb/en-gb/location/greenford/greenford-2/unit-13-westway-cross-shopping-park/8261396.html", "v": 2}
+{"key": "eatdrinkpulp.com", "emails": ["theorganisedpeople@eatdrinkpulp.com", "thenicepeople@eatdrinkpulp.com"], "status": "ok", "final_url": "https://eatdrinkpulp.com/", "v": 2}
+{"key": "locations.burgerking.co.uk/london/royale-leisure-park-kendal-avenue", "emails": [], "status": "ok", "final_url": "https://locations.burgerking.co.uk/london/royale-leisure-park-kendal-avenue", "v": 2}
+{"key": "viaduct-hanwell.co.uk", "emails": ["theviaduct@hotmail.com"], "status": "ok", "final_url": "https://www.viaduct-hanwell.co.uk/", "v": 2}
+{"key": "chickenluxelondon.com", "emails": [], "status": "unknown", "final_url": "https://www.chickenluxelondon.com/", "v": 2}
+{"key": "mcdonalds.com/gb/en-gb/location/southall/hanwell/iron-bridge/8260722.html", "emails": [], "status": "unknown", "final_url": "https://www.mcdonalds.com/gb/en-gb/location/southall/hanwell/iron-bridge/8260722.html", "v": 2}
+{"key": "goodapples.london", "emails": [], "status": "ok", "final_url": "https://www.goodapples.london/", "v": 2}
+{"key": "jdwetherspoon.com/hotels/england/london/the-greenwood-hotel", "emails": [], "status": "skipped", "final_url": "https://www.jdwetherspoon.com/hotels/england/london/the-greenwood-hotel", "v": 2}
+{"key": "harvester.co.uk/restaurants/london/themandevillearmsnortholt", "emails": [], "status": "unknown", "final_url": "https://www.harvester.co.uk/restaurants/london/themandevillearmsnortholt", "v": 2}
+{"key": "pepes.co.uk/pepes-piri-piri-stores/ealing", "emails": [], "status": "ok", "final_url": "https://pepes.co.uk/pepes-piri-piri-stores/", "v": 2}
+{"key": "kfc.co.uk/kfc-near-me/ealing-mall", "emails": [], "status": "unknown", "final_url": "https://www.kfc.co.uk/kfc-near-me/ealing-mall", "v": 2}
+{"key": "mcdonalds.com/gb/en-gb/location/acton/north-acton/12-leamington-park/8261507.html", "emails": [], "status": "unknown", "final_url": "https://www.mcdonalds.com/gb/en-gb/location/acton/north-acton/12-leamington-park/8261507.html", "v": 2}
+{"key": "levantlondon.com", "emails": [], "status": "unknown", "final_url": "https://www.levantlondon.com/", "v": 2}
+{"key": "boboealing.com", "emails": ["enquiries@bobosocial.com", "events@bobosocial.com", "marketing@bobosocial.com"], "status": "ok", "final_url": "https://boboealing.com/", "v": 2}
+{"key": "facebook.com/italiancornerlondon", "emails": [], "status": "skipped", "final_url": "https://www.facebook.com/italiancornerlondon/", "v": 2}
+{"key": "starbucks.com/store-locator/store/1015387/ealing-common-uxbridge-road-433-435-uxbridge-road-ealing-common-london-eng-w-5", "emails": [], "status": "ok", "final_url": "https://www.starbucks.com/store-locator/store/1015387/ealing-common-uxbridge-road-433-435-uxbridge-road-ealing-common-london-eng-w-5", "v": 2}
+{"key": "grillvillerestaurant.co.uk", "emails": [], "status": "ok", "final_url": "https://www.grillvillerestaurant.co.uk/", "v": 2}
+{"key": "nepalrestaurant.co.uk", "emails": [], "status": "unknown", "final_url": "https://nepalrestaurant.co.uk/", "v": 2}
+{"key": "costa.co.uk/locations/store-locator/map", "emails": [], "status": "unknown", "final_url": "https://www.costa.co.uk/locations/store-locator/map?latitude=51.512981&longitude=-0.303368", "v": 2}
+{"key": "redlobster.uk", "emails": [], "status": "unknown", "final_url": "https://redlobster.uk/", "v": 2}
+{"key": "royalnawaab.com/london", "emails": ["london@royalnawaab.com", "manchester@royalnawaab.com", "perivale@royalnawaab.com", "ilford@royalnawaab.com", "pyramid@royalnawaab.com"], "status": "ok", "final_url": "https://royalnawaab.com/perivale/", "v": 2}
+{"key": "atlantisgreek.co.uk", "emails": ["info@atlantisgreek.co.uk"], "status": "ok", "final_url": "https://atlantisgreek.co.uk/", "v": 2}
+{"key": "pizzapitshangerlane.com", "emails": ["pizzahouse2011@hotmail.co.uk", "m2037@icloud.com"], "status": "ok", "final_url": "https://pizzapitshangerlane.com/en", "v": 2}
+{"key": "tokri.co.uk", "emails": [], "status": "ok", "final_url": "https://www.tokri.co.uk/", "v": 2}
+{"key": "theswanchiswick.co.uk", "emails": [], "status": "ok", "final_url": "https://www.theswanchiswick.co.uk", "v": 2}
+{"key": "madhus.co.uk/our-restaurants/southall", "emails": ["info@madhus.co.uk"], "status": "ok", "final_url": "https://www.madhus.co.uk/restaurants/madhus-southall/", "v": 2}
+{"key": "karwanrestaurant.com/southall-branch", "emails": [], "status": "unknown", "final_url": "https://karwanrestaurant.com/southall-branch/", "v": 2}
+{"key": "foresterealing.co.uk", "emails": ["forester.ealing@fullers.co.uk"], "status": "ok", "final_url": "https://www.foresterealing.co.uk/", "v": 2}
+{"key": "sanjhachullasouthall.com", "emails": [], "status": "ok", "final_url": "https://www.sanjhachullasouthall.com/", "v": 2}
+{"key": "hungryhorse.co.uk/pubs/middlesex/ballot-box", "emails": [], "status": "ok", "final_url": "https://www.hungryhorse.co.uk/pubs-near-me", "v": 2}
+{"key": "kfc.co.uk/kfc-near-me/alperton-western-avenue", "emails": [], "status": "unknown", "final_url": "https://www.kfc.co.uk/kfc-near-me/alperton-western-avenue", "v": 2}
+{"key": "costa.co.uk/stores/alperton-dt", "emails": [], "status": "unknown", "final_url": "https://www.costa.co.uk/stores/alperton-dt", "v": 2}
+{"key": "abuzaad.co.uk", "emails": [], "status": "unknown", "final_url": "https://www.abuzaad.co.uk", "v": 2}
+{"key": "pizzahut.co.uk/huts/uk-1/7582-south-ealing", "emails": [], "status": "unknown", "final_url": "https://www.pizzahut.co.uk/huts/uk-1/7582-south-ealing/", "v": 2}
+{"key": "costa.co.uk/stores/acton", "emails": [], "status": "unknown", "final_url": "https://www.costa.co.uk/stores/acton", "v": 2}
+{"key": "caffeineco.co.uk/greenford-shop", "emails": [], "status": "unknown", "final_url": "https://caffeineco.co.uk/greenford-shop/", "v": 2}
+{"key": "kfc.co.uk/kfc-near-me/acton-high-street", "emails": [], "status": "unknown", "final_url": "https://www.kfc.co.uk/kfc-near-me/acton-high-street", "v": 2}
+{"key": "kfc.co.uk/kfc-near-me/southall-high-street", "emails": [], "status": "unknown", "final_url": "https://www.kfc.co.uk/kfc-near-me/southall-high-street", "v": 2}
+{"key": "pizzahut.co.uk/huts/uk-1/883-southall-halal", "emails": [], "status": "unknown", "final_url": "https://www.pizzahut.co.uk/huts/uk-1/883-southall-halal/", "v": 2}
+{"key": "frenchtacos.co.uk", "emails": [], "status": "unknown", "final_url": "https://frenchtacos.co.uk/", "v": 2}
