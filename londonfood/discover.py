@@ -47,7 +47,7 @@ def candidates(name, place="", categories=()):
     """Candidate domains for a venue, most likely first (at most ~24)."""
     clean = DROP_WORDS.sub(" ", name.split("(")[0].split(" - ")[0])
     base = slug(clean)
-    if len(base) < 4 or len(base) > 40:
+    if not usable(name) or len(base) < 4 or len(base) > 40:
         return []
     words = re.findall(r"[a-z0-9]+", slug_words(clean).replace("&", " and ").replace("'", ""))
     hyphen = "-".join(words) if len(words) > 1 else ""
