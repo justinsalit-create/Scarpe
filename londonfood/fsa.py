@@ -45,9 +45,15 @@ def authority_ids(cache_dir):
         return json.load(f)
 
 
-def fetch_borough(short_name, cache_dir):
+def fetch_authority(name, cache_dir):
+    """Establishments for an authority outside London (e.g. Tandridge), looked up by name."""
+    auths = [a for a in _get_json("/Authorities")["authorities"] if a["Name"] == name]
+    return fetch_borough(name, cache_dir, {name: auths[0]["LocalAuthorityId"]}) if auths else []
+
+
+def fetch_borough(short_name, cache_dir, ids=None):
     """All relevant FSA establishments for a borough (cached)."""
-    ids = authority_ids(cache_dir)
+    ids = ids or authority_ids(cache_dir)
     if short_name not in ids:
         return []
     path = os.path.join(cache_dir, "fsa", short_name.replace(" ", "_") + ".json")

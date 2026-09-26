@@ -14,7 +14,7 @@ import sys
 import threading
 import urllib.parse
 
-from . import emails, fsa, osm, places
+from . import areas, emails, fsa, osm, places
 from .boroughs import BOROUGHS, short_name
 from .categories import CATEGORIES, categorize
 
@@ -62,14 +62,28 @@ def resolve_boroughs(names):
     return picked
 
 
-def collect(boroughs, cache_dir, wanted, use_fsa=True):
+# Areas from data/london_areas.csv that lie outside the 33 borough boundaries: searched around a point.
+EXTRA_AREAS = [{"area": "Hamsey Green", "borough": "Tandridge", "fsa_authority": "Tandridge", "radius": 1200}]
+
+
+def collect(boroughs, cache_dir, wanted, use_fsa=True, extras=(), places=()):
+    """Venues per borough from OSM (+ FSA register), plus any extra areas outside the boroughs."""
+    units = [(short_name(b), lambda b=b: osm.fetch_borough(b, cache_dir),
+              lambda b=b: fsa.fetch_borough(short_name(b), cache_dir), None) for b in boroughs]
+    for x in extras:
+        pt = next(((p["lat"], p["lon"]) for p in places if p.get("tags", {}).get("name") == x["area"]), None)
+        if not pt:
+            print(f"  could not locate extra area {x['area']}", file=sys.stderr)
+            continue
+        units.append((x["borough"], lambda x=x, pt=pt: osm.fetch_around(x["area"], *pt, x["radius"], cache_dir),
+                      lambda x=x: fsa.fetch_authority(x["fsa_authority"], cache_dir), (pt, x["radius"])))
+
     venues, seen = [], set()
-    for i, b in enumerate(boroughs, 1):
-        elements = osm.fetch_borough(b, cache_dir)
+    for i, (label, get_osm, get_fsa, circle) in enumerate(units, 1):
         kept = closed = 0
         candidates = []
-        for el in elements:
-            v = osm.to_venue(el, short_name(b))
+        for el in get_osm():
+            v = osm.to_venue(el, label)
             if not v["name"]:
                 continue
             if osm.is_closed(v["tags"]):
@@ -81,15 +95,18 @@ def collect(boroughs, cache_dir, wanted, use_fsa=True):
         if use_fsa:
             known = {fsa.match_key(v["name"], v["postcode"]) for v in candidates if v["postcode"]}
             try:
-                ests = fsa.fetch_borough(short_name(b), cache_dir)
+                ests = get_fsa()
             except Exception as e:
-                print(f"  FSA register unavailable for {short_name(b)}: {e}", file=sys.stderr)
+                print(f"  FSA register unavailable for {label}: {e}", file=sys.stderr)
                 ests = []
             for est in ests:
-                v = fsa.to_venue(est, short_name(b))
-                if v and v["name"] and fsa.match_key(v["name"], v["postcode"]) not in known:
-                    candidates.append(v)
-                    fsa_added += 1
+                v = fsa.to_venue(est, label)
+                if not v or not v["name"] or fsa.match_key(v["name"], v["postcode"]) in known:
+                    continue
+                if circle and not (v["lat"] and areas.within(circle[0], (v["lat"], v["lon"]), circle[1])):
+                    continue
+                candidates.append(v)
+                fsa_added += 1
         for v in candidates:
             v["categories"] = categorize(v["tags"])
             if wanted and not wanted & set(v["categories"]):
@@ -103,7 +120,7 @@ def collect(boroughs, cache_dir, wanted, use_fsa=True):
             seen |= keys
             venues.append(v)
             kept += 1
-        print(f"[{i}/{len(boroughs)}] {short_name(b)}: {kept} venues ({fsa_added} extra from the FSA register, "
+        print(f"[{i}/{len(units)}] {label}: {kept} venues ({fsa_added} extra from the FSA register, "
               f"{closed} closed skipped)", file=sys.stderr)
     return venues
 
@@ -147,9 +164,9 @@ def enrich(venues, cache, workers, google_key):
             v["other_emails"] = [e for e in v["other_emails"] + found if e != v["email"]]
 
 
-EMAIL_FIELDS = ["email", "name", "borough", "categories", "website", "other_emails", "email_source", "source", "locations",
+EMAIL_FIELDS = ["email", "name", "borough", "area", "categories", "website", "other_emails", "email_source", "source", "locations",
                 "phone", "address", "postcode", "osm_url"]
-WEBSITE_FIELDS = ["website", "website_type", "name", "borough", "categories", "email", "locations", "phone", "address",
+WEBSITE_FIELDS = ["website", "website_type", "name", "borough", "area", "categories", "email", "locations", "phone", "address",
                   "postcode", "source", "facebook", "instagram", "osm_url"]
 
 
@@ -212,7 +229,16 @@ def main(argv=None):
 
     os.makedirs(args.out, exist_ok=True)
     os.makedirs(args.cache, exist_ok=True)
-    venues = collect(resolve_boroughs(args.boroughs), args.cache, set(args.categories or []), not args.no_fsa)
+    try:
+        places = areas.fetch_places(args.cache)
+    except Exception as e:
+        print(f"Neighbourhood lookup unavailable ({e}); the area column will use postcode districts", file=sys.stderr)
+        places = []
+    full_run = not args.boroughs
+    venues = collect(resolve_boroughs(args.boroughs), args.cache, set(args.categories or []), not args.no_fsa,
+                     EXTRA_AREAS if full_run else (), places)
+    area_list = areas.locate(areas.load_areas(), places, venues)
+    areas.assign(venues, area_list)
     for v in venues:
         split_osm_email(v)
     if not args.no_crawl:
@@ -231,6 +257,12 @@ def main(argv=None):
         name = b.replace(" ", "_")
         write_csv(os.path.join(by_borough, f"{name}_emails.csv"), [r for r in email_rows if r["borough"] == b], EMAIL_FIELDS)
         write_csv(os.path.join(by_borough, f"{name}_websites.csv"), [r for r in site_rows if r["borough"] == b], WEBSITE_FIELDS)
+
+    with open(os.path.join(args.out, "area_summary.csv"), "w", newline="", encoding="utf-8") as f:
+        w = csv.DictWriter(f, fieldnames=["borough", "area", "emails", "websites"])
+        w.writeheader()
+        w.writerows(r for r in areas.summary(email_rows, site_rows, area_list)
+                    if full_run or r["borough"] in {v["borough"] for v in venues})
 
     either = sum(1 for v in open_venues if v["email"] or v["website"])
     print(f"\n{len(venues)} venues found, {closed} dropped as closed (dead/closed website), "

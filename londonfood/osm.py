@@ -29,13 +29,26 @@ out center tags;
 """
 
 
+AROUND_QUERY = QUERY.replace('area["boundary"="administrative"]["name"="{borough}"]->.b;\n', "").replace(
+    "(area.b)", "(around:{radius},{lat},{lon})")
+
+
+def fetch_around(label, lat, lon, radius, cache_dir):
+    """Venues within `radius` metres of a point (for areas outside the borough boundaries)."""
+    return _fetch(label, AROUND_QUERY.format(radius=radius, lat=lat, lon=lon), cache_dir)
+
+
 def fetch_borough(borough, cache_dir):
     """Return the list of OSM elements for a borough, cached as JSON on disk."""
-    path = os.path.join(cache_dir, "osm", borough.replace(" ", "_") + ".json")
+    return _fetch(borough, QUERY.format(borough=borough), cache_dir)
+
+
+def _fetch(label, query, cache_dir):
+    path = os.path.join(cache_dir, "osm", label.replace(" ", "_") + ".json")
     if os.path.exists(path):
         with open(path) as f:
             return json.load(f)
-    body = urllib.parse.urlencode({"data": QUERY.format(borough=borough)}).encode()
+    body = urllib.parse.urlencode({"data": query}).encode()
     last_err = None
     for attempt in range(6):
         url = OVERPASS_URLS[attempt % len(OVERPASS_URLS)]
@@ -47,7 +60,7 @@ def fetch_borough(borough, cache_dir):
             last_err = e
             time.sleep(10 * (attempt + 1))
     else:
-        raise RuntimeError(f"Overpass failed for {borough}: {last_err}")
+        raise RuntimeError(f"Overpass failed for {label}: {last_err}")
     os.makedirs(os.path.dirname(path), exist_ok=True)
     with open(path, "w") as f:
         json.dump(elements, f)

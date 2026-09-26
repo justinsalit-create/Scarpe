@@ -137,6 +137,7 @@ class TestEndToEnd(unittest.TestCase):
         ]
         with tempfile.TemporaryDirectory() as d, \
                 mock.patch.object(osm, "fetch_borough", return_value=elements), \
+                mock.patch("londonfood.areas.fetch_places", return_value=[]), \
                 mock.patch.object(emails, "find_email", side_effect=lambda u: {
                     "pizza.place": ("ciao@pizza.place", ["ciao@pizza.place"], "ok", "https://pizza.place/"),
                     "oldbistro.com": ("", [], "closed", "https://oldbistro.com/")}[cli.CrawlCache.key(u)]):
@@ -149,8 +150,8 @@ class TestEndToEnd(unittest.TestCase):
             self.assertTrue(web.startswith("website,website_type,name,"))
             self.assertIn("hi@crown.pub,The Crown", em)
             # pizza place: email found on its site, 2 branches share it; also listed in websites file
-            self.assertIn("ciao@pizza.place,Pizza Place,Camden,Pizza,https://pizza.place,,venue website,openstreetmap,2,", em)
-            self.assertIn("https://pizza.place,own site,Pizza Place,Camden,Pizza,ciao@pizza.place,2,", web)
+            self.assertIn("ciao@pizza.place,Pizza Place,Camden,,Pizza,https://pizza.place,,venue website,openstreetmap,2,", em)
+            self.assertIn("https://pizza.place,own site,Pizza Place,Camden,,Pizza,ciao@pizza.place,2,", web)
             self.assertIn("https://www.facebook.com/tacotruckldn,facebook,Taco Truck", web)
             for gone in ("No Contact", "Old Bistro", "Gone Cafe", "Kentish Town"):
                 self.assertNotIn(gone, em + web)
@@ -174,6 +175,19 @@ class TestEndToEnd(unittest.TestCase):
         self.assertEqual(set(names), {"The Golden Wok", "Bob's Burger Van", "Brick Lane Beigel Bake"})
         self.assertIn("Food truck", names["Bob's Burger Van"]["categories"])
         self.assertIn("Bagels", names["Brick Lane Beigel Bake"]["categories"])
+
+    def test_area_assignment(self):
+        from londonfood import areas
+        area_list = [a for a in areas.load_areas() if a["borough"] == "Camden"]
+        places = [{"lat": 51.5390, "lon": -0.1426, "tags": {"name": "Camden Town"}},
+                  {"lat": 51.5560, "lon": -0.1780, "tags": {"name": "Hampstead"}}]
+        venues = [{"borough": "Camden", "lat": 51.5395, "lon": -0.1430, "postcode": "NW1 7JR"},
+                  {"borough": "Camden", "lat": 51.5555, "lon": -0.1775, "postcode": "NW3 1QE"},
+                  {"borough": "Camden", "lat": None, "lon": None, "postcode": "NW5 2AA"}]
+        areas.assign(venues, areas.locate(area_list, places, venues))
+        self.assertEqual([v["area"] for v in venues], ["Camden Town", "Hampstead", "Gospel Oak / Kentish Town"])
+        self.assertEqual(areas.clean_name("Burroughs, The"), ["The Burroughs"])
+        self.assertEqual(areas.districts("E1W 1AA"), {"E1W", "E1"})
 
     def test_osm_email_list_split(self):
         v = {"email": "info@a.com; Bookings@A.com", "website": "a.com"}
