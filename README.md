@@ -28,8 +28,10 @@ Takeaway, Bar or Restaurant. A venue can have more than one category, for exampl
    homepage and up to 4 contact, about or booking pages, and collects `mailto:` links, plain-text
    addresses and Cloudflare-obfuscated addresses. It respects `robots.txt`. Where possible it picks
    an address on the venue's own domain, preferring `info@`, `hello@`, `bookings@` and similar.
-   Links to Facebook, Instagram, Deliveroo, OpenTable and other aggregators are kept as the website
-   but not crawled.
+   Social media pages (Facebook, Instagram, X, TikTok, Linktree) and delivery, booking or review
+   platforms (Just Eat, Deliveroo, OpenTable, Tripadvisor, Google Maps) are never listed as a
+   venue's website. Those venues go through website discovery instead, so their real site can be
+   found.
 3. **No closed venues:** it drops a venue when OSM marks it disused, abandoned or closed, gives it an
    end date in the past, or has "closed" in its name. It also drops a venue when its website no
    longer exists (the domain is gone, or the site returns 404/410), is a parked or for-sale domain,
@@ -64,7 +66,7 @@ Output: two separate files, both de-duplicated.
   borough, categories, website, other_emails, email_source, locations, phone, address, postcode,
   osm_url`.
 - `output/london_food_websites.csv`: one row per unique venue website. Columns: `website, name,
-  borough, categories, email, locations, phone, address, postcode, facebook, instagram, osm_url`.
+  borough, area, categories, email, locations, phone, address, postcode, source, osm_url`.
 - `output/by_borough/<Borough>_emails.csv` and `<Borough>_websites.csv`: the same data split by
   borough.
 
