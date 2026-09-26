@@ -2,6 +2,7 @@ website,website_type,name,borough,area,categories,email,locations,phone,address,
 https://139fika.com,own site,139 Fika,Southwark,Peckham,Cafe,info@139fika.com,1,+442081432226,139 Bellenden Road,SE15 4DH,openstreetmap,,,https://www.openstreetmap.org/way/73045837
 https://www.1751.co.uk/,own site,1751 Distillery Bar & Kitchen,Southwark,Southwark,Restaurant,,1,,,,openstreetmap,,,https://www.openstreetmap.org/node/9919330055
 https://www.2210bynattycancook.com/,own site,2210 By NattyCanCook,Southwark,Herne Hill,Restaurant,2210@nattycancook.com,1,+44 20 3713 5108,75-79 Norwood Road,SE24 9AA,openstreetmap,,,https://www.openstreetmap.org/way/177113748
+https://addiskitchen.com/,"own site (found by name, postcode verified)",Addis Kitchen,Southwark,Bermondsey,Restaurant,,1,,244 Old Kent Road,SE1 5UB,openstreetmap,,,https://www.openstreetmap.org/node/8232615817
 https://www.theafterschoolcookieclub.com/,own site,After School Cookie Club,Southwark,Bankside,Bakery,hello@theafterschoolcookieclub.com,1,,22 Dirty Lane,SE1 9PA,openstreetmap,,,https://www.openstreetmap.org/node/11557826351
 https://www.agora.london/,own site,Agora,Southwark,Southwark,Greek,hello@agora.london,1,,2-4 Bedale Street,SE1 9AL,openstreetmap,,,https://www.openstreetmap.org/node/13563937201
 https://www.akaralondon.co.uk/,own site,Akara,Southwark,Bankside,Restaurant,info@akaralondon.co.uk,1,,18 Stoney Street,SE1 9AD,openstreetmap,,,https://www.openstreetmap.org/node/11676429530
@@ -21,7 +22,7 @@ https://www.arthurhoopers.co.uk/,"own site (found by name, postcode verified)",A
 https://artusi.co.uk/,"own site (found by name, postcode verified)",Artusi,Southwark,Peckham,Italian,info@artusi.co.uk,1,,161 Bellenden Road,SE15 4DH,openstreetmap,,,https://www.openstreetmap.org/way/73045976
 https://assenheims.co.uk/,"own site (found by name, postcode verified)",Assenheims,Southwark,Southwark,Takeaway,,1,,8 London Bridge Street,SE1 9SG,openstreetmap,,,https://www.openstreetmap.org/node/4867163668
 https://www.bstreetdeli.co.uk/,own site,b-street deli,Southwark,Southwark,Deli,info@bstreetdeli.co.uk,1,+44 20 7403 3943,88 Bermondsey Street,SE1 3UB,openstreetmap,,,https://www.openstreetmap.org/way/101328397
-https://www.baccalalondon.co.uk/,own site,baccalà,Southwark,Walworth,Restaurant,info@baccalalondon.co.uk,1,,,,openstreetmap,,,https://www.openstreetmap.org/node/9977284957
+https://www.baccalalondon.co.uk/,"own site (found by name, postcode verified)",Baccala,Southwark,Bermondsey,Restaurant,info@baccalalondon.co.uk,2,,"Unit B3, 194-204, Bermondsey Street",SE1 3TQ,food standards agency,,,https://ratings.food.gov.uk/business/1210951
 https://www.badmooncafe.co.uk/,own site,Bad Moon Cafe,Southwark,Elephant and Castle,Cafe,,1,,159A Great Dover Street,SE1 4GZ,openstreetmap,,,https://www.openstreetmap.org/node/423598119
 https://www.bakewithmonia.com/,own site,Bake with Monia,Southwark,Peckham,Cafe,bakewithmoniauk@gmail.com,1,,,,openstreetmap,,,https://www.openstreetmap.org/node/13175150801
 https://balabaya.co.uk,own site,Bala Baya,Southwark,Southwark,Restaurant,bookings@balabaya.co.uk,1,+44 20 8001 7015,Old Union Yard Arches,SE1 0LR,openstreetmap,,,https://www.openstreetmap.org/node/9537464640
@@ -29,6 +30,7 @@ https://www.thelalit.com/the-lalit-london/eat-and-drink/baluchi/,own site,Baluch
 https://www.bancone.co.uk/,own site,Bancone Borough Yards,Southwark,Bankside,Restaurant,host@bancone.co.uk,3,,Stoney Street,SE1 9AD,openstreetmap,,,https://www.openstreetmap.org/node/11676429529
 https://www.barandblock.co.uk/en-gb/locations/london-southwark,own site,Bar + Block,Southwark,Southwark,Breakfast; Steak,,1,+44 20 3928 8288,Ufford Street,SE1 8LE,openstreetmap,barandblock,barandblock,https://www.openstreetmap.org/node/9949098463
 http://www.bardouro.co.uk/,own site,Bar Douro,Southwark,Southwark,Bar,londonbridge@bardouro.co.uk,1,,Flat Iron Square,SE1 1TD,openstreetmap,,,https://www.openstreetmap.org/way/1183431715
+https://bartozino.com/,"own site (found by name, postcode verified)",Bar tozino,Southwark,Bermondsey,Restaurant,,1,,"41, Maltby Street",SE1 3PA,food standards agency,,,https://ratings.food.gov.uk/business/1522039
 https://baranglondon.com/,own site,BARANG,Southwark,Southwark,Asian,,1,,8 Bedale Street,,openstreetmap,,,https://www.openstreetmap.org/node/13882941901
 https://bartonsuk.com/,own site,Bartons,Southwark,Bermondsey,Cafe,info@bartonsuk.com,1,,25 Dockhead,SE1 2BS,openstreetmap,,,https://www.openstreetmap.org/node/9338919147
 https://batterseabrew.co.uk/,own site,Battersea Brewery,Southwark,Surrey Quays,Pub,hello@batterseabrew.co.uk,2,,8 Almond Road,SE16 3LR,openstreetmap,,,https://www.openstreetmap.org/node/6795775062
@@ -118,6 +120,7 @@ https://www.ekobrewery.com/,"own site (found by name, postcode verified)",Eko br
 https://elliotscafe.com/,own site,Elliot's,Southwark,Southwark,Cafe,,1,,12 Stoney Street,SE1 9AD,openstreetmap,,,https://www.openstreetmap.org/node/14181043729
 https://emacatering.co.uk/,"own site (found by name, postcode verified)",Ema catering ltd,Southwark,Peckham,Food truck,emine@emacatering.co.uk,1,,"149-151, Copeland Road",SE15 3SN,food standards agency,,,https://ratings.food.gov.uk/business/363150
 https://www.facebook.com/pg/empireloungebarandrestaurant/,facebook,Empire Lounge,Southwark,Peckham,Restaurant,empirelounge@yahoo.com,1,+44 20 7358 1745,777-787 Old Kent Road,SE15 1NZ,openstreetmap,https://www.facebook.com/pg/empireloungebarandrestaurant/,,https://www.openstreetmap.org/node/5842196048
+https://www.enatguada.com/,"own site (found by name, postcode verified)",Enat Guada,Southwark,Bermondsey,Restaurant,,1,,248 Old Kent Road,SE1 5UB,openstreetmap,,,https://www.openstreetmap.org/node/13859056998
 https://www.ericslondon.com/,own site,Erics's,Southwark,East Dulwich,Bakery,hello@ericslondon.com,1,,20 Upland Road,SE22 9EF,openstreetmap,,,https://www.openstreetmap.org/way/62451466
 https://estindia.co.uk/,"own site (found by name, postcode verified)",Est. India,Southwark,Southwark,Indian,info@estindia.co.uk,1,,73-75 Union Street,SE1 1SG,openstreetmap,,,https://www.openstreetmap.org/node/5296303423
 https://www.thecolombiancoffeeco.org/,own site,Ethical Caffeine,Southwark,Southwark,Cafe,,1,,Flat Iron Square,SE1 0AB,openstreetmap,,Ethicalcaffeine,https://www.openstreetmap.org/node/5493180507
@@ -132,6 +135,7 @@ https://restaurants.fiveguys.co.uk/greater-london/unit-2,own site,Five Guys,Sout
 https://flatironsteak.co.uk/restaurant/borough/,own site,Flat Iron,Southwark,Bankside,Steak,sustainability@flatironsteak.co.uk,1,,11 Clink Street,SE1 9DG,openstreetmap,,,https://www.openstreetmap.org/node/3054326508
 https://flatironsteak.co.uk/restaurant/waterloo/,own site,Flat Iron,Southwark,Southwark,Steak,sustainability@flatironsteak.co.uk,1,,41-45 The Cut,SE1 8LF,openstreetmap,,,https://www.openstreetmap.org/node/13116959724
 https://www.flatironsquare.co.uk,own site,Flat Iron Square,Southwark,Southwark,Food court,,2,,45 Southwark Street,SE1 9HP,openstreetmap,,,https://www.openstreetmap.org/way/1183431718
+https://www.flavourhut.uk/,"own site (found by name, postcode verified)",Flavour Hut,Southwark,Bermondsey,Restaurant,contact@flavourhut.uk,1,+44 20 7237 7663,249 Old Kent Road,SE1 5LU,openstreetmap,,,https://www.openstreetmap.org/node/13652446980
 https://www.flavoursofnaples.com/,"own site (found by name, postcode verified)",Flavours of Naples,Southwark,Elephant and Castle,Italian,flavoursofnaples@gmail.com,1,,299 Borough High Street,SE1 1JG,openstreetmap,,,https://www.openstreetmap.org/node/5050323144
 https://fleurie.co.uk/,own site,Fleurie,Southwark,Southwark,French,,1,,92 Bermondsey Street,,openstreetmap,,,https://www.openstreetmap.org/node/12495732001
 https://www.flourandgrape.com/,own site,Flour & Grape,Southwark,Bermondsey,Italian,contact@flourandgrape.com,1,,214 Bermondsey Street,SE1 3TQ,openstreetmap,,,https://www.openstreetmap.org/node/1938110507
@@ -203,6 +207,7 @@ https://banhmikeu.co.uk/,own site,Kêu,Southwark,Southwark,Asian; Deli,info@keud
 http://www.lachatica.com,own site,La Chatica,Southwark,Elephant and Castle,Cafe,info@lachatica.com,1,+44 20 7277 4485,2 Elephant Road,SE17 1LB,openstreetmap,,,https://www.openstreetmap.org/node/4564372690
 https://www.lachingada.co.uk/,own site,La Chingada,Southwark,Rotherhithe,Mexican,info@lachingada.co.uk,1,+447776774779,182 Jamaica Road,SE16 4RT,openstreetmap,,,https://www.openstreetmap.org/node/12662501801
 https://lagelatiera.co.uk/locations/oxo-tower-wharf/,own site,La Gelatiera,Southwark,Bankside,Ice cream,info@lagelatiera.co.uk,1,,,,openstreetmap,lagelatiera,lagelatiera,https://www.openstreetmap.org/node/11688096478
+https://lavenicepizzeria.co.uk/,"own site (found by name, postcode verified)",La Venice Pizzeria,Southwark,Bermondsey,Pizza,,1,,242 Old Kent Road,SE1 5UB,openstreetmap,,,https://www.openstreetmap.org/node/13859056996
 https://www.lairai.london/,own site,Lai Rai,Southwark,Peckham,Asian,hello@lairai.london,1,+44 20 3337 9371,181 Rye Lane,SE15 4TP,openstreetmap,,,https://www.openstreetmap.org/node/13564114102
 https://larryspeckham.co.uk,own site,Larry's,Southwark,Peckham,Cafe,info@larryspeckham.co.uk,1,,12-16 Blenheim Grove,SE15 4QL,openstreetmap,,,https://www.openstreetmap.org/node/4974000356
 http://www.lepontdelatour.co.uk/,own site,Le Pont de la Tour,Southwark,Bermondsey,Restaurant,,1,,36 Shad Thames,SE1 2YE,openstreetmap,,,https://www.openstreetmap.org/node/650130771
@@ -227,6 +232,7 @@ https://www.manze.co.uk/,own site,M. Manze,Southwark,Elephant and Castle,Restaur
 https://www.madeofdough.co.uk/,"own site (found by name, postcode verified)",Made of Dough,Southwark,Peckham,Restaurant,info@madeofdough.co.uk,1,,182 Bellenden Road,SE15 4BW,openstreetmap,,,https://www.openstreetmap.org/way/74134079
 https://www.maggiosconfectionery.com/,"own site (found by name, postcode verified)",Maggio's confectionery,Southwark,Southwark,Takeaway,,1,,"Green Market Borough Market, 8, Southwark Street",SE1 9AL,food standards agency,,,https://ratings.food.gov.uk/business/1210968
 https://malabarfeast.co.uk/,"own site (found by name, postcode verified)",Malabar Feast,Southwark,Peckham,Indian,malabarfeastuk@gmail.com,1,,4 Maxted Road,SE15 4LL,openstreetmap,,,https://www.openstreetmap.org/way/71321658
+https://malevotowerbridge.co.uk/,"own site (found by name, postcode verified)",Malevo tower bridge,Southwark,Bermondsey,Restaurant,info@malevotowerbridge.co.uk,1,,"52, Tanner Street",SE1 3PH,food standards agency,,,https://ratings.food.gov.uk/business/1625696
 https://mallowlondon.com,own site,Mallow,Southwark,Southwark,Restaurant,hello@mallowlondon.com,1,+44 20 7846 8785,1 Cathedral Street,SE1 9DE,openstreetmap,,https://www.instagram.com/mallowlondon,https://www.openstreetmap.org/node/9842144897
 https://www.facebook.com/mymaloko/,facebook,Maloko art cafe,Southwark,Camberwell,French,,1,,60 Camberwell Church Street,SE5 8QZ,openstreetmap,https://www.facebook.com/mymaloko/,,https://www.openstreetmap.org/node/12572476252
 https://lovemango.co.uk/,own site,Mango,Southwark,Southwark,Indian,info@lovemango.co.uk,1,+44 20 7407 0333,6 Redcross Way,SE1 9HR,openstreetmap,,,https://www.openstreetmap.org/way/812989302
@@ -272,6 +278,7 @@ https://ristoranteolivelli.co.uk/locations/dulwich,own site,Olivelli,Southwark,E
 https://www.olleys.info/,own site,Olley's Fish Experience,Southwark,Herne Hill,Seafood,olleys@olleys.info,1,+44 20 8671 8259,65 Norwood Road,SE24 9AA,openstreetmap,,,https://www.openstreetmap.org/way/177113754
 https://www.oma.london/,own site,Oma,Southwark,Southwark,Greek,hello@oma.london,1,+44 20 8129 6760,2-4 Bedale Street,SE1 9AL,openstreetmap,,,https://www.openstreetmap.org/node/12477919501
 https://omgitsgreek.co.uk/,"own site (found by name, postcode verified)",Omg its greek ltd,Southwark,Southwark,Greek,info@omgitsgreek.co.uk,1,,"88a, Tooley Street",SE1 2TF,food standards agency,,,https://ratings.food.gov.uk/business/1900441
+https://www.optionscuisinelondon.com/,"own site (found by name, postcode verified)",Options Cuisine,Southwark,Bermondsey,Restaurant,info@optionscuisinelondon.com,1,,207 Old Kent Road,SE1 5NA,openstreetmap,,,https://www.openstreetmap.org/node/13652446974
 https://orbitbeers.com/pages/taproom,own site,Orbit Beers Brewery Tap Room,Southwark,Walworth,BBQ; Burger; Mexican; Pub,taproom@booking.com,1,,Fielding Street,SE17 3HD,openstreetmap,,,https://www.openstreetmap.org/node/3493582134
 https://www.origincoffee.co.uk/pages/origin-coffee-scoresby-street,own site,Origin,Southwark,Southwark,Bakery; Breakfast,info@origincoffee.co.uk,1,+4420 7928 3057,84 Scoresby Street,SE1 0XN,openstreetmap,,,https://www.openstreetmap.org/node/10237785509
 https://www.ortusevents.com/about-us/cafe-at-the-ortus/,own site,ORTUS Cafe,Southwark,Denmark Hill,Cafe,,1,,82-96 Grove Lane,SE5 8SN,openstreetmap,,,https://www.openstreetmap.org/node/5012376273
@@ -292,7 +299,7 @@ https://www.thepeckhampelican.co.uk/,own site,Peckham Pelican,Southwark,Peckham,
 https://www.pedlerpeckhamrye.com/,own site,Pedler,Southwark,Peckham,Restaurant,,1,,58 Peckham Rye,SE15 4JR,openstreetmap,,,https://www.openstreetmap.org/node/12569551436
 https://foratasteofpersia.co.uk/,own site,Persepolis,Southwark,Peckham,Restaurant,,1,+44 20 7639 8007,30 Peckham High Street,SE15 5DT,openstreetmap,100063848460933,persepolis_peckham,https://www.openstreetmap.org/way/73423367
 https://pimentohill.co.uk/,"own site (found by name, postcode verified)",Pimento hill,Southwark,Southwark,Takeaway,info@pimentohill.co.uk,1,,"Unit 19 Three Crown Square Borough Market, 8, Southwark Street",SE1 1TL,food standards agency,,,https://ratings.food.gov.uk/business/1913553
-https://pique-nique.co.uk/,own site,Pique-Nique,Southwark,Bermondsey,French,,1,,,,openstreetmap,,,https://www.openstreetmap.org/node/12693510490
+https://pique-nique.co.uk/,"own site (found by name, postcode verified)",Pique nique,Southwark,Bermondsey,Restaurant,,2,,"32, Tanner Street",SE1 3LD,food standards agency,,,https://ratings.food.gov.uk/business/1020251
 https://www.pizza1889.com/locations/surrey-quays/,own site,Pizza 1889,Southwark,Surrey Quays,Italian; Pizza,surreyquays@pizza1889.com,1,,,SE16 7LL,openstreetmap,,,https://www.openstreetmap.org/node/12321431474
 https://www.pizzagogo.co.uk/stores/dulwich,own site,Pizza GoGo,Southwark,East Dulwich,Pizza,,1,+44 20 8299 1123,77 East Dulwich Grove,SE22 8PR,openstreetmap,,,https://www.openstreetmap.org/way/98341202
 https://www.pizzahut.co.uk/huts/uk-1/1006-surrey-quays/,own site,Pizza Hut Delivery,Southwark,Surrey Quays,Pizza,,1,+44 20 7998 3052,19 Plough Way,SE16 2LS,openstreetmap,,,https://www.openstreetmap.org/node/1175682006
@@ -314,6 +321,7 @@ https://princealbertpub.co.uk/,"own site (found by name, postcode verified)",Pri
 https://princeofpeckham.co.uk/,own site,Prince of Peckham,Southwark,Peckham,Pub,chattypatty@princeofpeckham.co.uk,1,+44 20 7635 8844,1 Clayton Road,SE15 5JA,openstreetmap,,,https://www.openstreetmap.org/way/35428104
 https://www.facebook.com/prince.of.wales.se1,facebook,Prince of Wales,Southwark,Elephant and Castle,Pub,,1,,51 St George's Road,SE1 6ER,openstreetmap,prince.of.wales.se1,prince.of.wales.se1,https://www.openstreetmap.org/node/264790279
 https://pyrorestaurant.co.uk/,own site,Pyro,Southwark,Southwark,Greek,,1,,53b Southwark Street,SE1 1RU,openstreetmap,,,https://www.openstreetmap.org/node/14048795301
+https://www.qasioun.co.uk/,"own site (found by name, postcode verified)",Qasioun,Southwark,Bermondsey,Restaurant,,1,,"211, Grange Road",SE1 3AA,food standards agency,,,https://ratings.food.gov.uk/business/771207
 http://raodeli.com,own site,Rao Deli,Southwark,Elephant and Castle,Asian; Deli,raodelishop@gmail.com,1,+44 20 7407 4002,304 Borough High Street,,openstreetmap,,,https://www.openstreetmap.org/node/13699362603
 https://redemptionroasters.com/pages/locations,own site,Redemption,Southwark,Dulwich Village,Cafe,,1,,29 Dulwich Village,SE21 7BN,openstreetmap,,,https://www.openstreetmap.org/node/4818149171
 https://redwoodsportspub.com/,own site,Redwood Sports Pub & Kitchen,Southwark,Southwark,Restaurant,info@redwoodsportspub.com,1,+44 20 3740 4885,London Bridge Station,,openstreetmap,,,https://www.openstreetmap.org/node/7699150385
@@ -324,11 +332,13 @@ https://www.sabacafe.co.uk/,"own site (found by name, postcode verified)",Saba C
 https://www.thelouies.co.uk/saint-louie,own site,Saint Louie,Southwark,Walworth,Bakery,,1,,Liverpool Grove,,openstreetmap,,,https://www.openstreetmap.org/node/13690444102
 https://www.greeneking.co.uk/pubs/greater-london/salt-quay,own site,Salt Quay,Southwark,Rotherhithe,Pub,,1,,163 Rotherhithe Street,SE16 5QU,openstreetmap,,,https://www.openstreetmap.org/way/392465039
 https://www.saltyardgroup.co.uk/restaurants/salt-yard-borough,own site,Salt Yard,Southwark,Southwark,Restaurant,,1,,Winchester Walk,SE1 9AG,openstreetmap,,,https://www.openstreetmap.org/node/13665646120
+https://saltenasmartin.co.uk/,"own site (found by name, postcode verified)",Saltenas martin,Southwark,Bermondsey,Restaurant,,2,,"214, Old Kent Road",SE1 5TY,food standards agency,,,https://ratings.food.gov.uk/business/1634034
 https://samskebab.co.uk/,"own site (found by name, postcode verified)",Sam's Kebab,Southwark,Peckham,Burger,info@samskebab.co.uk,1,,163 Bellenden Road,SE15 4DH,openstreetmap,,,https://www.openstreetmap.org/way/73045798
 https://www.samabankside.co.uk/,own site,Sama,Southwark,Southwark,Bar,info@sambabankside.co.uk,2,+44 20 3904 6760;+44 7968 828 504,3 Robinson Road,SE1 8BU,openstreetmap,,,https://www.openstreetmap.org/node/5121352970
 https://sammysbistro.co.uk/,own site,Sammy's,Southwark,Surrey Quays,Italian; Pizza,book@sammysbistro.co.uk,1,+442072318777,126 Lower Road,SE16 2UE,openstreetmap,https://www.facebook.com/sammysbistrolondon/,,https://www.openstreetmap.org/node/12676651706
 https://santanata.com/,own site,Santa Nata,Southwark,Southwark,Bakery,,2,,19 Dirty Lane,SE1 9PA,openstreetmap,,,https://www.openstreetmap.org/node/11557826354
 https://www.coffeeandcroissant.com/,own site,SAPHI,Southwark,Denmark Hill,Breakfast,hello@coffeeandcroissant.com,1,,Windsor Walk,SE5 8BB,openstreetmap,,,https://www.openstreetmap.org/node/12650039075
+https://www.sentosarestaurant.com/,"own site (found by name, postcode verified)",Sentosa,Southwark,Bermondsey,Restaurant,sentosa.r208@gmail.com,1,,"208, Bermondsey Street",SE1 3TQ,food standards agency,,,https://ratings.food.gov.uk/business/1714783
 https://shawarmahut.uk/,own site,Shawarma Hut,Southwark,Walworth,Burger,,1,+44 20 7703 3991,292 Walworth Road,SE17 2TE,openstreetmap,ShawarmaHUT.uk,shawarmahutltd,https://www.openstreetmap.org/node/11898555070
 https://www.silka.co.uk/,own site,Silka,Southwark,Southwark,Indian,,1,+44 20 7378 6161,6-8 Southwark Street,SE1 1TL,openstreetmap,,,https://www.openstreetmap.org/node/4781209342
 https://www.simonthetanner.co.uk/,own site,Simon the Tanner,Southwark,Elephant and Castle,Pub,simon@simonthetanner.co.uk,1,+44 20 7357 8740,231 Long Lane,SE1 4PR,openstreetmap,,,https://www.openstreetmap.org/way/102403099
