@@ -15289,3 +15289,194 @@
 {"key": "jenki.co.uk", "emails": [], "status": "ok", "final_url": "https://www.jenki.co.uk/", "v": 3}
 {"key": "amtcoffee.co.uk", "emails": [], "status": "ok", "final_url": "https://amtcoffee.co.uk/", "v": 3}
 {"key": "lostbattersea.co.uk", "emails": ["info@lostsociety.co.uk"], "status": "ok", "final_url": "https://www.lostbattersea.co.uk/", "v": 3}
+{"key": "wildcorner.co.uk", "emails": ["info@wildcorner.co.uk"], "status": "ok", "final_url": "https://www.wildcorner.co.uk/", "v": 3}
+{"key": "amartelondon.com", "emails": ["info@amartelondon.com"], "status": "ok", "final_url": "https://amartelondon.com/", "v": 3}
+{"key": "boxcentric.co.uk", "emails": ["info@boxcentric.co.uk"], "status": "ok", "final_url": "https://boxcentric.co.uk/", "v": 3}
+{"key": "chelseagrill.co.uk", "emails": ["info@chelseagrill.co.uk"], "status": "ok", "final_url": "https://www.chelseagrill.co.uk/", "v": 3}
+{"key": "themarchharechelsea.com", "emails": ["hello@themarchharechelsea.com", "info@calloohcallaybar.com"], "status": "ok", "final_url": "https://www.themarchharechelsea.com/", "v": 3}
+{"key": "reemiescakes.com", "emails": ["enquiries@reemiescakes.com", "chelsea@reemiescakes.com"], "status": "ok", "final_url": "https://reemiescakes.com/", "v": 3}
+{"key": "vatavaran.uk", "emails": ["reservations@vatavaran.uk", "hello@vatavaran.uk"], "status": "ok", "final_url": "https://vatavaran.uk/", "v": 3}
+{"key": "beaverbrooktownhouse.co.uk", "emails": ["reservations@beaverbrooktownhouse.co.uk"], "status": "ok", "final_url": "https://beaverbrooktownhouse.co.uk/", "v": 3}
+{"key": "indianpanoramachelsea.co.uk", "emails": ["info@indianpanoramachelsea.co.uk"], "status": "ok", "final_url": "https://indianpanoramachelsea.co.uk/", "v": 3}
+{"key": "thehari.com", "emails": ["info@thehari.com"], "status": "ok", "final_url": "https://www.thehari.com/", "v": 3}
+{"key": "loop-generation.com", "emails": ["hello@loop-generation.com"], "status": "ok", "final_url": "https://www.loop-generation.com/", "v": 3}
+{"key": "waltoncafe.com", "emails": ["info@waltoncafe.com"], "status": "ok", "final_url": "https://waltoncafe.com/", "v": 3}
+{"key": "charlottes-cloud.co.uk", "emails": ["hello@charlottes-cloud.co.uk"], "status": "ok", "final_url": "https://www.charlottes-cloud.co.uk/", "v": 3}
+{"key": "endo-chelsea.com", "emails": ["reservations@endo-chelsea.com"], "status": "ok", "final_url": "https://www.endo-chelsea.com/", "v": 3}
+{"key": "princearthurchelsea.co.uk", "emails": ["reservations@princearthurchelsea.co.uk"], "status": "ok", "final_url": "https://princearthurchelsea.co.uk/", "v": 3}
+{"key": "threedarlingslondon.com", "emails": ["reservations@threedarlingslondon.com"], "status": "ok", "final_url": "https://www.threedarlingslondon.com/", "v": 3}
+{"key": "goldendish.co.uk", "emails": [], "status": "unknown", "final_url": "https://goldendish.co.uk/", "v": 3}
+{"key": "cadoganhall.com", "emails": ["marketing@cadoganhall.com"], "status": "ok", "final_url": "https://cadoganhall.com/", "v": 3}
+{"key": "thebromptoncross.co.uk", "emails": ["thebromptoncross@gmail.com"], "status": "ok", "final_url": "https://www.thebromptoncross.co.uk/", "v": 3}
+{"key": "ryshairandbeauty.com", "emails": ["info@ryshairandbeauty.co.uk", "info@ryshairandbeauty.com"], "status": "ok", "final_url": "https://ryshairandbeauty.com/", "v": 3}
+{"key": "dbroa.co.uk", "emails": ["info@dbroa.co.uk"], "status": "ok", "final_url": "https://dbroa.co.uk/", "v": 3}
+{"key": "corenucopia.com", "emails": ["contact@claresmyth.com", "info@corenucopia.com"], "status": "ok", "final_url": "https://www.corenucopia.com/", "v": 3}
+{"key": "ciullos.com", "emails": ["info@ciullos.com", "hanna@ciullos.com"], "status": "ok", "final_url": "https://www.ciullos.com/", "v": 3}
+{"key": "carpoworld.com", "emails": ["carpopiccadilly@carpoworld.com", "carpoknightsbridge@carpoworld.com", "carpohanscrescent@carpoworld.com"], "status": "ok", "final_url": "https://carpoworld.com/", "v": 3}
+{"key": "therexrooms.com", "emails": ["enquiries@therexrooms.com"], "status": "ok", "final_url": "https://www.therexrooms.com/", "v": 3}
+{"key": "thechamberlayne.com", "emails": ["info@thechamberlayne.com"], "status": "ok", "final_url": "https://thechamberlayne.com/", "v": 3}
+{"key": "thekhaslounge.co.uk", "emails": ["info@thekhaslounge.co.uk"], "status": "ok", "final_url": "https://thekhaslounge.co.uk/", "v": 3}
+{"key": "thekidzcleankitchen.co.uk", "emails": ["info@thekidzcleankitchen.co.uk"], "status": "ok", "final_url": "https://www.thekidzcleankitchen.co.uk/", "v": 3}
+{"key": "amarcafe.co.uk", "emails": ["info@amarcafe.co.uk"], "status": "ok", "final_url": "https://www.amarcafe.co.uk/", "v": 3}
+{"key": "frigideira.co.uk", "emails": ["info@frigideira.co.uk"], "status": "ok", "final_url": "https://frigideira.co.uk/", "v": 3}
+{"key": "vieteat.co.uk", "emails": ["vieteatrestaurantuk@gmail.com"], "status": "ok", "final_url": "https://vieteat.co.uk/", "v": 3}
+{"key": "risingsunwillesden.co.uk", "emails": ["risingsunmanager@gmail.com", "springfieldbarmanager@gmail.com"], "status": "ok", "final_url": "https://www.risingsunwillesden.co.uk/", "v": 3}
+{"key": "mamatoppizza.co.uk/willesden", "emails": ["info@zpos.co.uk", "willesden@mamatoppizza.co.uk"], "status": "ok", "final_url": "https://www.mamatoppizza.co.uk/willesden/", "v": 3}
+{"key": "thewingbarista.co.uk", "emails": ["thewingbarista@gmail.com"], "status": "ok", "final_url": "https://thewingbarista.co.uk/", "v": 3}
+{"key": "thebountifulcow.co.uk", "emails": ["info@thebountifulcow.com", "template.placeholder@gmail.com", "nfo@thebountifulcow.com"], "status": "ok", "final_url": "https://www.thebountifulcow.co.uk/", "v": 3}
+{"key": "bunga90.com", "emails": ["wazzup@bunga90.com"], "status": "ok", "final_url": "https://www.bunga90.com/", "v": 3}
+{"key": "amalfilounge.com", "emails": ["contact@amalfilounge.com"], "status": "ok", "final_url": "https://www.amalfilounge.com/", "v": 3}
+{"key": "rugbytavern.co.uk", "emails": ["enquiries@therugbytavern.co.uk", "enquiries@rugbytavern.co.uk"], "status": "ok", "final_url": "https://rugbytavern.co.uk/", "v": 3}
+{"key": "mineiro.co.uk", "emails": [], "status": "ok", "final_url": "https://www.mineiro.co.uk/", "v": 3}
+{"key": "damnyankee.co.uk", "emails": ["hello@damnyankee.co.uk", "info@indiantypefoundry.com"], "status": "ok", "final_url": "https://damnyankee.co.uk/", "v": 3}
+{"key": "pizzaondemand.co.uk", "emails": [], "status": "ok", "final_url": "https://www.pizzaondemand.co.uk/", "v": 3}
+{"key": "punjab.co.uk", "emails": ["info@punjab.co.uk"], "status": "ok", "final_url": "https://punjab.co.uk/", "v": 3}
+{"key": "gatehouselaw.co.uk", "emails": ["steam@gatehouselaw.co.uk", "patrick.sarson@gatehouselaw.co.uk", "natasha.devlin@gatehouselaw.co.uk", "adam.macdonald@gatehouselaw.co.uk"], "status": "ok", "final_url": "https://gatehouselaw.co.uk/", "v": 3}
+{"key": "meetingnoodles.com", "emails": [], "status": "ok", "final_url": "https://www.meetingnoodles.com/", "v": 3}
+{"key": "eat-sushi.co.uk", "emails": [], "status": "ok", "final_url": "https://www.eat-sushi.co.uk/", "v": 3}
+{"key": "nappadori.co.uk", "emails": ["customercare@nappadori.com", "jan.novak@server.cz", "joe@voorbeeld.com", "peter@beispielemai.de", "kisjanos@pelda.hu", "mariorossi@esempio.it", "joe@eksempel.com", "ula@gmail.com"], "status": "ok", "final_url": "https://www.nappadori.co.uk/", "v": 3}
+{"key": "nealstreetespresso.com", "emails": ["info@nealstreetespresso.com"], "status": "ok", "final_url": "https://nealstreetespresso.com/", "v": 3}
+{"key": "luceelimoni.com", "emails": ["flavours@luceelimoni.com"], "status": "ok", "final_url": "https://www.luceelimoni.com/", "v": 3}
+{"key": "oviscoffees.co.uk", "emails": ["info@oviscoffees.co.uk"], "status": "ok", "final_url": "https://www.oviscoffees.co.uk/", "v": 3}
+{"key": "oodleswok.co.uk", "emails": ["info@oodleswok.co.uk"], "status": "ok", "final_url": "https://oodleswok.co.uk/", "v": 3}
+{"key": "knoops.com", "emails": [], "status": "ok", "final_url": "https://knoops.com/", "v": 3}
+{"key": "thesloaneclub.com", "emails": ["membershipenquiries@sloaneclub.co.uk", "events@sloaneclub.co.uk", "membership@sloaneclub.co.uk", "reservations@sloaneclub.co.uk", "reception@sloaneclub.co.uk", "concierge@sloaneclub.co.uk", "marketing@sloaneclub.co.uk"], "status": "ok", "final_url": "https://www.thesloaneclub.com/", "v": 3}
+{"key": "shoyurestaurant.co.uk", "emails": ["jose@shoyurestaurant.co.uk", "info@shoyurestaurant.co.uk"], "status": "ok", "final_url": "https://www.shoyurestaurant.co.uk/", "v": 3}
+{"key": "zipbablondon.com", "emails": ["zipbablondon@gmail.com", "zipbab51@gmail.com"], "status": "ok", "final_url": "https://zipbablondon.com/", "v": 3}
+{"key": "woolleys.co.uk", "emails": ["info@woolleys.co.uk"], "status": "ok", "final_url": "https://www.woolleys.co.uk/", "v": 3}
+{"key": "cantonelement.co.uk", "emails": ["contact@cantonelement.co.uk"], "status": "ok", "final_url": "http://cantonelement.co.uk/", "v": 3}
+{"key": "balibalirestaurant.com", "emails": [], "status": "ok", "final_url": "https://balibalirestaurant.com/", "v": 3}
+{"key": "parsonslondon.co.uk", "emails": ["reservations@parsonslondon.co.uk"], "status": "ok", "final_url": "https://www.parsonslondon.co.uk/", "v": 3}
+{"key": "z-we-ton.com", "emails": [], "status": "ok", "final_url": "https://z-we-ton.com/", "v": 3}
+{"key": "azzurrarestaurant.co.uk", "emails": ["azzurrareservations@aqua-london.com", "events@aqua-london.com", "marketing@aqua-london.com", "events@aqua-london.con"], "status": "ok", "final_url": "https://azzurrarestaurant.co.uk/", "v": 3}
+{"key": "casajako.com", "emails": ["info@casajako.com"], "status": "ok", "final_url": "https://www.casajako.com/", "v": 3}
+{"key": "arthurscafe.com", "emails": ["support@webador.com"], "status": "ok", "final_url": "https://www.arthurscafe.com/", "v": 3}
+{"key": "bombaykitchen.co.uk", "emails": [], "status": "ok", "final_url": "https://bombaykitchen.co.uk/", "v": 3}
+{"key": "milaknightsbridge.com", "emails": ["eat@milabeauchamp.com"], "status": "ok", "final_url": "https://www.milaknightsbridge.com/", "v": 3}
+{"key": "thebestkebabwillesden.co.uk", "emails": [], "status": "ok", "final_url": "https://thebestkebabwillesden.co.uk/", "v": 3}
+{"key": "banhmiaha.co.uk", "emails": ["info@banhmiaha.co.uk"], "status": "ok", "final_url": "https://banhmiaha.co.uk/", "v": 3}
+{"key": "emsherifrestaurant.co.uk", "emails": ["info@em-sherif.co.uk"], "status": "ok", "final_url": "https://emsherifrestaurant.co.uk/", "v": 3}
+{"key": "lardo.co.uk", "emails": ["info@lardo.co.uk"], "status": "ok", "final_url": "https://www.lardo.co.uk/", "v": 3}
+{"key": "levant-kitchen.co.uk", "emails": ["hello@levant-kitchen.co.uk"], "status": "ok", "final_url": "https://levant-kitchen.co.uk/", "v": 3}
+{"key": "ayaandsuki.co.uk", "emails": ["alex@ayaandsuki.co.uk"], "status": "ok", "final_url": "https://ayaandsuki.co.uk/", "v": 3}
+{"key": "lwtheatres.co.uk/theatres/cambridge", "emails": ["customer.relations@lwtheatres.co.uk"], "status": "ok", "final_url": "https://lwtheatres.co.uk/theatres/cambridge/", "v": 3}
+{"key": "joinersheart.com", "emails": ["table.bookings@joinersheart.com"], "status": "ok", "final_url": "https://www.joinersheart.com/", "v": 3}
+{"key": "chinchinicecream.com", "emails": ["party@chichinicecream.com", "party@chinchinicecream.com"], "status": "ok", "final_url": "https://chinchinicecream.com/", "v": 3}
+{"key": "tomiskitchenlondon.co.uk", "emails": ["tomi.odiase@gmail.com"], "status": "ok", "final_url": "https://www.tomiskitchenlondon.co.uk/", "v": 3}
+{"key": "cafekowloon.co.uk", "emails": ["manager@cafekowloon.co.uk"], "status": "ok", "final_url": "https://cafekowloon.co.uk/", "v": 3}
+{"key": "chipotpot.co.uk", "emails": ["info@chipotpot.co.uk"], "status": "ok", "final_url": "https://chipotpot.co.uk/", "v": 3}
+{"key": "papillonpizzahackney.uk/hackney", "emails": ["info@zpos.co.uk", "info@papillonpizzahackney.uk"], "status": "ok", "final_url": "https://www.papillonpizzahackney.uk/hackney/", "v": 3}
+{"key": "lambandco.london", "emails": [], "status": "ok", "final_url": "https://lambandco.london/", "v": 3}
+{"key": "monmouthkitchen.com", "emails": ["reservations@monmouthkitchen.co.uk"], "status": "ok", "final_url": "https://www.monmouthkitchen.com/", "v": 3}
+{"key": "market-cafe.co.uk", "emails": ["info@market-cafe.co.uk"], "status": "ok", "final_url": "https://www.market-cafe.co.uk/", "v": 3}
+{"key": "lebanesegarden.co.uk", "emails": ["astigma@astigmatic.com"], "status": "ok", "final_url": "https://lebanesegarden.co.uk/", "v": 3}
+{"key": "calderalondon.com", "emails": ["arya@calderalondon.com", "info@calderalondon.com"], "status": "ok", "final_url": "https://www.calderalondon.com/", "v": 3}
+{"key": "thepizzaroom.co.uk", "emails": ["info@thepizzaroom.co.uk", "headoffice@thepizzaroom.co.uk"], "status": "ok", "final_url": "https://www.thepizzaroom.co.uk/", "v": 3}
+{"key": "berryboys.co.uk", "emails": ["finn@berryboys.co.uk", "finn@berryboys.co.ukfinn"], "status": "ok", "final_url": "https://www.berryboys.co.uk/", "v": 3}
+{"key": "bensfishandchips.co.uk", "emails": [], "status": "ok", "final_url": "https://bensfishandchips.co.uk/", "v": 3}
+{"key": "grapesandhops.co.uk", "emails": ["grapesandhops@outlook.comphone", "grapesandhops@outlook.com", "demo@demo.com"], "status": "ok", "final_url": "https://grapesandhops.co.uk/", "v": 3}
+{"key": "lacucinadidaffy2.com", "emails": [], "status": "ok", "final_url": "https://lacucinadidaffy2.com/", "v": 3}
+{"key": "paperdressvintage.co.uk", "emails": ["hello@paperdressvintage.co.uk"], "status": "ok", "final_url": "https://paperdressvintage.co.uk/", "v": 3}
+{"key": "elevatedfitness.uk", "emails": ["hello@elevatedfitness.uk"], "status": "ok", "final_url": "https://www.elevatedfitness.uk/", "v": 3}
+{"key": "stjh.org.uk", "emails": ["info@stjh.org.uk", "stjosephs.firstcontact@nhs.net"], "status": "ok", "final_url": "https://www.stjh.org.uk/", "v": 3}
+{"key": "shaftesburytheatre.co.uk", "emails": [], "status": "ok", "final_url": "https://shaftesburytheatre.co.uk/", "v": 3}
+{"key": "thehemingwaypub.co.uk", "emails": ["info@thehemingwaypub.co.uk"], "status": "ok", "final_url": "https://www.thehemingwaypub.co.uk/", "v": 3}
+{"key": "fuocos.com", "emails": ["feedback@fuocos.com"], "status": "ok", "final_url": "https://www.fuocos.com/", "v": 3}
+{"key": "thirteenldn.com", "emails": ["reservations@chateaudenmark.com", "enquiries@chateaudenmark.com", "ap@chateaudenmark.com", "events@thirteenldn.com", "enquiries@thirteenldn.com"], "status": "ok", "final_url": "https://thirteenldn.com/", "v": 3}
+{"key": "daisyslondon.com", "emails": ["contact@daisysworkshop.com"], "status": "ok", "final_url": "https://daisyslondon.com/", "v": 3}
+{"key": "minibeeschildcare.co.uk", "emails": ["info@minibeeschildcare.co.uk"], "status": "ok", "final_url": "https://minibeeschildcare.co.uk/", "v": 3}
+{"key": "theambassadorstheatre.co.uk", "emails": ["ambboxoffice@atgentertainment.com", "ambboxoffice@theambassadors.com", "ambboxoffice@theambassadors.comfor"], "status": "ok", "final_url": "https://www.theambassadorstheatre.co.uk/", "v": 3}
+{"key": "tarshish.co.uk", "emails": ["info@tarshish.co.uk"], "status": "ok", "final_url": "https://www.tarshish.co.uk/", "v": 3}
+{"key": "jichickens.wordpress.com", "emails": ["jibrighton001@gmail.com", "jibristol5@gmail.com", "roger@bigbefoodieltd.com", "jichickens@gmail.com"], "status": "ok", "final_url": "https://jichickens.wordpress.com/", "v": 3}
+{"key": "thetopsecretcomedyclub.co.uk", "emails": ["info@thetopsecretcomedyclub.co.uk"], "status": "ok", "final_url": "https://thetopsecretcomedyclub.co.uk/", "v": 3}
+{"key": "acaicarioca.co.uk", "emails": [], "status": "ok", "final_url": "https://acaicarioca.co.uk/", "v": 3}
+{"key": "topnourish.co.uk", "emails": ["info@topnourish.co.uk"], "status": "ok", "final_url": "https://topnourish.co.uk/", "v": 3}
+{"key": "thefryersdelight.co.uk", "emails": [], "status": "ok", "final_url": "https://thefryersdelight.co.uk/", "v": 3}
+{"key": "sagarlondon.com", "emails": ["info@sagarlondon.com"], "status": "ok", "final_url": "https://www.sagarlondon.com/", "v": 3}
+{"key": "colombar.co.uk", "emails": ["info@colombar.co.uk"], "status": "ok", "final_url": "https://www.colombar.co.uk/", "v": 3}
+{"key": "grandpalace.co.uk", "emails": ["info@grandpalace.co.uk"], "status": "ok", "final_url": "https://grandpalace.co.uk/", "v": 3}
+{"key": "honeyandco.co.uk", "emails": [], "status": "ok", "final_url": "https://honeyandco.co.uk/", "v": 3}
+{"key": "burntmillpizza.com", "emails": [], "status": "ok", "final_url": "https://burntmillpizza.com/", "v": 3}
+{"key": "banaraspaan.com", "emails": ["sales@banaraspaan.com", "info@banaraspaan.com"], "status": "ok", "final_url": "https://www.banaraspaan.com/", "v": 3}
+{"key": "ganarestaurant.uk", "emails": ["gana_restaurant@hotmail.com"], "status": "ok", "final_url": "https://ganarestaurant.uk/", "v": 3}
+{"key": "bloomsburytavern.co.uk", "emails": ["bloomsburytavern@shepherd-neame.co.uk"], "status": "ok", "final_url": "https://www.bloomsburytavern.co.uk/", "v": 3}
+{"key": "ludoslondon.co.uk", "emails": [], "status": "ok", "final_url": "https://ludoslondon.co.uk/", "v": 3}
+{"key": "royalrasoi.co.uk", "emails": ["info@royalrasoi.co.uk"], "status": "ok", "final_url": "https://www.royalrasoi.co.uk/", "v": 3}
+{"key": "urbanpubsandbars.com/venues/the-old-ship", "emails": [], "status": "ok", "final_url": "https://www.urbanpubsandbars.com/venues/the-old-ship", "v": 3}
+{"key": "chickenvalleywoodgreen.com", "emails": [], "status": "ok", "final_url": "https://www.chickenvalleywoodgreen.com/", "v": 3}
+{"key": "sweettreebakery.co.uk", "emails": [], "status": "ok", "final_url": "https://sweettreebakery.co.uk/", "v": 3}
+{"key": "goodfellaslagrande.com", "emails": [], "status": "ok", "final_url": "https://goodfellaslagrande.com/", "v": 3}
+{"key": "sambalkitchenanddiner.co.uk", "emails": [], "status": "ok", "final_url": "https://sambalkitchenanddiner.co.uk/", "v": 3}
+{"key": "theyardcafe.co.uk", "emails": ["info@theyardcafe.co.uk"], "status": "ok", "final_url": "https://theyardcafe.co.uk/", "v": 3}
+{"key": "blippys.co.uk", "emails": [], "status": "ok", "final_url": "https://www.blippys.co.uk/", "v": 3}
+{"key": "lunallena.co.uk", "emails": [], "status": "unknown", "final_url": "https://www.lunallena.co.uk/", "v": 3}
+{"key": "rubyms.com", "emails": ["info@indiantypefoundry.com"], "status": "ok", "final_url": "https://rubyms.com/", "v": 3}
+{"key": "wellstreetsurgery.co.uk", "emails": [], "status": "ok", "final_url": "https://www.wellstreetsurgery.co.uk/", "v": 3}
+{"key": "oakn4.co.uk", "emails": ["wines@oakn4.co.uk"], "status": "ok", "final_url": "https://oakn4.co.uk/", "v": 3}
+{"key": "myrtoslondon.com", "emails": ["info@myrtos.co.uk"], "status": "ok", "final_url": "https://myrtoslondon.com/", "v": 3}
+{"key": "thewbyeats.com", "emails": [], "status": "unknown", "final_url": "https://www.thewbyeats.com/", "v": 3}
+{"key": "aliioli.com", "emails": [], "status": "unknown", "final_url": "https://www.aliioli.com/", "v": 3}
+{"key": "freshandorganic.uk", "emails": [], "status": "ok", "final_url": "https://freshandorganic.uk/", "v": 3}
+{"key": "maharaniclapham.co.uk", "emails": ["admin@maharaniclapham.co.uk"], "status": "ok", "final_url": "https://maharaniclapham.co.uk/", "v": 3}
+{"key": "theabbeville.co.uk", "emails": ["info@theabbeville.co.uk"], "status": "ok", "final_url": "https://www.theabbeville.co.uk/", "v": 3}
+{"key": "nationalhempservice.co.uk", "emails": ["info@nationalhempservice.co.uk"], "status": "ok", "final_url": "https://nationalhempservice.co.uk/", "v": 3}
+{"key": "finsburyparktrust.org", "emails": ["management@finsburyparktrust.org"], "status": "ok", "final_url": "https://www.finsburyparktrust.org/", "v": 3}
+{"key": "jalsapaan.com", "emails": [], "status": "ok", "final_url": "https://www.jalsapaan.com/", "v": 3}
+{"key": "minnowclapham.co.uk", "emails": ["info@minnowclapham.co.uk"], "status": "ok", "final_url": "https://minnowclapham.co.uk/", "v": 3}
+{"key": "brooksandgao.com", "emails": ["brooksandgao@icloud.com"], "status": "ok", "final_url": "https://www.brooksandgao.com/", "v": 3}
+{"key": "elchicos.co.uk", "emails": ["info_streatham@elchicos.co.uk"], "status": "ok", "final_url": "https://www.elchicos.co.uk/", "v": 3}
+{"key": "theblackkitchen.co.uk", "emails": [], "status": "unknown", "final_url": "https://www.theblackkitchen.co.uk/", "v": 3}
+{"key": "trinityrestaurant.co.uk", "emails": ["dine@trinityrestaurant.co.uk"], "status": "ok", "final_url": "https://trinityrestaurant.co.uk/", "v": 3}
+{"key": "aquum.co.uk", "emails": [], "status": "unknown", "final_url": "https://www.aquum.co.uk/", "v": 3}
+{"key": "yard-style.co.uk", "emails": [], "status": "ok", "final_url": "https://www.yard-style.co.uk/", "v": 3}
+{"key": "monkeyleafcafe.com", "emails": ["info@monkeyleafcafe.com"], "status": "ok", "final_url": "https://www.monkeyleafcafe.com/", "v": 3}
+{"key": "tsunamiclapham.co.uk", "emails": ["reservations@tsunamiclapham.co.uk"], "status": "ok", "final_url": "https://www.tsunamiclapham.co.uk/", "v": 3}
+{"key": "syriafood.co.uk", "emails": [], "status": "ok", "final_url": "https://www.syriafood.co.uk/", "v": 3}
+{"key": "freshlygrilled.co.uk", "emails": [], "status": "ok", "final_url": "https://freshlygrilled.co.uk/", "v": 3}
+{"key": "thepigshead.com", "emails": ["crackling@thepigshead.com"], "status": "ok", "final_url": "https://www.thepigshead.com/", "v": 3}
+{"key": "cafebarcelonalondon.co.uk", "emails": ["cafebarcelonalondon@gmail.com"], "status": "ok", "final_url": "https://cafebarcelonalondon.co.uk/", "v": 3}
+{"key": "blackstockpub.com", "emails": ["info@blackstockpub.com"], "status": "ok", "final_url": "https://blackstockpub.com/", "v": 3}
+{"key": "orleansbar.uk", "emails": ["eben@eyebytes.com"], "status": "ok", "final_url": "https://orleansbar.uk/", "v": 3}
+{"key": "hanoipho.co.uk", "emails": [], "status": "ok", "final_url": "https://www.hanoipho.co.uk/", "v": 3}
+{"key": "osteriatoscana.co.uk", "emails": ["otclapham@aol.com"], "status": "ok", "final_url": "https://www.osteriatoscana.co.uk/", "v": 3}
+{"key": "commonpizza.co.uk", "emails": ["info@indiantypefoundry.com"], "status": "ok", "final_url": "https://commonpizza.co.uk/", "v": 3}
+{"key": "tirak.co.uk", "emails": ["office@tirak.co.uk"], "status": "ok", "final_url": "https://tirak.co.uk/", "v": 3}
+{"key": "baskstreetboys.com", "emails": ["baskstreetboys@gmail.com"], "status": "ok", "final_url": "https://baskstreetboys.com/", "v": 3}
+{"key": "zakurah.com", "emails": ["info@zakurah.com"], "status": "ok", "final_url": "https://www.zakurah.com/", "v": 3}
+{"key": "crackcookies.co.uk", "emails": ["info@crackcookies.co.uk"], "status": "ok", "final_url": "https://www.crackcookies.co.uk/", "v": 3}
+{"key": "lobitogrill.com", "emails": [], "status": "ok", "final_url": "https://lobitogrill.com/", "v": 3}
+{"key": "bellevueclapham.com", "emails": ["bellevue@youngs.co.uk"], "status": "ok", "final_url": "https://www.bellevueclapham.com/", "v": 3}
+{"key": "olivethree.co.uk", "emails": ["info@olivethree.co.uk"], "status": "ok", "final_url": "https://olivethree.co.uk/", "v": 3}
+{"key": "commonclapham.com", "emails": ["info@wearecommon.co.uk"], "status": "ok", "final_url": "https://commonclapham.com/", "v": 3}
+{"key": "streathamkitchen.com", "emails": ["streathamkitchen@gmail.com", "info@streathamkitchen.com"], "status": "ok", "final_url": "https://www.streathamkitchen.com/", "v": 3}
+{"key": "chinagardenexpress.co.uk/clapham", "emails": ["info@zpos.co.uk", "info@chinagardenexpress.co.uk"], "status": "ok", "final_url": "https://www.chinagardenexpress.co.uk/clapham/", "v": 3}
+{"key": "worldsendfinsburypark.com", "emails": ["5781@greeneking.co.uk", "fallback@greeeneking.test"], "status": "ok", "final_url": "https://www.worldsendfinsburypark.com/", "v": 3}
+{"key": "armafusion.com", "emails": [], "status": "ok", "final_url": "https://www.armafusion.com/", "v": 3}
+{"key": "thepeppertree.co.uk", "emails": [], "status": "ok", "final_url": "https://www.thepeppertree.co.uk/", "v": 3}
+{"key": "sancarlo.co.uk", "emails": [], "status": "ok", "final_url": "https://sancarlo.co.uk/", "v": 3}
+{"key": "jaikrishna.co.uk", "emails": [], "status": "ok", "final_url": "https://www.jaikrishna.co.uk/", "v": 3}
+{"key": "dvinecellars.com", "emails": ["sales@dvinecellars.com"], "status": "ok", "final_url": "https://dvinecellars.com/", "v": 3}
+{"key": "fabrizio2go.co.uk", "emails": ["info@fabrizio2go.co.uk"], "status": "ok", "final_url": "https://fabrizio2go.co.uk/", "v": 3}
+{"key": "rpgtaverns.com", "emails": ["info@rpgtaverns.com"], "status": "ok", "final_url": "https://www.rpgtaverns.com/", "v": 3}
+{"key": "thecommonespressobar.co.uk", "emails": [], "status": "ok", "final_url": "https://thecommonespressobar.co.uk/", "v": 3}
+{"key": "alexandraclapham.com", "emails": ["5751@greeneking.co.uk", "fallback@greeeneking.test", "enquiries@alexandraclapham.com"], "status": "ok", "final_url": "https://www.alexandraclapham.com/", "v": 3}
+{"key": "millieandmaisie.co.uk", "emails": ["info@millieandmaisie.com"], "status": "ok", "final_url": "https://millieandmaisie.co.uk/", "v": 3}
+{"key": "sunnybeachrestaurant.co.uk", "emails": [], "status": "ok", "final_url": "https://sunnybeachrestaurant.co.uk/", "v": 3}
+{"key": "indiatown.co.uk", "emails": [], "status": "ok", "final_url": "https://indiatown.co.uk/", "v": 3}
+{"key": "themanorclub.co.uk", "emails": ["enquiries@themanorclub.co.uk"], "status": "ok", "final_url": "https://www.themanorclub.co.uk/", "v": 3}
+{"key": "thelittleorangedoor.co.uk", "emails": [], "status": "ok", "final_url": "https://www.thelittleorangedoor.co.uk/", "v": 3}
+{"key": "ricerepublic.co.uk", "emails": [], "status": "ok", "final_url": "https://www.ricerepublic.co.uk/", "v": 3}
+{"key": "rionightclub.co.uk", "emails": [], "status": "ok", "final_url": "https://rionightclub.co.uk/", "v": 3}
+{"key": "tokotonramen.com", "emails": [], "status": "ok", "final_url": "http://tokotonramen.com/", "v": 3}
+{"key": "therattlinbog.co.uk", "emails": ["info@therattlinbog.co.uk"], "status": "ok", "final_url": "https://www.therattlinbog.co.uk/", "v": 3}
+{"key": "crustandflame.co.uk", "emails": [], "status": "ok", "final_url": "https://www.crustandflame.co.uk/", "v": 3}
+{"key": "tajmahalstreatham.com", "emails": [], "status": "ok", "final_url": "https://tajmahalstreatham.com/", "v": 3}
+{"key": "castellafishbar.co.uk", "emails": [], "status": "ok", "final_url": "https://www.castellafishbar.co.uk/", "v": 3}
+{"key": "theministry.com", "emails": ["reception@theministry.com", "daisyp@theministry.com"], "status": "ok", "final_url": "https://www.theministry.com/", "v": 3}
+{"key": "babasgrillstreatham.co.uk", "emails": [], "status": "ok", "final_url": "https://babasgrillstreatham.co.uk/", "v": 3}
+{"key": "jjbestchicken.com", "emails": [], "status": "ok", "final_url": "https://jjbestchicken.com/", "v": 3}
+{"key": "snaktank.co.uk", "emails": [], "status": "ok", "final_url": "https://www.snaktank.co.uk/", "v": 3}
+{"key": "tropikazo.com", "emails": [], "status": "ok", "final_url": "https://www.tropikazo.com/", "v": 3}
+{"key": "hermanostacohouse.com", "emails": [], "status": "ok", "final_url": "https://www.hermanostacohouse.com/", "v": 3}
+{"key": "themanorarms.com", "emails": ["manorarms@youngs.co.uk"], "status": "ok", "final_url": "https://www.themanorarms.com/", "v": 3}
+{"key": "francescosgroup.com", "emails": ["info@fmgroupuk.com"], "status": "ok", "final_url": "https://francescosgroup.com/", "v": 3}
