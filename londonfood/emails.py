@@ -24,6 +24,10 @@ PARKED_RX = re.compile(r"domain (?:is |may be )?for sale|buy this domain|this do
 
 JUNK_DOMAINS = ("example.", "sentry", "wixpress", "domain.com", "email.com", "yourdomain",
                 "godaddy", "squarespace.com", "mysite", "sentry-next", "@2x", "wix.com")
+# Addresses that are useless for contacting the venue
+NO_OUTREACH = re.compile(r"(privacy|gdpr|dpo|data|legal|investor|ir@|careers|jobs|recruit|hr@|noreply|no-reply"
+                         r"|donotreply|webmaster|abuse|unsubscribe|accounts|invoice|payable|complaints|safeguarding)")
+LOW_PRIORITY = ("press", "media", "pr@", "marketing", "partnerships", "partner", "customer", "feedback", "support")
 JUNK_SUFFIX = (".png", ".jpg", ".jpeg", ".gif", ".webp", ".svg", ".css", ".js")
 
 # Websites that are not the venue's own site; no point crawling them for an email.
@@ -41,9 +45,10 @@ def decode_cfemail(hexstr):
 
 def clean(email):
     email = urllib.parse.unquote(html.unescape(email)).strip().strip(".").lower()
+    email = re.sub(r"^(?:u003[ce]|x3[ce]|u0022|20)+", "", email)  # JSON / URL escape debris
     if not EMAIL_RX.fullmatch(email):
         return None
-    if email.endswith(JUNK_SUFFIX) or any(j in email for j in JUNK_DOMAINS):
+    if email.endswith(JUNK_SUFFIX) or any(j in email for j in JUNK_DOMAINS) or NO_OUTREACH.match(email):
         return None
     return email
 
@@ -90,16 +95,41 @@ def is_aggregator(url):
     return any(a in host for a in AGGREGATORS)
 
 
+FREEMAIL = ("gmail.com", "googlemail.com", "hotmail.com", "hotmail.co.uk", "outlook.com", "live.com",
+            "live.co.uk", "yahoo.com", "yahoo.co.uk", "icloud.com", "me.com", "btinternet.com",
+            "aol.com", "protonmail.com", "proton.me", "sky.com", "virginmedia.com")
+ROLE_RANK = ["reservations", "bookings", "booking", "book", "reserve", "info", "hello", "contact", "enquir",
+             "events", "office", "manager", "admin", "team", "sales", "orders", "catering"]
+
+
+def site_root(url):
+    host = urllib.parse.urlparse(url).netloc.lower().split(":")[0].removeprefix("www.")
+    parts = host.split(".")
+    return ".".join(parts[-3:]) if len(parts) > 2 and parts[-2] in ("co", "org", "ac", "com") else ".".join(parts[-2:])
+
+
 def best_email(emails, website):
-    """Prefer an address on the venue's own domain, then any info@/hello@/bookings@ style address."""
-    if not emails:
+    """Pick the venue's email: its own domain or a free-mail address only, role addresses (info@, bookings@) first.
+
+    Addresses on other companies' domains (web agencies, landlords, parent groups) are ignored.
+    """
+    roots = {site_root(u) for u in (website if isinstance(website, (list, tuple)) else [website]) if u}
+    emails = [c for c in (clean(e) for e in emails) if c]
+    ok = [e for e in emails if any(e.split("@")[1] == r or e.split("@")[1].endswith("." + r) for r in roots)
+          or e.split("@")[1] in FREEMAIL]
+    if not ok:
         return ""
-    host = urllib.parse.urlparse(website).netloc.lower().removeprefix("www.")
-    root = ".".join(host.split(".")[-3:]) if host.endswith(".co.uk") else ".".join(host.split(".")[-2:])
-    own = [e for e in emails if e.split("@")[1].endswith(root)] if root else []
-    pool = own or emails
-    generic = [e for e in pool if re.match(r"(info|hello|contact|enquir|book|reserv|events|office|bookings)", e)]
-    return (generic or pool)[0]
+
+    def rank(e):
+        local = e.split("@")[0]
+        for i, role in enumerate(ROLE_RANK):
+            if local.startswith(role):
+                return (0, i)
+        if e.startswith(LOW_PRIORITY):
+            return (3, 0)
+        return (1 if "." not in local else 2, 0)  # personal first.last addresses after role ones
+
+    return min(ok, key=rank)
 
 
 def _robots_ok(url, cache):
@@ -145,30 +175,30 @@ def fetch_status(exc):
 def find_email(website):
     """Crawl a venue homepage plus a few contact-like pages.
 
-    Returns (email, all_emails, status) where status is ok / closed / parked / dead / unknown / skipped.
+    Returns (email, all_emails, status, final_url); status is ok / closed / parked / dead / unknown / skipped.
     """
     website = normalize_url(website)
     if not website or is_aggregator(website):
-        return "", [], "skipped"
+        return "", [], "skipped", website
     robots = {}
     emails = []
     try:
         if not _robots_ok(website, robots):
-            return "", [], "unknown"
+            return "", [], "unknown", website
         final_url, page = http.get(website)
     except Exception as e:
-        return "", [], fetch_status(e)
+        return "", [], fetch_status(e), website
     status = site_status(page)
     if status != "ok":
-        return "", [], status
+        return "", [], status, final_url
     emails += extract_emails(page)
-    if not emails:
+    if not best_email(emails, [website, final_url]):
         for link in contact_links(page, final_url):
             try:
                 if _robots_ok(link, robots):
                     emails += [e for e in extract_emails(http.get(link)[1]) if e not in emails]
             except Exception:
                 continue
-            if emails:
+            if best_email(emails, [website, final_url]):
                 break
-    return best_email(emails, final_url), emails, "ok"
+    return best_email(emails, [website, final_url]), emails, "ok", final_url

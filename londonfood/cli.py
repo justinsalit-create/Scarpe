@@ -33,7 +33,7 @@ class CrawlCache:
             with open(path) as f:
                 for line in f:
                     rec = json.loads(line)
-                    if "status" in rec:  # older cache lines have no status: re-crawl them
+                    if "emails" in rec:  # older cache formats: re-crawl them
                         self.data[rec["key"]] = rec
 
     @staticmethod
@@ -44,8 +44,8 @@ class CrawlCache:
     def get(self, url):
         return self.data.get(self.key(url))
 
-    def put(self, url, email, status):
-        rec = {"key": self.key(url), "email": email, "status": status}
+    def put(self, url, emails_found, status, final_url):
+        rec = {"key": self.key(url), "emails": emails_found, "status": status, "final_url": final_url}
         with self.lock:
             self.data[rec["key"]] = rec
             with open(self.path, "a") as f:
@@ -111,8 +111,8 @@ def enrich(venues, cache, workers, google_key):
     print(f"Crawling {len(todo)} websites for email addresses", file=sys.stderr)
 
     def work(url):
-        email, _, status = emails.find_email(url)
-        cache.put(url, email, status)
+        _, found, status, final_url = emails.find_email(url)
+        cache.put(url, found, status, final_url)
 
     with cf.ThreadPoolExecutor(workers) as ex:
         futures = [ex.submit(work, u) for u in todo.values()]
@@ -125,8 +125,10 @@ def enrich(venues, cache, workers, google_key):
             rec = cache.get(v["website"]) or {}
             if rec.get("status") in CLOSED_STATUSES:
                 v["closed"] = True
-            elif not v["email"] and rec.get("email"):
-                v["email"], v["email_source"] = rec["email"], "venue website"
+            elif not v["email"]:
+                email = emails.best_email(rec.get("emails", []), [v["website"], rec.get("final_url", "")])
+                if email:
+                    v["email"], v["email_source"] = email, "venue website"
         v["contact"] = v["email"] or emails.normalize_url(v["website"])
 
 

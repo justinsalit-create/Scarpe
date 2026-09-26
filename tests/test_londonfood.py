@@ -50,6 +50,16 @@ class TestEmails(unittest.TestCase):
     def test_best_email_prefers_own_domain(self):
         self.assertEqual(emails.best_email(["chef@gmail.com", "info@venue.co.uk"], "https://www.venue.co.uk/"),
                          "info@venue.co.uk")
+        # other companies' domains (parent group, agency) are ignored; free-mail is fine
+        self.assertEqual(emails.best_email(["hello@amalfi.co.uk"], "https://www.caferouge.com/"), "")
+        self.assertEqual(emails.best_email(["hello@amalfi.co.uk", "joescafe@gmail.com"], "https://joes.cafe"),
+                         "joescafe@gmail.com")
+        # role addresses beat personal ones
+        self.assertEqual(emails.best_email(["jane.doe@venue.com", "press@venue.com", "bookings@venue.com"],
+                                           "https://venue.com"), "bookings@venue.com")
+        self.assertEqual(emails.best_email(["investor@pe.com", "media@pe.com", "stpauls@pe.com"], "https://pe.com"),
+                         "stpauls@pe.com")
+        self.assertEqual(emails.extract_emails("\\u003einfo@venue.com"), ["info@venue.com"])
 
     def test_contact_links_same_site_only(self):
         page = ('<a href="/contact-us">Contact</a><a href="https://facebook.com/contact">fb</a>'
@@ -58,7 +68,7 @@ class TestEmails(unittest.TestCase):
                          ["https://venue.com/contact-us", "https://venue.com/about.html"])
 
     def test_aggregators_skipped(self):
-        self.assertEqual(emails.find_email("https://www.facebook.com/somepub"), ("", [], "skipped"))
+        self.assertEqual(emails.find_email("https://www.facebook.com/somepub"), ("", [], "skipped", "https://www.facebook.com/somepub"))
 
     def test_find_email_follows_contact_page(self):
         pages = {"https://venue.com": ("https://venue.com/", '<a href="/contact">Contact</a>'),
@@ -113,8 +123,8 @@ class TestEndToEnd(unittest.TestCase):
         with tempfile.TemporaryDirectory() as d, \
                 mock.patch.object(osm, "fetch_borough", return_value=elements), \
                 mock.patch.object(emails, "find_email", side_effect=lambda u: {
-                    "pizza.place": ("ciao@pizza.place", [], "ok"),
-                    "oldbistro.com": ("", [], "closed")}[cli.CrawlCache.key(u)]):
+                    "pizza.place": ("ciao@pizza.place", ["ciao@pizza.place"], "ok", "https://pizza.place/"),
+                    "oldbistro.com": ("", [], "closed", "https://oldbistro.com/")}[cli.CrawlCache.key(u)]):
             cli.main(["--boroughs", "Camden", "--out", d, "--cache", d])
             with open(os.path.join(d, "london_food_contacts.csv")) as f:
                 text = f.read()
