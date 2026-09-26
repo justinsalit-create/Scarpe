@@ -127,6 +127,8 @@ class TestEndToEnd(unittest.TestCase):
              "tags": {"amenity": "restaurant", "name": "Pizza Place Kentish Town", "website": "https://www.pizza.place/"}},
             {"type": "node", "id": 5, "lat": 51.7, "lon": -0.3,
              "tags": {"amenity": "restaurant", "name": "Old Bistro", "website": "oldbistro.com"}},
+            {"type": "node", "id": 7, "lat": 51.9, "lon": -0.5,
+             "tags": {"amenity": "fast_food", "name": "Taco Truck", "contact:facebook": "tacotruckldn"}},
             {"type": "node", "id": 6, "lat": 51.8, "lon": -0.4,
              "tags": {"amenity": "cafe", "name": "Gone Cafe", "disused": "yes", "website": "gone.cafe"}},
             {"type": "way", "id": 2, "center": {"lat": 51.5, "lon": -0.1},
@@ -138,22 +140,40 @@ class TestEndToEnd(unittest.TestCase):
                 mock.patch.object(emails, "find_email", side_effect=lambda u: {
                     "pizza.place": ("ciao@pizza.place", ["ciao@pizza.place"], "ok", "https://pizza.place/"),
                     "oldbistro.com": ("", [], "closed", "https://oldbistro.com/")}[cli.CrawlCache.key(u)]):
-            cli.main(["--boroughs", "Camden", "--out", d, "--cache", d])
+            cli.main(["--boroughs", "Camden", "--out", d, "--cache", d, "--no-fsa"])
             with open(os.path.join(d, "london_food_emails.csv")) as f:
                 em = f.read()
             with open(os.path.join(d, "london_food_websites.csv")) as f:
                 web = f.read()
             self.assertTrue(em.startswith("email,name,"))
-            self.assertTrue(web.startswith("website,name,"))
+            self.assertTrue(web.startswith("website,website_type,name,"))
             self.assertIn("hi@crown.pub,The Crown", em)
             # pizza place: email found on its site, 2 branches share it; also listed in websites file
-            self.assertIn("ciao@pizza.place,Pizza Place,Camden,Pizza,https://pizza.place,,venue website,2,", em)
-            self.assertIn("https://pizza.place,Pizza Place,Camden,Pizza,ciao@pizza.place,2,", web)
+            self.assertIn("ciao@pizza.place,Pizza Place,Camden,Pizza,https://pizza.place,,venue website,openstreetmap,2,", em)
+            self.assertIn("https://pizza.place,own site,Pizza Place,Camden,Pizza,ciao@pizza.place,2,", web)
+            self.assertIn("https://www.facebook.com/tacotruckldn,facebook,Taco Truck", web)
             for gone in ("No Contact", "Old Bistro", "Gone Cafe", "Kentish Town"):
                 self.assertNotIn(gone, em + web)
             self.assertEqual(em.count("The Crown"), 1)
             self.assertTrue(os.path.exists(os.path.join(d, "by_borough", "Camden_emails.csv")))
             self.assertTrue(os.path.exists(os.path.join(d, "by_borough", "Camden_websites.csv")))
+
+    def test_fsa_merge(self):
+        from londonfood import fsa
+        osm_el = [{"type": "node", "id": 1, "lat": 51.5, "lon": -0.1,
+                   "tags": {"amenity": "restaurant", "name": "The Golden Wok", "addr:postcode": "E1 6AN"}}]
+        ests = [{"FHRSID": 1, "BusinessName": "Golden Wok Ltd", "BusinessTypeID": 1, "PostCode": "E1 6AN"},
+                {"FHRSID": 2, "BusinessName": "Bob's Burger Van", "BusinessTypeID": 7846, "PostCode": "E2 7AA",
+                 "geocode": {"latitude": "51.52", "longitude": "-0.07"}},
+                {"FHRSID": 3, "BusinessName": "Corner Newsagent", "BusinessTypeID": 4613, "PostCode": "E1 1AA"},
+                {"FHRSID": 4, "BusinessName": "Brick Lane Beigel Bake", "BusinessTypeID": 4613, "PostCode": "E1 6SB"}]
+        with mock.patch.object(osm, "fetch_borough", return_value=osm_el), \
+                mock.patch.object(fsa, "fetch_borough", return_value=ests):
+            venues = cli.collect(["London Borough of Tower Hamlets"], "/nonexistent", set())
+        names = {v["name"]: v for v in venues}
+        self.assertEqual(set(names), {"The Golden Wok", "Bob's Burger Van", "Brick Lane Beigel Bake"})
+        self.assertIn("Food truck", names["Bob's Burger Van"]["categories"])
+        self.assertIn("Bagels", names["Brick Lane Beigel Bake"]["categories"])
 
     def test_osm_email_list_split(self):
         v = {"email": "info@a.com; Bookings@A.com", "website": "a.com"}

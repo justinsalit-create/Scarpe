@@ -14,7 +14,7 @@ import sys
 import threading
 import urllib.parse
 
-from . import emails, osm, places
+from . import emails, fsa, osm, places
 from .boroughs import BOROUGHS, short_name
 from .categories import CATEGORIES, categorize
 
@@ -62,11 +62,12 @@ def resolve_boroughs(names):
     return picked
 
 
-def collect(boroughs, cache_dir, wanted):
+def collect(boroughs, cache_dir, wanted, use_fsa=True):
     venues, seen = [], set()
     for i, b in enumerate(boroughs, 1):
         elements = osm.fetch_borough(b, cache_dir)
         kept = closed = 0
+        candidates = []
         for el in elements:
             v = osm.to_venue(el, short_name(b))
             if not v["name"]:
@@ -74,6 +75,22 @@ def collect(boroughs, cache_dir, wanted):
             if osm.is_closed(v["tags"]):
                 closed += 1
                 continue
+            v["source"] = "openstreetmap"
+            candidates.append(v)
+        fsa_added = 0
+        if use_fsa:
+            known = {fsa.match_key(v["name"], v["postcode"]) for v in candidates if v["postcode"]}
+            try:
+                ests = fsa.fetch_borough(short_name(b), cache_dir)
+            except Exception as e:
+                print(f"  FSA register unavailable for {short_name(b)}: {e}", file=sys.stderr)
+                ests = []
+            for est in ests:
+                v = fsa.to_venue(est, short_name(b))
+                if v and v["name"] and fsa.match_key(v["name"], v["postcode"]) not in known:
+                    candidates.append(v)
+                    fsa_added += 1
+        for v in candidates:
             v["categories"] = categorize(v["tags"])
             if wanted and not wanted & set(v["categories"]):
                 continue
@@ -86,7 +103,8 @@ def collect(boroughs, cache_dir, wanted):
             seen |= keys
             venues.append(v)
             kept += 1
-        print(f"[{i}/{len(boroughs)}] {short_name(b)}: {kept} venues ({closed} closed skipped)", file=sys.stderr)
+        print(f"[{i}/{len(boroughs)}] {short_name(b)}: {kept} venues ({fsa_added} extra from the FSA register, "
+              f"{closed} closed skipped)", file=sys.stderr)
     return venues
 
 
@@ -103,7 +121,7 @@ def enrich(venues, cache, workers, google_key):
     # Crawl every venue website, including ones with an OSM email, to catch closed venues / dead sites.
     todo = {}
     for v in venues:
-        if v["website"] and cache.get(v["website"]) is None:
+        if v["website"] and not emails.is_aggregator(v["website"]) and cache.get(v["website"]) is None:
             todo.setdefault(CrawlCache.key(v["website"]), v["website"])
     print(f"Crawling {len(todo)} websites for email addresses", file=sys.stderr)
 
@@ -129,10 +147,10 @@ def enrich(venues, cache, workers, google_key):
             v["other_emails"] = [e for e in v["other_emails"] + found if e != v["email"]]
 
 
-EMAIL_FIELDS = ["email", "name", "borough", "categories", "website", "other_emails", "email_source", "locations",
+EMAIL_FIELDS = ["email", "name", "borough", "categories", "website", "other_emails", "email_source", "source", "locations",
                 "phone", "address", "postcode", "osm_url"]
-WEBSITE_FIELDS = ["website", "name", "borough", "categories", "email", "locations", "phone", "address",
-                  "postcode", "facebook", "instagram", "osm_url"]
+WEBSITE_FIELDS = ["website", "website_type", "name", "borough", "categories", "email", "locations", "phone", "address",
+                  "postcode", "source", "facebook", "instagram", "osm_url"]
 
 
 def website_key(url):
@@ -168,6 +186,14 @@ def split_osm_email(v):
     v["other_emails"] = found[1:]
     v["email_source"] = "openstreetmap" if found else ""
     v["website"] = emails.normalize_url(v["website"])
+    v["website_type"] = "own site" if v["website"] else ""
+    if not v["website"]:  # fall back to the venue's own social page, as tagged on the map
+        for kind, base in (("facebook", "https://www.facebook.com/"), ("instagram", "https://www.instagram.com/")):
+            handle = (v.get(kind) or "").strip()
+            if handle:
+                v["website"] = handle if handle.startswith("http") else base + handle.lstrip("@/")
+                v["website_type"] = kind
+                break
 
 
 def main(argv=None):
@@ -179,13 +205,14 @@ def main(argv=None):
     ap.add_argument("--cache", default=".cache", help="cache directory (OSM + crawl results)")
     ap.add_argument("--workers", type=int, default=16, help="parallel website crawlers")
     ap.add_argument("--no-crawl", action="store_true", help="skip crawling venue websites")
+    ap.add_argument("--no-fsa", action="store_true", help="don't add venues from the FSA hygiene-rating register")
     ap.add_argument("--google-key", default=os.environ.get("GOOGLE_MAPS_API_KEY"),
                     help="Google Places API key to fill missing websites (or set GOOGLE_MAPS_API_KEY)")
     args = ap.parse_args(argv)
 
     os.makedirs(args.out, exist_ok=True)
     os.makedirs(args.cache, exist_ok=True)
-    venues = collect(resolve_boroughs(args.boroughs), args.cache, set(args.categories or []))
+    venues = collect(resolve_boroughs(args.boroughs), args.cache, set(args.categories or []), not args.no_fsa)
     for v in venues:
         split_osm_email(v)
     if not args.no_crawl:
