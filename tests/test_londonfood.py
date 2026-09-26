@@ -60,6 +60,13 @@ class TestEmails(unittest.TestCase):
         with mock.patch("londonfood.http.get", side_effect=get):
             self.assertEqual(emails.find_email("v.com")[0], "hello@v.com")
 
+    def test_extract_is_fast_on_hostile_pages(self):
+        import time
+        page = "a" + " " * 50000 + "b" + "Q" * 200000 + "data:image/png;base64," + "A" * 300000 + " hi@v.com"
+        t = time.time()
+        self.assertEqual(emails.extract_emails(page), ["hi@v.com"])
+        self.assertLess(time.time() - t, 2)
+
     def test_cfemail(self):
         self.assertEqual(emails.decode_cfemail("422b2c242d023637302f2d6c212d6c3729"), "info@turmo.co.uk")
 

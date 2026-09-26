@@ -9,7 +9,8 @@ import urllib.robotparser
 
 from . import http
 
-EMAIL_RX = re.compile(r"[A-Za-z0-9._%+'-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,24}")
+EMAIL_RX = re.compile(r"[A-Za-z0-9._%+'-]{1,64}@[A-Za-z0-9-]{1,63}(?:\.[A-Za-z0-9-]{1,63}){0,4}\.[A-Za-z]{2,24}")
+DATA_URI = re.compile(r"data:[a-z/+.-]{1,40};base64,[A-Za-z0-9+/=]{100,}", re.I)
 MAILTO_RX = re.compile(r"mailto:([^\"'?>\s]+)", re.I)
 CFEMAIL_RX = re.compile(r'data-cfemail="([0-9a-fA-F]+)"')
 HREF_RX = re.compile(r'<a\b[^>]*href=["\']([^"\'#]+)["\'][^>]*>(.*?)</a>', re.I | re.S)
@@ -53,8 +54,10 @@ def clean(email):
     return email
 
 
-OBF_AT = re.compile(r"\s*(?:\[at\]|\(at\)|\{at\}|\s+at\s+(?=[a-z0-9-]+\s*(?:\[dot\]|\(dot\)|\{dot\}|\s+dot\s+)))\s*", re.I)
-OBF_DOT = re.compile(r"\s*(?:\[dot\]|\(dot\)|\{dot\}|\s+dot\s+)\s*", re.I)
+_SP = r"[ \t]{0,3}"
+OBF_AT = re.compile(_SP + r"(?:\[at\]|\(at\)|\{at\})" + _SP
+                    + r"|[ \t]{1,3}at[ \t]{1,3}(?=[a-z0-9-]{1,63}[ \t]{0,3}(?:\[dot\]|\(dot\)|\{dot\}|[ \t]dot[ \t]))", re.I)
+OBF_DOT = re.compile(_SP + r"(?:\[dot\]|\(dot\)|\{dot\})" + _SP + r"|[ \t]{1,3}dot[ \t]{1,3}", re.I)
 FALLBACK_PATHS = ("/contact", "/contact-us", "/contactus", "/contact.html", "/about", "/about-us", "/find-us",
                   "/private-hire", "/events", "/info")
 
@@ -66,6 +69,7 @@ def deobfuscate(text):
 
 def extract_emails(page):
     """Return emails found in an HTML page, mailto links first."""
+    page = DATA_URI.sub(" ", page[:2_000_000])
     found = []
     candidates = (MAILTO_RX.findall(page)
                   + [decode_cfemail(h) for h in CFEMAIL_RX.findall(page)]
