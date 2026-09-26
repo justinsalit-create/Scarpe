@@ -1,6 +1,7 @@
 email,name,borough,area,categories,website,other_emails,email_source,source,locations,phone,address,postcode,osm_url
 catering@805restaurants.com,805 Restaurant,Barnet,Hendon,Restaurant,https://www.805restaurants.com/,,venue website,food standards agency,1,,60 Vivian Avenue London,NW4 3XH,https://ratings.food.gov.uk/business/930521
 artospices@gmail.com,Art O Spices,Barnet,Cricklewood,Food truck,https://artospices.co.uk/,,venue website,food standards agency,1,,Broadway Retail Park  Cricklewood Lane London,NW2 1ES,https://ratings.food.gov.uk/business/1932977
+asilbistro@gmail.com,Asil Bistro,Barnet,East Barnet,French,https://asilbistro.uk/,,venue website,food standards agency,1,,1 Church Hill Road Barnet,EN4 8SY,https://ratings.food.gov.uk/business/1905995
 info@bacanarestaurant.co.uk,Bacana,Barnet,North Finchley,Restaurant,https://bacanarestaurant.co.uk/,,venue website,food standards agency,1,,Great North Leisure Park  Chaplin Square London,N12 0GL,https://ratings.food.gov.uk/business/1842318
 grillhouse@bagelsbar.com,Bagels Bar,Barnet,Hendon,Bagels,https://www.bagelsbar.com/,coffeehouse@bagelsbar.com,venue website,food standards agency,1,,84 Brent Street London,NW4 2ES,https://ratings.food.gov.uk/business/758411
 bankfooddrink@gmail.com,Bank Food And Drink,Barnet,Mill Hill,Restaurant,https://bankfoodanddrink.co.uk/,,venue website,food standards agency,1,,75 The Broadway London,NW7 3BU,https://ratings.food.gov.uk/business/1378572
@@ -30,6 +31,7 @@ dmbartell.ltd@gmail.com,Dan & Decarlo,Barnet,East Finchley,Cafe,https://www.dana
 contact@deradabrasserie.co.uk,De Rada Brasserie,Barnet,Mill Hill,French,https://www.deradabrasserie.co.uk/,,venue website,food standards agency,1,,103 The Broadway London,NW7 3TG,https://ratings.food.gov.uk/business/1523355
 info@deman.co.uk,Deman,Barnet,New Barnet,Takeaway,https://deman.co.uk/,,venue website,openstreetmap,1,,23 Great North Road,,https://www.openstreetmap.org/way/594078753
 info@dixyfriedchicken.com,Dixy Fried Chicken,Barnet,Burnt Oak,Takeaway,https://dixyfriedchicken.com/dixychicken,,venue website,food standards agency,1,,78 Watling Avenue Edgware,HA8 0LU,https://ratings.food.gov.uk/business/757227
+reservations@elvaquero.co.uk,El-Vaquero,Barnet,"Hale, The",Restaurant,https://www.elvaquero.co.uk/,,venue website,food standards agency,1,,2 Hale Lane London,NW7 3NX,https://ratings.food.gov.uk/business/1854681
 elephantinn@fullers.co.uk,Elephant Inn,Barnet,North Finchley,Pub,https://www.elephantinnfinchley.co.uk/,,openstreetmap,openstreetmap,1,+44 20 8343 6110,283 Ballards Lane,N12 8NR,https://www.openstreetmap.org/node/448921712
 'eli@elispizza.co.uk,Eli's Pizza,Barnet,Edgware,Pizza,https://www.elispizza.co.uk,eli@elispizza.co.uk,venue website,openstreetmap,1,+44 20 3761 5151,7 Edgwarebury Lane,,https://www.openstreetmap.org/node/11328259293
 fishnflame@gmail.com,Fish 'n' Flame,Barnet,East Finchley,Seafood,https://www.fishnflame.uk/,,venue website,food standards agency,1,,100 High Road London,N2 9EB,https://ratings.food.gov.uk/business/1649140
@@ -92,6 +94,7 @@ searockclub@live.co.uk,Sea Rock Club,Barnet,North Finchley,Restaurant,https://se
 info@selektchicken.com,Selekt Chicken,Barnet,Golders Green,Restaurant,https://selektchicken.com/,,venue website,food standards agency,23,,620 Finchley Road London,NW11 7RR,https://ratings.food.gov.uk/business/1650051
 info@senatorlounge.co.uk,Senator Lounge,Barnet,Hendon,Restaurant,https://senatorlounge.co.uk/,,venue website,openstreetmap,1,,11 Bell Lane,NW4 2BP,https://www.openstreetmap.org/node/8980885650
 info@shahabbasrestaurant.uk,Shah Abbas,Barnet,North Finchley,Restaurant,https://www.shahabbasrestaurant.uk/northfinchley,,venue website,openstreetmap,1,,,,https://www.openstreetmap.org/node/10213894378
+info@shaketastic.com,Shaketastic,Barnet,"Hale, The",Takeaway,https://shaketastic.com/,,venue website,food standards agency,1,,1 Hale Lane London,NW7 3NU,https://ratings.food.gov.uk/business/1933011
 info@shirazpatisserie.co.uk,Shiraz Patisserie,Barnet,Temple Fortune,Bakery,https://shirazpatisserie.co.uk/,,venue website,openstreetmap,1,,"6 Belmont Parade, Finchley Road",NW11 6XP,https://www.openstreetmap.org/node/13304474501
 info@sofalino.co.uk,Sofalino,Barnet,Whetstone,Restaurant,https://www.sofalino.co.uk/,,venue website,food standards agency,1,,1390 High Road London,N20 9BH,https://ratings.food.gov.uk/business/757975
 info@souvlikeit.com,Souvlikeit,Barnet,"Barnet (also Chipping Barnet, High Barnet)",Takeaway,https://souvlikeit.com/,,venue website,food standards agency,1,,40 High Street Barnet,EN5 5RU,https://ratings.food.gov.uk/business/1654140
@@ -104,10 +107,12 @@ goldersgreen@orders.sushimania.co.uk,Sushimania,Barnet,Golders Green,Asian; Japa
 finchley@orders.sushimania.co.uk,Sushimania,Barnet,North Finchley,Asian; Japanese; Sushi,https://sushimania.co.uk/location/finchley/,finchley.sushimania@gmail.com,openstreetmap,openstreetmap,1,+442084458282,650 High Road,N12 0NL,https://www.openstreetmap.org/node/10678907302
 edg.sushimania@gmail.com,Sushimania,Barnet,Edgware,Asian; Japanese; Sushi,https://sushimania.co.uk/location/edgware/,,venue website,openstreetmap,1,+442089580222,210 Station Road,HA8 7AR,https://www.openstreetmap.org/node/12181721459
 whet.sushimania@gmail.com,Sushimania,Barnet,Whetstone,Asian; Japanese; Sushi,https://sushimania.co.uk/location/whetstone/,,venue website,openstreetmap,1,,1257 High Road,N20 0EW,https://www.openstreetmap.org/way/161642833
+info@sweetndelish.com,Sweet N Delish,Barnet,East Barnet,Restaurant,https://www.sweetndelish.com/,,venue website,food standards agency,1,,266 East Barnet Road Barnet,EN4 8TD,https://ratings.food.gov.uk/business/1293839
 info@tabledumarchelondon.co.uk,Table Du Marche,Barnet,East Finchley,Restaurant,https://tabledumarchelondon.co.uk/,,venue website,food standards agency,1,,111 High Road London,N2 8AG,https://ratings.food.gov.uk/business/1620254
 info@tastiescafe.co.uk,Tasties Cafe,Barnet,Church End,Cafe,https://www.tastiescafe.co.uk/,,venue website,openstreetmap,1,,61 Ballards Lane,N3 1XP,https://www.openstreetmap.org/node/11063461282
 events@urbanpubsandbars.com,The Bald Faced Stag,Barnet,East Finchley,Pub,https://www.thebaldfacedstagn2.co.uk/,,venue website,openstreetmap,8,,69 High Road,N2 8AB,https://www.openstreetmap.org/way/187242347
 info@thebohemia.co.uk,The Bohemia,Barnet,North Finchley,Pub,https://www.thebohemia.co.uk/,,venue website,openstreetmap,1,,762 High Road,N12 9QH,https://www.openstreetmap.org/node/2341125350
+info@thecheekykebab.co.uk,The Cheeky Kebab,Barnet,East Barnet,Takeaway,https://thecheekykebab.co.uk/,,venue website,food standards agency,1,,43 Church Hill Road Barnet,EN4 8SY,https://ratings.food.gov.uk/business/1927249
 info@theclassicgreek.co.uk,The Classic Greek,Barnet,Whetstone,Greek,https://theclassicgreek.co.uk/,,venue website,food standards agency,1,,1366 High Road London,N20 9HJ,https://ratings.food.gov.uk/business/1735144
 events@theenginerooms.co.uk,The Engine Room,Barnet,East Finchley,Restaurant,https://theenginerooms.co.uk/,,venue website,openstreetmap,2,,82-92 Great North Road,N2 0NL,https://www.openstreetmap.org/node/9108391641
 hello@griffinwhetstone.pub,The Griffin,Barnet,Whetstone,Pub,https://www.griffinwhetstone.pub/,,openstreetmap,openstreetmap,1,+44 20 8445 1110,1262 High Road,N20 9HH,https://www.openstreetmap.org/way/156501798
