@@ -102,7 +102,7 @@ class DNS:
 
     SERVERS = ("https://dns.google/resolve", "https://cloudflare-dns.com/dns-query")
 
-    def __init__(self, qps=80):
+    def __init__(self, qps=120):
         self.cache, self.lock, self.interval, self.next, self.n = {}, threading.Lock(), 1.0 / qps, 0.0, 0
 
     def lookup(self, host):

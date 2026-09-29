@@ -244,7 +244,7 @@ def main(argv=None):
     ap.add_argument("--no-crawl", action="store_true")
     ap.add_argument("--discover", action="store_true", help="verified website discovery for venues without one")
     ap.add_argument("--discover-limit", type=int, default=0)
-    ap.add_argument("--discover-workers", type=int, default=96)
+    ap.add_argument("--discover-workers", type=int, default=128)
     args = ap.parse_args(argv)
 
     cfg = load_config(args.city)
