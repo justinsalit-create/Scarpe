@@ -63,12 +63,31 @@ class Doc(BaseDocTemplate):
 
 
 PRIORITIES = ["High", "Medium", "Low"]
+FONT_DIR = os.path.join(os.path.dirname(__file__), "fonts")
+
+
+def use_local_script_font():
+    """Helvetica has no Thai (etc.) glyphs: switch to Sarabun (Thai + Latin, SIL OFL) for city PDFs."""
+    from reportlab.pdfbase import pdfmetrics
+    from reportlab.pdfbase.ttfonts import TTFont
+    reg, bold = os.path.join(FONT_DIR, "Sarabun-Regular.ttf"), os.path.join(FONT_DIR, "Sarabun-Bold.ttf")
+    if not (os.path.exists(reg) and os.path.exists(bold)):
+        return
+    pdfmetrics.registerFont(TTFont("Sarabun", reg))
+    pdfmetrics.registerFont(TTFont("Sarabun-Bold", bold))
+    for st in (title, sub, idx, link, meta):
+        st.fontName = "Sarabun"
+    for st in (h1, name):
+        st.fontName = "Sarabun-Bold"
+    title.fontName = "Sarabun-Bold"
 
 
 def build(kind, city="london"):
     base = os.path.join(ROOT, "output", city)
     rows = list(csv.DictReader(open(os.path.join(base, f"{city}_food_{kind}.csv"), encoding="utf-8")))
     ranked = bool(rows) and "english_priority" in rows[0]
+    if city != "london":
+        use_local_script_font()
     by_b = defaultdict(list)
     for r in rows:
         by_b[r["english_priority"] + " English priority" if ranked else r["borough"]].append(r)
@@ -100,7 +119,7 @@ def build(kind, city="london"):
                          f'{len(by_b[b]):,}</font>', h1)
         head._bookmark, head._label = anchor(b), b
         story.append(head)
-        order = (lambda r: (r["borough"], r["name"].lower())) if ranked else \
+        order = (lambda r: (r.get("district") or r.get("borough", ""), r["name"].lower())) if ranked else \
             (lambda r: (r.get("area") or "~", r["name"].lower()))
         for r in sorted(by_b[b], key=order):
             if kind == "emails":
@@ -116,7 +135,7 @@ def build(kind, city="london"):
             bits = [r.get("district") or r.get("area"), r.get("categories"), r.get("phone")]
             if ranked and r.get("site_language"):
                 bits.append(f"site: {r['site_language']}")
-            if r.get("name_local"):
+            if r.get("name_local") and r["name_local"] != r["name"]:
                 bits.insert(0, r["name_local"])
             if kind == "websites" and r.get("email"):
                 bits.append(r["email"])
