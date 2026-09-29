@@ -6,7 +6,7 @@ import re
 import urllib.parse
 from collections import Counter, defaultdict
 
-from . import areas, emails, http
+from . import areas, emails, http, names
 from .discover import slug
 
 WIKIDATA_QUERY = """
@@ -49,16 +49,19 @@ def add_wikidata(venues, cache_dir, bbox=None):
     except Exception as e:
         print(f"Wikidata unavailable: {e}", file=__import__("sys").stderr)
         return 0
-    by_name = defaultdict(list)
+    points = []
     for it in items:
         pt = _point(it["coord"]["value"])
         if pt:
-            by_name[slug(it["itemLabel"]["value"])].append((pt, it["site"]["value"]))
+            points.append((pt, it["itemLabel"]["value"], it["site"]["value"]))
     added = 0
     for v in venues:
         if v["website"] or not v.get("lat"):
             continue
-        for pt, site in by_name.get(slug(v["name"]), []):
+        # same place (200 m) and matching names; "Gaggan" = "Gaggan Anand" (4+ chars, either way round)
+        near = [(pt, site) for pt, label, site in points
+                if areas.within(pt, (v["lat"], v["lon"]), 200) and names.names_match(label, v["name"])]
+        for pt, site in near:
             if emails.not_venue_site(site):
                 continue
             if areas.within(pt, (v["lat"], v["lon"]), 200):
