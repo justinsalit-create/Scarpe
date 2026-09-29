@@ -187,6 +187,38 @@ class TestExtraSources(unittest.TestCase):
         self.assertEqual(venues[0]["website"], "https://www.rivercafe.co.uk/")
 
 
+class TestMergeRules(unittest.TestCase):
+    def test_fold_and_names(self):
+        from londonfood import names
+        self.assertEqual(names.fold("Hon\u2019s BBQ"), names.fold("Hon's BBQ"))
+        self.assertTrue(names.names_match("Panadera Bakery", "Panadera"))
+        self.assertTrue(names.names_match("Bombolone", "Bombolone Doughnuts"))
+        self.assertFalse(names.names_match("Pad", "Pad Thai House"))  # under 4 chars: no substring match
+
+    def test_never_name_only(self):
+        from londonfood import names
+        a = {"name": "Panadera", "lat": 13.7, "lon": 100.5}
+        far = {"name": "Panadera Bakery", "lat": 13.9, "lon": 100.6}
+        close = {"name": "Panadera Bakery", "lat": 13.7002, "lon": 100.5001}
+        self.assertFalse(names.same_venue(a, far))
+        self.assertTrue(names.same_venue(a, close))
+        self.assertTrue(names.same_venue({"name": "X", "phone": "+66 2 123 4567"},
+                                         {"name": "Y", "phone": "02-123-4567"}, "66"))
+        merged = names.dedupe_venues([dict(a, email=""), dict(close, email="hi@panadera.com")])
+        self.assertEqual(len(merged), 1)
+        self.assertEqual(merged[0]["email"], "hi@panadera.com")
+
+    def test_mx_validation(self):
+        from londonfood import validate
+        m = validate.MXChecker()
+        m.data.update({"good.com": "ok", "gone.com": "no_domain", "nomx.com": "no_mx", "null.com": "null_mx"})
+        self.assertEqual(m.check("info@good.com"), "valid")
+        self.assertEqual(m.check("info@gone.com"), "no_domain")
+        self.assertEqual(m.check("info@nomx.com"), "no_mx")
+        self.assertEqual(m.check("info@null.com"), "null_mx")
+        self.assertEqual(m.check("bad@@good.com"), "bad_syntax")
+
+
 class TestClosedOSM(unittest.TestCase):
     def test_is_closed(self):
         self.assertTrue(osm.is_closed({"name": "The Bell (closed)"}))

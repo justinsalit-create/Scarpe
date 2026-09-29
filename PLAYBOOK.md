@@ -53,6 +53,22 @@ OpenTable, search-engine result pages or social media: it breaks their terms and
    parked domains. Only addresses on the venue's own domain or free-mail are kept; role addresses
    (`info@`, `bookings@`) are preferred, and privacy@ / jobs@ / investor@ are dropped.
 
+## Merging with the partner pipeline (agreed rules)
+
+The client runs a second pipeline ("Muse sweep": social media, Wongnai, food blogs, delivery
+platforms) and merges both into one master list. Rules agreed with it:
+
+- **Name matching** (`londonfood/names.py`): map curly quotes to straight quotes before ASCII folding.
+  Names of 4 or more characters match when one contains the other ("Panadera" = "Panadera Bakery").
+  A match always needs email, website, phone or location to agree too, never the name alone.
+- **Email validation** (`londonfood/validate.py`, `tools/validate_emails.py <city>`): check syntax,
+  then MX via DNS-over-HTTPS. Reject no-domain, null-MX and no-MX addresses, and list them in
+  `<city>_rejected_emails.csv`. SMTP RCPT checks aren't possible from the sandbox, which only allows
+  HTTPS out.
+- **`english` yes/no** per row, plus the score and reasons.
+- **Handoff file**: `output/<city>/<city>_venues_master.csv` lists every open venue, contact or not,
+  already merged, for the partner pipeline to fill the gaps. Brief the client with totals.
+
 ## English priority (non-English-speaking cities)
 
 `english_score` in `londonfood/city.py`: +3 if the website is in English, +2 if it has an English
