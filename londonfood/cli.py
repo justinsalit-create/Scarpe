@@ -15,7 +15,7 @@ import threading
 import urllib.parse
 from collections import Counter
 
-from . import areas, discover, emails, extra, fsa, osm, places
+from . import areas, discover, emails, extra, fsa, osm, places, social, validate
 from .boroughs import BOROUGHS, short_name
 from .categories import CATEGORIES, categorize
 
@@ -206,6 +206,8 @@ def find_websites(venues, cache_dir, limit, workers):
 
 EMAIL_FIELDS = ["email", "name", "borough", "area", "categories", "website", "other_emails", "email_source", "source", "locations",
                 "phone", "address", "postcode", "osm_url"]
+SOCIAL_FIELDS = ["social_url", "name", "borough", "area", "categories", "facebook", "instagram", "locations",
+                 "phone", "address", "postcode", "source", "osm_url"]
 WEBSITE_FIELDS = ["website", "website_type", "name", "borough", "area", "categories", "email", "locations", "phone", "address",
                   "postcode", "source", "osm_url"]
 
@@ -244,6 +246,7 @@ def split_osm_email(v):
     v["email_source"] = "openstreetmap" if found else ""
     v["website"] = emails.normalize_url(v["website"])
     if v["website"] and emails.not_venue_site(v["website"]):
+        v["social_website"] = v["website"]  # a Facebook / Instagram page goes to the social file instead
         v["website"] = ""  # a Facebook / Instagram / Just Eat link is not the venue's website
     v["website_type"] = "own site" if v["website"] else ""
 
@@ -290,12 +293,19 @@ def main(argv=None):
 
     closed = sum(1 for v in venues if v.get("closed"))
     open_venues = sorted((v for v in venues if not v.get("closed")), key=lambda r: (r["borough"], r["name"].lower()))
+    rejected = validate.validate_venues(open_venues, args.cache)
+    validate.write_rejected(os.path.join(args.out, "london_rejected_emails.csv"), rejected)
+    for v in open_venues:
+        social.collect(v)
+    social_rows = dedupe([v for v in open_venues if not v["email"] and not v["website"] and v["social_url"]],
+                         lambda r: r["social_url"])
     email_rows = dedupe([v for v in open_venues if v["email"]], lambda r: r["email"])
     site_rows = dedupe([v for v in open_venues if v["website"] and not emails.not_venue_site(v["website"])],
                        lambda r: website_key(r["website"]))
 
     write_csv(os.path.join(args.out, "london_food_emails.csv"), email_rows, EMAIL_FIELDS)
     write_csv(os.path.join(args.out, "london_food_websites.csv"), site_rows, WEBSITE_FIELDS)
+    write_csv(os.path.join(args.out, "london_food_social.csv"), social_rows, SOCIAL_FIELDS)
     by_borough = os.path.join(args.out, "by_borough")
     os.makedirs(by_borough, exist_ok=True)
     for b in sorted({v["borough"] for v in open_venues}):
@@ -312,7 +322,8 @@ def main(argv=None):
     either = sum(1 for v in open_venues if v["email"] or v["website"])
     print(f"\n{len(venues)} venues found, {closed} dropped as closed (dead/closed website), "
           f"{either} open venues with an email or website -> {len(email_rows)} unique emails, "
-          f"{len(site_rows)} unique websites -> {args.out}/", file=sys.stderr)
+          f"{len(site_rows)} unique websites, {len(social_rows)} Facebook/Instagram-only venues, "
+          f"{len(rejected)} emails rejected by validation -> {args.out}/", file=sys.stderr)
 
 
 if __name__ == "__main__":

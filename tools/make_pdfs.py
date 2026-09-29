@@ -74,7 +74,7 @@ def build(kind, city="london"):
         by_b[r["english_priority"] + " English priority" if ranked else r["borough"]].append(r)
     boroughs = [p + " English priority" for p in PRIORITIES if p + " English priority" in by_b] if ranked \
         else sorted(by_b)
-    label = "Emails" if kind == "emails" else "Websites"
+    label = {"emails": "Emails", "websites": "Websites", "social": "Facebook & Instagram"}[kind]
     place = {"london": "London"}.get(city, city.replace("_", " ").title())
     os.makedirs(os.path.join(base, "pdf"), exist_ok=True)
     path = os.path.join(base, "pdf", f"{city}_food_{kind}.pdf")
@@ -83,7 +83,9 @@ def build(kind, city="london"):
     story = [Paragraph(f"{place} Food Venue {label}", title),
              Paragraph(f"{len(rows):,} {label.lower()}"
                        + (", most English-friendly first. " if ranked else f" across {len(boroughs)} areas. ") +
-                       f"Tap {'an email to write to' if kind == 'emails' else 'a website to open'} the venue. "
+                       f"Tap {'an email to write to' if kind == 'emails' else 'a link to open'} the venue. "
+                       + ("Venues with no email or website; their own page as listed on the map. " if kind == "social" else "")
+                       + 
                        f"Tap a section below to jump to it; tap a page number to come back here.", sub)]
     ix = Paragraph("", idx)
     ix._bookmark, ix._label = "index", "Borough index"
@@ -103,6 +105,9 @@ def build(kind, city="london"):
         for r in sorted(by_b[b], key=order):
             if kind == "emails":
                 target, shown = "mailto:" + r["email"], r["email"]
+            elif kind == "social":
+                target = r["social_url"]
+                shown = target.split("://", 1)[-1].removeprefix("www.").rstrip("/")
             else:
                 target = r["website"]
                 shown = target.split("://", 1)[-1].removeprefix("www.").rstrip("/")
@@ -128,6 +133,8 @@ def build(kind, city="london"):
 
 if __name__ == "__main__":
     city = sys.argv[1] if len(sys.argv) > 1 else "london"
-    for k in ("emails", "websites"):
+    for k in ("emails", "websites", "social"):
+        if not os.path.exists(os.path.join(ROOT, "output", city, f"{city}_food_{k}.csv")):
+            continue
         p, n = build(k, city)
         print(p, n, f"{os.path.getsize(p) / 1e6:.1f} MB")

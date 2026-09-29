@@ -18,7 +18,7 @@ import re
 import sys
 import urllib.parse
 
-from . import discover, emails, extra, http, names, osm, validate
+from . import discover, emails, extra, http, names, osm, social, validate
 from .categories import categorize
 from .cli import CLOSED_STATUSES, CrawlCache, dedupe, find_websites, split_osm_email, website_key
 
@@ -171,24 +171,9 @@ WEBSITE_FIELDS = ["website", "website_type"] + FIELDS_COMMON + ["email", "locati
 
 MASTER_FIELDS = ["name", "name_local", "district", "categories", "english", "english_score", "site_language",
                  "why", "email", "other_emails", "email_check", "website", "website_type", "phone", "address",
-                 "postcode", "lat", "lon", "source", "osm_url", "merged"]
-
-
-def validate_emails(venues, cache_dir):
-    """Keep only emails whose syntax and mail servers check out; returns the rejected ones."""
-    mx = validate.MXChecker(os.path.join(cache_dir, "mx.jsonl"))
-    todo = {e for v in venues for e in [v["email"]] + v["other_emails"] if e}
-    with cf.ThreadPoolExecutor(32) as ex:
-        verdict = dict(zip(todo, ex.map(mx.check, todo)))
-    rejected = []
-    for v in venues:
-        cands = [e for e in [v["email"]] + v["other_emails"] if e]
-        good = [e for e in cands if verdict[e] == "valid"]
-        rejected += [{"email": e, "reason": verdict[e], "name": v["name"], "district": v["borough"]}
-                     for e in cands if verdict[e] != "valid"]
-        v["email"], v["other_emails"] = (good[0], good[1:]) if good else ("", [])
-        v["email_check"] = "mx ok" if good else ""
-    return rejected
+                 "postcode", "facebook", "instagram", "lat", "lon", "source", "osm_url", "merged"]
+SOCIAL_FIELDS = ["social_url"] + FIELDS_COMMON + ["facebook", "instagram", "locations", "phone", "address",
+                                                  "postcode", "source", "osm_url"]
 
 
 def write_csv(path, rows, fields):
@@ -241,7 +226,9 @@ def main(argv=None):
 
     closed = sum(1 for v in venues if v.get("closed"))
     live = [v for v in venues if not v.get("closed")]
-    rejected = validate_emails(live, cache_dir)
+    rejected = validate.validate_venues(live, cache_dir)
+    for v in live:
+        social.collect(v)
     for v in live:
         english_score(v)
     live.sort(key=lambda r: (-r["english_score"], r["borough"], r["name"].lower()))
@@ -253,10 +240,11 @@ def main(argv=None):
     # partner pipeline, which hunts contacts for the venues still missing one
     master = names.dedupe_venues(list(live), cfg.get("country_code", ""))
     write_csv(os.path.join(out, f"{slug}_venues_master.csv"), master, MASTER_FIELDS)
-    with open(os.path.join(out, f"{slug}_rejected_emails.csv"), "w", newline="", encoding="utf-8") as f:
-        w = csv.DictWriter(f, fieldnames=["email", "reason", "name", "district"])
-        w.writeheader()
-        w.writerows(rejected)
+    validate.write_rejected(os.path.join(out, f"{slug}_rejected_emails.csv"), rejected)
+    # client rule: no email and no website -> the venue's own Facebook / Instagram page (never TikTok)
+    social_rows = dedupe([v for v in live if not v["email"] and not v["website"] and v["social_url"]],
+                         lambda r: r["social_url"])
+    write_csv(os.path.join(out, f"{slug}_food_social.csv"), social_rows, SOCIAL_FIELDS)
     write_csv(os.path.join(out, f"{slug}_food_emails.csv"), email_rows, EMAIL_FIELDS)
     write_csv(os.path.join(out, f"{slug}_food_websites.csv"), site_rows, WEBSITE_FIELDS)
     by = os.path.join(out, "by_district")
@@ -276,7 +264,8 @@ def main(argv=None):
 
     hi_e = sum(1 for r in email_rows if r["english_priority"] == "High")
     hi_w = sum(1 for r in site_rows if r["english_priority"] == "High")
-    print(f"Master venue list: {len(master)} venues; {len(rejected)} emails rejected by validation", file=sys.stderr)
+    print(f"Master venue list: {len(master)} venues; {len(rejected)} emails rejected by validation; "
+          f"{len(social_rows)} Facebook/Instagram-only venues", file=sys.stderr)
     print(f"\n{len(venues)} venues found, {closed} dropped as closed, {len(email_rows)} unique emails "
           f"({hi_e} high English priority), {len(site_rows)} unique websites ({hi_w} high) -> {out}/",
           file=sys.stderr)

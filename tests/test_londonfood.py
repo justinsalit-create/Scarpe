@@ -187,6 +187,29 @@ class TestExtraSources(unittest.TestCase):
         self.assertEqual(venues[0]["website"], "https://www.rivercafe.co.uk/")
 
 
+class TestSocial(unittest.TestCase):
+    def test_canonical_links(self):
+        from londonfood import social
+        self.assertEqual(social.canonical_instagram("@burger.dads"), "https://www.instagram.com/burger.dads/")
+        self.assertEqual(social.canonical_instagram("https://instagram.com/burgerdads/?hl=en"),
+                         "https://www.instagram.com/burgerdads/")
+        self.assertEqual(social.canonical_instagram("https://www.instagram.com/p/Cxyz/"), "")
+        self.assertEqual(social.canonical_facebook("https://m.facebook.com/burgerdadsbkk/"),
+                         "https://www.facebook.com/burgerdadsbkk")
+        self.assertEqual(social.canonical_facebook("https://facebook.com/profile.php?id=123&ref=x"),
+                         "https://www.facebook.com/profile.php?id=123")
+        self.assertEqual(social.canonical_facebook("https://www.facebook.com/sharer.php?u=x"), "")
+
+    def test_collect_prefers_instagram_and_uses_social_website(self):
+        from londonfood import social
+        v = {"tags": {}, "facebook": "", "instagram": "", "social_website": "https://www.facebook.com/somepub"}
+        social.collect(v)
+        self.assertEqual(v["social_url"], "https://www.facebook.com/somepub")
+        v = {"tags": {"contact:instagram": "somepub"}, "facebook": "somepub", "instagram": ""}
+        social.collect(v)
+        self.assertEqual(v["social_url"], "https://www.instagram.com/somepub/")
+
+
 class TestMergeRules(unittest.TestCase):
     def test_fold_and_names(self):
         from londonfood import names
@@ -253,6 +276,7 @@ class TestEndToEnd(unittest.TestCase):
                 mock.patch.object(osm, "fetch_borough", return_value=elements), \
                 mock.patch("londonfood.areas.fetch_places", return_value=[]), \
                 mock.patch("londonfood.extra.fetch_wikidata", return_value=[]), \
+                mock.patch("londonfood.validate.MXChecker.check", return_value="valid"), \
                 mock.patch.object(emails, "find_email", side_effect=lambda u: {
                     "pizza.place": ("ciao@pizza.place", ["ciao@pizza.place"], "ok", "https://pizza.place/"),
                     "oldbistro.com": ("", [], "closed", "https://oldbistro.com/")}[cli.CrawlCache.key(u)]):
@@ -268,6 +292,9 @@ class TestEndToEnd(unittest.TestCase):
             self.assertIn("ciao@pizza.place,Pizza Place,Camden,,Pizza,https://pizza.place,,venue website,openstreetmap,2,", em)
             self.assertIn("https://pizza.place,own site,Pizza Place,Camden,,Pizza,ciao@pizza.place,2,", web)
             self.assertNotIn("facebook", web)  # social pages are not venue websites
+            with open(os.path.join(d, "london_food_social.csv")) as f:
+                soc = f.read()
+            self.assertIn("https://www.facebook.com/tacotruckldn,Taco Truck", soc)  # no email/site -> social file
             for gone in ("No Contact", "Old Bistro", "Gone Cafe", "Kentish Town"):
                 self.assertNotIn(gone, em + web)
             self.assertEqual(em.count("The Crown"), 1)
