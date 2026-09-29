@@ -1,78 +1,80 @@
 district,venues,emails,websites,high_priority_emails,high_priority_websites
-Ban Phaeo District,4,0,0,0,0
-Bang Bo District,9,0,0,0,0
-Bang Bon District,37,0,1,0,0
-Bang Bua Thong District,15,1,1,0,0
-Bang Kapi District,72,4,5,1,3
-Bang Khae District,39,1,1,0,1
-Bang Khen District,90,2,6,1,3
-Bang Kho Laem District,66,3,1,0,0
-Bang Khun Thian District,98,1,2,1,1
-Bang Kruai District,25,1,2,0,0
-Bang Len District,8,0,1,0,0
-Bang Na District,51,1,0,0,0
-Bang Phlat District,47,4,2,1,1
-Bang Phli District,121,2,4,1,2
-Bang Rak District,505,42,70,20,34
-Bang Sao Thong District,5,0,0,0,0
-Bang Sue District,28,1,1,0,1
-Bang Yai District,8,0,0,0,0
-Bangkok Noi District,36,0,0,0,0
-Bangkok Yai District,15,0,0,0,0
-Bueng Kum District,62,2,2,1,1
-Chatuchak District,192,4,10,0,4
-Chom Thong District,29,1,1,0,0
-Din Daeng District,152,1,2,0,0
-Don Mueang District,28,0,1,0,0
-Dusit District,60,0,3,0,1
-Huai Khwang District,82,3,4,3,3
-Kamphaeng Saen District,7,0,0,0,0
-Khan Na Yao District,80,0,1,0,1
-Khlong Luang District,129,1,3,0,0
-Khlong Sam Wa District,19,1,1,0,0
-Khlong San District,58,1,2,0,2
-Khlong Toei District,296,29,51,19,36
-Krathum Baen District,21,1,1,0,0
-Lak Si District,21,0,0,0,0
-Lam Luk Ka District,45,3,3,0,1
-Lat Krabang District,152,3,1,1,1
-Lat Lum Kaeo District,3,0,0,0,0
-Lat Phrao District,56,1,2,0,1
-Min Buri District,11,0,0,0,0
-Mueang Nakhon Pathom District,56,3,2,0,0
-Mueang Nonthaburi District,84,3,0,0,0
-Mueang Pathum Thani District,29,0,0,0,0
-Mueang Samut Prakan District,63,2,0,0,0
-Mueang Samut Sakhon District,39,0,2,0,1
-Nakhon Chai Si District,6,0,0,0,0
-Nong Chok District,11,0,0,0,0
-Nong Khaem District,14,0,0,0,0
-Nong Suea District,2,0,0,0,0
-Pak Kret District,130,4,4,1,1
-Pathum Wan District,511,29,52,15,29
-Phasi Charoen District,70,0,1,0,1
-Phaya Thai District,133,6,11,1,2
-Phra Khanong District,19,2,2,1,1
-Phra Nakhon District,466,24,34,9,11
-Phra Pradaeng District,41,3,0,0,0
-Phra Samut Chedi District,12,0,0,0,0
-Phutthamonthon District,24,1,1,0,0
-Pom Prap Sattru Phai District,67,2,2,1,1
-Prawet District,36,0,0,0,0
-Rat Burana District,3,0,0,0,0
-Ratchathewi District,114,3,8,1,5
-Sai Mai District,21,0,1,0,1
-Sam Khok District,12,0,0,0,0
-Sam Phran District,21,0,0,0,0
-Samphanthawong District,172,6,5,2,5
-Saphan Sung District,21,0,0,0,0
-Sathon District,146,10,16,7,8
-Suan Luang District,46,0,0,0,0
-Taling Chan District,66,1,0,0,0
-Thanyaburi District,17,1,1,0,0
-Thawi Watthana District,18,1,0,0,0
-Thon Buri District,30,2,0,0,0
-Thung Khru District,45,1,1,0,0
-Vadhana District,531,35,94,25,66
-Wang Thonglang District,27,2,0,0,0
-Yan Nawa District,106,4,4,3,3
+Ban Phaeo District,358,63,12,2,3
+Bang Bo District,705,168,34,3,5
+Bang Bon District,918,230,59,8,12
+Bang Bua Thong District,1985,537,111,8,11
+Bang Kapi District,2487,703,200,35,55
+Bang Khae District,1588,420,104,10,16
+Bang Khen District,1906,556,119,19,24
+Bang Kho Laem District,893,259,86,23,29
+Bang Khun Thian District,1700,415,118,15,28
+Bang Kruai District,1389,384,85,14,18
+Bang Len District,386,79,17,1,4
+Bang Na District,1531,435,141,28,45
+Bang Phlat District,992,259,74,10,12
+Bang Phli District,2635,597,205,47,61
+Bang Rak District,2286,650,381,145,205
+Bang Sao Thong District,637,143,40,3,7
+Bang Sue District,1060,256,71,9,14
+Bang Yai District,1494,353,95,17,27
+Bangkok Noi District,1281,266,90,11,18
+Bangkok Yai District,442,113,10,1,2
+Bueng Kum District,1413,398,82,9,13
+Chatuchak District,3329,900,263,49,79
+Chom Thong District,901,222,49,2,5
+Din Daeng District,1694,427,107,27,35
+Don Mueang District,1313,339,71,10,15
+Don Tum District,188,25,3,1,2
+Dusit District,809,175,45,6,11
+Huai Khwang District,1844,505,168,33,45
+Kamphaeng Saen District,616,124,24,2,2
+Khan Na Yao District,1155,259,66,10,15
+Khlong Luang District,2942,678,147,11,22
+Khlong Sam Wa District,1365,433,88,12,16
+Khlong San District,1140,303,105,32,38
+Khlong Toei District,2266,684,369,170,219
+Krathum Baen District,1096,248,70,11,14
+Lak Si District,1087,282,79,7,9
+Lam Luk Ka District,2188,607,139,16,18
+Lat Krabang District,2151,525,104,16,23
+Lat Lum Kaeo District,359,79,9,1,2
+Lat Phrao District,2209,612,125,27,32
+Min Buri District,1188,319,69,7,9
+Mueang Nakhon Pathom District,2890,700,108,5,6
+Mueang Nonthaburi District,4127,1107,248,24,40
+Mueang Pathum Thani District,1993,490,101,13,17
+Mueang Samut Prakan District,3782,950,198,29,33
+Mueang Samut Sakhon District,2791,639,150,14,18
+Nakhon Chai Si District,770,142,30,4,5
+Nong Chok District,874,244,52,6,8
+Nong Khaem District,817,223,46,2,3
+Nong Suea District,101,14,5,0,0
+Pak Kret District,3085,867,211,38,50
+Pathum Wan District,3381,876,490,186,247
+Phasi Charoen District,1124,288,47,10,10
+Phaya Thai District,1621,487,140,31,47
+Phra Khanong District,886,277,86,22,27
+Phra Nakhon District,1986,517,181,67,83
+Phra Pradaeng District,1169,287,61,5,7
+Phra Samut Chedi District,617,143,26,0,1
+Phutthamonthon District,826,211,43,3,7
+Pom Prap Sattru Phai District,713,192,62,14,18
+Prawet District,2068,583,132,22,33
+Rat Burana District,545,126,26,2,5
+Ratchathewi District,1342,341,111,40,49
+Sai Mai District,1617,456,97,13,13
+Sai Noi District,392,104,17,2,3
+Sam Khok District,366,73,16,1,2
+Sam Phran District,1729,419,96,15,18
+Samphanthawong District,963,267,80,25,32
+Saphan Sung District,1035,332,57,13,18
+Sathon District,1316,397,161,62,85
+Suan Luang District,1658,538,125,41,45
+Taling Chan District,1346,341,62,15,17
+Thanyaburi District,1846,423,89,12,15
+Thawi Watthana District,970,243,55,8,10
+Thon Buri District,1047,271,54,11,15
+Thung Khru District,1100,348,51,4,6
+Vadhana District,3795,1348,725,365,454
+Wang Thonglang District,1620,490,124,21,26
+Yan Nawa District,1032,268,96,26,39
