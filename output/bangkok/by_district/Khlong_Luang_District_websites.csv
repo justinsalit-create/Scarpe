@@ -1,0 +1,4 @@
+website,website_type,name,name_local,district,categories,english,english_priority,english_score,site_language,why,email,locations,phone,address,postcode,source,osm_url
+https://www.blackcanyoncoffee.com/,own site,แบล็คแคนยอน คอฟฟี่,แบล็คแคนยอน คอฟฟี่,Khlong Luang District,Cafe,yes,Medium,3,English,website in English,,1,,ทางเลียบถนนกาญจนาภิเษก ต.คลองหนึ่ง อ.คลองหลวง จ.ปทุมธานี ,12120,openstreetmap,https://www.openstreetmap.org/node/2073102582
+http://www.caffe-d-oro.com/,own site,คาเฟ่ ดิโอโร่,คาเฟ่ ดิโอโร่,Khlong Luang District,Cafe,no,Medium,2,Bilingual,website has English,,1,,,,openstreetmap,https://www.openstreetmap.org/node/2073119933
+https://rangoonvibe.github.io/RangoonVibe_Menu/,own site,Rangoon Vibe,,Khlong Luang District,Asian; Chinese,no,Low,1,Local,English/Latin-script name,,1,+66804218511,91/153 Soi Iyara Grand,12120,openstreetmap,https://www.openstreetmap.org/node/13363444891

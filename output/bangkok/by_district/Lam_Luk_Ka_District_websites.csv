@@ -1,0 +1,4 @@
+website,website_type,name,name_local,district,categories,english,english_priority,english_score,site_language,why,email,locations,phone,address,postcode,source,osm_url
+https://fivestar.in.th/,own site,Five Star,,Lam Luk Ka District,Restaurant,yes,High,4,English,website in English; English/Latin-script name,,1,+66 93 723 8284,อยู่เจริญ 4 ถนนไสวประชาราษฎร์,12150,openstreetmap,https://www.openstreetmap.org/node/12818578388
+https://playglao.co/,own site,Playglao Restaurant,ร้านเพกะลาว,Lam Luk Ka District,Asian; Thai,no,Low,0,,,,1,+66659983229,70/24 หมู่ 6,12150,openstreetmap,https://www.openstreetmap.org/node/10913599013
+https://ไม่มี,own site,ก๋วยเตี๋ยวเรือลุงเสืออินดี้,ก๋วยเตี๋ยวเรือลุงเสืออินดี้,Lam Luk Ka District,Restaurant,no,Low,0,,,,1,0952090389,14/9 หลังวัดเกตุประภา,12150,openstreetmap,https://www.openstreetmap.org/node/9621446028

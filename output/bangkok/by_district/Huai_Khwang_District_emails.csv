@@ -1,0 +1,4 @@
+email,name,name_local,district,categories,english,english_priority,english_score,site_language,why,website,other_emails,email_source,locations,phone,address,postcode,source,osm_url
+info@beiotto.com,Bei Otto,,Huai Khwang District,Western,yes,High,6,English,website in English; Western food (Western); English/Latin-script name,https://www.beiotto.com/,,venue website,2,,1938,,openstreetmap,https://www.openstreetmap.org/way/897476423
+info@sunrisetacos.com,Sunrise Tacos,,Huai Khwang District,Mexican; Tacos,yes,High,6,English,"website in English; Western food (Mexican, Tacos); English/Latin-script name",https://www.sunrisetacos.com/,,venue website,2,,,,openstreetmap,https://www.openstreetmap.org/node/4068103507
+support@getfresh.co.th,Getfresh,,Huai Khwang District,Restaurant,yes,High,4,English,website in English; English/Latin-script name,https://getfresh.co.th,,venue website,1,,,,openstreetmap,https://www.openstreetmap.org/node/8868939893

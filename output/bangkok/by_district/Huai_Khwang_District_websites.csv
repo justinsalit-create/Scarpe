@@ -1,0 +1,5 @@
+website,website_type,name,name_local,district,categories,english,english_priority,english_score,site_language,why,email,locations,phone,address,postcode,source,osm_url
+https://www.beiotto.com/,own site,Bei Otto,,Huai Khwang District,Western,yes,High,6,English,website in English; Western food (Western); English/Latin-script name,info@beiotto.com,2,,1938,,openstreetmap,https://www.openstreetmap.org/way/897476423
+https://www.sunrisetacos.com/,own site,Sunrise Tacos,,Huai Khwang District,Mexican; Tacos,yes,High,6,English,"website in English; Western food (Mexican, Tacos); English/Latin-script name",info@sunrisetacos.com,2,,,,openstreetmap,https://www.openstreetmap.org/node/4068103507
+https://getfresh.co.th,own site,Getfresh,,Huai Khwang District,Restaurant,yes,High,4,English,website in English; English/Latin-script name,support@getfresh.co.th,1,,,,openstreetmap,https://www.openstreetmap.org/node/8868939893
+https://www.spaghetti-factory.com/,own site,Spaghetti Factory,สปาเก็ตตี้ แฟคตอรี่,Huai Khwang District,Italian,no,Medium,2,Local,Western food (Italian),,1,,,,openstreetmap,https://www.openstreetmap.org/node/3251640382

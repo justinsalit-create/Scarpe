@@ -1,0 +1,3 @@
+website,website_type,name,name_local,district,categories,english,english_priority,english_score,site_language,why,email,locations,phone,address,postcode,source,osm_url
+https://www.dairyqueenthailand.com/,own site,Dairy Queen,แดรี่ควีน,Bang Kruai District,Ice cream,yes,Medium,3,English,website in English,,1,,,,openstreetmap,https://www.openstreetmap.org/node/6169667314
+https://www.dunkindonuts.co.th/,own site,Dunkin',ดังกิ้น,Bang Kruai District,Takeaway,no,Low,0,,,,1,,,,openstreetmap,https://www.openstreetmap.org/node/6169667485

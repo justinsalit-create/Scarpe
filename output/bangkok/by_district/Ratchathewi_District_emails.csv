@@ -1,0 +1,4 @@
+email,name,name_local,district,categories,english,english_priority,english_score,site_language,why,website,other_emails,email_source,locations,phone,address,postcode,source,osm_url
+reservation@everythinghalal.restaurant,Everything Halal Restaurant,,Ratchathewi District,Asian; Halal; Indian,yes,High,4,English,website in English; English/Latin-script name,https://everythinghalal.restaurant,,openstreetmap,1,+66947969518,120 89 Ratchaprarop 1 Alley,10400,openstreetmap,https://www.openstreetmap.org/node/10845746593
+chavalit200@hotmail.com,Sweety Restaurant,สวีทตี้ เรสเตอรองก์,Ratchathewi District,Western,no,Medium,2,,Western food (Western),,,openstreetmap,1,0895361574,694/2 ซอยพญานาค,10400,openstreetmap,https://www.openstreetmap.org/node/6906003485
+sonchai.tori@gmail.com,Sudachi Sushi,,Ratchathewi District,Asian; Sushi,no,Low,1,,English/Latin-script name,,,openstreetmap,1,063-191 9569,,,openstreetmap,https://www.openstreetmap.org/node/11548577058
