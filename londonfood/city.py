@@ -61,10 +61,16 @@ def fetch_units(cfg, cache_dir):
 
 def collect(cfg, units, cache_dir):
     local = re.compile(cfg.get("local_script") or r"(?!x)x")
-    venues, seen = [], set()
+    venues, seen, missing = [], set(), []
     for i, (label, rel_id) in enumerate(units, 1):
         kept = closed = 0
-        for el in osm.fetch_area(f"{cfg['slug']}_{label}", 3600000000 + rel_id, cache_dir):
+        try:
+            elements = osm.fetch_area(f"{cfg['slug']}_{label}", 3600000000 + rel_id, cache_dir)
+        except Exception as e:  # map server overloaded: carry on, the next run retries this district
+            print(f"[{i}/{len(units)}] {label}: not downloaded yet ({e})", file=sys.stderr)
+            missing.append(label)
+            continue
+        for el in elements:
             v = osm.to_venue(el, label)
             if not v["name"]:
                 continue
@@ -87,6 +93,7 @@ def collect(cfg, units, cache_dir):
             venues.append(v)
             kept += 1
         print(f"[{i}/{len(units)}] {label}: {kept} venues ({closed} closed skipped)", file=sys.stderr)
+    print(f"Districts not downloaded yet: {len(missing)}", file=sys.stderr)
     return venues
 
 

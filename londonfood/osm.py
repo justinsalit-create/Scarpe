@@ -10,9 +10,9 @@ import urllib.parse
 from . import http
 
 OVERPASS_URLS = [
+    "https://maps.mail.ru/osm/tools/overpass/api/interpreter",
     "https://overpass-api.de/api/interpreter",
     "https://overpass.private.coffee/api/interpreter",
-    "https://maps.mail.ru/osm/tools/overpass/api/interpreter",
     "https://overpass.kumi.systems/api/interpreter",
 ]
 
@@ -58,15 +58,16 @@ def _fetch(label, query, cache_dir):
             return json.load(f)
     body = urllib.parse.urlencode({"data": query}).encode()
     last_err = None
-    for attempt in range(6):
-        url = OVERPASS_URLS[attempt % len(OVERPASS_URLS)]
+    for attempt in range(8):
+        # the first mirror gets every other attempt: it is usually the one that works
+        url = OVERPASS_URLS[0] if attempt % 2 == 0 else OVERPASS_URLS[1 + (attempt // 2) % (len(OVERPASS_URLS) - 1)]
         try:
             _, text = http.get(url, timeout=360, data=body, max_bytes=500_000_000)
             elements = json.loads(text)["elements"]
             break
         except Exception as e:  # rate limited / timeout: back off and try the mirror
             last_err = e
-            time.sleep(10 * (attempt + 1))
+            time.sleep(15 * (attempt + 1))
     else:
         raise RuntimeError(f"Overpass failed for {label}: {last_err}")
     os.makedirs(os.path.dirname(path), exist_ok=True)
