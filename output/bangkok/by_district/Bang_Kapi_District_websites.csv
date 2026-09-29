@@ -1,6 +1,6 @@
 website,website_type,name,name_local,district,categories,english,english_priority,english_score,site_language,why,email,locations,phone,address,postcode,source,osm_url
 https://www.mcthai.co.th/,own site,McDonald's,,Bang Kapi District,Burger,yes,High,6,English,website in English; Western food (Burger); English/Latin-script name,,14,1711,,,openstreetmap,https://www.openstreetmap.org/node/3937604839
-https://www.starbucks.com/,own site,Starbucks,,Bang Kapi District,Breakfast,yes,High,6,English,website in English; Western food (Breakfast); English/Latin-script name,press@starbucks.com,5,,,,openstreetmap,https://www.openstreetmap.org/node/3431296260
+https://www.starbucks.com/,own site,Starbucks,,Bang Kapi District,Breakfast,yes,High,6,English,website in English; Western food (Breakfast); English/Latin-script name,press@starbucks.com,4,,,,openstreetmap,https://www.openstreetmap.org/node/3431296260
 https://www.subway.com,own site,Subway,,Bang Kapi District,Deli,yes,High,6,English,website in English; Western food (Deli); English/Latin-script name,,1,,,,openstreetmap,https://www.openstreetmap.org/node/3937604841
 https://www.mkrestaurant.com/,own site,MK Restaurants,,Bang Kapi District,Asian; Thai,yes,Medium,3,Bilingual,website has English; English/Latin-script name,,5,1642,,,openstreetmap,https://www.openstreetmap.org/node/3937642166
 https://www.starbucks.co.th/,own site,Starbucks,,Bang Kapi District,Breakfast,yes,Medium,3,,Western food (Breakfast); English/Latin-script name,,5,,,,openstreetmap,https://www.openstreetmap.org/node/3431296263
