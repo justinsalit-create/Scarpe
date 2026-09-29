@@ -16,10 +16,12 @@ snapshot() {
   git add -A "output/$CITY" "cache/$CITY"
   git commit -qm "Data ($CITY): $1" && push
 }
-python3 -m londonfood.city "$CITY" --workers 24 2>&1 | tee "$LOG"
-snapshot "map data and website crawl"
+if [ ! -f "output/$CITY/${CITY}_food_emails.csv" ]; then   # first pass (skipped when resuming)
+  python3 -m londonfood.city "$CITY" --workers 24 2>&1 | tee "$LOG"
+  snapshot "map data and website crawl"
+fi
 while true; do
-  python3 -m londonfood.city "$CITY" --workers 24 --discover --discover-limit 2000 2>&1 | tee "$LOG"
+  python3 -m londonfood.city "$CITY" --workers 24 --discover --discover-limit 6000 2>&1 | tee "$LOG"
   snapshot "verified website discovery batch"
   grep -q " 0 to try this run" "$LOG" && grep -q "Districts not downloaded yet: 0" "$LOG" && break
   grep -q "Districts not downloaded yet: 0" "$LOG" || sleep 120   # give the map server a breather
