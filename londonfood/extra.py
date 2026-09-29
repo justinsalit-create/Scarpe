@@ -12,8 +12,8 @@ from .discover import slug
 WIKIDATA_QUERY = """
 SELECT ?item ?itemLabel ?site ?coord WHERE {
   SERVICE wikibase:box { ?item wdt:P625 ?coord .
-    bd:serviceParam wikibase:cornerSouthWest "Point(-0.52 51.28)"^^geo:wktLiteral .
-    bd:serviceParam wikibase:cornerNorthEast "Point(0.34 51.70)"^^geo:wktLiteral . }
+    bd:serviceParam wikibase:cornerSouthWest "Point(%(west)s %(south)s)"^^geo:wktLiteral .
+    bd:serviceParam wikibase:cornerNorthEast "Point(%(east)s %(north)s)"^^geo:wktLiteral . }
   ?item wdt:P31 ?type .
   VALUES ?type { wd:Q11707 wd:Q212198 wd:Q30022 wd:Q274393 wd:Q5307737 wd:Q1076486 wd:Q27686 wd:Q1062979 }
   ?item wdt:P856 ?site .
@@ -21,10 +21,14 @@ SELECT ?item ?itemLabel ?site ?coord WHERE {
 }"""
 
 
-def fetch_wikidata(cache_dir):
+LONDON_BBOX = {"south": 51.28, "west": -0.52, "north": 51.70, "east": 0.34}
+
+
+def fetch_wikidata(cache_dir, bbox=None):
     path = os.path.join(cache_dir, "wikidata.json")
     if not os.path.exists(path):
-        url = "https://query.wikidata.org/sparql?format=json&query=" + urllib.parse.quote(WIKIDATA_QUERY)
+        query = WIKIDATA_QUERY % (bbox or LONDON_BBOX)
+        url = "https://query.wikidata.org/sparql?format=json&query=" + urllib.parse.quote(query)
         text = http.get(url, headers={"Accept": "application/sparql-results+json"}, timeout=180,
                         max_bytes=100_000_000)[1]
         with open(path, "w") as f:
@@ -38,10 +42,10 @@ def _point(wkt):
     return (float(m.group(2)), float(m.group(1))) if m else None
 
 
-def add_wikidata(venues, cache_dir):
+def add_wikidata(venues, cache_dir, bbox=None):
     """Official websites from Wikidata for venues with the same name within 200 m."""
     try:
-        items = fetch_wikidata(cache_dir)
+        items = fetch_wikidata(cache_dir, bbox)
     except Exception as e:
         print(f"Wikidata unavailable: {e}", file=__import__("sys").stderr)
         return 0

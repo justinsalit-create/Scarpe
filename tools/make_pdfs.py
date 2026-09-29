@@ -1,12 +1,17 @@
-"""Build phone-friendly, clickable PDFs from the output CSVs.
+"""Build phone-friendly, clickable PDFs from a city's output CSVs.
 
-output/pdf/london_food_emails.pdf   - tap an email to open Mail
-output/pdf/london_food_websites.pdf - tap a website to open Safari
-Each starts with a tappable borough index, and has PDF bookmarks per borough.
+    python3 tools/make_pdfs.py            # London  -> output/london/pdf/
+    python3 tools/make_pdfs.py bangkok    # any city -> output/<city>/pdf/
+
+<city>_food_emails.pdf (tap an email to open Mail) and <city>_food_websites.pdf (tap to open the
+browser). Each starts with a tappable index and has PDF bookmarks per section. London is grouped by
+borough; cities with an English-priority score are grouped High / Medium / Low English priority, with
+the district on each entry.
 """
 
 import csv
 import os
+import sys
 from collections import defaultdict
 from xml.sax.saxutils import escape
 
@@ -57,20 +62,29 @@ class Doc(BaseDocTemplate):
             self.canv.addOutlineEntry(f._label, key, level=0)
 
 
-def build(kind):
-    rows = list(csv.DictReader(open(os.path.join(ROOT, "output", f"london_food_{kind}.csv"), encoding="utf-8")))
+PRIORITIES = ["High", "Medium", "Low"]
+
+
+def build(kind, city="london"):
+    base = os.path.join(ROOT, "output", city)
+    rows = list(csv.DictReader(open(os.path.join(base, f"{city}_food_{kind}.csv"), encoding="utf-8")))
+    ranked = bool(rows) and "english_priority" in rows[0]
     by_b = defaultdict(list)
     for r in rows:
-        by_b[r["borough"]].append(r)
-    boroughs = sorted(by_b)
+        by_b[r["english_priority"] + " English priority" if ranked else r["borough"]].append(r)
+    boroughs = [p + " English priority" for p in PRIORITIES if p + " English priority" in by_b] if ranked \
+        else sorted(by_b)
     label = "Emails" if kind == "emails" else "Websites"
-    path = os.path.join(ROOT, "output", "pdf", f"london_food_{kind}.pdf")
-    doc = Doc(path, f"London Food Venue {label}")
+    place = {"london": "London"}.get(city, city.replace("_", " ").title())
+    os.makedirs(os.path.join(base, "pdf"), exist_ok=True)
+    path = os.path.join(base, "pdf", f"{city}_food_{kind}.pdf")
+    doc = Doc(path, f"{place} Food Venue {label}")
 
-    story = [Paragraph(f"London Food Venue {label}", title),
-             Paragraph(f"{len(rows):,} {label.lower()} across {len(boroughs)} areas. "
+    story = [Paragraph(f"{place} Food Venue {label}", title),
+             Paragraph(f"{len(rows):,} {label.lower()}"
+                       + (", most English-friendly first. " if ranked else f" across {len(boroughs)} areas. ") +
                        f"Tap {'an email to write to' if kind == 'emails' else 'a website to open'} the venue. "
-                       f"Tap a borough below to jump to it; tap a page number to come back here.", sub)]
+                       f"Tap a section below to jump to it; tap a page number to come back here.", sub)]
     ix = Paragraph("", idx)
     ix._bookmark, ix._label = "index", "Borough index"
     story.append(ix)
@@ -84,7 +98,9 @@ def build(kind):
                          f'{len(by_b[b]):,}</font>', h1)
         head._bookmark, head._label = anchor(b), b
         story.append(head)
-        for r in sorted(by_b[b], key=lambda r: (r.get("area") or "~", r["name"].lower())):
+        order = (lambda r: (r["borough"], r["name"].lower())) if ranked else \
+            (lambda r: (r.get("area") or "~", r["name"].lower()))
+        for r in sorted(by_b[b], key=order):
             if kind == "emails":
                 target, shown = "mailto:" + r["email"], r["email"]
             else:
@@ -92,7 +108,11 @@ def build(kind):
                 shown = target.split("://", 1)[-1].removeprefix("www.").rstrip("/")
                 if len(shown) > 48:
                     shown = shown[:45] + "..."
-            bits = [r.get("area"), r.get("categories"), r.get("phone")]
+            bits = [r.get("district") or r.get("area"), r.get("categories"), r.get("phone")]
+            if ranked and r.get("site_language"):
+                bits.append(f"site: {r['site_language']}")
+            if r.get("name_local"):
+                bits.insert(0, r["name_local"])
             if kind == "websites" and r.get("email"):
                 bits.append(r["email"])
             if r.get("locations") and r["locations"] not in ("", "1"):
@@ -107,7 +127,7 @@ def build(kind):
 
 
 if __name__ == "__main__":
-    os.makedirs(os.path.join(ROOT, "output", "pdf"), exist_ok=True)
+    city = sys.argv[1] if len(sys.argv) > 1 else "london"
     for k in ("emails", "websites"):
-        p, n = build(k)
+        p, n = build(k, city)
         print(p, n, f"{os.path.getsize(p) / 1e6:.1f} MB")

@@ -1,4 +1,10 @@
-# London food venue contacts
+# Food venue contacts (London, Bangkok, ...)
+
+See **PLAYBOOK.md** for the method and the new-city checklist. Other cities use
+`python -m londonfood.city <slug>` / `./city_all.sh <slug>` with settings in `cities/<slug>.json`.
+The rest of this README describes the London run.
+
+## London
 
 Builds a spreadsheet (CSV) of every food-selling venue in Greater London, covering restaurants, pubs,
 takeaways, cafés, bakeries, food trucks and ice-cream shops. For each venue it gives an **email
@@ -62,12 +68,12 @@ python -m londonfood --no-crawl                         # fast: OSM data only, n
 
 Output: two separate files, both de-duplicated.
 
-- `output/london_food_emails.csv`: one row per unique email address. Columns: `email, name,
+- `output/london/london_food_emails.csv`: one row per unique email address. Columns: `email, name,
   borough, categories, website, other_emails, email_source, locations, phone, address, postcode,
   osm_url`.
-- `output/london_food_websites.csv`: one row per unique venue website. Columns: `website, name,
+- `output/london/london_food_websites.csv`: one row per unique venue website. Columns: `website, name,
   borough, area, categories, email, locations, phone, address, postcode, source, osm_url`.
-- `output/by_borough/<Borough>_emails.csv` and `<Borough>_websites.csv`: the same data split by
+- `output/london/by_borough/<Borough>_emails.csv` and `<Borough>_websites.csv`: the same data split by
   borough.
 
 A venue with both an email and a website appears in both files. Nothing is guessed. Every email

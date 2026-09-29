@@ -19,7 +19,8 @@ CONTACT_HINT = re.compile(r"contact|about|find.?us|enquir|get.?in.?touch|reserv|
 CLOSED_RX = re.compile(
     r"permanently closed|closed permanently|closed for good|now closed for good|has now closed|have now closed"
     r"|closed (?:its|our) doors (?:for the (?:last|final) time|for good|permanently)|ceased trading"
-    r"|no longer trading|closed down|we are now closed\b(?! (?:on|for|until|today|tomorrow|this))", re.I)
+    r"|no longer trading|closed down|we are now closed\b(?! (?:on|for|until|today|tomorrow|this))"
+    r"|ปิดกิจการ|ปิดถาวร|ปิดให้บริการถาวร", re.I)
 PARKED_RX = re.compile(r"domain (?:is |may be )?for sale|buy this domain|this domain has expired|domain parking"
                        r"|parked free|is parked|hugedomains|sedo\.com|dan\.com/buy", re.I)
 
@@ -224,7 +225,28 @@ def fetch_status(exc, url=None):
     return "unknown"
 
 
-def find_email(website):
+THAI_RX = re.compile(r"[\u0E00-\u0E7F]")
+LATIN_RX = re.compile(r"[A-Za-z]")
+HTML_LANG_RX = re.compile(r"<html[^>]{0,300}?\blang=[\"']?([a-zA-Z-]{2,10})", re.I)
+EN_VERSION_RX = re.compile(r"""hreflang=["']?en|href=["'][^"']{0,200}(?:/en(?:-[a-z]{2})?/|[?&]lang=en)""", re.I)
+
+
+def page_language(page):
+    """'English', 'Bilingual' or 'Local' from the homepage: <html lang>, script mix, and any English version link."""
+    text = visible_text(page[:1_000_000])
+    thai, latin = len(THAI_RX.findall(text)), len(LATIN_RX.findall(text))
+    ratio = latin / (latin + thai) if latin + thai else 0
+    m = HTML_LANG_RX.search(page[:5000])
+    declared = m.group(1).lower() if m else ""
+    has_en_version = bool(EN_VERSION_RX.search(page[:1_000_000]))
+    if ratio >= 0.85 or (declared.startswith("en") and ratio >= 0.6):
+        return "English"
+    if ratio >= 0.3 or has_en_version:
+        return "Bilingual"
+    return "Local"
+
+
+def find_email(website, info=None):
     """Crawl a venue homepage plus a few contact-like pages.
 
     Returns (email, all_emails, status, final_url); status is ok / closed / parked / dead / unknown / skipped.
@@ -251,6 +273,8 @@ def find_email(website):
     status = site_status(page)
     if status != "ok":
         return "", [], status, final_url
+    if info is not None:
+        info["lang"] = page_language(page)
     emails += extract_emails(page)
     if not best_email(emails, [website, final_url]):
         for link in contact_links(page, final_url):

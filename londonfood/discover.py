@@ -17,6 +17,22 @@ import urllib.parse
 from . import emails, http
 
 TLDS = (".co.uk", ".com", ".uk", ".london")
+# Per-city settings (see cities/*.json); the defaults are London's.
+SETTINGS = {"tlds": TLDS, "country_code": "44", "min_phone_digits": 10, "postcode_needs_name": False,
+            "city_word": "london", "city_aliases": (), "city_evidence": ""}
+PLACE_SUFFIX = re.compile(r"\b(district|khet|amphoe|borough|county|city|province)\b", re.I)
+
+
+def configure(tlds=None, country_code=None, min_phone_digits=None, postcode_needs_name=None, city_word=None,
+              city_aliases=None, city_evidence=None):
+    """city_evidence: regex; when set, a page showing the venue's full name and matching it also counts
+    (weaker than postcode / phone, so it is labelled 'name + city' in the output)."""
+    for k, v in (("tlds", tuple(tlds) if tlds else None), ("country_code", country_code),
+                 ("min_phone_digits", min_phone_digits), ("postcode_needs_name", postcode_needs_name),
+                 ("city_word", city_word), ("city_aliases", tuple(city_aliases) if city_aliases else None),
+                 ("city_evidence", city_evidence)):
+        if v is not None:
+            SETTINGS[k] = v
 PERSON_RX = re.compile(r"^(mr|mrs|ms|miss|dr)\b\.?", re.I)
 DROP_WORDS = re.compile(r"\b(ltd|limited|plc|llp|t/a|ta|trading as|uk|the)\b", re.I)
 GENERIC = {"cafe", "restaurant", "kitchen", "bar", "pub", "grill", "takeaway", "food", "foods", "pizza",
@@ -51,27 +67,34 @@ def candidates(name, place="", categories=()):
         return []
     words = re.findall(r"[a-z0-9]+", slug_words(clean).replace("&", " and ").replace("'", ""))
     hyphen = "-".join(words) if len(words) > 1 else ""
-    p = slug(place.split("(")[0].split("/")[0]) if place else ""
-    stems = [(base, TLDS)]
+    p = slug(PLACE_SUFFIX.sub(" ", place.split("(")[0].split("/")[0])) if place else ""
+    tlds = SETTINGS["tlds"]
+    top2 = tlds[:2]
+    city = SETTINGS["city_word"]
+    stems = [(base, tlds)]
     if hyphen:
-        stems.append((hyphen, (".co.uk", ".com")))
+        stems.append((hyphen, top2))
     if p and p not in base:
-        stems.append((base + p, TLDS))
-    if "london" not in base:
-        stems.append((base + "london", (".co.uk", ".com")))
+        stems.append((base + p, tlds))
+    if city and city not in base:
+        stems.append((base + city, top2))
     if name.lower().startswith("the "):
-        stems.append(("the" + base, (".co.uk", ".com")))
+        stems.append(("the" + base, top2))
+    for alias in SETTINGS["city_aliases"]:
+        if alias not in base:
+            stems.append((base + alias, top2))
+            stems.append(((hyphen or base) + "-" + alias, top2))
     for word, cats in (("restaurant", {"Restaurant"}), ("cafe", {"Cafe", "Breakfast"}), ("pub", {"Pub"}),
                        ("bakery", {"Bakery"}), ("kitchen", set())):
         if word not in base and (cats & set(categories) or word == "kitchen"):
-            stems.append((base + word, (".co.uk", ".com")))
+            stems.append((base + word, top2))
     out = []
     for stem, tlds in stems:
         for tld in tlds:
             d = stem + tld
             if d not in out and len(stem) <= 50:
                 out.append(d)
-    return out[:24]
+    return out[:30]
 
 
 class DNS:
@@ -118,19 +141,30 @@ def _digits(s):
     return re.sub(r"\D", "", s or "")
 
 
+def _name_on_page(flat, venue):
+    words = [w for w in re.findall(r"[A-Z0-9]+", slug_words(venue.get("name") or "").upper())
+             if len(w) >= 4 and w.lower() not in GENERIC]
+    return any(w in flat for w in words)
+
+
 def evidence(page_text, venue):
     """Why this page belongs to the venue ('postcode' / 'phone'), or '' if it doesn't."""
     flat = re.sub(r"\s+", "", page_text.upper())
     pc = re.sub(r"\s+", "", (venue.get("postcode") or "").upper())
-    if len(pc) >= 5 and pc in flat:
+    if len(pc) >= 5 and pc in flat and (not SETTINGS["postcode_needs_name"] or _name_on_page(flat, venue)):
         return "postcode"
     phone = _digits(venue.get("phone"))
-    if phone.startswith("44"):
-        phone = "0" + phone[2:]
-    if len(phone) >= 10:
+    cc = SETTINGS["country_code"]
+    if phone.startswith(cc):
+        phone = "0" + phone[len(cc):]
+    if len(phone) >= SETTINGS["min_phone_digits"]:
         digits = _digits(page_text)
         if phone in digits or phone[1:] in digits:
             return "phone"
+    if SETTINGS["city_evidence"]:
+        name = slug(DROP_WORDS.sub(" ", (venue.get("name") or "").split("(")[0]))
+        if len(name) >= 6 and name in slug(page_text) and re.search(SETTINGS["city_evidence"], page_text, re.I):
+            return "name + city"
     return ""
 
 

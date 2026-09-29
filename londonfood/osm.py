@@ -38,6 +38,14 @@ def fetch_around(label, lat, lon, radius, cache_dir):
     return _fetch(label, AROUND_QUERY.format(radius=radius, lat=lat, lon=lon), cache_dir)
 
 
+AREA_QUERY = QUERY.replace('area["boundary"="administrative"]["name"="{borough}"]->.b;', "area({area_id})->.b;")
+
+
+def fetch_area(label, area_id, cache_dir):
+    """Venues inside an OSM area by id (3600000000 + relation id), for any city."""
+    return _fetch(label, AREA_QUERY.format(area_id=area_id), cache_dir)
+
+
 def fetch_borough(borough, cache_dir):
     """Return the list of OSM elements for a borough, cached as JSON on disk."""
     return _fetch(borough, QUERY.format(borough=borough), cache_dir)
@@ -92,6 +100,7 @@ def to_venue(el, borough):
     return {
         "borough": borough,
         "name": t.get("name", "").strip(),
+        "name_en": (t.get("name:en") or "").strip(),
         "tags": t,
         "email": (t.get("email") or t.get("contact:email") or "").strip(),
         "website": (t.get("website") or t.get("contact:website") or t.get("url") or "").strip(),

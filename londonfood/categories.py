@@ -30,6 +30,8 @@ CUISINE_MAP = {
     "Bagels": {"bagel", "bagels"},
     "Ice cream": {"ice_cream", "gelato", "frozen_yogurt", "frozen_yoghurt", "dessert"},
     "Seafood": {"seafood", "fish_and_chips", "fish", "oyster", "fish_chips"},
+    "Thai": {"thai", "isan", "northern_thai", "southern_thai", "thai_street_food"},
+    "Western": {"western", "international", "european", "fusion", "british", "australian", "german"},
 }
 
 # category -> regex matched against the venue name when tags are missing

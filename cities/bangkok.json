@@ -1,0 +1,37 @@
+{
+  "slug": "bangkok",
+  "name": "Greater Bangkok",
+  "description": "Bangkok Metropolitan Region: Bangkok (50 khet) + Nonthaburi, Pathum Thani, Samut Prakan, Nakhon Pathom and Samut Sakhon (amphoe).",
+  "region_area_id": 3620451020,
+  "unit_admin_level": "6",
+  "unit_label": "district",
+  "exclude_units": [
+    "Bang Phae District",
+    "Damnoen Saduak District"
+  ],
+  "expected_units": 79,
+  "country_code": "66",
+  "min_phone_digits": 9,
+  "postcode_needs_name": true,
+  "tlds": [
+    ".com",
+    ".co.th",
+    ".in.th",
+    ".asia",
+    ".net"
+  ],
+  "city_word": "bangkok",
+  "bbox": {
+    "south": 13.45,
+    "west": 99.95,
+    "north": 14.15,
+    "east": 100.95
+  },
+  "local_script": "[\\u0E00-\\u0E7F]",
+  "english_priority": true,
+  "city_aliases": [
+    "bkk",
+    "bangkok"
+  ],
+  "city_evidence": "bangkok|\\bbkk\\b|กรุงเทพ"
+}
