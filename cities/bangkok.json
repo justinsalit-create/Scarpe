@@ -33,5 +33,17 @@
     "bkk",
     "bangkok"
   ],
-  "city_evidence": "bangkok|\\bbkk\\b|กรุงเทพ"
+  "city_evidence": "bangkok|\\bbkk\\b|กรุงเทพ",
+  "overture": {
+    "regions": [
+      "TH-10",
+      "TH-11",
+      "TH-12",
+      "TH-13",
+      "TH-73",
+      "TH-74"
+    ],
+    "division_subtype": "county",
+    "min_confidence": 0.5
+  }
 }

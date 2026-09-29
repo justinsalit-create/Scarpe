@@ -17,6 +17,14 @@ SYNTAX = re.compile(r"^[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}
                     r"@(?:[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?\.)+[a-z]{2,24}$")
 
 
+# Misspelt free-mail domains: some exist (typo-squatters) and would pass the MX check, but the venue
+# meant gmail / hotmail / yahoo, so the address as written is wrong.
+TYPO_DOMAINS = {"gamil.com", "gmial.com", "gmai.com", "gmail.co", "gmail.con", "gmaill.com", "gnail.com", "gmail.cm",
+                "gmail.om", "gmal.com", "gmali.com", "gmeil.com", "hotmial.com", "hotmail.con", "hotmai.com",
+                "hotamil.com", "hotmil.com", "hotmaill.com", "homail.com", "hotmail.co", "yaho.com", "yahooo.com",
+                "yahoo.con", "yhoo.com", "outlok.com", "outloo.com", "iclod.com", "icoud.com", "windowlive.com"}
+
+
 class MXChecker:
     def __init__(self, cache_path=None):
         self.path, self.lock, self.data = cache_path, threading.Lock(), {}
@@ -63,6 +71,8 @@ class MXChecker:
         e = (email or "").strip().lower()
         if not SYNTAX.match(e):
             return "bad_syntax"
+        if e.split("@")[1] in TYPO_DOMAINS:
+            return "typo_domain"
         s = self.domain_status(e.split("@")[1])
         return "valid" if s in ("ok", "unknown") else s
 

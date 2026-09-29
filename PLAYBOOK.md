@@ -44,17 +44,25 @@ OpenTable, search-engine result pages or social media: it breaks their terms and
 2. **Official food-business registers**, where one exists. The UK has the FSA hygiene-rating register
    (`londonfood/fsa.py`), which lists every registered food business but no contacts. Look for the
    local equivalent for each new country.
-3. **Wikidata**: official websites of venues inside the city's bounding box, matched by name within
+3. **Overture Maps places** (`londonfood/overture.py`): open data (CDLA-Permissive) from Meta,
+   Microsoft, Foursquare and AllThePlaces, read with DuckDB straight from the public GeoParquet
+   release. This is **by far the biggest source** outside the UK. In Greater Bangkok it had 122k food
+   places against 6k in OSM, with 34k emails, 26k websites and 119k social links, mostly from the
+   businesses' own Facebook pages. The config sets `"overture": {"regions": [ISO 3166-2 codes],
+   "division_subtype": "county", "min_confidence": 0.5}`. Places are assigned to districts with
+   Overture's own division polygons and merged with OSM (same name within 150 m, or same phone).
+   OSM wins where both have the venue. Misspelt free-mail domains (`gamil.com` ...) are rejected.
+4. **Wikidata**: official websites of venues inside the city's bounding box, matched by name within
    200 m.
-4. **Chain branches**: when at least 3 mapped branches with the same name agree on one domain, other
+5. **Chain branches**: when at least 3 mapped branches with the same name agree on one domain, other
    branches with that name get it.
-5. **Verified website discovery** (`londonfood/discover.py`): build candidate domains from the
+6. **Verified website discovery** (`londonfood/discover.py`): build candidate domains from the
    venue's English name (plus district, city word and aliases like `bkk`, using the city's TLDs).
    Check each exists via DNS-over-HTTPS, open it, and accept it only if the site shows the venue's
    **phone** or **postcode**. In countries with 5-digit postcodes, the venue's name must also appear.
    For Bangkok, a site showing the venue's **full name and the city** is also accepted, labelled
    `name + city`. London result: about 30% recall and 100% precision on a test against known sites.
-6. **Venue websites crawled** (`londonfood/emails.py`): the homepage, contact/about/booking pages and
+7. **Venue websites crawled** (`londonfood/emails.py`): the homepage, contact/about/booking pages and
    the usual paths (`/contact`, `/about` ...). This collects `mailto:` links, plain and obfuscated
    addresses (`info [at] x [dot] com`, Cloudflare) and the site's language. It also detects closed
    venues ("permanently closed" in English or Thai), dead domains (DNS NXDOMAIN, 404/410) and

@@ -175,7 +175,8 @@ def find_websites(venues, cache_dir, limit, workers):
     cache = discover.Cache(os.path.join(cache_dir, "discover.jsonl"))
     missing = [v for v in venues if not v["website"] and not v.get("closed")]
     per_area = Counter((v["borough"], v.get("area", "")) for v in missing)
-    missing.sort(key=lambda v: (-per_area[(v["borough"], v.get("area", ""))], v["borough"], v.get("area", "")))
+    missing.sort(key=lambda v: (-v.get("english_hint", 0), -per_area[(v["borough"], v.get("area", ""))],
+                                v["borough"], v.get("area", "")))
     todo = [v for v in missing if discover.usable(v["name"]) and cache.get(v) is None]
     if limit:
         todo = todo[:limit]

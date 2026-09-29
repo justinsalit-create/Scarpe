@@ -240,6 +240,7 @@ class TestMergeRules(unittest.TestCase):
         self.assertEqual(m.check("info@nomx.com"), "no_mx")
         self.assertEqual(m.check("info@null.com"), "null_mx")
         self.assertEqual(m.check("bad@@good.com"), "bad_syntax")
+        self.assertEqual(m.check("somecafe@gamil.com"), "typo_domain")
 
 
 class TestClosedOSM(unittest.TestCase):

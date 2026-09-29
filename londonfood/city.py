@@ -18,7 +18,7 @@ import re
 import sys
 import urllib.parse
 
-from . import discover, emails, extra, http, names, osm, social, validate
+from . import discover, emails, extra, http, names, osm, overture, social, validate
 from .categories import categorize
 from .cli import CLOSED_STATUSES, CrawlCache, dedupe, find_websites, split_osm_email, website_key
 
@@ -94,7 +94,56 @@ def collect(cfg, units, cache_dir):
             kept += 1
         print(f"[{i}/{len(units)}] {label}: {kept} venues ({closed} closed skipped)", file=sys.stderr)
     print(f"Districts not downloaded yet: {len(missing)}", file=sys.stderr)
+    if cfg.get("overture"):
+        add_overture(cfg, venues, [u[0] for u in units], cache_dir, local)
     return venues
+
+
+def add_overture(cfg, venues, unit_names, cache_dir, local):
+    """Add Overture places, skipping ones OSM already has (same name within 150 m, or same phone nearby)."""
+    try:
+        data = overture.fetch_places(cfg, cache_dir)
+    except Exception as e:
+        print(f"Overture places unavailable this run: {e}", file=sys.stderr)
+        return
+    places = data["places"]
+    dmap = overture.district_map(unit_names, {p["district"] for p in places})
+    grid = {}
+
+    def cell(lat, lon):
+        return (round(lat * 200), round(lon * 200))  # ~500 m cells
+
+    for v in venues:
+        if v.get("lat"):
+            grid.setdefault(cell(v["lat"], v["lon"]), []).append(v)
+    added = merged = 0
+    cc = cfg.get("country_code", "")
+    for p in places:
+        v = overture.to_venue(p)
+        if not v["name"] or not v.get("lat"):
+            continue
+        v["borough"] = dmap.get(v["borough"], v["borough"])
+        v["name_local"] = v["name"] if local.search(v["name"]) else ""
+        v["latin_name"] = not local.search(v["name"])
+        if v["name_local"] and v["name_en"]:
+            v["name"] = v["name_en"]
+        v["area"] = v["borough"]
+        v["categories"] = categorize({**v["tags"], "name": v["name"]})
+        c = cell(v["lat"], v["lon"])
+        near = [o for dy in (-1, 0, 1) for dx in (-1, 0, 1) for o in grid.get((c[0] + dy, c[1] + dx), [])]
+        pv = names.phone_key(v["phone"], cc)
+        dup = next((o for o in near if (names.names_match(o["name"], v["name"]) and names.near(o, v, 150))
+                    or (pv and pv == names.phone_key(o.get("phone"), cc))), None)
+        if dup:  # OSM (or an earlier Overture record) already has it: fill in missing contacts only
+            for f in ("email", "website", "phone", "facebook", "instagram"):
+                if not dup.get(f) and v.get(f):
+                    dup[f] = v[f]
+            merged += 1
+            continue
+        venues.append(v)
+        grid.setdefault(c, []).append(v)
+        added += 1
+    print(f"Overture ({data['release']}): {added} new venues, {merged} merged into existing ones", file=sys.stderr)
 
 
 class LangCrawlCache(CrawlCache):
@@ -220,6 +269,9 @@ def main(argv=None):
     chains = extra.add_brand_sites(venues)
     print(f"Websites added: {wd} from Wikidata, {chains} chain branches", file=sys.stderr)
     if args.discover:
+        if cfg.get("english_priority"):
+            for v in venues:  # search the likely English-friendly venues first
+                v["english_hint"] = int(bool(v.get("latin_name"))) + 2 * bool(WESTERN & set(v["categories"]))
         find_websites(venues, cache_dir, args.discover_limit, args.discover_workers)
     if not args.no_crawl:
         crawl(venues, LangCrawlCache(os.path.join(cache_dir, "crawl.jsonl")), args.workers)
