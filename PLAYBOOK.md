@@ -95,7 +95,9 @@ Mexican, pub, breakfast, bagels ...), +1 for a Latin-script name. Priority is **
    alphabet, or omit it), and `english_priority`.
 3. Test one central district: `python3 -m londonfood.city <slug> --units "<district>" --discover --discover-limit 300`.
    Check the files look right.
-4. Full run in the background: `./city_all.sh <slug>`. It runs the map data and crawl, then discovery
+4. Speed up the map download (the Overpass mirror answers one query at a time slowly):
+   `nohup python3 tools/prefetch_osm.py <slug> 4 &` downloads districts 4 at a time into the cache.
+   Then the full run in the background: `./city_all.sh <slug>`. It runs the map data and crawl, then discovery
    batches of 2000, commits and pushes after every batch, and makes the PDFs at the end. The cache
    is in `~/.foodcontacts-cache/<slug>`, and runs resume from the snapshot after a container restart.
 5. While it runs: re-arm a Monitor on `/tmp/claude-0/<slug>_batch.log` for "unique websites",
