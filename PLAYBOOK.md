@@ -17,13 +17,21 @@ and its cache snapshot in `cache/<slug>/`.
    website either comes from a listing or was verified to belong to the venue (see step 5 below).
 4. **No duplicates** (one row per email / per website; chains get a `locations` count) and
    **no permanently closed venues**.
-5. **Venue websites only.** No social media (Facebook, Instagram, X, TikTok, Linktree) and no
-   delivery, booking or review platforms (Just Eat, Deliveroo, OpenTable, Tripadvisor, Google Maps).
+5. **Venue websites only** in the websites file: no social media, and no delivery, booking or review
+   platforms (Just Eat, Deliveroo, OpenTable, Tripadvisor, Google Maps).
+   **Social rule** (client, 29 Sept 2026): a venue with **no email and no website** can be listed with
+   its own **Facebook or Instagram** page in a third file, `<city>_food_social.csv`, as a canonical
+   URL (`https://www.instagram.com/<user>/`, `https://www.facebook.com/<page-or-id>`). Never
+   TikTok, X or Linktree. The links come from the map tags (`londonfood/social.py`); whether an
+   account is active can't be checked from the sandbox.
 6. **Cover every district** of the metro area. If the client sends a list of areas, cover all of them.
 7. **Prioritise when asked.** For Bangkok, English-speaking or Americanized venues come first (see
    "English priority" below).
 8. **Deliver clickable PDFs for iPhone**: `tools/make_pdfs.py <city>` makes phone-sized PDFs where
-   tapping an email opens Mail and tapping a website opens Safari. Send both PDFs to the client.
+   tapping an email opens Mail and tapping a link opens Safari (emails, websites, and
+   Facebook & Instagram). Send them to the client.
+10. **Work continuously**: the job runs in the cloud sandbox, not on the client's phone. Keep an
+    hourly `send_later` check-in scheduled so a container restart never stops it.
 9. **Take as long as needed**, but keep the client posted with totals after each batch.
 
 The client decided against paying for a Google Places API key. Don't scrape Google Maps, Yelp,
