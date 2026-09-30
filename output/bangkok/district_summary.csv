@@ -1,9 +1,9 @@
 district,venues,emails,websites,high_priority_emails,high_priority_websites
 Ban Phaeo District,358,63,12,2,3
-Bang Bo District,705,168,35,3,5
+Bang Bo District,705,168,38,3,5
 Bang Bon District,918,230,62,8,12
 Bang Bua Thong District,1985,542,119,9,13
-Bang Kapi District,2486,706,206,38,58
+Bang Kapi District,2486,706,205,38,58
 Bang Khae District,1586,421,111,14,20
 Bang Khen District,1906,557,126,19,25
 Bang Kho Laem District,892,263,95,27,34
@@ -18,14 +18,14 @@ Bang Sao Thong District,637,143,41,3,7
 Bang Sue District,1059,257,75,9,14
 Bang Yai District,1494,354,100,19,29
 Bangkok Noi District,1280,269,98,11,18
-Bangkok Yai District,442,113,10,1,2
+Bangkok Yai District,441,113,11,1,2
 Bueng Kum District,1413,400,90,11,17
 Chatuchak District,3328,902,273,54,87
 Chom Thong District,900,221,49,2,5
 Din Daeng District,1694,428,111,29,39
 Don Mueang District,1313,341,76,11,17
 Don Tum District,188,25,3,1,2
-Dusit District,809,175,45,6,11
+Dusit District,809,176,48,6,11
 Huai Khwang District,1844,506,176,36,50
 Kamphaeng Saen District,616,124,25,2,2
 Khan Na Yao District,1155,262,71,11,17
@@ -46,7 +46,7 @@ Mueang Pathum Thani District,1993,492,111,16,21
 Mueang Samut Prakan District,3782,952,206,32,36
 Mueang Samut Sakhon District,2791,639,156,15,19
 Nakhon Chai Si District,770,142,30,4,5
-Nong Chok District,873,244,53,6,9
+Nong Chok District,872,244,53,6,9
 Nong Khaem District,817,224,47,4,4
 Nong Suea District,101,14,5,0,0
 Pak Kret District,3084,868,224,39,54
@@ -60,12 +60,12 @@ Phra Samut Chedi District,617,143,27,1,2
 Phutthamonthon District,826,212,45,3,7
 Pom Prap Sattru Phai District,713,191,62,15,19
 Prawet District,2067,586,139,24,37
-Rat Burana District,545,127,27,2,5
+Rat Burana District,545,129,29,2,5
 Ratchathewi District,1341,344,118,45,55
 Sai Mai District,1617,459,105,15,15
 Sai Noi District,392,104,18,2,3
-Sam Khok District,366,73,17,1,2
-Sam Phran District,1729,419,100,17,19
+Sam Khok District,366,73,18,1,2
+Sam Phran District,1729,418,100,17,19
 Samphanthawong District,963,270,87,30,35
 Saphan Sung District,1034,332,62,15,21
 Sathon District,1316,398,171,70,92
