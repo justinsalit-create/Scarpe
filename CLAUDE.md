@@ -10,3 +10,4 @@ sources and method, and the new-city checklist.
 - New city: add `cities/<slug>.json`, test one district, then `./city_all.sh <slug>` in the background.
 - Tests: `python3 -m unittest`. Run them before every commit.
 - Never put `python3 -m londonfood` in a `pkill -f` pattern: it matches and kills your own shell.
+- Give the client times in US Eastern time (EST/EDT), never UTC.
