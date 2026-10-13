@@ -65,13 +65,19 @@ def fetch_places(cfg, cache_dir):
     release = ov.get("release") or latest_release()
     con = connect()
     places, divisions = files(release, "places", "place"), files(release, "divisions", "division_area")
-    regions = ", ".join(f"'{r}'" for r in ov["regions"])
+    if ov.get("divisions"):  # named divisions, e.g. [{"subtype": "county", "name": "Bang Lamung"}]
+        div_where = "(" + " OR ".join(
+            f"(subtype = '{d['subtype']}' AND coalesce(names.common['en'], names.primary) = '{d['name']}')"
+            for d in ov["divisions"]) + f") AND country = '{ov.get('country', '')}'"
+    else:
+        regions = ", ".join(f"'{r}'" for r in ov["regions"])
+        div_where = f"subtype = '{ov.get('division_subtype', 'county')}' AND region IN ({regions})"
     box = f"bbox.xmax >= {b['west']} AND bbox.xmin <= {b['east']} AND bbox.ymax >= {b['south']} AND bbox.ymin <= {b['north']}"
     sql = f"""
     WITH d AS (
       SELECT coalesce(names.common['en'], names.primary) AS district, region, geometry
       FROM read_parquet({divisions!r})
-      WHERE subtype = '{ov.get("division_subtype", "county")}' AND region IN ({regions}) AND {box}),
+      WHERE {div_where} AND {box}),
     p AS (
       SELECT id, names.primary AS name, names.common['en'] AS name_en, taxonomy.hierarchy AS hierarchy,
              websites, emails, socials, phones, addresses[1].freeform AS address, addresses[1].postcode AS postcode,
@@ -89,6 +95,11 @@ def fetch_places(cfg, cache_dir):
     cols = [c[0] for c in cur.description]
     for r in cur.fetchall():
         rows.append({c: (list(v) if isinstance(v, tuple) else v) for c, v in zip(cols, r)})
+    # optional per-division clip box (e.g. only the Na Jomtien end of Sattahip district)
+    clips = {d["name"]: d["clip"] for d in ov.get("divisions", []) if d.get("clip")}
+    rows = [r for r in rows if r["district"] not in clips or (
+        clips[r["district"]]["south"] <= r["lat"] <= clips[r["district"]]["north"]
+        and clips[r["district"]]["west"] <= r["lon"] <= clips[r["district"]]["east"])]
     with open(path, "w") as f:
         json.dump({"release": release, "places": rows}, f)
     return {"release": release, "places": rows}

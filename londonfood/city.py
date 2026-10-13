@@ -33,7 +33,10 @@ def load_config(slug):
 
 
 def fetch_units(cfg, cache_dir):
-    """Admin areas (districts) inside the city's region, cached."""
+    """Admin areas (districts) inside the city's region, cached. A config with "osm_areas" lists its
+    areas explicitly instead (label + named admin area or radius)."""
+    if cfg.get("osm_areas"):
+        return [(a["label"], a) for a in cfg["osm_areas"]]
     path = os.path.join(cache_dir, "osm", "units.json")
     if not os.path.exists(path):
         q = (f'[out:json][timeout:240];area({cfg["region_area_id"]})->.r;'
@@ -65,7 +68,8 @@ def collect(cfg, units, cache_dir):
     for i, (label, rel_id) in enumerate(units, 1):
         kept = closed = 0
         try:
-            elements = osm.fetch_area(f"{cfg['slug']}_{label}", 3600000000 + rel_id, cache_dir)
+            elements = (osm.fetch_custom(f"{cfg['slug']}_{label}", rel_id, cache_dir) if isinstance(rel_id, dict)
+                        else osm.fetch_area(f"{cfg['slug']}_{label}", 3600000000 + rel_id, cache_dir))
         except Exception as e:  # map server overloaded: carry on, the next run retries this district
             print(f"[{i}/{len(units)}] {label}: not downloaded yet ({e})", file=sys.stderr)
             missing.append(label)
@@ -96,7 +100,23 @@ def collect(cfg, units, cache_dir):
     print(f"Districts not downloaded yet: {len(missing)}", file=sys.stderr)
     if cfg.get("overture"):
         add_overture(cfg, venues, [u[0] for u in units], cache_dir, local)
+    if cfg.get("sub_areas"):
+        label_sub_areas(venues, cfg["sub_areas"])
     return venues
+
+
+def label_sub_areas(venues, sub_areas):
+    """Name each venue's neighbourhood by the nearest listed centre (config "sub_areas": name -> [lat, lon]);
+    the admin district stays in v['admin_district']."""
+    import math
+    pts = [(n, la, lo) for n, (la, lo) in sub_areas.items()]
+    for v in venues:
+        v["admin_district"] = v["borough"].removesuffix(" District")
+        if not v.get("lat"):
+            continue
+        k = math.cos(math.radians(v["lat"]))
+        name = min(pts, key=lambda p: (p[1] - v["lat"]) ** 2 + ((p[2] - v["lon"]) * k) ** 2)[0]
+        v["borough"] = v["area"] = name
 
 
 def add_overture(cfg, venues, unit_names, cache_dir, local):
@@ -107,7 +127,7 @@ def add_overture(cfg, venues, unit_names, cache_dir, local):
         print(f"Overture places unavailable this run: {e}", file=sys.stderr)
         return
     places = data["places"]
-    dmap = overture.district_map(unit_names, {p["district"] for p in places})
+    dmap = {} if cfg.get("osm_areas") else overture.district_map(unit_names, {p["district"] for p in places})
     grid = {}
 
     def cell(lat, lon):
@@ -210,7 +230,7 @@ def english_score(v):
     v["why"] = "; ".join(why)
 
 
-FIELDS_COMMON = ["name", "name_local", "district", "categories", "english", "english_priority", "english_score",
+FIELDS_COMMON = ["name", "name_local", "district", "admin_district", "categories", "english", "english_priority", "english_score",
                  "site_language", "why"]
 EMAIL_FIELDS = ["email"] + FIELDS_COMMON + ["website", "other_emails", "email_source", "locations", "phone",
                                             "address", "postcode", "source", "osm_url"]
@@ -218,7 +238,7 @@ WEBSITE_FIELDS = ["website", "website_type"] + FIELDS_COMMON + ["email", "locati
                                                                 "postcode", "source", "osm_url"]
 
 
-MASTER_FIELDS = ["name", "name_local", "district", "categories", "english", "english_score", "site_language",
+MASTER_FIELDS = ["name", "name_local", "district", "admin_district", "categories", "english", "english_score", "site_language",
                  "why", "email", "other_emails", "email_check", "website", "website_type", "phone", "address",
                  "postcode", "facebook", "instagram", "lat", "lon", "source", "osm_url", "merged"]
 SOCIAL_FIELDS = ["social_url"] + FIELDS_COMMON + ["facebook", "instagram", "locations", "phone", "address",

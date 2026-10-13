@@ -116,6 +116,18 @@ Mexican, pub, breakfast, bagels ...), +1 for a Latin-script name. Priority is **
 6. When it's done: check there are no social links in the websites file, send the two PDFs, and report
    the totals (venues, emails, websites, High-priority counts).
 
+## Areas that aren't whole districts (e.g. Pattaya & Jomtien)
+
+`cities/pattaya.json` shows the pattern for a resort area or part of a district:
+- `osm_areas`: explicit OSM areas, either a named admin area (`admin_level` + `admin_name_en`)
+  or a radius (`around: [lat, lon, metres]`), instead of auto-detected districts.
+- `overture.divisions`: named Overture divisions (`subtype` + `name`, plus `country`), each with an
+  optional `clip` box. For example, only the Na Jomtien end of Sattahip district.
+- `sub_areas`: neighbourhood centre points. Each venue is labelled with the nearest one (the
+  `district` column), and the admin district goes in `admin_district`.
+
+Pattaya result before crawling: 9,707 venues, 2,731 emails, 1,201 websites, 5,147 social-only.
+
 ## London specifics
 
 London predates the generic pipeline. It runs `python -m londonfood` (see `README.md`),

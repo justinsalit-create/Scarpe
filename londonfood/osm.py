@@ -46,6 +46,17 @@ def fetch_area(label, area_id, cache_dir):
     return _fetch(label, AREA_QUERY.format(area_id=area_id), cache_dir)
 
 
+def fetch_custom(label, spec, cache_dir):
+    """Venues for a city config "osm_areas" entry: {"admin_name_en": ..., "admin_level": ...} or
+    {"around": [lat, lon, metres]}."""
+    if "around" in spec:
+        lat, lon, r = spec["around"]
+        return _fetch(label, AROUND_QUERY.format(radius=r, lat=lat, lon=lon), cache_dir)
+    stmt = (f'area["boundary"="administrative"]["admin_level"="{spec["admin_level"]}"]'
+            f'["name:en"="{spec["admin_name_en"]}"]->.b;')
+    return _fetch(label, QUERY.replace('area["boundary"="administrative"]["name"="{borough}"]->.b;', stmt), cache_dir)
+
+
 def fetch_borough(borough, cache_dir):
     """Return the list of OSM elements for a borough, cached as JSON on disk."""
     return _fetch(borough, QUERY.format(borough=borough), cache_dir)

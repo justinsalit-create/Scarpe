@@ -1,0 +1,46 @@
+{
+  "slug": "pattaya",
+  "name": "Pattaya & Jomtien",
+  "description": "Pattaya & Jomtien: all of Bang Lamung district (Pattaya City, Jomtien, Naklua, Pratumnak, Wong Amat, Ko Lan, East Pattaya, Mabprachan, Bang Lamung, Laem Chabang) plus Na Jomtien (the northern tip of Sattahip district).",
+  "osm_areas": [
+    {"label": "Bang Lamung District", "admin_level": "6", "admin_name_en": "Bang Lamung District"},
+    {"label": "Na Jomtien", "around": [12.79, 100.91, 5000]}
+  ],
+  "sub_areas": {
+    "Central Pattaya": [12.933, 100.883],
+    "South Pattaya / Walking Street": [12.9265, 100.872],
+    "North Pattaya": [12.948, 100.889],
+    "Wong Amat": [12.958, 100.886],
+    "Naklua": [12.968, 100.896],
+    "Pratumnak": [12.917, 100.866],
+    "Thepprasit / Thappraya": [12.902, 100.890],
+    "Jomtien": [12.886, 100.872],
+    "Na Jomtien": [12.800, 100.905],
+    "East Pattaya": [12.925, 100.915],
+    "Mabprachan / Pong": [12.955, 100.970],
+    "Huai Yai": [12.845, 100.965],
+    "Nong Pla Lai / Takhian Tia": [13.000, 100.980],
+    "Bang Lamung town": [13.047, 100.928],
+    "Laem Chabang": [13.083, 100.885],
+    "Ko Lan": [12.917, 100.780]
+  },
+  "unit_label": "area",
+  "country_code": "66",
+  "min_phone_digits": 9,
+  "postcode_needs_name": true,
+  "tlds": [".com", ".co.th", ".in.th", ".asia", ".net"],
+  "city_word": "pattaya",
+  "city_aliases": ["pattaya", "jomtien"],
+  "city_evidence": "pattaya|jomtien|พัทยา|จอมเทียน",
+  "bbox": {"south": 12.74, "west": 100.75, "north": 13.10, "east": 101.11},
+  "local_script": "[\\u0E00-\\u0E7F]",
+  "english_priority": true,
+  "overture": {
+    "country": "TH",
+    "divisions": [
+      {"subtype": "county", "name": "Bang Lamung"},
+      {"subtype": "county", "name": "Sattahip", "clip": {"south": 12.745, "north": 12.87, "west": 100.86, "east": 100.96}}
+    ],
+    "min_confidence": 0.5
+  }
+}
