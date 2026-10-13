@@ -261,7 +261,12 @@ def find_email(website, info=None):
             return "", [], "unknown", website
         final_url, page = http.get(website)
     except Exception as e:
-        return "", [], fetch_status(e, website), website
+        status = fetch_status(e, website)
+        parsed = urllib.parse.urlparse(website)
+        if status == "dead" and parsed.path.strip("/"):
+            # a sub-page that's gone (e.g. /home 404) doesn't mean the venue is: try the site's homepage
+            return find_email(f"{parsed.scheme}://{parsed.netloc}/", info)
+        return "", [], status, website
     target = soft_redirect(page)
     if target:  # tiny page that only redirects via meta refresh / JavaScript
         if re.search(r"/lander\b", target):

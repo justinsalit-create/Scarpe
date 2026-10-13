@@ -38,6 +38,9 @@ class CrawlCache:
                     # re-crawl sites where the deeper v3 crawl could still find an email
                     if "emails" in rec and (rec.get("v", 1) >= 3 or rec["status"] not in ("unknown", "ok")
                                             or (rec["status"] == "ok" and rec["emails"])):
+                        # v4: a "dead" sub-page is re-checked against the site's homepage
+                        if rec["status"] == "dead" and "/" in rec["key"] and rec.get("v", 1) < 4:
+                            continue
                         self.data[rec["key"]] = rec
 
     @staticmethod
@@ -49,7 +52,7 @@ class CrawlCache:
         return self.data.get(self.key(url))
 
     def put(self, url, emails_found, status, final_url):
-        rec = {"key": self.key(url), "emails": emails_found, "status": status, "final_url": final_url, "v": 3}
+        rec = {"key": self.key(url), "emails": emails_found, "status": status, "final_url": final_url, "v": 4}
         with self.lock:
             self.data[rec["key"]] = rec
             with open(self.path, "a") as f:
@@ -244,7 +247,7 @@ def split_osm_email(v):
     found = [e for e in (emails.clean(x) for x in re.split(r"[;,\s]+", v["email"])) if e]
     v["email"] = found[0] if found else ""
     v["other_emails"] = found[1:]
-    v["email_source"] = "openstreetmap" if found else ""
+    v["email_source"] = (v.get("source") or "openstreetmap").split(" + ")[0] if found else ""
     v["website"] = emails.normalize_url(v["website"])
     if v["website"] and emails.not_venue_site(v["website"]):
         v["social_website"] = v["website"]  # a Facebook / Instagram page goes to the social file instead

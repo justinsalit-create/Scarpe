@@ -85,6 +85,16 @@ platforms) and merges both into one master list. Rules agreed with it:
 - **Handoff file**: `output/<city>/<city>_venues_master.csv` lists every open venue, contact or not,
   already merged, for the partner pipeline to fill the gaps. Brief the client with totals.
 
+## Merging a partner's venue list (`londonfood/partner.py`)
+
+Add the file to `data/partner/` and list it under `partner_csvs` in the city config (see `cities/pattaya.json`).
+Every rerun of the city then includes it. Rows flagged "NOT A FOOD VENUE" or "permanently closed" and rows
+from excluded districts are dropped. A partner row matches one of ours when the email, Instagram or Facebook
+matches, or when the names match and the website or phone matches. Because partner rows have no location, a
+full distinctive name (6+ letters) held by exactly one of our venues also counts. A matched venue gets the
+partner's missing contacts, and a different partner email is kept as an extra address. Write the report to
+`output/<city>/partner_merge_report.md`.
+
 ## English priority (non-English-speaking cities)
 
 `english_score` in `londonfood/city.py`: +3 if the website is in English, +2 if it has an English

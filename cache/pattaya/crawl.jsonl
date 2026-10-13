@@ -1268,3 +1268,127 @@
 {"key": "wizardbrewery.com", "emails": ["wizardbeer@support.com", "contact@support.com"], "status": "ok", "final_url": "https://www.wizardbrewery.com/", "lang": "English", "v": 3}
 {"key": "nigiwai.co.th", "emails": ["sale@nigiwaigroup.com", "john@doe.com"], "status": "ok", "final_url": "https://www.nigiwai.co.th/", "lang": "Bilingual", "v": 3}
 {"key": "bluelagoonpattaya.com", "emails": ["szxy_cjy@163.com", "szxycj@163.com"], "status": "ok", "final_url": "http://www.bluelagoonpattaya.com/", "lang": "English", "v": 3}
+{"key": "pattayamarriott.com", "emails": [], "status": "unknown", "final_url": "https://www.pattayamarriott.com", "lang": "", "v": 3}
+{"key": "terranara.com", "emails": ["reservation@terranara.com"], "status": "ok", "final_url": "https://www.terranara.com/", "lang": "English", "v": 3}
+{"key": "movenpick.accor.com/en/asia/thailand/pattaya/moevenpick-siam-hotel-na-jomtien-pattaya.html", "emails": ["hb4j6-re1@accor.com"], "status": "ok", "final_url": "https://movenpick.accor.com/en/asia/thailand/pattaya/moevenpick-siam-hotel-na-jomtien-pattaya.html", "lang": "English", "v": 3}
+{"key": "djb.dvaree.com", "emails": ["info.djb@dvaree.com"], "status": "ok", "final_url": "http://djb.dvaree.com/", "lang": "English", "v": 3}
+{"key": "dusit.com/dusitthani-pattaya", "emails": [], "status": "unknown", "final_url": "https://www.dusit.com/dusitthani-pattaya/", "lang": "", "v": 3}
+{"key": "verandaresort.com/pattaya-na-jomtien/beach-dining-restaurant-cafe", "emails": ["sales1.pty@verandaresort.com", "sales2.pty@verandaresort.com", "-re@accor.com", "ha0e9-re@accor.com"], "status": "ok", "final_url": "https://www.verandaresort.com/pattaya-na-jomtien/beach-dining-restaurant-cafe/", "lang": "English", "v": 3}
+{"key": "oceanphere.com", "emails": ["stay@oceanphere.com"], "status": "ok", "final_url": "https://www.oceanphere.com/", "lang": "English", "v": 3}
+{"key": "verandaresort.com", "emails": ["salesbkk@verandaresort.com", "rsvn@verandaresort.com"], "status": "ok", "final_url": "https://www.verandaresort.com/", "lang": "English", "v": 3}
+{"key": "esmebeachclub.com", "emails": [], "status": "unknown", "final_url": "https://www.esmebeachclub.com/", "lang": "", "v": 3}
+{"key": "pattaya.harats.com", "emails": ["info@harats.com", "m.info@harats.com"], "status": "ok", "final_url": "https://pattaya.harats.com/", "lang": "English", "v": 3}
+{"key": "hyatt.com/the-standard/en-us/utpsp-the-standard-pattaya-na-jomtien", "emails": [], "status": "unknown", "final_url": "https://www.hyatt.com/the-standard/en-US/utpsp-the-standard-pattaya-na-jomtien", "lang": "", "v": 3}
+{"key": "zama.asia", "emails": ["rsvp@zama.asia"], "status": "ok", "final_url": "https://zama.asia/", "lang": "English", "v": 3}
+{"key": "avanihotels.com/en/pattaya/restaurants/dicey", "emails": ["pattaya@avanihotels.com", "reserveavani@avanihotels.com"], "status": "ok", "final_url": "https://www.avanihotels.com/en/pattaya/restaurants/dicey", "lang": "English", "v": 3}
+{"key": "pattaya.harats.com/en/pattaya", "emails": ["info@harats.com", "m.info@harats.com"], "status": "ok", "final_url": "https://pattaya.harats.com/en/Pattaya/", "lang": "English", "v": 3}
+{"key": "uhotelsresorts.com/upattaya", "emails": ["reserve@upattaya.com", "info@uhotelsresorts.com", "salesth@uhotelsresorts.com", "reserve@uhotelsresorts.com", "reserve@uchiangmai.com", "reserve@unimmanchiangmai.com", "reserve@ukanchanaburi.com", "reserve@usathornbangkok.com", "reserve@ujomtien.com", "reserve@ukhaoyai.com", "reserve@uhuahin.com", "reserve@urivergatekarjat.com", "reserve@ukhaochichan.com"], "status": "ok", "final_url": "https://www.uhotelsresorts.com/upattaya/", "lang": "English", "v": 3}
+{"key": "zandmorada.com", "emails": ["reservation@zandmorada.com"], "status": "ok", "final_url": "https://zandmorada.com", "lang": "English", "v": 3}
+{"key": "laminierapattaya.com", "emails": ["rsvn@laminierapattaya.com"], "status": "ok", "final_url": "https://www.laminierapattaya.com/", "lang": "English", "v": 3}
+{"key": "lasvegasbeergarden.com", "emails": ["info@lasvegasbeergarden.com"], "status": "ok", "final_url": "https://lasvegasbeergarden.com", "lang": "English", "v": 3}
+{"key": "oasispattaya.com", "emails": [], "status": "dead", "final_url": "https://www.oasispattaya.com/", "lang": "", "v": 3}
+{"key": "hotel.hardrock.com/pattaya", "emails": ["waraporn.n@hardrockhotels.net", "jgoldman@golin.com", "ipenforcement@hardrock.com", "customer_care@hardrock.com", "hotels@hardrock.com", "jonathan.goldman@omc.com"], "status": "ok", "final_url": "https://hotel.hardrock.com/pattaya/", "lang": "English", "v": 3}
+{"key": "clubjalwa.com", "emails": ["info@clubjalwa.com"], "status": "ok", "final_url": "https://clubjalwa.com/", "lang": "English", "v": 3}
+{"key": "hyatt.com/en-us/hotel/thailand/andaz-pattaya-jomtien-beach/utpaz/dining", "emails": [], "status": "unknown", "final_url": "https://www.hyatt.com/en-US/hotel/thailand/andaz-pattaya-jomtien-beach/utpaz/dining", "lang": "", "v": 3}
+{"key": "pattaya-beach-resort.goldentulip.com/en-us/hotel-restaurants", "emails": [], "status": "unknown", "final_url": "https://pattaya-beach-resort.goldentulip.com/en-us/hotel-restaurants/", "lang": "", "v": 3}
+{"key": "amari.com/pattaya", "emails": ["reservations.pattaya@amari.com", "jirawat.r@amari.com", "toonkwan.n@amari.com", "pimpatchaya.k@onyx-hospitality.com", "sales.pattaya@amari.com"], "status": "ok", "final_url": "https://www.amari.com/pattaya", "lang": "English", "v": 3}
+{"key": "maggiemaysresort.com", "emails": ["sales@maggiemaysresort.com"], "status": "ok", "final_url": "https://www.maggiemaysresort.com/", "lang": "English", "v": 3}
+{"key": "theorientalgroup.com", "emails": ["oceanskypattaya@sunbathe.tw"], "status": "ok", "final_url": "https://www.theorientalgroup.com/", "lang": "English", "v": 3}
+{"key": "uhotelsresorts.com/ujomtien/dining/salt", "emails": ["reserve@ujomtien.com", "info@uhotelsresorts.com", "salesth@uhotelsresorts.com", "reserve@uhotelsresorts.com", "reserve@uchiangmai.com", "reserve@unimmanchiangmai.com", "reserve@ukanchanaburi.com", "reserve@usathornbangkok.com", "reserve@upattaya.com", "reserve@ukhaoyai.com", "reserve@uhuahin.com", "reserve@urivergatekarjat.com", "reserve@ukhaochichan.com"], "status": "ok", "final_url": "https://www.uhotelsresorts.com/ujomtien/dining/salt", "lang": "English", "v": 3}
+{"key": "pattaya.hilton.com", "emails": [], "status": "unknown", "final_url": "https://pattaya.hilton.com", "lang": "", "v": 3}
+{"key": "seaoflovebeachclub.com", "emails": ["seaoflovebeachclub@gmail.com"], "status": "ok", "final_url": "https://seaoflovebeachclub.com/", "lang": "Bilingual", "v": 3}
+{"key": "thevenue-jomtien.com", "emails": ["thevenuejomtienpattaya@hotmail.com"], "status": "ok", "final_url": "https://thevenue-jomtien.com/", "lang": "English", "v": 3}
+{"key": "booking.kinujobeachclub.com/r/kinujo-beach-club", "emails": [], "status": "ok", "final_url": "https://booking.kinujobeachclub.com/r/kinujo-beach-club", "lang": "English", "v": 3}
+{"key": "all.accor.com/hotel/7540/index.en.shtml", "emails": ["h7540-re@accor.com"], "status": "ok", "final_url": "https://all.accor.com/hotel/7540/index.en.shtml", "lang": "English", "v": 3}
+{"key": "wyndhamjomtienpattaya.com", "emails": [], "status": "ok", "final_url": "https://wyndhamjomtienpattaya.com/", "lang": "English", "v": 3}
+{"key": "arbourhotelandresidence.com", "emails": ["info@arbourhotelandresidence.com"], "status": "ok", "final_url": "https://atmindgroup.com/arbourhotelandresidence/", "lang": "English", "v": 3}
+{"key": "royalcliff.com", "emails": ["relax@royalcliff.com"], "status": "ok", "final_url": "https://www.royalcliff.com/", "lang": "English", "v": 3}
+{"key": "hopsbrewhouse.com", "emails": ["info@hopsbrewhouse.com"], "status": "ok", "final_url": "http://hopsbrewhouse.com/", "lang": "English", "v": 3}
+{"key": "robinsnestpattaya.com/restaurant", "emails": ["robinsnestpattaya1@gmail.com"], "status": "ok", "final_url": "https://robinsnestpattaya.com/restaurant/", "lang": "English", "v": 3}
+{"key": "harlanrestaurant.com", "emails": ["harlan.chef@gmail.com"], "status": "ok", "final_url": "https://harlanrestaurant.com", "lang": "English", "v": 3}
+{"key": "barbupattaya.com", "emails": ["rsvn@siamatpattaya.com"], "status": "ok", "final_url": "https://www.barbupattaya.com/", "lang": "English", "v": 3}
+{"key": "bentleyspattaya.com", "emails": ["info@bentleyspattaya.com"], "status": "ok", "final_url": "https://bentleyspattaya.com/", "lang": "English", "v": 3}
+{"key": "republic-nightclub.com", "emails": ["republicpattaya@gmail.com"], "status": "ok", "final_url": "https://republic-nightclub.com/", "lang": "English", "v": 3}
+{"key": "amritsr.com", "emails": ["e.info@amritsr.com", "info@amritsr.com"], "status": "ok", "final_url": "https://amritsr.com", "lang": "English", "v": 3}
+{"key": "atmindgroup.com/asterhotelandresidence/facilities/mind-bistro", "emails": ["info@asterhotelandresidence.com"], "status": "ok", "final_url": "https://atmindgroup.com/asterhotelandresidence/facilities/mind-bistro/", "lang": "English", "v": 3}
+{"key": "pattaya.holidayinn.com/bars-and-restaurants/the-collective", "emails": ["dm.holidayinnpattaya@ihg.com"], "status": "ok", "final_url": "https://pattaya.holidayinn.com/bars-and-restaurants/the-collective", "lang": "English", "v": 3}
+{"key": "voyagepattaya.com", "emails": ["voyage@gcphotels.com", "rsvn_voyagepty@gcphotels.com"], "status": "ok", "final_url": "https://voyagepattaya.com", "lang": "English", "v": 3}
+{"key": "lin.ee/d9l4gmz", "emails": [], "status": "ok", "final_url": "https://line.me/R/ti/p/@942vfszt?ts=03131858&oat_content=url", "lang": "English", "v": 3}
+{"key": "centarahotelsresorts.com/centara/cpy", "emails": ["cpy@chr.co.th", "bd@chr.co.th", "sales@chr.co.th"], "status": "ok", "final_url": "https://www.centarahotelsresorts.com/centara/cpy", "lang": "English", "v": 3}
+{"key": "grandecentrepointpattaya.com", "emails": ["pattaya@gcphotels.com", "rsvn_pattaya@gcphotels.com", "salespty@gcphotels.com"], "status": "ok", "final_url": "https://grandecentrepointpattaya.com/", "lang": "English", "v": 3}
+{"key": "thepantry.co.th", "emails": [], "status": "ok", "final_url": "https://www.thepantry.co.th/en", "lang": "English", "v": 3}
+{"key": "atmindgroup.com/hotelamberpattaya", "emails": ["info@hotelamberpattaya.com"], "status": "ok", "final_url": "https://atmindgroup.com/hotelamberpattaya/", "lang": "English", "v": 3}
+{"key": "thebeverlyhotelpattaya.com", "emails": ["reservation@beverlyhotelgroup.com", "front@beverlyhotelgroup.com"], "status": "ok", "final_url": "https://thebeverlyhotelpattaya.com/", "lang": "English", "v": 3}
+{"key": "akarahotels.com/pattaya", "emails": ["info@akarahotel.com", "infopty@akarahotel.com"], "status": "ok", "final_url": "https://www.akarahotels.com/pattaya/", "lang": "English", "v": 3}
+{"key": "prego-italian.com/location/pattaya", "emails": [], "status": "ok", "final_url": "https://www.prego-italian.com/pattaya", "lang": "English", "v": 3}
+{"key": "thebayviewpattaya.com/wine-dine", "emails": ["thebayview@sukosolhotels.com"], "status": "ok", "final_url": "https://www.thebayviewpattaya.com/wine-dine/", "lang": "English", "v": 3}
+{"key": "thebayviewpattaya.com", "emails": ["thebayview@sukosolhotels.com"], "status": "ok", "final_url": "https://www.thebayviewpattaya.com", "lang": "English", "v": 3}
+{"key": "shakariki432.com/en/top-en", "emails": [], "status": "ok", "final_url": "https://shakariki432.com/en/top-en/", "lang": "English", "v": 3}
+{"key": "royalgardenplaza.co.th/shop/moon-whale", "emails": ["cs.rgppattaya@minor.com"], "status": "ok", "final_url": "https://www.royalgardenplaza.co.th/shop/moon-whale/", "lang": "English", "v": 3}
+{"key": "shaloba.com/shaloba-by-the-sea", "emails": [], "status": "ok", "final_url": "https://www.shaloba.com/shaloba-by-the-sea/", "lang": "English", "v": 3}
+{"key": "worldhousepattaya.com", "emails": [], "status": "ok", "final_url": "https://worldhousepattaya.com/", "lang": "English", "v": 3}
+{"key": "sizzler.co.th;http://www.jeffersteak.com", "emails": [], "status": "dead", "final_url": "http://www.sizzler.co.th;http:/", "lang": "", "v": 4}
+{"key": "hoteldanmarkjomtienpattaya.com/restaurant.html", "emails": [], "status": "dead", "final_url": "http://hoteldanmarkjomtienpattaya.com/", "lang": "", "v": 4}
+{"key": "beerfest-pattaya.com/th", "emails": [], "status": "dead", "final_url": "http://beerfest-pattaya.com/", "lang": "", "v": 4}
+{"key": "zabcafe.webiz.co.th/%e0%b8%84%e0%b8%a7%e0%b8%b2%e0%b8%a1%e0%b8%97%e0%b8%b5%e0%b9%88%e0%b8%a1%e0%b8%b2", "emails": [], "status": "dead", "final_url": "http://zabcafe.webiz.co.th/", "lang": "", "v": 4}
+{"key": "www1.hilton.com/en_us/hi/hotel/bkkhphi-hilton-pattaya-hotel/dining.do", "emails": [], "status": "dead", "final_url": "http://www1.hilton.com/", "lang": "", "v": 4}
+{"key": "ladyboyreview.com/index.php", "emails": [], "status": "dead", "final_url": "http://www.ladyboyreview.com/", "lang": "", "v": 4}
+{"key": "rblthailand.org/tropical-bar.html", "emails": [], "status": "dead", "final_url": "http://www.rblthailand.org/", "lang": "", "v": 4}
+{"key": "holidayinn-pattaya.com/terrazzo", "emails": [], "status": "dead", "final_url": "http://www.holidayinn-pattaya.com/", "lang": "", "v": 4}
+{"key": "baanlannapattaya.com/home.php", "emails": [], "status": "dead", "final_url": "http://www.baanlannapattaya.com/", "lang": "", "v": 4}
+{"key": "foodspotting.com/places/126507-na-chom-thian", "emails": [], "status": "dead", "final_url": "http://www.foodspotting.com/", "lang": "", "v": 4}
+{"key": "vickansguesthouse.com/vickans-restaurant.html", "emails": [], "status": "dead", "final_url": "https://www.vickansguesthouse.com/", "lang": "", "v": 4}
+{"key": "drive.google.com/folderview", "emails": [], "status": "unknown", "final_url": "https://drive.google.com/", "lang": "", "v": 4}
+{"key": "ippudo.co.th/en/our-menu", "emails": [], "status": "dead", "final_url": "https://www.ippudo.co.th/", "lang": "", "v": 4}
+{"key": "doubledutchthailand.com/restaurant", "emails": [], "status": "dead", "final_url": "https://www.doubledutchthailand.com/", "lang": "", "v": 4}
+{"key": "mays.restaurant/locations/bangsaray", "emails": [], "status": "dead", "final_url": "http://mays.restaurant/", "lang": "", "v": 4}
+{"key": "dinabrightsunset.com/home", "emails": [], "status": "dead", "final_url": "http://dinabrightsunset.com/", "lang": "", "v": 4}
+{"key": "thecommonspattaya.com/shop/dripoly", "emails": [], "status": "dead", "final_url": "http://www.thecommonspattaya.com/", "lang": "", "v": 4}
+{"key": "myteeruk.com/place/897/thailand/pattaya/the%20rest%20stop%20beer%20bar", "emails": [], "status": "dead", "final_url": "http://www.myteeruk.com/", "lang": "", "v": 4}
+{"key": "copperspoonpattaya.com/menu.html", "emails": [], "status": "dead", "final_url": "https://www.copperspoonpattaya.com/", "lang": "", "v": 4}
+{"key": "eazyfoodpattaya.com/menu-takgoong", "emails": [], "status": "dead", "final_url": "https://www.eazyfoodpattaya.com/", "lang": "", "v": 4}
+{"key": "vtsix.com/vegetarian-paradise-indian-restaurant", "emails": ["vtsix@yahoo.com"], "status": "ok", "final_url": "https://vtsix.com/", "lang": "English", "v": 4}
+{"key": "gretafarm.com/en/greta-coffee", "emails": [], "status": "dead", "final_url": "http://www.gretafarm.com/", "lang": "", "v": 4}
+{"key": "cheekymonkeyspattaya.com/menupage.php", "emails": [], "status": "dead", "final_url": "https://www.cheekymonkeyspattaya.com/", "lang": "", "v": 4}
+{"key": "lebledorpattaya.com/home", "emails": [], "status": "dead", "final_url": "http://lebledorpattaya.com/", "lang": "", "v": 4}
+{"key": "easycornerpub.com/photogallery.html", "emails": [], "status": "dead", "final_url": "http://www.easycornerpub.com/", "lang": "", "v": 4}
+{"key": "varuscontrol.com/kaosoiameendeilvery", "emails": [], "status": "dead", "final_url": "https://www.varuscontrol.com/", "lang": "", "v": 4}
+{"key": "lin.ee/pxp47xe", "emails": [], "status": "dead", "final_url": "https://lin.ee/", "lang": "", "v": 4}
+{"key": "capedarapattaya.com/restaurant_pattaya.php", "emails": ["reservation@capedarapattaya.com", "fbx@capedarapattaya.com"], "status": "ok", "final_url": "https://capedarapattaya.com/", "lang": "English", "v": 4}
+{"key": "nitanpattaya.com/home", "emails": ["nitan.pattaya@gmail.com"], "status": "ok", "final_url": "https://www.nitanpattaya.com/", "lang": "Bilingual", "v": 4}
+{"key": "labaguettepattaya.com/labaguette-khao-phra-tamnuk.php", "emails": ["info@labaguettepattaya.com"], "status": "ok", "final_url": "https://labaguettepattaya.com/", "lang": "Local", "v": 4}
+{"key": "lin.ee/0zoj7hn", "emails": [], "status": "dead", "final_url": "https://lin.ee/", "lang": "", "v": 4}
+{"key": "coffeeclub.com.au/good-food-great-service-excellent-coffee", "emails": ["feedback@coffeeclub.com.au", "media@coffeeclub.com.au"], "status": "ok", "final_url": "https://coffeeclub.com.au/", "lang": "English", "v": 4}
+{"key": "ravindraresort.com/pattaya-restaurant.html", "emails": ["info@ravindraresort.com", "rsvn@ravindraresort.com"], "status": "ok", "final_url": "https://www.ravindraresort.com/", "lang": "English", "v": 4}
+{"key": "robinsnestpattaya.com/food-drink", "emails": ["robinsnestpattaya1@gmail.com"], "status": "ok", "final_url": "https://robinsnestpattaya.com/", "lang": "English", "v": 4}
+{"key": "hardrock.com/cafes/pattaya", "emails": ["jyee@yankeecommunications.us", "hardrocktejon@murphyobrien.com", "kathy.degolia@hrhctejon.com", "jonathan.goldman@omc.com", "jgoldman@golin.com"], "status": "ok", "final_url": "https://www.hardrock.com/", "lang": "English", "v": 4}
+{"key": "centarahotelsresorts.com/centara/centaraazurehotel", "emails": ["bd@chr.co.th", "sales@chr.co.th", "eventsalesgroup@chr.co.th", "reservations@chr.co.th"], "status": "ok", "final_url": "https://www.centarahotelsresorts.com/", "lang": "English", "v": 4}
+{"key": "centarahotelsresorts.com/centaragrand/cgpx/restaurant/ruffino-restaurant-lounge", "emails": ["bd@chr.co.th", "sales@chr.co.th", "eventsalesgroup@chr.co.th", "reservations@chr.co.th"], "status": "ok", "final_url": "https://www.centarahotelsresorts.com/", "lang": "English", "v": 4}
+{"key": "oumoimsuthida.wixsite.com/suthida-coffee", "emails": [], "status": "dead", "final_url": "https://oumoimsuthida.wixsite.com/", "lang": "", "v": 4}
+{"key": "hotelvista.com/pattaya/marini-gastrobar.html", "emails": ["info@hotelvista.com"], "status": "ok", "final_url": "https://www.hotelvista.com/", "lang": "English", "v": 4}
+{"key": "centarahotelsresorts.com/centra/cmj/restaurant", "emails": ["bd@chr.co.th", "sales@chr.co.th", "eventsalesgroup@chr.co.th", "reservations@chr.co.th"], "status": "ok", "final_url": "https://www.centarahotelsresorts.com/", "lang": "English", "v": 4}
+{"key": "aothairesort.com/en/gallery/photos.html", "emails": ["office@aothairesort.com"], "status": "ok", "final_url": "https://www.aothairesort.com/", "lang": "English", "v": 4}
+{"key": "minorhotels.com/en/avani/pattaya/restaurants/sala-rim-nam", "emails": ["reservations@minorhotels.com", "reservations@minorhotels.com.au", "reservations@minor-hotels.com"], "status": "ok", "final_url": "https://www.minorhotels.com/en", "lang": "English", "v": 4}
+{"key": "romeopalace.com/premrudi-restaurant-juliets-cafe", "emails": ["info@romeopalace.com"], "status": "ok", "final_url": "https://romeopalace.com/", "lang": "English", "v": 4}
+{"key": "royalthaimassagellc.com/spa-massage-menu", "emails": ["royalthaillc305@gmail.com", "yusaiwan@hotmail.com", "yusaiwan@hotmail.co"], "status": "ok", "final_url": "https://royalthaimassagellc.com/", "lang": "English", "v": 4}
+{"key": "thegemspattaya.com/dining.html", "emails": ["hello@thegemspattaya.com"], "status": "ok", "final_url": "https://thegemspattaya.com/", "lang": "English", "v": 4}
+{"key": "pattayapeople.com/restaurant-reviews/the-surf-kitchen-", "emails": [], "status": "ok", "final_url": "https://www.pattayapeople.com/", "lang": "English", "v": 4}
+{"key": "gfacorp.com/gallery/store_coffeeworld.asp", "emails": [], "status": "ok", "final_url": "https://www.gfacorp.com/", "lang": "English", "v": 4}
+{"key": "rasayanaretreat.com/raws", "emails": ["rasayanaretreat@gmail.com"], "status": "ok", "final_url": "https://rasayanaretreat.com/", "lang": "English", "v": 4}
+{"key": "fuji.co.th/2009/th/home/index.php", "emails": ["info@fuji.co.th"], "status": "ok", "final_url": "https://www.fuji.co.th/", "lang": "Bilingual", "v": 4}
+{"key": "barbqplaza.com/th/bar_index.php", "emails": [], "status": "ok", "final_url": "https://barbqplaza.com/", "lang": "Bilingual", "v": 4}
+{"key": "tsix5hotel.com/dining.html", "emails": ["info@tsix5hotel.com"], "status": "ok", "final_url": "https://www.tsix5hotel.com/", "lang": "English", "v": 4}
+{"key": "pattayayoasobi.com/koneko", "emails": [], "status": "ok", "final_url": "https://pattayayoasobi.com/", "lang": "English", "v": 4}
+{"key": "centarahotelsresorts.com/centaragrand/cgmp/index.asp", "emails": ["bd@chr.co.th", "sales@chr.co.th", "eventsalesgroup@chr.co.th", "reservations@chr.co.th"], "status": "ok", "final_url": "https://www.centarahotelsresorts.com/", "lang": "English", "v": 4}
+{"key": "barbqplaza.com/th/index.php", "emails": [], "status": "ok", "final_url": "https://barbqplaza.com/", "lang": "Bilingual", "v": 4}
+{"key": "mytthotel.com/restaurants", "emails": ["info@mytthotel.com"], "status": "ok", "final_url": "https://mytthotel.com/", "lang": "English", "v": 4}
+{"key": "ftvcosmetics.net/f-cafe", "emails": [], "status": "ok", "final_url": "https://www.ftvcosmetics.net/", "lang": "English", "v": 4}
+{"key": "movenpick.com/en/asia/thailand/pattaya/moevenpick-siam-hotel-pattaya/restaurants/restaurant/t55-new-york-grill", "emails": [], "status": "ok", "final_url": "https://movenpick.accor.com/", "lang": "English", "v": 4}
+{"key": "pattayapark.com/tower.html", "emails": [], "status": "ok", "final_url": "https://www.pattayapark.com/", "lang": "English", "v": 4}
+{"key": "thaigarden.com/english/moonriverpub.htm", "emails": [], "status": "ok", "final_url": "https://thaigarden.com/", "lang": "English", "v": 4}
+{"key": "ran-ahan.com/buarimmor", "emails": [], "status": "ok", "final_url": "https://emenu.org/", "lang": "English", "v": 4}
+{"key": "lovepattayathailand.com/beer-bar/sports-world", "emails": [], "status": "ok", "final_url": "https://lovepattayathailand.com/", "lang": "Local", "v": 4}
+{"key": "lovepattayathailand.com/restaurant/calif-mixx", "emails": [], "status": "ok", "final_url": "https://lovepattayathailand.com/", "lang": "Local", "v": 4}
+{"key": "foodland.co.th/products/took-lae-dee", "emails": ["crm@foodland24hours.com"], "status": "ok", "final_url": "https://www.foodland.co.th/th-th/home.html", "lang": "Local", "v": 4}
+{"key": "soi-six.com/club-6-bar", "emails": [], "status": "ok", "final_url": "https://soi-six.com/", "lang": "English", "v": 4}
+{"key": "amari.com/orchid", "emails": [], "status": "ok", "final_url": "https://www.amari.com/", "lang": "English", "v": 4}

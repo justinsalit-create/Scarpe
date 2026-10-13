@@ -110,6 +110,17 @@ class TestEmails(unittest.TestCase):
         with mock.patch("londonfood.http.get", side_effect=lambda url, **kw: pages[url]):
             self.assertEqual(emails.find_email("venue.com")[0], "info@venue.com")
 
+    def test_dead_subpage_falls_back_to_homepage(self):
+        import urllib.error
+        def get(url, **kw):
+            if url.endswith("/home"):
+                raise urllib.error.HTTPError(url, 404, "nf", {}, None)
+            if url.endswith("robots.txt"):
+                return "", ""
+            return "https://cafe.com/", "Email hello@cafe.com"
+        with mock.patch("londonfood.http.get", side_effect=get):
+            self.assertEqual(emails.find_email("https://cafe.com/home")[0::2], ("hello@cafe.com", "ok"))
+
     def test_closed_and_parked_sites(self):
         self.assertEqual(emails.site_status("<p>Sadly we have now closed for good. Thanks!</p>"), "closed")
         self.assertEqual(emails.site_status("<p>This domain is for sale</p>"), "parked")
@@ -208,6 +219,58 @@ class TestSocial(unittest.TestCase):
         v = {"tags": {"contact:instagram": "somepub"}, "facebook": "somepub", "instagram": ""}
         social.collect(v)
         self.assertEqual(v["social_url"], "https://www.instagram.com/somepub/")
+
+
+class TestPartnerMerge(unittest.TestCase):
+    def test_merge_rules(self):
+        import csv, tempfile, re
+        from londonfood import partner
+        from londonfood.categories import categorize
+        rows = [
+            {"name": "Burger Dads", "district_label": "Jomtien", "instagram_handle": "burgerdads", "instagram_url": "",
+             "facebook_page": "", "facebook_url": "", "website": "", "email": "hi@burgerdads.com", "phone": "",
+             "source_method": "x", "notes": ""},                                     # strong match via Instagram
+            {"name": "Hilton Edge", "district_label": "Pattaya", "instagram_handle": "", "instagram_url": "",
+             "facebook_page": "", "facebook_url": "", "website": "https://hilton.com/pattaya", "email": "",
+             "phone": "", "source_method": "x", "notes": "Temporarily Closed per Wanderlog"},  # site matches, name doesn't
+            {"name": "Mantra", "district_label": "Pattaya", "instagram_handle": "", "instagram_url": "", "facebook_page": "",
+             "facebook_url": "", "website": "", "email": "", "phone": "", "source_method": "x",
+             "notes": "Permanently Closed per Wanderlog"},
+            {"name": "Coral Reef", "district_label": "Pattaya", "instagram_handle": "", "instagram_url": "",
+             "facebook_page": "", "facebook_url": "", "website": "", "email": "", "phone": "", "source_method": "x",
+             "notes": "NOT A FOOD VENUE"},
+            {"name": "Krua Nai Baan", "district_label": "Chon Buri", "instagram_handle": "", "instagram_url": "",
+             "facebook_page": "", "facebook_url": "", "website": "", "email": "", "phone": "", "source_method": "x",
+             "notes": ""},
+            {"name": "Sea Breeze Kitchen", "district_label": "Pattaya", "instagram_handle": "", "instagram_url": "",
+             "facebook_page": "", "facebook_url": "https://www.facebook.com/seabreeze", "website": "", "email": "",
+             "phone": "", "source_method": "x", "notes": ""},                        # unique full name: merged
+        ]
+        with tempfile.TemporaryDirectory() as d:
+            path = os.path.join(d, "p.csv")
+            with open(path, "w", newline="") as f:
+                w = csv.DictWriter(f, fieldnames=list(rows[0]))
+                w.writeheader()
+                w.writerows(rows)
+            ours = [{"name": "Burger Dads Jomtien", "email": "", "website": "", "phone": "", "tags": {},
+                     "instagram": "@burgerdads", "facebook": "", "lat": 12.88, "lon": 100.87, "source": "overture"},
+                    {"name": "Hilton Pattaya", "email": "", "website": "https://hilton.com/pattaya", "phone": "",
+                     "tags": {}, "facebook": "", "instagram": "", "lat": 12.93, "lon": 100.88, "source": "osm"},
+                    {"name": "Sea Breeze Kitchen", "email": "", "website": "", "phone": "", "tags": {}, "facebook": "",
+                     "instagram": "", "lat": 12.95, "lon": 100.89, "source": "osm"}]
+            cfg = {"country_code": "66", "partner_csvs": [{"path": path, "source": "muse",
+                   "district_map": {"Pattaya": "Pattaya (area not given)"}, "exclude_districts": ["Chon Buri"]}]}
+            rep = partner.merge(cfg, ours, categorize, re.compile(r"[\u0E00-\u0E7F]"))
+        self.assertEqual(rep["merged"], 1)
+        self.assertEqual(rep["merged_by_unique_name"], 1)               # Sea Breeze Kitchen
+        self.assertEqual(ours[2]["facebook"], "https://www.facebook.com/seabreeze")
+        self.assertEqual(ours[0]["email"], "hi@burgerdads.com")          # contact filled in
+        self.assertEqual(rep["new"], 1)                                   # Hilton Edge (site matches, name doesn't)
+        self.assertEqual({k: len(v) for k, v in rep["excluded"].items()},
+                         {"permanently closed": 1, "not a food venue": 1, "outside the area": 1})
+        self.assertEqual(len(rep["name_only_lookalikes"]), 0)
+        edge = next(v for v in ours if v["name"] == "Hilton Edge")
+        self.assertTrue(edge["partner_notes"].startswith("temporarily closed"))
 
 
 class TestMergeRules(unittest.TestCase):

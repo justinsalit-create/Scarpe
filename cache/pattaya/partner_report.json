@@ -1,0 +1,40 @@
+{
+ "rows": 428,
+ "excluded": {
+  "not a food venue": [
+   "Copacabana Coral Reef",
+   "The Riviera"
+  ],
+  "permanently closed": [
+   "Cafe Pitini Pattaya",
+   "Mantra Restaurant and Bar"
+  ],
+  "outside the area": [
+   "Klang Na Pla Khao",
+   "Jay Jew Talew Bin",
+   "Tiapthong",
+   "Apollo Pork Satay",
+   "Yen Ta Fo Muek Khai",
+   "Krua Jay Miad",
+   "Somphop Khao Tom Pla",
+   "Khao Tom Ped Jek Tong",
+   "Noodles Soi 12 (Ban Suan)",
+   "Na Chae",
+   "Khao Lam Mae Khai Toon Klao",
+   "Krua Pla Tu Tid Oun",
+   "Klai Lib",
+   "Chom Tawan",
+   "Krua Nai Baan"
+  ]
+ },
+ "merged": 120,
+ "new": 225,
+ "name_only_lookalikes": [
+  [
+   "Honey Pizza Pattaya",
+   "Honey Pizza Pattaya",
+   2
+  ]
+ ],
+ "merged_by_unique_name": 64
+}

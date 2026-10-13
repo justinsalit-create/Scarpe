@@ -18,7 +18,7 @@ import re
 import sys
 import urllib.parse
 
-from . import discover, emails, extra, http, names, osm, overture, social, validate
+from . import discover, emails, extra, http, names, osm, overture, partner, social, validate
 from .categories import categorize
 from .cli import CLOSED_STATUSES, CrawlCache, dedupe, find_websites, split_osm_email, website_key
 
@@ -100,6 +100,10 @@ def collect(cfg, units, cache_dir):
     print(f"Districts not downloaded yet: {len(missing)}", file=sys.stderr)
     if cfg.get("overture"):
         add_overture(cfg, venues, [u[0] for u in units], cache_dir, local)
+    if cfg.get("partner_csvs"):
+        report = partner.merge(cfg, venues, categorize, local)
+        with open(os.path.join(cache_dir, "partner_report.json"), "w") as f:
+            json.dump(report, f, ensure_ascii=False, indent=1)
     if cfg.get("sub_areas"):
         label_sub_areas(venues, cfg["sub_areas"])
     return venues
@@ -111,9 +115,9 @@ def label_sub_areas(venues, sub_areas):
     import math
     pts = [(n, la, lo) for n, (la, lo) in sub_areas.items()]
     for v in venues:
-        v["admin_district"] = v["borough"].removesuffix(" District")
-        if not v.get("lat"):
+        if not v.get("lat"):  # e.g. partner rows: keep their own area label
             continue
+        v["admin_district"] = v["borough"].removesuffix(" District")
         k = math.cos(math.radians(v["lat"]))
         name = min(pts, key=lambda p: (p[1] - v["lat"]) ** 2 + ((p[2] - v["lon"]) * k) ** 2)[0]
         v["borough"] = v["area"] = name
@@ -171,7 +175,7 @@ class LangCrawlCache(CrawlCache):
 
     def put(self, url, emails_found, status, final_url, lang=""):
         rec = {"key": self.key(url), "emails": emails_found, "status": status, "final_url": final_url,
-               "lang": lang, "v": 3}
+               "lang": lang, "v": 4}
         with self.lock:
             self.data[rec["key"]] = rec
             with open(self.path, "a") as f:
@@ -240,7 +244,7 @@ WEBSITE_FIELDS = ["website", "website_type"] + FIELDS_COMMON + ["email", "locati
 
 MASTER_FIELDS = ["name", "name_local", "district", "admin_district", "categories", "english", "english_score", "site_language",
                  "why", "email", "other_emails", "email_check", "website", "website_type", "phone", "address",
-                 "postcode", "facebook", "instagram", "lat", "lon", "source", "osm_url", "merged"]
+                 "postcode", "facebook", "instagram", "lat", "lon", "source", "osm_url", "merged", "partner_notes"]
 SOCIAL_FIELDS = ["social_url"] + FIELDS_COMMON + ["facebook", "instagram", "locations", "phone", "address",
                                                   "postcode", "source", "osm_url"]
 
