@@ -7,7 +7,7 @@ no closed venues, validated emails, clickable iPhone PDFs, work continuously), t
 sources and method, and the new-city checklist.
 
 - Each city is separate: `cities/<slug>.json`, `output/<slug>/`, `cache/<slug>/`.
-- New city: add `cities/<slug>.json`, test one district, then `./city_all.sh <slug>` in the background.
+- New city: add `cities/<slug>.json`, test one district, then start the full run fully detached as `PLAYBOOK.md` step 4 describes.
 - Tests: `python3 -m unittest`. Run them before every commit.
 - Never put `python3 -m londonfood` in a `pkill -f` pattern: it matches and kills your own shell.
 - Give the client times in US Eastern time (EST/EDT), never UTC.
